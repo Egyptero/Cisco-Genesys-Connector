@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ToolTipEditQuickSearch" ToolTipSearchTextBoxArea="Search by typing a name or phone number" ToolTip="Search by typing a name or phone number" ToolTipClearButton="Clear" />
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ButtonShowHistoric" ToolTip="Show and search recent" Name="Show and search my recents"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ButtonShowFavorite" ToolTip="Show and search my favorites" Name="Show and search my favorites"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ButtonShowAllContacts" ToolTip="Search all" Name="Search all"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ComboBoxSelectFilter" ToolTip="Select a type" Name="Select filter"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ToggleButtonByGroups" Name="Filter by groups"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.Contacts" Text="Contacts"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.Historic" String="Recents"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.Favorites" String="Favorites"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ShowAll" String="All Types" Content="All Types"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.Contact" String="Contact" Content="Contact"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.Agent" String="Agent" Content="Agent"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.Skill" String="Skill" Content="Skill"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentGroup" String="Agent Group" Content="Agent Group"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.Queue" String="Queue" Content="Queue"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ACDQueue" String="Queue" Content="Queue"/> <!-- ER 286006514 -->
+  <Value Id="TeamCommunicator.TeamCommunicatorView.InteractionQueue" String="Interaction Queue" Content="Interaction Queue"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.RoutingPoint" String="Routing Point" Content="Routing Point"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.CustomContact" String="Directly Dialed" Content="Directly Dialed"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ObjectTC" String="Directly Dialed" Content="Directly Dialed"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ButtonSortingByGroups" ToolTip="Sorting by type"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ButtonSortingByCategories" ToolTip="Sorting by category"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ButtonSortingByType" ToolTip="Sorting by type"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ButtonHideType" ToolTip="Hide types"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ButtonShowType" ToolTip="Show types"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ButtonSortingByDate" ToolTip="Sorting by date"/>
+  <!--TeamCommunicator.TeamCommunicatorView.MatchingInternalContactRecords:0: Total number of matches-->
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MatchingInternalContactRecords" String="{0} Matching Internal Target(s)"/>
+  <!--TeamCommunicator.TeamCommunicatorView.MatchingExternalContactRecords:0: Total number of matches-->
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MatchingExternalContactRecords" String="{0} Matching Contact(s)"/>
+  <!--TeamCommunicator.TeamCommunicatorView.ShowingMatchingInternalContactRecords:0: Total number of matches-->
+  <!--TeamCommunicator.TeamCommunicatorView.ShowingMatchingInternalContactRecords:1: Number of matches actually displayed-->
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ShowingMatchingInternalContactRecords" String="Showing {1} out of {0} matching internal target(s)"/>
+  <!--TeamCommunicator.TeamCommunicatorView.ShowingMatchingExternalContactRecords:0: Total number of matches-->
+  <!--TeamCommunicator.TeamCommunicatorView.ShowingMatchingExternalContactRecords:1: Number of matches actually displayed-->
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ShowingMatchingExternalContactRecords" String="Showing {1} out of {0} matching contact(s)"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MatchingExternalSourceRecords" String="{0} Matching External Source Target(s)"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ErrorExternalContactRecords" String="Error retrieving Contacts"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.WatermarkQuickSearch" String="Type name or number"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.WatermarkSearch" String="Search"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.SplitButtonTooltipActionMenu" ToolTip="Action menu"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemPhoneCall" String="Call"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemAddNewCallback" String="Add New Callback"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemStartChatCall" String="Start a Chat Call"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemSendInstantMessage" String="Send an Instant Message to"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemStartVideoCall" String="Start a Video Call"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemNewEmail" String="New E-mail"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemPhoneCallByDefault" String="Call {0}"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemStartSessionChat" String="Start Session Chat with {0}"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemSendInstantMessageByDefault" String="Send an Instant Message to {0}"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemStartVideoCallByDefault" String="Start a Video Call to {0}"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemNewEmailByDefault" String="New E-mail to {0}"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemRemoveFromFavorites" String="Remove from Favorites"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemAddToFavorites" String="Add to Favorites"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemModifyFavorite" String="Edit Favorite"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemSingleStepTransfer" String="One-Step Transfer"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemTwoStepTransfer" String="Initiate Transfer"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemConference" String="Initiate Conference"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MenuItemSingleStepConference" String="One-Step Conference"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.HyperlinkTooltipClickThisMedia" ToolTip="Click to call this destination"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.HyperlinkTooltipClickThisIMMedia" ToolTip="Click to send an instant messaging to this destination"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ViewAllDetailsInContactDiredtory" ToolTip="View all details in contact directory"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.PhoneNumber" Text="Phone number"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.EmailAddress" Text="E-mail address"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.InstantMessage" Text="Instant message"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.Chat" Text="Chat"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.Video" Text="Video"/>
+
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ContactLabelName" Text="Name:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ContactLabelCompany" Text="Company:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ContactLabelAddress" Text="Address:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ContactLabelLocation" Text="Location:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ContactLabelPhoneNumber" Text="Phone Number:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ContactLabelCellularNumber" Text="Cellular Number:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ContactLabelPager" Text="Pager:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ContactLabelEmailAddress" Text="E-mail Address:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ContactLabelDept" Text="Dept:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentLabelName" Text="Name:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentLabelCompany" Text="Company:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentLabelAddress" Text="Address:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentLabelLocation" Text="Location:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentLabelPhoneNumber" Text="Phone Number:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentLabelCellularNumber" Text="Cellular Number:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentLabelPager" Text="Pager:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentLabelEmailAddress" Text="E-mail Address:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentLabelDept" Text="Dept:"/>
+
+  <Value Id="TeamCommunicator.TeamCommunicatorView.QueueLabelName" Text="Display Name:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.QueueLabelNumber" Text="Number:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.InteractionQueueLabelName" Text="Display Name:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.InteractionQueueLabelNumber" Text="Name:"/>
+
+  <Value Id="TeamCommunicator.TeamCommunicatorView.RoutingPointLabelName" Text="Display Name:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.RoutingPointLabelNumber" Text="Number:"/>
+
+  <Value Id="TeamCommunicator.TeamCommunicatorView.SkillLabelName" Text="Display Name:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.SkillLabelNumber" Text="Display Number:"/>
+
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentGroupLabelName" Text="Display Name:"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.AgentGroupLabelNumber" Text="Display Number:"/>
+
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ConfigSearchNotAvailable" Text="Internal targets are not yet available for search"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ConfigSearchAvailable" Text="Internal targets are available for search"/>
+
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ActiveConsultations" Text="Active Consultations"/>
+
+  <Value Id="TeamCommunicator.ContainerView.TitleNewContact" Title="New Favorite"/>
+  <Value Id="TeamCommunicator.ContainerView.TitleModifyContact" Title="Edit Favorite"/>
+  <Value Id="TeamCommunicator.NewContact.ButtonCancel" Content="Cancel" Name="Cancel"/>
+  <Value Id="TeamCommunicator.NewContact.ButtonOK" Content="OK" Name="OK"/>
+  <Value Id="TeamCommunicator.NewContact.DisplayName" Text="Display Name:"/>
+  <Value Id="TeamCommunicator.NewContact.FirstName" Text="First Name:"/>
+  <Value Id="TeamCommunicator.NewContact.LastName" Text="Last Name:"/>
+  <Value Id="TeamCommunicator.NewContact.PhoneNumber" Text="Phone Number:"/>
+  <Value Id="TeamCommunicator.NewContact.EmailAddress" Text="E-mail Address:"/>
+  <Value Id="TeamCommunicator.NewContact.Category" Text="Category:"/>
+  <Value Id="TeamCommunicator.NewContact.UserName" Text="User Name:"/>
+  <Value Id="TeamCommunicator.NewContact.LabeltName" Text="Name:"/>
+
+  <Value Id="TeamCommunicator.ContactTCView.FailContactRequest" Text="Contact Request Failed. Description: '{0}'."/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.ViewAllDetailsInContactDirectory" Text="View all results in contact directory"/>
+  <Value Id="TeamCommunicator.ContactTCView.OptionError" Text="Team Communicator option {0} contains invalid value. Please contact your administrator."/>
+  <Value Id="TeamCommunicator.ContactTCView.ErrorFavoriteWithoutMedia" Text="A favorite must have at least one media: {0}."/>
+
+  <Value Id="TeamCommunicator.RoutingBaseAction.Message" Text="Agent is not ready. Are you sure that you want to perform this action?"/>
+  <Value Id="TeamCommunicator.RoutingBaseAction.MessageCaption" Text="Information"/>
+  <Value Id="TeamCommunicator.TeamCommunicatorView.MessageBoxConfirmRemoveFavorite" String="Are you sure that you want to remove this favorite?"/>
+
+  <!--<Value Id="TeamCommunicator.ContactHandling.UCSNoContactIndex" 0:application name/>-->
+  <Value Id="TeamCommunicator.ContactHandling.UCSNoContactIndex" Text="Search Contact from Team Communicator is not available: appropriate indexes are disabled in Universal Contact Server {0}. Please contact your administrator."/>
+  <Value Id="TeamCommunicator.ContactTCView.CorporateFavorites" DisplayName="Corporate Favorite" />
+  <Value Id="TeamCommunicator.ContactTCView.PersonalFavorites" DisplayName="Personal Favorite" />
+  <Value Id="TeamCommunicator.ContactTCView.OtherFavorites" Name="Uncategorized Personal Favorites"/>
+  <!-- Use in case the coparate favorites are defined without category -->
+  <Value Id="TeamCommunicator.ContactTCView.UncategorizedCorporateFavorites" Name="Uncategorized Corporate Favorites " />
+
+  <Value Id="TeamCommunicator.ContactTCView.ErrorCannotAddFavorite" Text="Cannot Add to Favorites"/>
+  <Value Id="TeamCommunicator.ContactTCView.ErrorCannotAddFavoriteReason" Text="Cannot Add to Favorites: {0}"/>
+  <Value Id="TeamCommunicator.ContactTCView.ErrorFavoriteAlreadyExists" Text="A favorite with the same contact information exists already"/>
+  <Value Id="TeamCommunicator.ContactTCView.ErrorCannotEditFavorite" Text="Cannot Edit Favorite: {0}"/>
+  <Value Id="TeamCommunicator.ContactTCView.ErrorCannotUpdateContact" Text="Could not update the contact"/>
+  <Value Id="TeamCommunicator.ContactTCView.ErrorCannotRemoveContact" Text="Could not remove the contact"/>
+  <Value Id="TeamCommunicator.ContactTCView.ErrorCannotAddContact" Text="Could not add the contact"/>
+  <Value Id="TeamCommunicator.ContactTCView.ErrorInvalidMedia" Text="The specified media is invalid"/>
+  <Value Id="TeamCommunicator.ContactTCView.ErrorNoMediaFound" Text="No media found"/>
+  <Value Id="TeamCommunicator.ContactTCView.WarnInternalObjectsNotAvailable" Text="Internal Targets are not yet available"/>
+  <Value Id="TeamCommunicator.ContactTCView.WarnFavoritesObjectsNotAvailable" Text="Favorites are not yet available"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.MissedTitle" Text="Missed"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.ProcessedTitle" Text="Answered"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.ContactDetailsTitle" Text="Contact Details:"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.TransferTitle" Text="Transferred"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.ConferenceTitle" Text="Conference"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.ConsultationTitle" Text="Consultation"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.InternalTitle" Text="Internal"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.InboundTitle" Text="Inbound"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.OutcomingTitle" Text="Outgoing"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.VoiceTitle" Text="Call"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.ChatTitle" Text="Chat"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.SmsTitle" Text="SMS"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.EmailTitle" Text="E-mail"/>
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.WorkitemTitle" Text="Workitem"/>
+  <!--TeamCommunicator.ContactTCView.Recent.ToolTip.MessageWithDateTitle: Title of recent record tooltip-->
+  <!--TeamCommunicator.ContactTCView.Recent.ToolTip.MessageWithDateTitle: 0: Status of the media (processed, missed)-->
+  <!--TeamCommunicator.ContactTCView.Recent.ToolTip.MessageWithDateTitle: 1: Type of media (inbound, internal...) and media (voice, email...)-->
+  <!--TeamCommunicator.ContactTCView.Recent.ToolTip.MessageWithDateTitle: 2: Date + time of the day-->
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.MessageWithDateTitle" Text="{0}{1} on {2}"/>
+  <!--TeamCommunicator.ContactTCView.Recent.ToolTip.MessageWithTimeTitle: Title of recent record tooltip-->
+  <!--TeamCommunicator.ContactTCView.Recent.ToolTip.MessageWithTimeTitle: 0: Status of the media (processed, missed)-->
+  <!--TeamCommunicator.ContactTCView.Recent.ToolTip.MessageWithTimeTitle: 1: Type of media (inbound, internal...) and media (voice, email...)-->
+  <!--TeamCommunicator.ContactTCView.Recent.ToolTip.MessageWithTimeTitle: 2: Time of the day-->
+  <Value Id="TeamCommunicator.ContactTCView.Recent.ToolTip.MessageWithTimeTitle" Text="{0}{1} at {2}"/>
+
+  <!-- TeamCommunicator.PresenceView.IMMedia  Define the displaymane of Instant Messaging in the presence tooltip -->
+  <Value Id="TeamCommunicator.PresenceView.IMMedia" Text="instant messaging"/>
+  
+  <!-- ShowMode Favorite,it is displayed when the the result returns more resultat than it is possible to display and searchbox empty  -->
+  <Value Id="TeamCommunicator.ContactTCView.Favorites.More" Text="{0} More Favorite(s)"/>
+  <!-- ShowMode Favorite,it is displayed when the the result returns more resultat than it is possible to display and searchbox is not empty  -->
+  <Value Id="TeamCommunicator.ContactTCView.Favorites.MoreMatching" Text="{0} More Matching Favorite(s)"/>
+  
+  <Value Id="TeamCommunicator.Button.Open" ToolTip="Show Team Communicator"  Name="Show Team Communicator"/>
+  
+
+</Dictionary>

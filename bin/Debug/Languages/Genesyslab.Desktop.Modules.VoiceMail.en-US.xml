@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+  <!--  VoiceMail SIP-->
+  <Value Id="VoiceMail.Gadget.Menu" ToolTip="Check my voicemail boxes" Header="_Voicemail" Text="Voicemail"  />
+  <!-- VoiceMail.PersonalMailBox: menu entry that identify the personal mailbox in hamburger menu-->
+  <!-- VoiceMail.PersonalMailBox:{0}: Number of unread messages -->
+  <Value Id="VoiceMail.PersonalMailBox" ToolTip="Consult my voicemail box" Header="My Voicemail" Text="My Voicemail" ToolTipFormat="My Voicemail:   ({1})" />
+  <Value Id="VoiceMail.PersonMailBox" ToolTip="Call my private voicemail box" Header="My Private Voicemail" Text="My Private Voicemail" ToolTipFormat="My Private Voicemail:   ({1})" />
+  <!-- VoiceMail.GroupMailBox: menu entry that identify a shared mailbox in hamburger menu-->
+  <!-- VoiceMail.GroupMailBox:{0}: Name of the group -->
+  <!-- VoiceMail.GroupMailBox:{1}: Number of unread messages -->
+  <Value Id="VoiceMail.GroupMailBox" ToolTip="Consult the shared voicemail box" Header="Shared Voicemail" Text="Shared Voicemail " ToolTipFormat="Shared Voicemail: '{0}' ({1})" />
+  <Value Id="VoiceMail.GroupMailBox.HasUnreadMessages" ToolTip="Some voicemail boxes have unread messages" Header="Consult Voicemail box" Text="Consult Voicemail box"/>
+  <!-- VoiceMail.MailBox.Default: menu entry that identify a shared mailbox in hamburger menu-->
+  <!-- VoiceMail.MailBox.Default:{0}: Name of the group -->
+  <!-- VoiceMail.MailBox.Default:{1}: Number of unread messages -->
+  <Value Id="VoiceMail.MailBox.Default" ToolTipFormat="Voicemail Box: '{0}' ({1})" Header="" Text="MB: "/>
+  <Value Id="VoiceMail.Error.NoAccessNumber" Text="Destination voicemail box is not accessible: Voicemail access number is not defined. Please, contact administrator"/>
+  <Value Id="VoiceMail.Error.NoMailBoxNumber" Text="Destination voicemail box is not accessible: Destination does not have any configured mailbox"/>
+  <Value Id="VoiceMail.Error.NoRoutingPointNumber" Text="Destination voicemail box is not accessible: Voicemail Routing Point is not defined. Please contact your administrator"/>
+  <Value Id="VoiceMail.Error.NoRoutingAllowed" Text="Destination voicemail box is not accessible for this type of destination"/>
+  <Value Id="VoiceMail.Error.CfgConnectionProblem" Text="Destination voicemail box is not accessible: Timeout when accessing target's voicemail configuration. Please try again later or contact your administrator"/>
+
+  <Value Id="Windows.VoiceView.MenuItemOneStepTransferToVoiceMailDialer" Text="_Transfer to voicemail box" Tooltip="Transfer to voicemail box"/>
+  <Value Id="Windows.VoiceView.MenuItemMainDialerMakeVoiceMailCall" Text="Leave message in voicemail box" Tooltip="Leave message in voicemail box" />
+
+</Dictionary>

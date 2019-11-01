@@ -1,0 +1,167 @@
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoVoiceView.baml
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoMenuView.g.cs
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoTabView.g.cs
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoVoiceView.g.cs
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\USDView.g.cs
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice_MarkupCompile.cache
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice_MarkupCompile.lref
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.CiscoVoice.dll.config
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.CiscoVoice.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.CiscoVoice.pdb
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Infrastructure.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.Core.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.OpenMedia.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.Voice.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.Windows.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.WPFCommon.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Interaction.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Model.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Services.Common.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Services.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Services.Multimedia.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Utility.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Commons.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Commons.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Lucene.Net.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Practices.Composite.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Practices.Composite.Wpf.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Tomers.WPF.Localization.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\log4net.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.ApplicationBlocks.ConfigurationObjectModel.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Commons.Collections.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Configuration.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.ApplicationBlocks.Commons.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Core.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Agent.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Services.Outbound.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Commons.Connection.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.ApplicationBlocks.WarmStandby.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.ApplicationBlocks.Commons.Broker.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.ApplicationBlocks.Commons.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Contacts.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Services.Presence.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Reporting.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\DirectShowLib-2005.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Exceptions.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Core.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Extensions.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Framework.StateMachine.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Services.Contact.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.OpenMedia.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.SwitchAbstraction.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.Contacts.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.WebMedia.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Services.Multimedia.Email.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Voice.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\NHunspell.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Logger.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.SwitchPolicy.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Enterprise.Framework.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Management.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.WebMedia.Protocols.EspEmail.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Outbound.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Routing.Protocols.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Platform.Commons.Collections.Binding.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoMenuView.baml
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoTabView.baml
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\USDView.baml
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.g.resources
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.Properties.Resources.resources
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.csproj.GenerateResource.cache
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.csproj.CoreCompileInputs.cache
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.csproj.CopyComplete
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.pdb
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\WpfAnimatedGif.dll
+C:\Users\Mamdouh\source\repos\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\WpfAnimatedGif.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.CiscoVoice.dll.config
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.CiscoVoice.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.CiscoVoice.pdb
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Newtonsoft.Json.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\WpfAnimatedGif.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\WSEventManager.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Crm.UnifiedServiceDesk.Dynamics.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Crm.UnifiedServiceDesk.CommonUtility.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Csr.Core.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Desktop.Cti.Core.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Common.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Desktop.Core.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Desktop.UI.Controls.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Csr.Browser.Web.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Xrm.Sdk.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Crm.UnifiedServiceDesk.BaseControl.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Desktop.SessionManager.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.mshtml.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Xrm.Tooling.Connector.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Desktop.UI.Controls.Wpf.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.AifServices.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Common.Configuration.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Csr.Win32Api.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Practices.CompositeUI.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Common.Logging.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Common.Providers.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Practices.CompositeUI.Windows.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Practices.ObjectBuilder.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Common.Listeners.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\WSEventManager.pdb
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Newtonsoft.Json.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\WpfAnimatedGif.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Crm.UnifiedServiceDesk.Dynamics.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Crm.UnifiedServiceDesk.CommonUtility.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Uii.Csr.Browser.Web.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Xrm.Sdk.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Crm.UnifiedServiceDesk.BaseControl.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Xrm.Tooling.Connector.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Microsoft.Xrm.Sdk.Deployment.xml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.csprojResolveAssemblyReference.cache
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoVoiceView.baml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoMenuView.g.cs
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoTabView.g.cs
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoVoiceView.g.cs
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\USDView.g.cs
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice_MarkupCompile.cache
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice_MarkupCompile.lref
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoMenuView.baml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoTabView.baml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\USDView.baml
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.g.resources
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.Properties.Resources.resources
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.csproj.GenerateResource.Cache
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.dll
+\\tsclient\C\New folder\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice (1)\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.pdb
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.CiscoVoice.dll.config
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.CiscoVoice.dll
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Genesyslab.Desktop.Modules.CiscoVoice.pdb
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Newtonsoft.Json.dll
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\WpfAnimatedGif.dll
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\WpfAnimatedGif.xml
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoVoiceView.baml
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoMenuView.g.cs
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoTabView.g.cs
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoVoiceView.g.cs
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\USDView.g.cs
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice_MarkupCompile.cache
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice_MarkupCompile.lref
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoMenuView.baml
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\CiscoTabView.baml
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\CiscoAgent\USDView.baml
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.g.resources
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.Properties.Resources.resources
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.csproj.GenerateResource.Cache
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.dll
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.pdb
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\FinesseClient.dll
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\Matrix.dll
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\bin\Debug\RestSharp.dll
+D:\Mamdouh\Genesyslab.Desktop.Modules.CiscoVoice\obj\Debug\Genesyslab.Desktop.Modules.CiscoVoice.csprojResolveAssemblyReference.cache

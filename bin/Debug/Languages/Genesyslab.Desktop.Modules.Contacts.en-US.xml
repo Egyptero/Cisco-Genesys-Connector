@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+
+  <!-- Contacts.Common.NoData: string displayed in contact/my history details when no record is selected -->
+  <Value Id="Contacts.Common.NoData" Text="Select an interaction to view details."/>
+
+  <!-- Contacts.Common.NoDataAvailable: string displayed in workbin details when no inteeraction doesn't contain UCS information -->
+  <Value Id="Contacts.Common.NoDataAvailable" Text="No Data Available."/>
+	
+  <Value Id="Contacts.ContactDirectoryView.ComparatorComboBoxStartWith" Content="Starts With"/>
+  <Value Id="Contacts.ContactDirectoryView.ComparatorComboBoxContain" Content="Contains"/>
+  <Value Id="Contacts.ContactDirectoryView.ComparatorComboBoxEqual" Content="Equals"/>
+  <Value Id="Contacts.ContactDirectoryView.ComparatorComboBoxOn" Content="On"/>
+  <Value Id="Contacts.ContactDirectoryView.ComparatorComboBoxOnOrAfter" Content="On or after"/>
+  <Value Id="Contacts.ContactDirectoryView.ComparatorComboBoxBefore" Content="Before"/>
+  <Value Id="Contacts.ContactDirectoryView.ComparatorComboBoxBetween" Content="Between"/>
+  <Value Id="Contacts.ContactDirectoryView.ComparatorComboBoxAll" Content="All"/>
+  <Value Id="Contacts.ContactDirectoryView.ComparatorComboBoxDone" Content="Done"/>
+  <Value Id="Contacts.ContactDirectoryView.ComparatorComboBoxInProgress" Content="In Progress"/>
+  <Value Id="Contacts.ContactDirectoryView.HeaderContactDirectory" Text="_Contact Directory"/>
+  <Value Id="Contacts.ContactInformationView.HeaderContactInformation" Text="_Information"/>
+  <Value Id="Contacts.ContactHistoryView.HeaderContactDetail" Text="D_etails"/>
+  <Value Id="Contacts.ContactHistoryView.HeaderContactHistory" Text="_History"/>
+  <Value Id="Contacts.ContactHistoryView.HeaderContactMyHistory" Text="My _History"/>
+  <Value Id="Contacts.ContactDirectoryView.LabelObjectsRange" Text="{0} - {1} of {2}"/>
+  <Value Id="Contacts.ContactDirectoryView.ButtonDeleteContact" Text="Delete" />
+  <Value Id="Contacts.ContactDirectoryView.RadioButtonMatchAllConditions" Content="Match All Conditions" ToolTip="Contacts who match all the conditions"/>
+  <Value Id="Contacts.ContactDirectoryView.RadioButtonMatchAnyConditions" Content="Match Any Condition" ToolTip="Contacts who match any of the conditions"/>
+  <Value Id="Contacts.ContactDirectoryView.TooltipButtonDeleteContact" ToolTip="Delete contact" Name="Delete contact" />
+  <Value Id="Contacts.ContactDirectoryView.TooltipButtonCreateNewContact" ToolTip="Create new contact" Name="Create new contact" />
+  <Value Id="Contacts.ContactDirectoryView.ButtonMoreActions" Content="More Actions" ToolTip="Perform other actions" Name="Perform other actions"/>
+  <Value Id="Contacts.ContactDirectoryView.TooltipButtonRewind" ToolTip="Go to the first page" Name="Go to the first page" />
+  <Value Id="Contacts.ContactDirectoryView.TooltipButtonPrev" ToolTip="Go to the previous page" Name="Go to the previous page" />
+  <Value Id="Contacts.ContactDirectoryView.TooltipButtonNext" ToolTip="Go to the next page" Name="Go to the next page" />
+  <Value Id="Contacts.ContactDirectoryView.TooltipButtonEnd" ToolTip="Go to the last page" Name="Go to the last page" />
+  <Value Id="Contacts.ContactDirectoryView.TooltipPageNumber" ToolTip="Go to page number..." />
+  <Value Id="Contacts.ContactDirectoryView.TooltipComboNbRows" ToolTip="Specify the maximum number of elements per page" Name="Specify maximum number of elements per page"/>
+  <Value Id="Contacts.ContactDirectoryView.TooltipEditQuickCall" ToolTip="Type a name, phone number, or e-mail address and press Enter to search for the contact" ToolTipClearButton="Clear search criteria" ToolTipSearchButton="Search"/>
+  <Value Id="Contacts.ContactHistoryView.TooltipEditQuickCall" ToolTip="Type one or several keywords and press Enter to search for the interaction" Name="Quick search" ToolTipClearButton="Clear search criteria" ToolTipSearchButton="Search"/>
+  <Value Id="Contacts.ContactInformationView.DescriptionComboBox" Name="Description: {0}"/>
+  <!-- ER# 311041493-8140002 - 5. Added AutomationProperties.Name -->
+  <Value Id="Contacts.ContactDirectoryView.SplitButtonContactTooltipActionOnThisContactMenu" ToolTip="Actions for this contact" Name="Actions for this contact" />
+  <Value Id="Contacts.ContactDirectoryView.SplitButtonContactTooltipActionPhoneMenu" ToolTip="Select a phone number to call this contact" />
+  <Value Id="Contacts.ContactDirectoryView.SplitButtonContactTooltipActionEmailMenu" ToolTip="Select an e-mail address to create a new e-mail interaction to this contact" />
+  <!-- Contacts.ContactDirectoryView.SplitButtonContactTooltipActionSmsMenu: Tooltip presented when hovering the 'new SMS' button inside contact record -->
+  <Value Id="Contacts.ContactDirectoryView.SplitButtonContactTooltipActionSmsMenu" ToolTip="Select a phone number to create a new SMS to this contact" />
+  <Value Id="Contacts.ContactDirectoryView.TooltipButtonSwitchToModeGrid" ToolTip="Show Contacts in Grid View"/>
+  <Value Id="Contacts.ContactDirectoryView.TooltipButtonSwitchToModeList" ToolTip="Show Contacts in List View"/>
+  <Value Id="Contacts.ContactDirectoryView.TooltipButtonSwitchToModeTree" ToolTip="Show Contacts in Tree View"/>
+  <Value Id="Contacts.ContactDirectoryView.TooltipValueComboBox" ToolTip="Select a value"/>
+  <Value Id="Contacts.ContactHistoryView.TooltipButtonSwitchToModeGrid" ToolTip="Show History in Grid View"/>
+  <Value Id="Contacts.ContactHistoryView.TooltipButtonSwitchToModeTree" ToolTip="Show History in Tree View"/>
+
+  <!--<Value Id="Contacts.ContactHistoryView.TooltipButtonSwitchToModeGrid" ToolTip="Show History in Grid View"/>-->
+  <Value Id="Contacts.ContactHistoryView.TooltipButtonSwitchToModeList" ToolTip="Switch to list view"/>
+  <Value Id="Contacts.ContactInformationView.TooltipButtonSwitchToModeHorizontalPanel" ToolTip="Switch to horizontal panel view"/>
+  <Value Id="Contacts.ContactInformationView.TooltipButtonSwitchToModeVerticalPanel" ToolTip="Switch to vertical panel view"/>
+  <Value Id="Contacts.ContactDirectoryView.TooltipConditionField" ToolTip="Specify a search field" Name="Search field"/>
+  <Value Id="Contacts.ContactHistoryView.TooltipConditionField" ToolTip="Specify a search field" Name="Search field"/>
+  <Value Id="Contacts.ContactDirectoryView.TooltipConditionComparator" ToolTip="Specify how the search criterion is used" Name="Criterion"/>
+  <Value Id="Contacts.ContactHistoryView.TooltipConditionComparator" ToolTip="Specify how the search criterion is used" Name="Criterion"/>
+  <Value Id="Contacts.ContactDirectoryView.TooltipEditSearchAdvanced" ToolTip="Enter the search criterion" ConverterParameter="Criterion "/>
+  <Value Id="Contacts.ContactHistoryView.TooltipEditSearchAdvanced" ToolTip="Enter the search criterion" Name="Enter the search criterion"/>
+  <Value Id="Contacts.ContactHistoryView.TooltipButtonOpenCalendarSearchAdvanced" ToolTip="Open the calendar picker" Name="Open the calendar picker" />
+  <!-- "Contacts.ContactDirectoryView.DeleteButtonName": description (used for screen reader) of the cross button that enable user to remove a filter condition line for advance search in Contact Directory and Contact History View. '{0} {1} {2}' corresponds to the filter line to remove. -->
+  <!-- "Contacts.ContactDirectoryView.DeleteButtonName": {0}: corresponds to the selected element of the first combo box in the filter line (selected Search field).-->
+  <!-- "Contacts.ContactDirectoryView.DeleteButtonName": {1}: corresponds to the selected element of the second combo box in the filter line (selected search comparison criterion).-->
+  <!-- "Contacts.ContactDirectoryView.DeleteButtonName": {2}: corresponds to the selected element of the third control in the filter line if any (search criterion value entered by the user).-->
+  <Value Id="Contacts.ContactDirectoryView.DeleteButtonName" String="Remove field : {0} {1} {2}"/>
+  <Value Id="Contacts.ContactHistoryView.TooltipSliderPeriod" ToolTip="Select the time period to search" />
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeAllInteractions" String="Show All Interactions" />
+  <Value Id="Contacts.ContactHistoryView.TooltipButtonFilterIncludeAllInteractions" ToolTip="Select to include all media in the search" />
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeVoice" String="Show Phone calls" />
+  <Value Id="Contacts.ContactHistoryView.TooltipButtonFilterIncludeVoice" ToolTip="Select to include the voice media in the search" />
+  <!--<Value Id="Contacts.ContactHistoryView.TooltipButtonFilterExcludeVoice" ToolTip="Check this button to exclude the voice media from the search" />-->
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeEmail" String="Show e-mail interactions" />
+  <Value Id="Contacts.ContactHistoryView.TooltipButtonFilterIncludeEmail" ToolTip="Select to include the e-mail media in the search" />
+  <!--<Value Id="Contacts.ContactHistoryView.TooltipButtonFilterExcludeEmail" ToolTip="Check this button to exclude the e-mail media from the search" />-->
+  <!--<Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeIM" String="Show IMs" />-->
+  <!--<Value Id="Contacts.ContactHistoryView.TooltipButtonFilterIncludeIM" ToolTip="Check this button to include the chat media in the search" />-->
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeChat" String="Show Chats" />
+  <Value Id="Contacts.ContactHistoryView.TooltipButtonFilterIncludeChat" ToolTip="Select to include the chat media in the search" />
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeSms" String="Show SMS" />
+  <Value Id="Contacts.ContactHistoryView.TooltipButtonFilterIncludeSms" ToolTip="Select to include the SMS media in the search" />
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeOpenMedia" String="Show OpenMedias" />
+  <Value Id="Contacts.ContactHistoryView.TooltipButtonFilterIncludeOpenMedia" ToolTip="Select to include open media in the search" />
+  <!--<Value Id="Contacts.ContactHistoryView.TooltipButtonFilterExcludeChat" ToolTip="Check this button to exclude the chat media from the search" />-->
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeDisplayNameMedia" String="Show {0} Interactions" />
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeOtherMedia" String="Show Other Media Interactions" />
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeAllCustom" String="Show All {0}" />
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeDisplayNameCustomFilter" String="Show interaction with {0}={1}" />
+  <Value Id="Contacts.ContactHistoryView.MenuItemFilterIncludeOtherCustom" String="Show interactions with other value of {0}" />
+
+  <Value Id="Contacts.ContactDirectoryView.LabelPerPage" Text="per page" Name="per page"/>
+  <Value Id="Contacts.ContactDirectoryView.LabelPage" Text="Page" Name="Page" />
+  <Value Id="Contacts.ContactHistoryView.LabelPage" Text="Page" Name="Page" />
+  <Value Id="Contacts.ContactDirectoryView.LabelOf" Text="Of " />
+  <!--Contacts.ContactDirectoryView.ButtonShowAdvancedSearch: tooltip and accessibility string for show advanced search button-->
+  <Value Id="Contacts.ContactDirectoryView.ButtonShowAdvancedSearch" ToolTip="Show advanced search" Name="Show advanced search"/>
+  <!--Contacts.ContactDirectoryView.ButtonHideAdvancedSearch: tooltip and accessibility string for hide advanced search button-->
+  <Value Id="Contacts.ContactDirectoryView.ButtonHideAdvancedSearch" ToolTip="Hide advanced search" Name="Hide advanced search"/>
+  <Value Id="Contacts.ContactDirectoryView.ButtonShowInformationView" ToolTip="Show information view"/>
+  <Value Id="Contacts.ContactDirectoryView.ButtonHideInformationView" ToolTip="Hide information view"/>
+  <Value Id="Contacts.ContactInformationView.LabelGroupBoxGeneral" Header="General"/>
+  <Value Id="Contacts.ContactInformationView.RadioButtonPrimary" Content="Primary"/>
+  <Value Id="Contacts.ContactInformationView.ComboBoxNoneValue" Content="(None)"/>
+  <Value Id="Contacts.ContactInformationView.TooltipRadioButtonPrimary" ToolTip="Select as primary" Name="Select as primary"/>
+  <Value Id="Contacts.ContactInformationView.ButtonAssign" Content="Assign" ToolTip="Assign the current interaction to this contact"/>
+  <Value Id="Contacts.ContactInformationView.ButtonCancel" Content="Cancel" ToolTip="Cancel the manual contact assignment and keep the interaction assigned to the original contact"/>
+  <Value Id="Contacts.ContactInformationMesssageBox.ButtonSave"  String="After you save this contact, you will not be able to edit some of the fields. Do you want to proceed?"/>
+
+  <Value Id="Contacts.ContactHistoryView.MessageBoxConfirmMarkDoneInteraction" String="Are you sure that you want to mark this interaction as Done?" />
+  <Value Id="Contacts.ContactDirectoryView.MessageBoxConfirmOneDeleteContact" String="Are you sure that you want to delete this contact?" />
+  <Value Id="Contacts.ContactDirectoryView.MessageBoxConfirmMultiDeleteContact" String="Are you sure that you want to delete these {0} contacts?" />
+  <Value Id="Contacts.ContactDirectoryView.MessageBoxConfirmSaveContact" String="Are you sure that you want to save this contact?" />
+  <Value Id="Contacts.ContactInformationView.MessageBoxContactModifiedConfirmSaveContact" String="The contact information has been modified. Do you want to save the changes?" />
+  <Value Id="Contacts.ContactInformationView.MessageBoxContactModifiedConfirmDeleteEmailPersonalPart" String="You should not enter the personal part in contact e-mail address. The e-mail address personal part(s) will be removed (used as First/Last names if empty). Do you want to continue?" />
+  <Value Id="Contacts.ContactInformationView.MessageBoxContactModifiedWillBeLost" String="The UCS connection is down. Contact modifications will be lost." />
+  <Value Id="Contacts.ContactMergeWindow.MessageBoxConfirmMergeContact" String="Are you sure that you want to merge these contacts?" />
+  <Value Id="Contacts.ContactDirectoryView.MessageBoxConfirmUndoMergeContact" String="Are you sure that you want to undo the merge of this contact?" />
+  <Value Id="Contacts.ContactMergeWindow.MessageBoxConfirmChangeContact" String="Are you sure that you want to change contact for this interaction?" />
+  <Value Id="Contacts.ContactDirectoryView.MessageBoxConfirmContinueAndEraseNewContact" String="Are you sure that you want to continue and dismiss the new contact?" />
+  <Value Id="Contacts.ContactMergeWindow.Description" Content="_Description:" />
+  <Value Id="Contacts.ContactMergeWindow.Reason" Content="_Reason:"/>
+  <Value Id="Contacts.Lookup.MessageBoxConfirmAssignContact" String="Contact assignment task will be cancelled. Are you sure that you want to proceed?" />
+
+  <Value Id="Contacts.ContactDirectoryView.FailContactRequest"  Text="Contact Request Failed."/>
+  <Value Id="Contacts.ContactInformationView.FailContactRequest"  Text="Contact Request Failed."/>
+  <Value Id="Contacts.ContactHistoryView.FailContactRequest"  Text="Contact Request Failed."/>
+  <Value Id="Contacts.ContactHistoryView.Error.MarkDone"  Text="Mark Done Failed."/>
+  <Value Id="Contacts.ContactDirectoryView.FailContactRequestDescription"  Text="{0}"/>
+  <Value Id="Contacts.ContactInformationView.FailContactRequestDescription"  Text="{0}"/>
+  <Value Id="Contacts.ContactHistoryView.FailContactRequestDescription"  Text="{0}"/>
+  <Value Id="Contacts.ContactDirectoryView.NbPageOf" String="of {0}"/>
+  <Value Id="Contacts.ContactDirectoryView.NbPageOfSignPlus" String="of {0}+"/>
+  <Value Id="Contacts.ContactHistoryView.NbPageOf" String="of {0}"/>
+  <Value Id="Contacts.ContactHistoryView.NbPageOfSignPlus" String="of {0}+"/>
+  <Value Id="Contacts.ContactInformationView.SaveContactFailThisFieldIsMandatory" Text="Cannot save this contact. Mandatory field is missing ({0})."/>
+  <Value Id="Contacts.ContactInformationView.SaveContactFailThisFieldsAreMandatory" Text="Cannot save this contact. Mandatory fields are missing ({0})."/>
+  <Value Id="Contacts.ContactInformationView.CreateContactFailThisFieldIsMandatory" Text="Cannot save this contact. Mandatory field is missing ({0})."/>
+  <Value Id="Contacts.ContactInformationView.CreateContactFailThisFieldsAreMandatory" Text="Cannot save this contact. Mandatory fields are missing ({0})."/>
+  <Value Id="Contacts.ContactInformationView.SaveContactFailThisFieldValueIsEmpty" Text="Cannot save this contact. Enter the field ({0}) before saving."/>
+  <Value Id="Contacts.ContactInformationView.SaveContactFailThisFieldsValueAreEmpty" Text="Cannot save this contact. Enter the fields ({0}) before saving."/>
+  <Value Id="Contacts.ContactInformationView.CreateContactFailThisFieldValueIsEmpty" Text="Cannot save this contact. Enter the field ({0}) before saving."/>
+  <Value Id="Contacts.ContactInformationView.CreateContactFailThisFieldsValueAreEmpty" Text="Cannot save this contact. Enter the fields ({0}) before saving."/>
+  <Value Id="Contacts.ContactDirectoryView.RecentPendingHistoryForbidden"  Text="Contact assignment is in progress."/>
+  <!-- Contacts.ContactInformationView.SaveErrorModificationsLost: Error message prompted to agent when his record update could not be applied -->
+  <Value Id="Contacts.ContactInformationView.SaveErrorModificationsLost" Text="Contact information cannot be saved. The modifications are cancelled."/>
+  
+  <Value Id="Contacts.ContactDirectoryView.WaterMarkQuickSearch" Content="Quick search"  />
+  <Value Id="Contacts.ContactHistoryView.WaterMarkQuickSearch" String="Quick search"/>
+  <Value Id="Contacts.ContactDirectoryView.WaterMarkListGridNoItems" Text="No items"/>
+  <Value Id="Contacts.ContactHistoryView.WaterMarkHistoryListGridNoItems" Text="No items"/>
+  <Value Id="Contacts.ContactHistoryView.WaterMarkHistoryListGridWait" Text="Please wait..."/>
+  <Value Id="Contacts.ContactHistoryView.WaterMarkHistoryDataNoData" Text="No data" Name="No data" />
+  <Value Id="Contacts.ContactInformationView.WaterMarkNoData" Text="Select contact to view information"/>
+  <Value Id="Contacts.ContactInformationView.WaterMarkContactNotAutomaticallyCreated" Text="Contact not automatically created"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemPhoneCallByDefault" String="Call to {0}"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemSendInstantMessageByDefault" String="Send an Instant Message to {0}"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemStartSessionChat" String="Start Session Chat with {0}"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemStartVideoCallByDefault" String="Start a Video Call to {0}"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemNewEmailByDefault" String="Create a new E-mail interaction to {0}"/>
+  <!-- Contacts.ContactDirectoryView.MenuItemNewSmsByDefault: Menu item used in the drop down menu from a contact entry -->
+  <!-- Contacts.ContactDirectoryView.MenuItemNewSmsByDefault: 0: contact name or number -->
+  <Value Id="Contacts.ContactDirectoryView.MenuItemNewSmsByDefault" String="Create a new SMS to {0}"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemPhoneCall" String="Call"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemSendInstantMessage" String="Send an Instant Message"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemStartVideoCall" String="Start a Video Call"/>
+  <!-- Contacts.ContactDirectoryView.MenuItemNewSms: Menu item used in the drop down menu from a contact entry -->
+  <Value Id="Contacts.ContactDirectoryView.MenuItemNewSms" String="New SMS to"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemNewEmail" String="New E-mail interaction to"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemMerge" String="Merge..."/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemUndoMerge" String="Undo Merge"/>
+  <Value Id="Contacts.ContactHistoryView.MenuItemMarkDone" String="Mark Done"/>
+  <Value Id="Contacts.ContactHistoryView.MenuItemMerge" String="Change Contact..."/>
+  <Value Id="Contacts.ContactHistoryView.MenuItemUndoMerge" String="Undo Merge"/>
+
+  <Value Id="Contacts.ContactHandling.NoActiveUCSConnection"  String="No active connection to UCS. Please contact your administrator."/>
+  <Value Id="Contacts.ContactHandling.UCSNotRunning"  String="UCS is not started. Please contact your administrator."/>
+  <Value Id="Contacts.ContactHandling.LuceneTooManyContacts"  String="Too many matching contacts. Please refine your query."/>
+  <Value Id="Contacts.ContactHandling.LuceneOverMax"  String="Workspace cannot display more than {0} records out of {1} matching. Please refine your query."/>
+  <Value Id="Contacts.ContactHandling.EmptyAttributesToSearch"  String="List of search attributes is empty or not valid for a UCS search. Please contact your administrator."/>
+  <Value Id="Contacts.ContactHandling.EmptyAttributesToReturn"  String="List of return attributes is empty or not valid for a UCS search. Please contact your administrator."/>
+  <Value Id="Contacts.ContactHandling.UCSErrorNullPrimaryValue"  String="A primary value cannot be empty."/>
+  <Value Id="Contacts.ContactHandling.UCSErrorNotRFCCompliant"  String="Invalid syntax."/>
+  <Value Id="Contacts.ContactHandling.UCSErrorNotIndexContact"  String="Indexing contact is invalid."/>
+  <Value Id="Contacts.ContactHandling.SearchCriteriaNotApplicable" String="The search criteria do not apply to searched attributes."/>
+  <Value Id="Contacts.ContactHandling.UCSNoInteractionIndex" Text="Search in Interaction history is not available: appropriate indexes are disabled in Universal Contact Server {0}. Please contact your administrator."/>
+  <Value Id="Contacts.ContactHandling.UCSInteractionIndexAvailable" Text="Interaction Search is now available."/>
+  <Value Id="Contacts.ContactHandling.UCSErrorNoInteractionIndex" Text="Search in Interaction history cannot be completed because there is no interaction index."/>
+  <Value Id="Contacts.ContactHandling.UCSTimeout" String="Your request was not completed because the Universal Contact Server did not respond. Please contact your administrator."/>
+  <!-- Contacts.ContactHandling.UCSError: error message displayed when a request to UCS returns an error containing no known string error message -->
+  <Value Id="Contacts.ContactHandling.UCSError" String="Your request was not completed because the Universal Contact Server returns an error. Please contact your administrator."/>
+
+  <Value Id="Contacts.UCS.OutOfService" Text="The Universal Contact Server is out of service."/>
+  <Value Id="Contacts.UCS.BackInService" Text="The Universal Contact Server is back in service."/>
+  <Value Id="Contacts.UCS.ConnectionError" Text="Connection error with the Universal Contact Server."/>
+
+  <Value Id="Contacts.ContactInformationView.ButtonSave" ToolTip="Save {0}" Name="Save {0}" Text="Save"/>
+  <Value Id="Contacts.ContactInformationView.ButtonReset" ToolTip="Reset {0}" Name="Reset {0}" Text="Reset"/>
+  <Value Id="Contacts.ContactInformationView.ButtonAssignContact" ToolTip="Assign a contact to this interaction {0}" Name="Assign a contact to this interaction {0}" Text="Assign contact"/>
+  <Value Id="Contacts.ContactInformationView.ButtonAssignAnotherContact" ToolTip="Assign another contact to this interaction {0}" Name="Assign another contact to this interaction {0}" Text="Assign another contact"/>
+  <Value Id="Contacts.ContactHistoryView.ButtonOpen" ToolTip="Open"/>
+  <Value Id="Contacts.ContactHistoryView.ButtonMarkDone" ToolTip="Mark Done" Text="Mark Done"/>
+  <Value Id="Contacts.ContactHistoryView.ButtonPrint" ToolTip="Print" Name="Print"/>
+  <Value Id="Contacts.ContactHistoryView.ComboBoxMoreActions" Content="More Actions" ToolTip="Perform other actions" Name="Perform other actions"/>
+  <Value Id="Contacts.ContactHistoryView.MenuItemReply" Content="Reply"/>
+  <Value Id="Contacts.ContactHistoryView.MenuItemReplyToAll" Content="Reply to All"/>
+  <Value Id="Contacts.ContactHistoryView.MenuItemForward" Content="Forward"/>
+  <Value Id="Contacts.ContactHistoryView.MenuItemEditAsNew" Content="Edit as New"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType0Status0" String="In Progress" Comment="EmailIn- New"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType0Status1" String="In Progress" Comment="EmailIn- Pending"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType0Status2" String="In Progress" Comment="EmailIn- InProcess"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType0Status3" String="Done" Comment="EmailIn- Stopped"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType1Status0" String="In Progress" Comment="EmailOut- New"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType1Status1" String="In Progress" Comment="EmailOut- Pending"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType1Status2" String="In Process" Comment="EmailOut- InProcess"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType1Status3" String="Done" Comment="EmailOut- Stopped"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType2Status0" String="In Progress" Comment="Chat- New"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType2Status1" String="In Progress" Comment="Chat- Pending"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType2Status2" String="In Progress" Comment="Chat- InProcess"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType2Status3" String="Done" Comment="Chat- Stopped"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType3Status0" String="In Progress" Comment="PhoneCall- New"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType3Status1" String="In Progress" Comment="PhoneCall- Pending"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType3Status2" String="In Progress" Comment="PhoneCall- InProcess"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType3Status3" String="Done" Comment="PhoneCall- Stopped"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType4Status0" String="In Progress" Comment="CallBack- New"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType4Status1" String="In Progress" Comment="CallBack- Pending"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType4Status2" String="In Progress" Comment="CallBack- InProcess"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType4Status3" String="Done" Comment="CallBack- Stopped"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType5Status0" String="In Progress" Comment="CoBrowse- New"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType5Status1" String="In Progress" Comment="CoBrowse- Pending"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType5Status2" String="In Progress" Comment="CoBrowse- InProcess"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType5Status3" String="Done" Comment="CoBrowse- Stopped"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType6Status0" String="In Progress" Comment="Interaction- New"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType6Status1" String="In Progress" Comment="Interaction- Pending"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType6Status2" String="In Progress" Comment="Interaction- InProcess"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType6Status3" String="Done" Comment="Interaction- Stopped"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType7Status0" String="In Progress" Comment="Interaction- New"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType7Status1" String="In Progress" Comment="Interaction- Pending"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType7Status2" String="In Progress" Comment="Interaction- InProcess"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType7Status3" String="Done" Comment="Interaction- Stopped"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType8Status0" String="In Progress" Comment="SMS- New"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType8Status1" String="In Progress" Comment="SMS- Pending"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType8Status2" String="In Progress" Comment="SMS- InProcess"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionType8Status3" String="Done" Comment="SMS- Stopped"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionFrom" String="From"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionDate" String="Date"/>
+  
+  <Value Id="Contacts.InteractionSearchView.Group.UnclassifiedSearchCriteria" String="Other"/>
+ 
+  <Value Id="Contacts.ContactDirectoryView.ContactTitle" String="Title"/>
+  <Value Id="Contacts.ContactDirectoryView.ContactLastName" String="Last Name"/>
+  <Value Id="Contacts.ContactDirectoryView.ContactFirstName" String="First Name"/>
+  <Value Id="Contacts.ContactDirectoryView.ContactPhoneNumber" String="Phone Number"/>
+  <Value Id="Contacts.ContactDirectoryView.ContactEmailAddress" String="E-mail Address"/>
+
+  <Value Id="Contacts.ContactHistoryView.LabelObjectsRange" Text="{0} - {1} of {2}"/>
+  <Value Id="Contacts.ContactHistoryView.LabelPerPage" Text="per page" Name="per page"/>
+  <Value Id="Contacts.ContactHistoryView.ButtonShowAdvancedSearch" ToolTip="Show advanced search"/>
+  <Value Id="Contacts.ContactHistoryView.ButtonHideAdvancedSearch" ToolTip="Hide advanced search"/>
+  <Value Id="Contacts.ContactHistoryView.ButtonShowInformationView" ToolTip="Show information view"/>
+  <Value Id="Contacts.ContactHistoryView.ButtonHideInformationView" ToolTip="Hide information view"/>
+  <Value Id="Contacts.ContactInformationView.Description" Text="Description"/>
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoice" Name="Time Range: {0}"/>
+  <!--"Contacts.ContactHistoryView.SliderPeriodTextTimeChoiceArch": label used in Contact/My History Time Filter slider control to represent access to archived ('Arch.') history -->
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoiceArch" Text="Arch."/>
+  <!--"Contacts.ContactHistoryView.SliderPeriodTextTimeChoiceAll": label used in Contact/My History Time Filter slider control to represent access to all interactions from Main UCS Data Base -->
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoiceAll" Text="All"/>
+  <!--"Contacts.ContactHistoryView.SliderPeriodTextTimeChoice1M": label used in Contact/My History Time Filter slider control to represent access to interactions from Main UCS Data Base created less than 1 month ago -->
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoice1M" Text="1M"/>
+  <!--"Contacts.ContactHistoryView.SliderPeriodTextTimeChoice1W": label used in Contact/My History Time Filter slider control to represent access to interactions from Main UCS Data Base created less than 1 week ago -->
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoice1W" Text="1W"/>
+  <!--"Contacts.ContactHistoryView.SliderPeriodTextTimeChoice1D": label used in Contact/My History Time Filter slider control to represent access to interactions from Main UCS Data Base created less than 1 day ago -->
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoice1D" Text="1D"/>
+  <!-- Contacts.ContactHistoryView.SliderPeriodText : "Time Range: " -->
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodText" Text="Time Range: "/>
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoice0" Text="Unknown"/>
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoiceArchive" Text="Archive"/>
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoiceAll" Text="All"/>
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoiceOneMonth" Text="One Month"/>
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoiceOneWeek" Text="One Week"/>
+  <Value Id="Contacts.ContactHistoryView.SliderPeriodTextTimeChoiceOneDay" Text="One Day"/>
+  <Value Id="Contacts.ContactCalendarWindowView.LabelTime" Text="Time:"/>
+
+  <!--<Value Id="Contacts.ContactMergeView.TitleContactMerge" Title="Contact Merge"/>-->
+  <Value Id="Contacts.ContactMergeWindow.TitleContactMergeWindow" Title="Merge {0} with..."/>
+  <Value Id="Contacts.ContactMergeWindow.TitleInteractionMergeWindow" Title="Change Contact for this interaction"/>
+  <Value Id="Contacts.ContactMergeWindow.ButtonCancel" Content="Cancel"/>
+  <Value Id="Contacts.ContactMergeWindow.ButtonMerge" Content="Merge"/>
+  <Value Id="Contacts.ContactMergeWindow.ButtonChange" Content="Change"/>
+  <!-- "Contacts.ContactMergeWindow.MessageErrorMergeFail": Error message printed when merging contact '0' into '1' fails -->
+  <!-- "Contacts.ContactMergeWindow.MessageErrorMergeFail": {0}: name of the contact that is the 'source' of the merge-->
+  <!-- "Contacts.ContactMergeWindow.MessageErrorMergeFail": {1}: name of the contact that is the 'destination' of the merge (the remaining contact after the merge is done-->
+  <Value Id="Contacts.ContactMergeWindow.MessageErrorMergeFail" String="Merge {0} to {1} failed."/>
+  <Value Id="Contacts.ContactMergeWindow.MessageErrorUndoMergeFail" String="Undo Merge {0} failed."/>
+  <Value Id="Contacts.ContactMergeWindow.MessageErrorDeleteFail" String="Delete contact {0} failed."/>
+  <Value Id="Contacts.ContactSearchWindow.ButtonOK" Content="OK"/>
+
+  <Value Id="Contacts.CalendarWindowView.TitleCalendarWindowView" Title="Calendar" Name="Calendar" />
+  <Value Id="Contacts.CalendarWindowView.ButtonCancel" Content="Cancel"/>
+  <Value Id="Contacts.CalendarWindowView.ButtonOK" Content="OK"/>
+
+  <Value Id="Contacts.ContactDirectoryView.AddCondition" Content="Add Condition" ToolTip="Add another search condition" />
+  <Value Id="Contacts.ContactDirectoryView.ComboBoxItemRemoveCondition" String="Remove this search condition" />
+
+  <Value Id="Contacts.ContactHistoryView.AddCondition" Content="Add Condition" />
+  <Value Id="Contacts.ContactHistoryView.SplitButtonTooltipAddCondition" ToolTip="Add another search condition" />
+  <Value Id="Contacts.ContactHistoryView.ComboBoxItemRemoveCondition" String="Remove this search condition" />
+
+  <!-- "Contacts.ContactInformationView.AddInformationFieldInGroup": Menu item in a drop down menu used to add a contact attribute to a contact record -->
+  <!-- "Contacts.ContactInformationView.AddInformationFieldInGroup": 0: contact attribute name (such as Phone Number, email address...) -->
+  <Value Id="Contacts.ContactInformationView.AddInformationFieldInGroup" String="Add {0}"/>
+  <!-- "Contacts.ContactInformationView.AddChoiceTypeDescription": Menu item in a drop down menu to add a new type of a contact attribute (ex: Business Phone, Home Phone...) -->
+  <!-- "Contacts.ContactInformationView.AddChoiceTypeDescription" 0: contact attribute name (such as Phone Number, email address) -->
+  <Value Id="Contacts.ContactInformationView.AddChoiceTypeDescription" ToolTip="Select a type of {0} to add"/>
+
+
+
+  <Value Id="Contacts.ContactHistoryView.InteractionBccAddresses" String="Bcc Address"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionCcAddresses" String="Cc Address"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionContactId" String="Contact"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionEndDate" String="End Date"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionEstablishedDate" String="Established Date"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionFromAddress" String="From Address"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionFromPersonal" String="From Personal Part"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionId" String="Interaction ID"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionMailbox" String="Source mailbox"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionOwnerId" String="Processed By"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionPhoneNumber" String="Phone Number"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionReleasedDate" String="Released Date"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionReplyToAddress" String="Reply-To Address"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionReviewerId" String="Reviewer"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionSentDate" String="Sent Date"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionStartDate" String="Start Date"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionStatus" String="Status"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionStructuredText" String="Interaction Transcript"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionSubject" String="Subject"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionSubtypeId" String="Interaction Sub-Type"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionText" String="Interaction Text"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionTheComment" String="Notes"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionToAddresses" String="To Address"/>
+  <Value Id="Contacts.ContactHistoryView.InteractionTypeId" String="Interaction Type"/>
+
+
+  <!--<Value Id="Contacts.ContactHistoryView.InteractionRow" Automation Name displayed by screen reader when an interaction raw is selected in Contact History View table />-->
+  <Value Id="Contacts.ContactHistoryView.InteractionRow" Name="Interaction..."/>
+
+  <!--<Value Id="Contacts.ContactHistoryView.InteractionType" Automation Name displayed by screen reader for interaction type icon in Contact History View table />-->
+  <!--<Value Id="Contacts.ContactHistoryView.InteractionType" - 0 : direction of the interaction (inbound or outbound) />-->
+  <!--<Value Id="Contacts.ContactHistoryView.InteractionType" - 1 : media of the interaction (voice, mail... ) />-->
+  <Value Id="Contacts.ContactHistoryView.InteractionType" Name="Type: {0} {1}"/>
+
+  
+  <Value Id="Contacts.ContactDetailView.TitlePhoneCall" String="Phone Call"/>
+  <Value Id="Contacts.ContactDetailView.TitleEmailOut" String="E-mail Out"/>
+  <Value Id="Contacts.ContactDetailView.TitleEmailIn" String="E-mail In"/>
+  <Value Id="Contacts.ContactDetailView.TitleChatCall" String="Chat Session"/>
+  <Value Id="Contacts.ContactDetailView.TitleInstantMessaging" String="Instant Messaging"/>
+  <Value Id="Contacts.ContactDetailView.TitleVideoCall" String="Video Call"/>
+  <Value Id="Contacts.ContactDetailView.TitleCoBrowse" String="CoBrowse"/>
+  <Value Id="Contacts.ContactDetailView.TitleCallback" String="Callback"/>
+  <Value Id="Contacts.ContactDetailView.TitleSms" String="SMS"/>
+
+  <Value Id="Contacts.ContactDetailView.SummaryPhoneCall" String="Phone call with {0}."/>
+  <!-- Duration: {1}."/>-->
+  <Value Id="Contacts.ContactDetailView.SummaryPhoneCall.From" String="Phone call from {0}."/>
+  <!-- Duration: {1}."/>-->
+  <Value Id="Contacts.ContactDetailView.SummaryPhoneCall.To" String="Phone call to {0}."/>
+  <!-- Duration: {1}."/>-->
+  <Value Id="Contacts.ContactDetailView.SummaryDate" Text="Date:" Name="Date: {0}"/>
+  <Value Id="Contacts.ContactDetailView.SummaryContact" Text="Contact:" Name="Contact: {0}"/>
+  <Value Id="Contacts.ContactDetailView.SummaryPhoneNumber" Text="Phone Number:" Name="Phone Number: {0}"/>
+  <Value Id="Contacts.ContactDetailView.SummaryDuration" Text="Duration:" Name="Duration: {0}"/>
+
+  <Value Id="Contacts.ContactDetailView.SummaryChatCall" String="Chat session with {0}. Duration: {1}."/>
+  <Value Id="Contacts.ContactDetailView.SummarySmsCall" String="SMS Session Mode exchange with {0}. Duration: {1}."/>
+
+  <!--ER 236126490-->
+  <Value Id="Contacts.ContactDetailView.SummaryPhoneCallNoDuration" String="Phone call with {0}."/>
+  <Value Id="Contacts.ContactDetailView.SummaryPhoneCallNoDuration.From" String="Phone call from {0}."/>
+  <Value Id="Contacts.ContactDetailView.SummaryPhoneCallNoDuration.To" String="Phone call to {0}."/>
+
+  <Value Id="Contacts.ContactDetailView.SummaryChatCallNoDuration" String="Chat session with {0}."/>
+  <Value Id="Contacts.ContactDetailView.SummarySmsPageInboundCallNoDuration" String="SMS Page Mode message from {0}."/>
+  <Value Id="Contacts.ContactDetailView.SummarySmsPageOutboundCallNoDuration" String="SMS Page Mode message to {0}."/>
+  <Value Id="Contacts.ContactDetailView.SummarySmsPageCallNoDuration" String="SMS Page Mode message with {0}."/>
+  <Value Id="Contacts.ContactDetailView.SummarySmsSessionCallNoDuration" String="SMS Session Mode exchange with {0}."/>
+  <Value Id="Contacts.ContactDetailView.SummarySmsPageCallNoDurationNoContact" String="SMS Page Mode message."/>
+  <Value Id="Contacts.ContactDetailView.SummarySmsSessionCallNoDurationNoContact" String="SMS Session Mode exchange."/>
+
+
+  <!--Value Id="Contacts.ContactDetailView.SmsMessageSytemExpiration" 0: client name 1:date"-->
+  <Value Id="Contacts.ContactDetailView.SmsMessageSytemExpiration" Text="{0} has not sent any message since {1}. SMS session has expired and is now over."/>
+
+  <!-- Detail WorkItem-->
+  <Value Id="Contacts.ContactDetailView.SummaryMediaType" Text="Media Type:" Name="Media Type: {0}"/>
+  <Value Id="Contacts.ContactDetailView.SummaryInteractionType" Text="Interaction Type:" Name="Interaction Type: {0}"/>
+  <Value Id="Contacts.ContactDetailView.SummaryInteractionSubType" Text="Interaction Sub-Type:" Name="Interaction Type: {0}" />
+
+  <!--
+  <Value Id="Contacts.ContactDetailView.SummaryEmailOutCall" String="{2}: E-mail out with {0}. Duration: {1}."/>
+  <Value Id="Contacts.ContactDetailView.SummaryEmailInCall" String="{2}: E-mail in with {0}. Duration: {1}."/>
+  <Value Id="Contacts.ContactDetailView.SummaryInstantMessagingCall" String="{2}: Instant Message with {0}. Duration: {1}."/>
+  <Value Id="Contacts.ContactDetailView.SummaryVideoCall" String="{2}: Video call with {0}. Duration: {1}."/>
+  <Value Id="Contacts.ContactDetailView.SummaryEmailOutCallNoDuration" String="{2}: E-mail out with {0}."/>
+  <Value Id="Contacts.ContactDetailView.SummaryEmailInCallNoDuration" String="{2}: E-mail in with {0}."/>
+  <Value Id="Contacts.ContactDetailView.SummaryInstantMessagingCallNoDuration" String="{2}: Instant Message with {0}."/>
+  <Value Id="Contacts.ContactDetailView.SummaryVideoCallNoDuration" String="{2}: Video call with {0}."/>
+  -->
+
+  <!-- "Contacts.ContactDetailView.SummaryEmailFrom": From address label and value in the details of an email history record-->
+  <!-- "Contacts.ContactDetailView.SummaryEmailFrom": 0: from address of the e-mail -->
+  <Value Id="Contacts.ContactDetailView.SummaryEmailFrom" Text="From: " Name="From: {0}" ToolTip="From: {0}"/>
+  <Value Id="Contacts.ContactDetailView.SummaryEmailTo" Text="To: " Name="To: {0}"/>
+  <Value Id="Contacts.ContactDetailView.SummaryEmailCc" Text="Cc: " Name="Cc: {0}"/>
+  <Value Id="Contacts.ContactDetailView.SummaryEmailBcc" Text="Bcc: " Name="Bcc: {0}"/>
+  <Value Id="Contacts.ContactDetailView.SummaryEmailSubject" Name="Subject: {0}"/>
+  <Value Id="Contacts.ContactDetailView.SummaryEmailDate" Name="Date: {0}"/>
+
+  <Value Id="Contacts.ContactDetailView.AssignedToAgentActivelyHandling" Text="Assigned to an agent - Actively handling"/>
+  <Value Id="Contacts.ContactDetailView.AssignedToAgentActivelyHandlingName" Text="Assigned to {0} - Actively handling"/>
+  <Value Id="Contacts.ContactDetailView.AssignedToAgentWorkbin" Text="Assigned to an agent - {0} workbin"/>
+  <Value Id="Contacts.ContactDetailView.AssignedToAgentWorkbinName" Text="Assigned to {0} - {1} workbin"/>
+  <Value Id="Contacts.ContactDetailView.AssignedToPlaceWorkbinName" Text="Assigned to {0} place - {1} workbin"/>
+  <Value Id="Contacts.ContactDetailView.InSharedWorkbin" Text="In shared workbin - {0}"/>
+  <Value Id="Contacts.ContactDetailView.InAWorkbin" Text="In a workbin"/>
+  <Value Id="Contacts.ContactDetailView.InAWorkbinName" Text="In a workbin [{0}]"/>
+  <Value Id="Contacts.ContactDetailView.InAQueue" Text="In a queue"/>
+  <Value Id="Contacts.ContactDetailView.InAQueueName" Text="In a queue [{0}]"/>
+  <Value Id="Contacts.ContactDetailView.InCache" Text="in cache"/>
+  <Value Id="Contacts.ContactDetailView.DeliveryInProgress" Text="Delivery in-progress"/>
+  <Value Id="Contacts.ContactDetailView.InUnknownState" Text="Unknown"/>
+  <Value Id="Contacts.ContactDetailView.StatusLabel" Text="State: "/>
+
+  <Value Id="Contacts.ContactView.FormatSecond" String="{0}s"/>
+  <Value Id="Contacts.ContactView.FormatMinutesSecond" String="{0}m{1}s"/>
+  <Value Id="Contacts.ContactView.FormatHoursMinutesSecond" String="{0}h{1}m{2}s"/>
+  <Value Id="Contacts.ContactView.FormatDaysHoursMinutesSecond" String="{0}day(s) {1}h{2}m{3}s"/>
+
+  <Value Id="Contacts.ContactDirectoryView.MenuItemModeListView" Header="Show List View"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemModeGridView" Header="Show Grid View"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemModeCardView" Header="Show Card View"/>
+  <Value Id="Contacts.ContactHistoryView.MenuItemModeTreeView" Header="Show Tree View"/>
+  <!-- "Contacts.ContactHistoryView.TreeViewFirstColumHeaderFrom": Label of the first column header when interactions list (Contact History) is displayed in tree view mode -->
+  <Value Id="Contacts.ContactHistoryView.TreeViewFirstColumHeaderFrom" Content="From"/>
+  <!-- "Contacts.ContactDirectoryView.DetailsPanelLayoutMenu": Tooltip presented when hovering the button that allows to adjust the contact history presentation (details on top or on right) -->
+  <Value Id="Contacts.ContactDirectoryView.DetailsPanelLayoutMenu" ToolTip="Select details panel layout"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemShowDetailsPanelRight" Header="Show Details Panel on Right"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemShowDetailsPanelBottom" Header="Show Details Panel on Bottom"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemShowDetailsPanel" Header="Show Details Panel"/>
+  <Value Id="Contacts.ContactDirectoryView.MenuItemHideDetailsPanel" Header="Hide Details Panel"/>
+  <Value Id="Contacts.ContactDirectoryView.ButtonShowDetailsPanel" Name="Show/Hide details panel"/>
+
+  <Value Id="Contacts.ContactInformationView.TooltipButtonSuppressFieldInformation" Text="Remove field" Name="Remove field" />
+  <Value Id="Contacts.ContactInformationView.TooltipButtonPutThisValueAtBlank" Value="Erase this value" />
+  <Value Id="Contacts.ContactInformationView.TooltipValueStringEdit" ToolTip="Enter information" />
+
+  <Value Id="Contacts.ContactAdvancedSearch.TooltipButtonSuppressFieldInformation" ToolTip="Remove field" Text="Remove field number " ConverterParameter="String " Binding="Content "/>
+  <Value Id="Contacts.ContactAdvancedSearch.TooltipButtonPutThisValueAtBlank" ToolTip="Erase this value" />
+
+  <Value Id="Contacts.ContactInformationView.EnterLabelDefinition" String="Enter {0}" />
+  <Value Id="Contacts.ContactDirectoryView.ButtonSearchAdvanced" Content="Search" ToolTip="Start advanced search"/>
+  <Value Id="Contacts.ContactHistoryView.ButtonSearchAdvanced" Content="Search" ToolTip="Start advanced search" Name="Start advanced search"/>
+  <Value Id="Contacts.MainToolbarContainer.SplitToggleButtonContact" Content="_Contact" Header="_Contact" />
+  <Value Id="Contacts.MainToolbarContainer.MenuItemContact" Header="_Contact Directory" Name="Contact Directory" />
+
+  <Value Id="Contacts.InteractionContainer.SplitToggleButtonContact" Content="C_ONTACT" />
+  <Value Id="Contacts.InteractionContainer.MenuItemContact" Header="_Information" />
+  <Value Id="Contacts.InteractionContainer.MenuItemHistory" Header="_History" />
+
+  <Value Id="Contacts.HistoryMenuView.LabelMyHistoryMenu" Text="My _History" Header="My _History" Name="My History"/>
+
+  <Value Id="Contacts.ContactView.TooltipButtonListVewGridView" ToolTip="Change Results View" Name="Change Results View" />
+  <Value Id="Contacts.ContactView.TooltipButtonPanelHideOrShowLeftOrShowBottom" ToolTip="Change Details Panel Layout" />
+
+
+  <!--Value Id="Contacts.Presentation.Transfer.Notepad" 0: date of the transfer 1: agent who made the transfer 2: transfer reason -->
+  <Value Id="Contacts.Presentation.Transfer.Notepad" String="Transferred on {0} by {1} - {2}" />
+  <Value Id="Contacts.Presentation.Conference.Notepad" String="Conference established on {0} by {1} - {2}" />
+  <!--Value Id="Contacts.Presentation.EmailForward.Notepad" 0: date of the forward 1: agent who made the forward 2: forward reason -->
+  <Value Id="Contacts.Presentation.EmailForward.Notepad" String="Forwarded to external resource on {0} by {1} - {2}" />
+  <!--ER 265909221-->
+
+  <!--Value Id="Contacts.Presentation.PaceInQueue.Notepad" 0: date of the palace in queue 1: agent who made the place in queue 2: transfer reason -->
+  <Value Id="Contacts.Presentation.PaceInQueue.Notepad" String="Placed in the queue on {0} by {1} - {2}" />
+
+  <Value Id="Contacts.ContactHistoryView.ButtonFilterShowTypeInteractions" Content="Filter" Name="Filter all interactions" ToolTip="Filter the interactions"/>
+  <Value Id="Contacts.ContactHistoryView.TooltipSplitButtonFilterShowTypeInteractions" ToolTip="Filter the interactions" Name="Filter all interactions" String="Filter {0} interactions"/>
+  <Value Id="Contacts.ContactDirectoryView.ButtonMakeCallTo" String="Call to {0}"/>
+  <Value Id="Contacts.ContactDirectoryView.ButtonMakeSmsTo" String="SMS to {0}"/>
+  <Value Id="Contacts.ContactDirectoryView.ButtonNewEmailTo" String="E-mail to {0}"/>
+  <Value Id="Contacts.Contact.Separator" String=", "/>
+  <Value Id="Contacts.ContactDetailView.SeparatorAttachment" Text=";"/>
+
+  <Value Id="Contacts.ContactDetailView.MenuItemSave" Text="Save"/>
+  <Value Id="Contacts.ContactDetailView.MenuItemSaveAs" Text="Save As..."/>
+  <Value Id="Contacts.ContactDetailView.MenuItemPrint" Text="Print..."/>
+  <Value Id="Contacts.ContactDetailView.MenuItemSaveAll" Text="Save All..."/>
+
+  <Value Id="Contacts.ContactSearchWindow.TitleWindows" String="Contact Search"/>
+
+  <Value Id="Contacts.ContactHistoryView.Owner.Unknown" Text="Unknown"/>
+  <Value Id="Contacts.ContactHistoryView.From.Unknown" Text="Not available"/>
+  <Value Id="Contacts.ContactHistoryView.Subtype.OutboundAcknowledgement" Text="Acknowledgement Receipt"/>
+  <Value Id="Contacts.ContactHistoryView.Subtype.OutboundRedirect" Text="Redirected"/>
+  <Value Id="Contacts.ContactHistoryView.Subtype.OutboundAutoResponse" Text="Automated Response"/>
+  <Value Id="Contacts.ContactHistoryView.Subtype.OutboundNotification" Text="Outbound Notification"/>
+  <Value Id="Contacts.ContactHistoryView.Subtype.InboundCollaborationReply" Text="External Resource"/>
+
+  <!--Value Id="Contact.InteractionInQueueView.Count"  0: number of interaction-->
+  <Value Id="Contact.InteractionInQueueView.Count" Name="{0} Interaction(s) In Progress" Text="{0} Interactions In Progress:"/>
+  <Value Id="Contact.InteractionInQueueView.One" Name="One Interaction In Progress" Text="One Interaction In Progress:"/>
+  <!--Value Id="Contact.InteractionInQueueView.CountValue"  0: number of interaction-->
+  <Value Id="Contact.InteractionInQueueView.CountValue" Content="({0})"/>
+  <Value Id="Contact.InteractionInQueueView.MediaType.Unknown" String="Unknown"/>
+  <Value Id="Contact.InteractionInQueueView.MediaType.sms" String="SMS Page Mode"/>
+  <Value Id="Contact.InteractionInQueueView.MediaType.smssession" String="SMS Session Mode"/>
+
+
+  <Value Id="Contact.ContactNotificationView.OneDay"  Text="{0} Recent Interactions in last day:"/>
+  <Value Id="Contact.ContactNotificationView.OneDays" Text="{0} Recent Interactions in last {1} days:"/>
+  <Value Id="Contact.ContactNotificationView.FewDay"  Text="{0} Recent Interactions in last day:"/>
+  <Value Id="Contact.ContactNotificationView.FewDays" Text="{0} Recent Interactions in last {1} days:"/>
+  <!--Value Id="Contact.ContactNotificationView.CountValue"  0: number of interaction-->
+  <Value Id="Contact.ContactNotificationView.CountValue" Content="({0})"  Name="{0} Recent Interaction(s)"/>
+  <!--<Value Id="Contact.ContactNotificationView.MoreElements" 0: number of element -->
+  <Value Id="Contact.ContactNotificationView.MoreElements" Text="{0} more ..."/>
+
+  <Value Id="Contact.ContactMenuInGadget.HeaderContactMenu" Header="Contact Directory"/>
+  <Value Id="Contact.ContactContainerInGadget.HeaderGadgetWindowsContact" String="Contact Directory"/>
+
+  <Value Id="InteractionSearch.InteractionSearchMenuView.LabelInteractionsMenu" Header="_Interaction Search"/>
+  <Value Id="InteractionSearch.InteractionSearchView.LabelInteractionTabHeader" Header="Interaction Search"/>
+
+  <Value Id="Contacts.ContactHistoryView.ComparatorComboBoxStartWith" Content="Matches"/>
+  <Value Id="Contacts.ContactHistoryView.ComparatorComboBoxContain" Content="Contains"/>
+  <Value Id="Contacts.ContactHistoryView.ComparatorComboBoxEqual" Content="Equals"/>
+
+  <Value Id="Contacts.ContactDirectoryView.EnabledModesIsIncorrectErrorMessage" Text="This action is not allowed by your configuration. Please contact your administrator."/>
+  <Value Id="Contacts.ContactDirectoryView.BackToSuggestsdContacts" ToolTip="Return to the suggested contact list"/>
+  <Value Id="Contacts.ContactDirectoryView.SearchForContacts" ToolTip="Search for another contact to assign"/>
+  <Value Id="Contacts.ContactDirectoryView.SuggestsdContactsShown" Text="Suggested Contacts"/>
+
+</Dictionary>

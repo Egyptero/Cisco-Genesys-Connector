@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+  <Value Id="Statistics.CallCenterStatisticsView.Statistics" String="C_ontact Center Statistics" Header="C_ontact Center Statistics" Name="Contact Center Statistics"/>
+  <Value Id="Statistic.CallCenterStatisticsView.ListStatisticHeaderStatisticDescription" Content="Description"/>
+  <Value Id="Statistic.CallCenterStatisticsView.ListStatisticHeaderStatisticValue" Content="Value"/>
+  <Value Id="Statistic.CallCenterStatisticsView.ListStatisticHeaderObjectId" Content="Contact Center Resource"/>
+  <Value Id="Statistic.CallCenterStatisticsView.ListStatisticsContextMenuItemStatistics" Header="Statistics"/>
+  <Value Id="Statistic.CallCenterStatisticsView.CheckFilterWarning" Header="Show Only Alerting Statistics"/>
+  <Value Id="Statistic.CallCenterStatisticsView.ShowAllStatistics" Header="Show All Statistics"/>
+  <Value Id="Statistic.CallCenterStatisticsView.ListStatisticHeaderDisplayImage" Content=""/>
+<!--  
+  <Value Id="Statistic.GadgetCallCenterStatisticsView.CallCenterStatistics" Text="Call Center Statistics"/>
+  <Value Id="Statistic.GadgetCallCenterStatisticsView.ShowMainStatView" ToolTip="Show Statistics Panel on Interaction Workspace main window"/>
+  <Value Id="Statistic.GadgetCallCenterStatisticsView.HidePanel" ToolTip="Hide the call center statistics panel"/>
+  <Value Id="Statistic.GadgetCallCenterStatisticsView.ShowNextStat" ToolTip="Scroll to the next statistic"/>
+  <Value Id="Statistic.GadgetCallCenterStatisticsView.ShowPreviousStat" ToolTip="Scroll to the previous statistic"/>
+  <Value Id="Statistic.GadgetCallCenterStatisticsView.ScrollStatistics" ToolTip="Scroll the call center statistics"/>
+  <Value Id="Statistic.GadgetCallCenterStatisticsView.StopScrollingStatistics" ToolTip="Stop the scrolling of the call center statistics"/>
+  <Value Id="Statistic.GadgetCallCenterStatisticsView.ShowStatistic" ToolTip="Show this statistic"/>
+  <Value Id="Statistic.GadgetCallCenterStatisticsView.HideStatistic" ToolTip="Hide this statistic"/>
+-->
+
+  <Value Id="Statistics.KPIView.CheckFilterWarning" Header="Show Only Alerting Statistics"/>
+  <Value Id="Statistics.KPIView.ShowAllKPIs" Header="Show All Statistics"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderDisplayImage" Content=""/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderDisplayImageAutomationProperty" Content="Icon"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderDescription" Content="Key Performance Indicator"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderAgentEvaluation" Text="Personal"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderAgentEvaluationTooltip" Text="Displays either the KPI evalution of the agent or the value of the statistic"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderSLA" Text="SLA"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderSLATooltip" Text="Service Level Agreement"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderTargetValue" Content="Target"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderWorstValue" Text="Worst"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderWorstValueTooltip" Text="Worst value for the statistic"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderWeight" Header="Weight"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderPeriod" Header="Period"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderFilter" Header="Filter"/>
+  <Value Id="Statistics.KPIView.ListKPIHeaderAgentResult" Header="Agent Result"/>
+  <Value Id="Statistics.KPIView.MyStatistics" String="My _Statistics" Header="My _Statistics" Name="My Statistics"/>
+  <Value Id="Statistics.KPIView.ListKPIContextMenuItemKPIs" Header="My Statistics"/>
+  <Value Id="Statistics.KPIView.ListKPIContextMenuItemColumns" Header="Agent Groups"/>
+  <Value Id="Statistics.KPIView.StatisticWithBadType.TextBlock" Text="The {0} statistic is neither an agent nor an agent group statistic."/>
+  <Value Id="Statistics.KPIView.StatisticServer.ConnectionClosed" Text="The connection with the Statistic Server has ended. "/>
+  <Value Id="Statistics.KPIView.StatisticServer.StatisticServerNotStarted" Text="It is not possible to connect to the Statistic Server. Please contact your administrator."/>
+
+  <Value Id="Statistics.UnknownStatistic.TextBlock" Text="The {0} statistic is not configured in Statistic Server."/>
+
+  <Value Id="Statistics.Gadget.ShowNextStat" ToolTip="Scroll to the next statistic"/>
+  <Value Id="Statistics.Gadget.ShowPreviousStat" ToolTip="Scroll to the previous statistic"/>
+  <Value Id="Statistics.Gadget.ScrollStats" ToolTip="Scroll the statistics"/>
+  <Value Id="Statistics.Gadget.StopScrollingStats" ToolTip="Stop the scrolling of the statistics"/>
+  <Value Id="Statistics.Gadget.ShowTextView" ToolTip="Show text view for this statistic"/>
+  <Value Id="Statistics.Gadget.ShowGraphicalView" ToolTip="Show this statistic graphically"/>
+  <Value Id="Statistics.Gadget.ShowStat" ToolTip="Show this statistic"/>
+  <Value Id="Statistics.Gadget.ShowWarningStat" ToolTip="Show the warning statistics"/>
+  <Value Id="Statistics.Gadget.HideStat" ToolTip="Hide this statistic"/>
+  <Value Id="Statistics.Gadget.TagStat" ToolTip="Tag this statistic"/>
+  <Value Id="Statistics.Gadget.ScrollUpTaggedStatistics" ToolTip="Scroll up tagged statistics"/>
+  <Value Id="Statistics.Gadget.ScrollDownTaggedStatistics" ToolTip="Scroll down tagged statistics"/>
+  <Value Id="Statistics.Gadget.UntagStat" ToolTip="Untag this statistic"/>
+  <!--"Statistics.Gadget.Title": "Workspace" should not be translated here-->
+  <Value Id="Statistics.Gadget.Title" String="Statistics Gadget - Workspace"/>
+  <Value Id="Statistics.Gadget.Me" Text="Value"/>
+  <Value Id="Statistics.Gadget.Target" Text="Target"/>
+  <Value Id="Statistics.Gadget.KPI" Text="KPI"/>
+  <Value Id="Statistics.Gadget.ShowMainKPIView" Header="Show _My Statistics on Main window"/>
+  <Value Id="Statistics.Gadget.ShowMainCallCenterStatView" Header="Show C_ontact Center Statistics on Main Window"/>
+  <Value Id="Statistics.Gadget.AlwaysOnTop" Header="Always on _Top"/>
+  <Value Id="Statistics.Gadget.ShowKPIs" Header="Show My Statistics"/>
+  <Value Id="Statistics.Gadget.ShowCallCenterStatistics" Header="Show Contact Center Statistics"/>
+  <Value Id="Statistics.Gadget.HideKPIs" Header="Hide My Statistics"/>
+  <Value Id="Statistics.Gadget.HideCallCenterStatistics" Header="Hide Contact Center Statistics"/>
+  <Value Id="Statistics.Gadget.ClosePanel" Header="_Close Statistics Gadget"/>
+  <Value Id="Statistics.Gadget.ShowWarningOnly" Header="Show Only _Alerting Statistics"/>
+  <Value Id="Statistics.Gadget.ShowAllStatistics" Header="Show _All Statistics"/>
+  <Value Id="Statistics.Gadget.CriticalError" ToolTip="Critical error"/>
+  <Value Id="Statistics.Gadget.Warning" ToolTip="Warning"/>
+  <Value Id="Statistics.Gadget.MyStatistic" Text="My Statistic"/>
+  <Value Id="Statistics.Gadget.CallCenterStatistic" Text="Contact Center Statistic"/>
+  <Value Id="Statistics.Gadget.ServiceUnavailable" Text="Service unavailable"/>
+  <Value Id="Statistics.Gadget.NoStatistics" Text="No statistic configured" ToolTip="No statistic configured"/>
+  <Value Id="Statistics.Gadget.ShowAlertStats" ToolTip="Show the statistics in alert"/>
+
+  <Value Id="Statistics.StatisticValue" String="Stat Value" />
+  <Value Id="Statistics.Evaluation" String="Evaluation" />
+  <Value Id="Statistics.AgentResult" String="Result" />
+  <Value Id="Statistics.TargetValue" String="Target" />
+  <Value Id="Statistics.WorstValueLow" String="Worst Value Low" />
+  <Value Id="Statistics.WorstValueHigh" String="Worst Value High" />
+  <Value Id="Statistics.WarningLevelLow" String="Warning Value Low" />
+  <Value Id="Statistics.WarningLevelHigh" String="Warning Value High" />
+  <Value Id="Statistics.ErrorLevelLow" String="Error Value Low" />
+  <Value Id="Statistics.ErrorLevelHigh" String="Error Value High" />
+
+  <Value Id="Statistics.Error.NotFound" String="The {0} statistic does not exist within the Stat Server options" />
+</Dictionary>

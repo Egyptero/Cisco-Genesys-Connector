@@ -1,0 +1,747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+
+  <!--"Windows.ToasterWindow.ButtonAcceptOpenMediaTimerTooltip": Accept button tooltip of an interaction toaster when the corresponding <media-type>.auto-answer is true and <media-type>.auto-answer.timer is greater than zero -->
+  <!--"Windows.ToasterWindow.ButtonAcceptOpenMediaTimerTooltip": {0} keyboard shortcut to execute accept. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <!--"Windows.ToasterWindow.ButtonAcceptOpenMediaTimerTooltip": {1} time before auto-accept is triggered -->
+  <Value Id="Windows.ToasterWindow.ButtonAcceptOpenMediaTimerTooltip" ToolTip="Accept the incoming interaction (or wait for automatic accept in {1}) {0}" Name="Accept the incoming interaction (or wait for automatic accept in {1}) {0}"/>
+  <!-- "Windows.ToasterWindow.ButtonAcceptOpenMediaTooltip":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToasterWindow.ButtonAcceptOpenMediaTooltip" ToolTip="Accept the incoming interaction {0}" Name="Accept the incoming interaction {0}"/>
+  <!-- "Windows.ToasterWindow.ButtonRejectOpenMediaTooltip":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToasterWindow.ButtonRejectOpenMediaTooltip" ToolTip="Reject the incoming interaction {0}" Name="Reject the incoming interaction {0}"/>
+
+
+  <!--<Value Id="Channel.OpenMediaErrorEvent" Text="Media error: 0: ErrorCode 1:ErrorDescription 2:Level)"/>-->
+  <Value Id="Channel.OpenMediaErrorEvent" Text="{1} - Media {2} {0}"/>
+
+  <!--<Value Id="Channel.OpenMediaChannelErrorEvent"  0: Media DisplayName 1:ErrorCode 2:ErrorDescription 3:Level)"/>-->
+  <Value Id="Channel.OpenMediaChannelErrorEvent" Text="{2} - Media '{0}' {3} {1}"/>
+
+  <!--<Value Id="Channel.OpenMediaInteractionErrorEvent" 2:ErrorLevel 0:ErrorCode 1:ErrorDescription"/>-->
+  <Value Id="Channel.OpenMediaInteractionErrorEvent" Text="{1} - {2} {0}"/>
+
+  <!-- DisplayErrorCode 0: Hide ErrorCode 1:Display ErrorCode -->
+  <!--  Level 0: Error, 1: Warning, 2: Information  3:Message -->
+
+  <!--Invitation rejected-->
+  <Value Id="Channel.OpenMediaInteractionErrorEvent1008"  Level="1"  DisplayErrorCode="0" Text="The target has rejected your invitation"/>
+  <!--No Answer-->
+  <Value Id="Channel.OpenMediaInteractionErrorEvent1019" Level="1"  DisplayErrorCode="0" Text="The target did not answer"/>
+  <!--Unknown queue specified-->
+  <Value Id="Channel.OpenMediaInteractionErrorEvent21" Text="Unknown queue specified in your request"/>
+
+  <Value Id="Channel.OpenMediaInteractionErrorEvent27" Level="1"  DisplayErrorCode="0" Text="The Interaction Server is not connected to Database"/>
+  <Value Id="Channel.OpenMediaInteractionErrorEvent82" Level="1"  DisplayErrorCode="0" Text="The Database of Interaction Server is unavailable"/>
+  
+  <!--<Value Id="Channel.ChatErrorEvent" 2:ErrorLevel 0:ErrorCode 1:ErrorDescription"/>-->
+  <Value Id="Channel.ChatErrorEvent" Text="{1} - {2}{0}"/>
+  <Value Id="Channel.ChatErrorEvent8199" Text="The session has expired"/>
+
+  <!--<Value Id="Channel.Warning.Impossible.Logoff" (context of  optimized licensing mode) />-->
+  <Value Id="Channel.Warning.Impossible.Logoff" Text="You cannot log off the channel with active interactions. Please complete them before log off."/>
+
+  <!--InteractionServer.OutOfService: Warning message presented to the agent about one back end server disconnected-->
+  <Value Id="InteractionServer.OutOfService" Text="The Interaction Server is out of service."/>
+  <Value Id="InteractionServer.DBDisconnected" Text="The Interaction Server is not connected to Database."/>
+  <Value Id="InteractionServer.DBError" Text="The Interaction Server Returned error: '{0}'."/>
+  
+  <!--InteractionServer.BackInService: Information message presented to the agent about one back end server reconnected-->
+  <Value Id="InteractionServer.BackInService" Text="The Interaction Server is back in service."/>
+  <Value Id="InteractionServer.DBConnected" Text="The Interaction Server is now connected back to Database."/>
+  
+  <Value Id="InteractionServer.OutOfServiceCloseInteractions" Text="The Interaction Server is out of service, some interactions are closed."/>
+  <Value Id="InteractionServer.HandlingTimeout" Text="This interaction is now considered inactive due to handling timeout."/>
+
+  <Value Id="State.Interaction.Coached" Text="Coached"/>
+  <Value Id="State.Interaction.Coaching" Text="Coaching"/>
+
+  <!--Windows.ToolbarChatView.ToolbarName: name of the toolbar containing chat controls (for accessibility) -->
+  <Value Id="Windows.ToolbarChatView.ToolbarName" Tag="Chat" />
+  <!-- "Windows.ToolbarChatView.ButtonEnd":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToolbarChatView.ButtonEnd" Text="End" ToolTip="End Chat {0}" Name="End Chat {0}" />
+  <!-- "Windows.ToolbarChatView.ButtonTransfer":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToolbarChatView.ButtonTransfer" Text="Instant Chat _Transfer" ToolTip="Instant Chat Transfer {0}" Name="Instant Chat Transfer {0}"/>
+  <!-- "Windows.ToolbarChatView.ButtonConference":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToolbarChatView.ButtonConference" Text="Instant Chat _Conference" ToolTip="Instant Chat Conference {0}" Name="Instant Chat Conference {0}" />
+
+  <!--Windows.ToolbarChatConsultView.ToolbarName: name of the toolbar containing chat consult controls (for accessibility)-->
+  <Value Id="Windows.ToolbarChatConsultView.ToolbarName" Tag="Chat Consult"/>
+  <!-- "Windows.ToolbarChatConsultView.ButtonEnd":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToolbarChatConsultView.ButtonEnd" Text="End" ToolTip="End Chat Consult {0}" Name="End Chat Consult {0}"/>
+
+
+  <!--<Value Id="Windows.ChatView.TypingMessage"  0:Party Name"/>-->
+  <Value Id="Windows.ChatView.TypingMessage" Text="{0} is typing a message"/>
+  <!--<Value Id="Windows.ChatView.TypingMessages"  0:list of party name"/>-->
+  <Value Id="Windows.ChatView.TypingMessages" Text="{0} are typing messages"/>
+  <!--<Value Id="Windows.ChatView.TypingMessageText"  0:Party Name"/>-->
+  <!--<Value Id="Windows.ChatView.TypingMessageText"  1:Message Text"/>-->
+  <Value Id="Windows.ChatView.TypingMessageText" Text="{0} is typing: {1}"/>
+  <!--<Value Id="Windows.ChatView.StoppedTypingMessageText"  0:Party Name"/>-->
+  <!--<Value Id="Windows.ChatView.StoppedTypingMessageText"  1:Message Text"/>-->
+  <Value Id="Windows.ChatView.StoppedTypingMessageText" Text="{0}: {1}"/>
+  <!--<Value Id="Windows.ChatView.InvitingMessage"  0:Party Name"/>-->
+  <Value Id="Windows.ChatView.InviteMessage" Text="Invitation sent to {0}"/>
+  <!--<Value Id="Windows.ChatView.MultipleInviteMessage"  0:List of party name "/>-->
+  <Value Id="Windows.ChatView.MultipleInviteMessage" Text="Invitation sent to {0}"/>
+  <!--<Value Id="Windows.ChatView.System.NewParty"  0:Party Name"/>-->
+  <Value Id="Windows.ChatView.System.NewParty" Text="New party '{0}' has joined the session"/>
+  <!--<Value Id="Windows.ChatView.System.NewPartyBarged"  0:Party Name"/>-->
+  <Value Id="Windows.ChatView.System.NewPartyBarged" Text="'{0}' has barged-in to the session"/>
+  <!--<Value Id="Windows.ChatView.System.NewPartyMonitoring"  0:Party Name"/>-->
+  <Value Id="Windows.ChatView.System.NewPartyMonitoring" Text="'{0}' is monitoring the session"/>
+  <!--<Value Id="Windows.ChatView.System.NewPartyCoaching"  0:Party Name"/>-->
+  <Value Id="Windows.ChatView.System.NewPartyCoaching" Text="'{0}' is coaching the session"/>
+  <!--<Value Id="Windows.ChatView.Sytem.LeftParty"  0:Party Name"/>-->
+  <Value Id="Windows.ChatView.System.PartyLeft" Text="Party '{0}' has left the session"/>
+  <!--<Value Id="Windows.ChatView.System.PushedUrl" 0:the party "/>-->
+  <Value Id="Windows.ChatView.System.PushedUrl" Text="'{0}' pushed the URL "/>
+  <Value Id="Windows.ChatView.ButtonCheckUrl" Text="Check URL" ActionButtonToolTip="Check URL" Watermark="Type URL to push"/>
+  <!--<Value Id="Windows.ChatView.ErrorMessageCheckUrl" 0:the url>-->
+  <Value Id="Windows.ChatView.ErrorMessageCheckUrl" Text="It is not possible to check the URL '{0}'."/>
+  <Value Id="Windows.ChatView.ErrorMessageIsOffLine" Text="This session is offline."/>
+  <Value Id="Windows.ChatView.ErrorMessageJoin" Text="It is not possible to join the session."/>
+  <Value Id="Windows.ChatView.System.Attemps" Text="Lost connection to Chat Server, trying to reconnect ..."/>
+  <Value Id="Windows.ChatView.System.Join" Text="Trying to connect to Chat Server ..."/>
+  <Value Id="Windows.ChatView.System.FailedReconnect" Text="It is not possible to join the session."/>
+  <Value Id="Windows.ChatView.ErrorMessageSend" Text="Error sending the message."/>
+  <!-- "Windows.ChatView.Windows.ChatView.ErrorMessageCheckNumberOfAttachments":{0}: maximum number of attachments-->
+  <Value Id="Windows.ChatView.Windows.ChatView.ErrorMessageCheckNumberOfAttachments" Text="Cannot upload file: The maximum number of attachments has been reached ('{0}')."/>
+  <!-- "Windows.ChatView.ErrorMessageCheckSizeOfAttachments":{0}: maximum total size of attachments-->
+  <Value Id="Windows.ChatView.ErrorMessageCheckSizeOfAttachments" Text="Cannot upload file: The maximum total size of attachments has been reached ('{0}')."/>
+  <!-- "Windows.ChatView.ErrorMessageFileSizeViolated":{0}: maximum size of one attachment-->
+  <Value Id="Windows.ChatView.ErrorMessageFileSizeViolated" Text="Cannot upload file: The size of some attached files is greater than the maximum size ('{0}'KB)."/>
+  <Value Id="Windows.ChatView.Windows.ChatView.ErrorMessageDropSourceViolation" Text="Cannot complete Drag and Drop due to Privilege restrictions."/>
+  <Value Id="Windows.ChatView.ErrorFileUCSUpload" Text="File upload failed. Please contact your System Administrator."/>
+  
+
+  <Value Id="Windows.ChatView.ShowPushUrlArea" ToolTip="Show the Push URL area"/>
+  <Value Id="Windows.ChatView.HidePushUrlArea" ToolTip="Hide the Push URL area"/>
+  <Value Id="Windows.ChatView.ShowUrlAreaButton" Name="Show URL Input"/>
+  <Value Id="Windows.ChatView.TextBoxMessage" Name="Message to send"/>
+  <Value Id="Windows.ChatView.ButtonSend" Content="S_end" ToolTip="Send" Name="Send"/>
+  <Value Id="Windows.ChatView.PromptForEnd" String="Are you sure that you want to end this conversation?"/>
+
+  <!-- "Windows.ChatView.ButtonAddAttachments":{0}: Keyboard key combination that can be used to add an attachment. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ChatView.ButtonAddAttachments" ToolTip="Add Attachments {0}" Name="Add Attachments to the chat {0}"/>
+  <Value Id="Windows.ChatView.ToolTipAttachmentItem" Tooltip="Double click to open file" Content="Double click to open file" Text="Double click to open file"/>
+
+
+
+  <Value Id="Windows.ChatView.MenuItemOneStepTransferDialer" Text="Instant Chat _Transfer" Tooltip="Instant Chat Transfer"/>
+  <Value Id="Windows.ChatView.MenuItemOneStepConferenceDialer" Text="Instant Chat _Conference" Tooltip="Instant Chat Conference"/>
+
+  <Value Id="Windows.ChatView.MenuItemInitiateConsultationDialer" Text="Start Chat _Consultation" Tooltip="Start Chat Consultation" />
+
+  <Value Id="Windows.ChatView.MenuItemPartyDeleteFromConference" Text="_Delete From Conference" Tooltip="Delete the party in the conference" />
+  <Value Id="Windows.ChatView.MenuItemPartyDeleteFromConsult" Text="_Delete From Consultation" Tooltip="Delete the party in the consultation" />
+
+  <!--"RoutingBased.ActionFailed.CompleteChatAction": Warning message presented to the agent when he tries to complete a transfer or a conference and he is not granted the right to make two-step tranfer or conference-->
+  <Value Id="RoutingBased.ActionFailed.CompleteChatAction"  Text="Action failed or you are not granted the privilege to perform this action."/>
+
+  <Value Id="RoutingBase.OpenMedia.Queue" Text="Action Failed. The Interaction Queue is not defined. Please contact your administrator."/>
+
+  <Value Id="Windows.EndWorkflowOpenMediaView" Title="Interaction Workflow"/>
+
+  <Value Id="Channel.EmailErrorEvent" Text="{1} - Error {0}"/>
+
+  <!--Windows.ToolbarEmailView.ToolbarName: name of the toolbar containing the e-mail controls (for accessibility) -->
+  <Value Id="Windows.ToolbarEmailView.ToolbarName" Tag="Email"/>
+  <!--Windows.ToolbarEmailView.ButtonPrint: Tooltip of the "print e-mail" control in toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonPrint: 0: the keyboard shortcut used to Print E-Mail. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToolbarEmailView.ButtonPrint" ToolTip="Print {0}" Name="Print the e-mail {0}"/>
+  <!--Windows.ToolbarEmailView.ButtonTransfer: Tooltip of the E-mail Transfer control-->
+  <!--Windows.ToolbarEmailView.ButtonTransfer: 0: Transfer keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToolbarEmailView.ButtonTransfer" ToolTip="Transfer {0}" Name="Transfer the e-mail {0}"/>
+  <!--Windows.ToolbarEmailView.DropDownButtonForward: Tooltip for the e-mail forward (forward and forward as attachment) drop down button in toolbar-->
+  <Value Id="Windows.ToolbarEmailView.DropDownButtonForward" ToolTip="Forward..." Name="Forward..."/>
+  <!--Windows.ToolbarEmailView.ButtonInLineForward: Tooltip of menu item for the e-mail forward control in toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonInLineForward: 0: Forward keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonInLineForward" ToolTip="Forward {0}" Name="Forward the e-mail {0}"/>
+  <!--Windows.ToolbarEmailView.ButtonCompleteInLineForward: Tooltip for the e-mail complete forward control in toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonCompleteInLineForward: 0: Complete Forward keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonCompleteInLineForward" ToolTip="Complete Forward {0}" Name="Complete Forward the e-mail {0}"/>
+  <!--Windows.ToolbarEmailView.ButtonCancelInLineForward: Tooltip for the e-mail cancel forward control in toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonCancelInLineForward: 0: Cancel Forward keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonCancelInLineForward" ToolTip="Cancel Forward {0}" Name="Cancel Forward the e-mail {0}"/>
+  <!--Windows.ToolbarEmailView.ButtonForward: Tooltip of menu item for the e-mail forward as an Attachment control in toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonForward: 0: Forward as an Attachment keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonForward" ToolTip="Forward as an Attachment {0}" Name="Forward e-mail as an Attachment {0}"/>
+  <!--Windows.ToolbarEmailView.ButtonCompleteForward: Tooltip for the e-mail complete forward as an Attachment control in toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonCompleteForward: 0: Complete Forward as an Attachment keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonCompleteForward" ToolTip="Complete Forward as an Attachment {0}" Name="Complete Forward the e-mail as an Attachment {0}"/>
+  <!--Windows.ToolbarEmailView.ButtonCancelForward: Tooltip for the e-mail cancel forward as an Attachment control in toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonCancelForward: 0: Cancel Forward as an Attachment keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonCancelForward" ToolTip="Cancel Forward as an Attachment {0}" Name="Cancel Forward the e-mail as an Attachment {0}"/>
+  <!--Windows.ToolbarEmailView.ButtonReply: Tooltip for the E-mail reply control in toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonReply: 0: Reply keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonReply" ToolTip="Reply {0}" Name="Reply the e-mail {0}"/>
+  <!--Windows.ToolbarEmailView.ButtonReplyAll: Tooltip for the E-Mail Reply All control in toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonReplyAll: 0: Reply All keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonReplyAll" ToolTip="Reply to sender and all recipients of the e-mail {0}" Name="Reply to sender and all recipients of the e-mail {0}"/>
+  <!--Windows.ToolbarEmailView.ButtonSend: Tooltip for the e-mail send control in toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonSend: 0: Send keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonSend" ToolTip="Send {0}" Name="Send the e-mail {0}" Header="Send {0}"/>
+  <!--Windows.ToolbarEmailView.SplitButtonSendMenu: Tooltip of the Send drop down menu in email toolbar-->
+  <Value Id="Windows.ToolbarEmailView.SplitButtonSendMenu" ToolTip="Select send e-mail Action"/>
+
+  <!--Windows.ToolbarEmailView.MenuItemSend. Drop down menu item of the send drop down button in email toolbar (Send) -->
+  <Value Id="Windows.ToolbarEmailView.MenuItemSend" Header="Send"/>
+  <!--Windows.ToolbarEmailView.MenuItemInterimSend. Drop down menu item of the send drop down button in email toolbar (Interim Send) -->
+  <Value Id="Windows.ToolbarEmailView.MenuItemInterimSend" Header="Interim Send" Name="Interim send the e-mail"/>
+  <!--Windows.ToolbarEmailView.ButtonDelete: Tooltip of the Delete control in email toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonDelete: 0: Delete keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonDelete" ToolTip="Delete {0}" Name="Delete the e-mail {0}" />
+  <!--Windows.ToolbarEmailView.ButtonSave: Tooltip of the Save control in email toolbar-->
+  <!--Windows.ToolbarEmailView.ButtonSave: 0: Save keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonSave" ToolTip="Save {0}" Name="Save the e-mail {0}"/>
+  <!--Windows.ToolbarEmailView.SaveInWorkbin: Generic tooltip on save in workbin button in toolbar-->
+  <!--Windows.ToolbarEmailView.SaveInWorkbin: 0: Actual tooltip-->
+  <!--Windows.ToolbarEmailView.SaveInWorkbin: 1: Keyboard shortcut-->
+  <Value Id="Windows.ToolbarEmailView.SaveInWorkbin" ToolTip="{0} {1}" Name="{0} {1}" Header="{0} {1}"/>
+  <!--Windows.ToolbarEmailView.SelectLocationWhereToSaveEmailMenu: tooltip of the dropdown workbin button in e-mail toolbar-->
+  <Value Id="Windows.ToolbarEmailView.SelectLocationWhereToSaveEmailMenu" ToolTip="Select location to save the e-mail interaction"/>
+  <!--Value Id="Windows.ToolbarEmailView.ButtonSaveInWorkbin" 0:display name of the workbin where the interaction will be saved in -->
+  <Value Id="Windows.ToolbarEmailView.ButtonSaveInWorkbin" ToolTip="Save in {0} Workbin" Text="Save in {0} Workbin"/>
+  <!--Value Id="Windows.ToolbarEmailView.ButtonAddAttachments" 0: Add Attachments keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="Windows.ToolbarEmailView.ButtonAddAttachments" ToolTip="Add Attachments {0}" Name="Add Attachments to the e-mail {0}"/>
+  <Value Id="Windows.ToolbarEmailView.PutBackInOriginalSource" ToolTip="{0} {1}" Name="{0} {1}"/>
+  <Value Id="Windows.ToolbarEmailView.SplitButtonSendQAReview" ToolTip="Apply QA Review Disposition and send the e-mail interaction" Name="Apply QA Review Disposition and send the e-mail"/>
+  
+  <Value Id="Windows.ToolbarEmailView.PutBackInQueue" ToolTip="Put back in original location" Text="Put back in original location"/>
+  <!--Windows.ToolbarWorkitemView.SelectLocationWhereToSaveWorkitemMenu: Tooltip of the dropdown workbin button in workitem toolbar-->
+  <Value Id="Windows.ToolbarWorkitemView.SelectLocationWhereToSaveWorkitemMenu" ToolTip="Select the location to save the workitem"/>
+
+  <Value Id="Windows.EmailView.MenuItemMainDialerNewOutboundEmail" Text="New E-mail" Tooltip="Create a new e-mail" />
+  <Value Id="Windows.EmailView.MenuItemPartyNewOutboundEmailTo" Text="New E-mail to"/>
+  <Value Id="Windows.EmailView.MenuItemOneStepTransferDialer" Text="E-mail _Transfer" Tooltip="E-mail Transfer"/>
+  <Value Id="Windows.EmailView.MenuItemEmailForwardDialer" Text="E-mail _Forward as an Attachment" Tooltip="E-mail Forward as an Attachment"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinReply" Text="Reply" ToolTip="Reply"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinReplyAll" Text="Reply All" ToolTip="Reply All" />
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinDelete" Text="Delete" ToolTip="Delete"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinOpen" Text="Open" ToolTip="Open" />
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinMarkDone" Text="Mark Done" ToolTip="Mark Done" />
+  <!--Windows.EmailView.MenuItemInteractionActionPrint: Tooltip of the "print" button used to print an email from the contact history-->
+  <Value Id="Windows.EmailView.MenuItemInteractionActionPrint" Text="Print" ToolTip="Print" />
+  <Value Id="Windows.EmailView.SelectEmailAddress" Text="Add e-mail address" Tooltip="Add e-mail address" />
+  <!-- IW-10224 -->
+  <Value Id="Windows.EmailView.SelectSearchedAgent" Text="Select searched agent" Tooltip="Select searched agent" />
+  <Value Id="Windows.EmailView.SelectSearchedContact" Text="Select searched contact" Tooltip="Select searched contact" />
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinResend" Text="Resend" ToolTip="Resend" />
+  <Value Id="Windows.EmailView.MenuItemInteractionActionPull" Text="Open" ToolTip="Open"/>
+  <!--Windows.InteractionManagement.MenuItemInteractionActionMoveToQueue: Tooltip of the workbin/queue toolbar button used to move interactions to another queue -->
+  <Value Id="Windows.InteractionManagement.MenuItemInteractionActionMoveToQueue" Text="Move to Queue" ToolTip="Move to Queue" Tooltip="Move to Queue" />
+  <!--Windows.InteractionManagement.MenuItemInteractionActionMoveToQueue: Tooltip of the workbin/queue toolbar button used to move interactions to another workbin -->
+  <Value Id="Windows.InteractionManagement.MenuItemInteractionActionMoveToWorkbin" Text="Move to Workbin" ToolTip="Move to Workbin" Tooltip="Select a workbin" />
+  <!--Windows.InteractionManagement.MenuItemInteractionActionMoveToQueue: Tooltip of the workbin/queue toolbar button used to edit properties of interactions -->
+  <Value Id="Windows.InteractionManagement.MenuItemInteractionActionEditCaseData" Text="Edit Case Information" ToolTip="Edit Case Information" Tooltip="Edit Case Information"/>
+  <!--Windows.InteractionManagement.MenuItemInteractionActionMoveToWorkbinName: Menu item presented in the component where destination workbin is selected -->
+  <!--Windows.InteractionManagement.MenuItemInteractionActionMoveToWorkbinName: 0: workbin display name -->
+  <Value Id="Windows.InteractionManagement.MenuItemInteractionActionMoveToWorkbinName" Header="Move to '{0}' workbin"/>
+  <Value Id="Windows.InteractionManagement.EditableCaseDataWindow" Title="Edit Case Information" />
+  <!-- Windows.EmailView.MenuItemInteractionActionFromHistoryInLineForward : Tooltip of the button used to forward an email from the contact history />-->
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromHistoryInLineForward" Text="Forward" ToolTip="Forward" />
+
+  <Value Id="Windows.EmailView.NoSubject" Text="(no subject)" Name="(no subject)" />
+  <Value Id="Windows.EmailView.From" Text="From:" Content="_From:" String="From" ToolTip="From: {0}" Name="From: {0}" Print="From: "/>
+  <Value Id="Windows.EmailView.ReplyTo" Text="Reply to:" String="Reply to" ToolTip="Reply to: {0}" Name="Reply to: {0}" Print="Reply to: "/>
+  <Value Id="Windows.EmailView.To" Text="To:" String="To" Name="To: {0}" Print="To: " Content="To:"/>
+  <Value Id="Windows.EmailView.ButtonTo" Content="_To..." ToolTip="To..."/>
+  <!--Windows.EmailView.SelectCcOrBccToAdd: Tooltip over the button used to display CC and/or BCC edit area -->
+  <Value Id="Windows.EmailView.SelectCcOrBccToAdd" ToolTip="Select Cc or Bcc to add" />
+  <Value Id="Windows.EmailView.AddCc" Content="Add _Cc" ToolTip="Add Cc" Name="Add Cc" Header="Add Cc"/>
+  <Value Id="Windows.EmailView.RemoveCc" ToolTip="Remove Cc" Name="Remove Cc"/>
+  <Value Id="Windows.EmailView.AddBcc" Content="Add _Bcc" ToolTip="Add Bcc" Name="Add Bcc" Header="Add Bcc"/>
+  <Value Id="Windows.EmailView.RemoveBcc" ToolTip="Remove Bcc" Name="Remove Bcc"/>
+  <Value Id="Windows.EmailView.Cc" Text="Cc:" String="Cc" Name="Cc: {0}" Print="Cc: " Content="Cc:"/>
+  <Value Id="Windows.EmailView.ButtonCc" Content="_Cc..." ToolTip="Cc..."/>
+  <Value Id="Windows.EmailView.Bcc" Text="Bcc:" String="Bcc" ToolTip="Bcc: {0}" Name="Bcc: {0}" Print="Bcc: " Content="Bcc:"/>
+  <Value Id="Windows.EmailView.ButtonBcc" Content="_Bcc..." ToolTip="Bcc..."/>
+  <Value Id="Windows.EmailView.Subject" Content="S_ubject:" Name="Subject:" Print="Subject: "/>
+  <Value Id="Windows.EmailView.Date" Name="Date: {0}" Print="Date: "/>
+  <Value Id="Windows.EmailView.Body" Name="Body content:"/>
+
+  <!--Windows.EmailForwardView.Instructions : Instructions Editor label used in screen readers-->
+  <Value Id="Windows.EmailForwardView.Instructions" Name="Forward Instructions"/>
+  <!--Windows.EmailForwardView.InstructionsWatermark : Watermark displayed in Email Forward view Instructions Editor when there is no instructions entered-->
+  <Value Id="Windows.EmailForwardView.InstructionsWatermark" Text="Enter Forward Instructions"/>
+  <!--Windows.EmailForwardView.OriginalEmail : Header label of the expander that enable to display the inbound email body in the Email Forward view-->
+  <Value Id="Windows.EmailForwardView.OriginalEmail" Content="_Original E-mail" Tooltip="Original E-mail interaction"/>
+
+  <Value Id="Windows.EmailView.ContextMenuAttachmentOpen" Header="Open"/>
+  <Value Id="Windows.EmailView.ContextMenuAttachmentSaveAs" Header="Save as..."/>
+
+  <Value Id="Windows.EmailView.MessageBoxConfirmRemoveCc" String="Are you sure that you want to remove Cc from this E-mail interaction?"/>
+  <Value Id="Windows.EmailView.MessageBoxConfirmRemoveBcc" String="Are you sure that you want to remove Bcc from this E-mail interaction?"/>
+
+  <!--Windows.EmailForwardView.MessageBoxConfirmRemoveCc : confirmation message displayed when user clicks remove cc button in Email Forward view-->
+  <Value Id="Windows.EmailForwardView.MessageBoxConfirmRemoveCc" String="Are you sure that you want to remove Cc from this forward E-mail form?"/>
+
+  <Value Id="Windows.EmailView.MessageBoxConfirmDeleteEmail" String="Are you sure that you want to delete this E-mail interaction?"/>
+  <!--Windows.EmailView.MessageBoxConfirmMultipleDeleteEmail: Confirmation message displayed in a confirmation box when multiple emails are selected for delete-->
+  <Value Id="Windows.EmailView.MessageBoxConfirmMultipleDeleteEmail" String="Are you sure that you want to delete all of the selected E-mail interactions?"/>
+
+  <Value Id="Windows.EmailView.MessageBoxConfirmMarkDoneEmail" String="Are you sure that you want to mark this E-mail interaction as Done?"/>
+  <!--<Value Id="Windows.EmailView.MessageBoxConfirmSendWithoutSubject" String="This E-mail has no subject. Do you want to send it anyway?"/>-->
+  <!--<Value Id="Windows.EmailView.MessageBoxConfirmSendWithoutContent" String="This E-mail has no message content. Do you want to send it anyway?"/>-->
+
+  <!--Windows.InteractionManagement.MessageBoxConfirmMultipleMarkDone: Confirmation message displayed in a confirmation box when multiple emails are selected for mark done-->
+  <Value Id="Windows.InteractionManagement.MessageBoxConfirmMultipleMarkDone" String="Are you sure that you want to mark all of the selected interactions as Done?"/>
+
+  <!--Windows.InteractionManagement.MessageBoxConfirmMoveToQueueName: Confirmation message displayed in a confirmation box when one interaction is selected for move to queue -->
+  <!--Windows.InteractionManagement.MessageBoxConfirmMoveToQueueName: 0:queue name -->
+  <Value Id="Windows.InteractionManagement.MessageBoxConfirmMoveToQueueName" String="Are you sure that you want to move the selected interaction to '{0}' Queue?"/>
+  <!--Windows.InteractionManagement.MessageBoxConfirmMultipleMoveToQueueName: Confirmation message displayed in a confirmation box when multiple interactions are selected for move to queue -->
+  <!--Windows.InteractionManagement.MessageBoxConfirmMultipleMoveToQueueName: 0:queue name -->
+  <Value Id="Windows.InteractionManagement.MessageBoxConfirmMultipleMoveToQueueName" String="Are you sure that you want to move all of the selected interactions to '{0}' Queue?"/>
+
+  <!--Windows.InteractionManagement.MessageBoxConfirmMoveToWorkbinName: Confirmation message displayed in a confirmation box when one interaction is selected for move to workbin -->
+  <!--Windows.InteractionManagement.MessageBoxConfirmMoveToWorkbinName: 0:workbin name -->
+  <Value Id="Windows.InteractionManagement.MessageBoxConfirmMoveToWorkbinName" String="Are you sure that you want to move the selected interaction to '{0}' Workbin?"/>
+  <!--Windows.InteractionManagement.MessageBoxConfirmMultipleMoveToWorkbinName: Confirmation message displayed in a confirmation box when multiple interactions are selected for move to workbin -->
+  <!--Windows.InteractionManagement.MessageBoxConfirmMultipleMoveToWorkbinName: 0:workbin name -->
+  <Value Id="Windows.InteractionManagement.MessageBoxConfirmMultipleMoveToWorkbinName" String="Are you sure that you want to move all of the selected interactions to '{0}' Workbin?"/>
+
+  <Value Id="Windows.EmailView.MessageBoxConfirmDeleteEmailWhenParentInboundNotAvailable" String="Parent Inbound E-mail interaction is no longer available. Do you still want to delete this E-mail interaction?"/>
+  <Value Id="Windows.EmailView.MessageBoxConfirmInterimSendEmailWhenParentInboundNotAvailable" String="Parent Inbound E-mail is no longer available. Do you still want to send this E-mail interaction?"/>
+  <Value Id="Windows.EmailView.ShowOriginalEmail" Content="_Show Original E-mail" ToolTip="Show the Original E-mail interaction"/>
+  <Value Id="Windows.EmailView.HideOriginalEmail" Content="_Hide Original E-mail" ToolTip="Hide the Original E-mail interaction"/>
+  <Value Id="Windows.EmailView.OriginalEmail" Content="_Original E-mail" Tooltip="Original E-mail interaction" Name="Original E-mail interaction:"/>
+
+  <!--Value Id="Warning.EmailActionAborted.OptionNotDefined" 0:name of the option that is not defined-->
+  <Value Id="Warning.EmailActionAborted.OptionNotDefined" Text="Action aborted: '{0}' option is not defined."/>
+  <!--Value Id="Warning.EmailActionAborted.OptionScriptValueNotFound" 0:value of the option corresponding to a workbin or queue name -->
+  <!--Value Id="Warning.EmailActionAborted.OptionScriptValueNotFound" 1:name of the option containing a workbin or queue name -->
+  <Value Id="Warning.EmailActionAborted.OptionScriptValueNotFound" Text="Action aborted: object '{0}' defined in option '{1}' not found."/>
+  <!--Value Id="Warning.EmailActionAborted.ScriptNotFound" 0:value of the option corresponding to a workbin or queue name -->
+  <Value Id="Warning.EmailActionAborted.ScriptNotFound" Text="Action aborted: object '{0}' defined in option '{1}' not found."/>
+  <!--Value Id="Warning.NewEmailActionAborted.WrongEmailAddressFormat" 0: email address that have a wrong format-->
+  <Value Id="Warning.NewEmailActionAborted.WrongEmailAddressFormat" Text="'{0}' is not in a recognized email address format."/>
+  <!--Value Id="Warning.ForwardEmailActionAborted.WrongEmailAddressFormat" 0: email address that have a wrong format-->
+  <Value Id="Warning.ForwardEmailActionAborted.WrongEmailAddressFormat" Text="Forward E-mail interaction aborted: '{0}' address is not in a recognized format."/>
+  <!--Value Id="Warning.EmailActionAborted.WrongEmailAddressFormat" 0: email address that have a wrong format-->
+  <!--Value Id="Warning.EmailActionAborted.WrongEmailAddressFormat" 1: email field containing the wrong address-->
+  <Value Id="Warning.EmailActionAborted.WrongEmailAddressFormat" Text="Action aborted: '{0}' address is not in a recognized format in '{1}'."/>
+  <Value Id="Warning.EmailActionAborted.NoFromAddress" Text="Action aborted: From Address is missing."/> <!--ER 264709905-->
+  <!--Value Id="Warning.EmailActionAborted.AttachmentError" 0: message that describes the exception -->
+  <Value Id="Warning.EmailActionAborted.AttachmentError" Text="Action aborted: error while adding attachments to the e-mail interaction. Reason provided by your system is: '{0}'."/>
+  <!--ER 264709905-->
+  <Value Id="Warning.EmailActionNotPossible.ChildIsOpened" Text="Cannot perform action: a reply for this inbound e-mail interaction is open."/>
+  <Value Id="Warning.EmailActionNotPossible.DraftWithSameParentIsOpened" Text="Cannot perform action: a reply for the same inbound e-mail interaction is already open."/>
+  <Value Id="Warning.EmailActionAborted.UpdateError" Text="Action aborted: error while updating UCS information."/>
+  <!--Warning.EmailActionNotPossible.TotalAttachmentsSizeError: Error message printed when agent clicks send email while attachement size is too big -->
+  <!--Warning.EmailActionNotPossible.TotalAttachmentsSizeError: 0: maximum size in Megabytes-->
+  <Value Id="Warning.EmailActionNotPossible.TotalAttachmentsSizeError" Text="Cannot send e-mail interaction: Total size of e-mail attachments exceeds the granted quota ({0} MB)."/>
+  <Value Id="Warning.EmailSignature.Error" Text="Error inserting Signature: {0}."/>
+  <!-- Value Id="Warning.EmailFileSignatureError.LocationMissing" 0: option name -->
+  <Value Id="Warning.EmailFileSignatureError.LocationMissing" Text="File location is missing in Option '{0}'."/>
+  <!-- Value Id="Warning.EmailFileSignatureError.WrongFileFormat" 0: file full path name -->
+  <!-- Value Id="Warning.EmailFileSignatureError.WrongFileFormat" 1: option name -->
+  <Value Id="Warning.EmailFileSignatureError.WrongFileFormat" Text="File '{0}' defined in Option '{1}' is not a .txt nor a .htm nor a .html file."/>
+  <!-- Value Id="Warning.EmailFileSignatureError.ReadingFile" 0: file full path name -->
+  <!-- Value Id="Warning.EmailFileSignatureError.ReadingFile" 1: option name -->
+  <Value Id="Warning.EmailFileSignatureError.ReadingFile" Text="Error reading the file '{0}' defined in option '{1}'."/>
+  <!-- Value Id="Warning.EmailFileSignatureError.FileNotFound" 0: file full path name -->
+  <!-- Value Id="Warning.EmailFileSignatureError.FileNotFound" 1: option name -->
+  <Value Id="Warning.EmailFileSignatureError.FileNotFound" Text="file '{0}' defined in option '{1}' not found."/>
+
+  <!--Value Id="Warning.SendEmailActionAborted.NoToRecipient": warning message displayed when outbound email send action abort because email has no To recipient -->
+  <Value Id="Warning.SendEmailActionAborted.NoToRecipient" Text="Cannot send e-mail interaction: 'To' field cannot be empty."/>
+
+  <!--Value Id="Warning.ForwardEmailActionAborted.NoToRecipient": warning message displayed when inbound email forward action abort because there is no To recipient in forwrad email form-->
+  <Value Id="Warning.ForwardEmailActionAborted.NoToRecipient" Text="Cannot forward e-mail interaction: 'To' field cannot be empty."/>
+  <!--Value Id="Warning.ForwardEmailActionAborted.MultipleRecipientNotEnabled": warning message displayed when inbound email forward action abort because there is more than one To recipient in forwrad email form where as forward to multiple to addresses is not enabled-->
+  <Value Id="Warning.ForwardEmailActionAborted.MultipleRecipientNotEnabled" Text="Cannot forward e-mail interaction: multiple addresses in 'To' field are not allowed."/>
+
+  <Value Id="Warning.EmailActionAborted.UcsIsDown" Text="Action aborted: the UCS connection is down." />
+
+    
+
+  <!--Value Id="Warning.ActionAborted.CannotPerform" 0:reason why action cannot be performed -->
+  <Value Id="Warning.ActionAborted.CannotPerform" Text="Cannot perform action: {0}"/>
+  
+  <!-- Warning.ActionAborted.CannotPerform.Reply: Error message is diplayed when it is not possible to perform reply action on inbound email -->
+  <Value Id="Warning.ActionAborted.CannotPerform.Reply" Text="Cannot perform the Reply action"/>
+
+  <!--Value Id="Warning.ActionAborted.ActionFailed" 0:reason why action failed -->
+  <Value Id="Warning.ActionAborted.ActionFailed" Text="Action aborted: {0}"/>
+
+  <Value Id="Warning.ActionAbortedReason.NoPlace" Text="There is no Place for the agent." />
+  <Value Id="Warning.ActionAbortedReason.NoMediaEmail" Text="There is no E-mail media for the agent." />
+  <Value Id="Warning.ActionAbortedReason.InteractionNotInWorkflow" Text="The interaction is not in the Interaction Server Workflow." />
+  <Value Id="Warning.ActionAbortedReason.InteractionNotAvailable" Text="The interaction is no longer available." />
+
+  <Value Id="Warning.ActionAbortedReason.Exception" Text="An exception has occurred."/>
+
+  
+  <Value Id="Warning.ActionAbortedReason.Error.Reply" Text="Reply returns an error."/>
+  <Value Id="Warning.ActionAbortedReason.Error.PlaceInQueue" Text="Place In Queue returns an error."/>
+  
+  <Value Id="Warning.ActionAbortedReason.PullFailed" Text="The interaction is not accessible at this time." />
+
+  <!--Warning.OpenAborted.PullFailed: Error message printed when user tries to apply an action on an interaction selected in workbin/queue -->
+  <Value Id="Warning.OpenAborted" Text="Open action aborted: " />
+
+  <!--Warning.PullAborted: Error message printed when user tries to apply an action on an interaction selected in workbin/queue -->
+  <Value Id="Warning.PullAborted" Text="You cannot open this interaction: " />
+  <!--Warning.MarkDoneAborted: Error message printed when user tries to apply an action on an interaction selected in workbin/queue -->
+  <Value Id="Warning.MarkDoneAborted" Text="You cannot mark this interaction as Done: " />
+  <!--Warning.DeleteAborted: Error message printed when user tries to apply an action on an interaction selected in workbin/queue -->
+  <Value Id="Warning.DeleteAborted" Text="You cannot delete this interaction: " />
+
+  <!--Windows.ToolbarWorkitemView.ToolbarName: Workitem toolbar name (for accessibility only) -->
+  <Value Id="Windows.ToolbarWorkitemView.ToolbarName" Tag="Workitem" />
+  <!-- "Windows.ToolbarWorkitemView.ButtonTransfer":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToolbarWorkitemView.ButtonTransfer" ToolTip="Workitem Transfer" Name="Workitem Transfer {0}" Text="Workitem _Transfer" />
+  <!--Value Id="Windows.ToolbarWorkitemView.ButtonMoveToWorkbin" 0:display name of the workbin where the interaction will be saved in -->
+  <Value Id="Windows.ToolbarWorkitemView.ButtonMoveToWorkbin" ToolTip="Save in {0} Workbin" Text="Save in {0} Workbin"/>
+
+
+  <!--Windows.ToolbarWorkitemView.SaveInWorkbin: Generic tooltip on save in workbin and put back to original source button in toolbar-->
+  <!--Windows.ToolbarWorkitemView.SaveInWorkbin: 0: Action label-->
+  <!--Windows.ToolbarWorkitemView.SaveInWorkbin: 1: Action Keyboard shortcut-->
+  <Value Id="Windows.ToolbarWorkitemView.SaveInWorkbin" ToolTip="{0}" Name="{0}" Header="{0} {1}"/>
+  
+
+  <!--Value Id="Windows.ToolbarWorkitemView.PutBackToOriginalSource" -->
+  <Value Id="Windows.ToolbarWorkitemView.ButtonPutBackToOriginalSource" ToolTip="Put back in original location" Text="Put back in original location" />
+  
+  <Value Id="Windows.ToolbarWorkitemView.MenuItemOneStepTransferDialer" Text="Workitem _Transfer" Tooltip="Workitem Transfer"/>
+
+  <Value Id="Windows.WorkItemView.MediaType" Content="Media Type:"/>
+  <Value Id="Windows.WorkItemView.InteractionType" Content="Interaction Type:"/>
+  <Value Id="Windows.WorkItemView.InteractionSubType" Content="Interaction Sub-Type:"/>
+
+  <Value Id="Windows.WorkbinWorkItemView.MenuItemInteractionActionFromWorkbinOpen" Text="Open" ToolTip="Open"/>
+  
+  <Value Id="Windows.WorkitemView.MenuItemInteractionActionPull" Text="Open" ToolTip="Open"/>
+
+  <Value Id="Workbins.WorkbinsContentView.ButtonSearchAdvanced" Content="Search" ToolTip="Start advanced search"/>
+  <Value Id="Workbins.WorkbinsContentView.SliderPeriodTextTimeChoice" Text="Arch.  All    1M    1W    1D"/>
+  <Value Id="Workbins.WorkbinsContentView.TooltipSliderPeriod" ToolTip="Select the time period to search"/>
+  <Value Id="Workbins.WorkbinsContentView.ButtonFilterShowTypeInteractions" Content="Filter"/>
+  <Value Id="Workbins.WorkbinsContentView.TooltipEditQuickCall" ToolTip="Type search criteria and press Enter to search for the interactions"/>
+  <Value Id="Workbins.WorkbinsContentView.ButtonSearch" ToolTipSearchButton="Search"/>
+  <Value Id="Workbins.WorkbinsContentView.ButtonClear" ToolTipClearButton="Clear search criteria"/>
+  <Value Id="Workbins.WorkbinsContentView.ButtonShowAdvancedSearch" ToolTip="Show advanced search"/>
+  <Value Id="Workbins.WorkbinsContentView.RadioButtonMatchAllConditions" Content="Match All Conditions"/>
+  <Value Id="Workbins.WorkbinsContentView.RadioButtonMatchAnyConditions" Content="Match Any Condition"/>
+  <Value Id="Workbins.WorkbinsContentView.TooltipRadioButtonMatchAllConditions" ToolTip="Contacts who match all the conditions"/>
+  <Value Id="Workbins.WorkbinsContentView.TooltipRadioButtonMatchAnyConditions" ToolTip="Contacts who match any of the conditions"/>
+
+  <Value Id="Workbins.WorkbinsContentView.ButtonOpen" ToolTip="Open"/>
+  <Value Id="Workbins.WorkbinsContentView.ButtonEmailReply" ToolTip="Reply"/>
+  <Value Id="Workbins.WorkbinsContentView.ButtonEmailReplyAll" ToolTip="Reply All"/>
+  <Value Id="Workbins.WorkbinsContentView.ButtonEmailTransfer" ToolTip="Transfer"/>
+  <Value Id="Workbins.WorkbinsContentView.ButtonEmailMarkDone" ToolTip="Mark Done"/>
+  <Value Id="Workbins.WorkbinsContentView.ButtonUrgent" ToolTip="Urgent"/>
+  <Value Id="Workbins.WorkbinsContentView.ButtonDelete" ToolTip="Delete"/>
+  <Value Id="Workbins.WorkbinsContentView.MenuItemShowDetailsPanel" Header="Show Details Panel"/>
+  <Value Id="Workbins.WorkbinsContentView.MenuItemHideDetailsPanel" Header="Hide Details Panel"/>
+  <!--Workbins.WorkbinsContentView.ButtonShowDetailsPanel: Tooltip over the button that is used to adjust the layout of the workbin/queue view (show or hide details panel)-->
+  <Value Id="Workbins.WorkbinsContentView.ButtonShowDetailsPanel" Name="Show/Hide details panel"/>
+	
+  <Value Id="Workbins.WorkbinsContentView.HeaderParent" Header="Parent" Content="Parent"/>
+  <Value Id="Workbins.WorkbinsContentView.HeaderWarning" Header="Warning" Content="Warning"/>
+  <Value Id="Workbins.WorkbinsContentView.HeaderMessageType" Header="Type" Content="Type"/>
+  <Value Id="Workbins.WorkbinsContentView.HeaderFrom" Header="From" Content="From"/>
+  <Value Id="Workbins.WorkbinsContentView.HeaderTo" Header="To" Content="To"/>
+  <Value Id="Workbins.WorkbinsContentView.HeaderSubject" Header="Subject" Content="Subject"/>
+  <Value Id="Workbins.WorkbinsContentView.HeaderReceived" Header="Received" Content="Received"/>
+  <Value Id="Workbins.WorkbinsContentView.HeaderContactId" Header="Contact Id" Content="Contact Id"/>
+  <Value Id="Workbins.WorkbinsContentView.HeaderDelivered" Header="Delivered" Content="Delivered"/>
+  <Value Id="Workbins.WorkbinsContentView.HeaderQueued" Header="Queued" Content="Queued"/>
+  <Value Id="Workbins.WorkbinsContentView.HeaderSubmitted" Header="Submitted" Content="Submitted"/>
+
+  <!--Workbins.WorkbinsContentView.HeaderAbandonedAt: Column name in workbin/queue view:  Time distribution of interaction was abandonned-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderAbandonedAt" Header="Abandoned" Content="Abandoned"/>
+  <!--Workbins.WorkbinsContentView.HeaderDeliveredAt: Column name in workbin/queue view: Time interaction was delivered-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderDeliveredAt" Header="Delivered" Content="Delivered"/>
+  <!--Workbins.WorkbinsContentView.HeaderExternalId: Column name in workbin/queue view: External interaction ID-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderExternalId" Header="External Id" Content="External Id"/>
+  <!--Workbins.WorkbinsContentView.HeaderInteractionId: Column name in workbin/queue view: Internal interaction ID-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderInteractionId" Header="Interaction Id" Content="Interaction Id"/>
+  <!--Workbins.WorkbinsContentView.HeaderInteractionState: Column name in workbin/queue view: Current interaction state-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderInteractionState" Header="Interaction State" Content="Interaction State"/>
+  <!--Workbins.WorkbinsContentView.HeaderInteractionSubtype: Column name in workbin/queue view: Interaction Sub type-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderInteractionSubtype" Header="Interaction Subtype" Content="Interaction Subtype"/>
+  <!--Workbins.WorkbinsContentView.HeaderInteractionType: Column name in workbin/queue view: Interaction type-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderInteractionType" Header="Interaction Type" Content="Interaction Type"/>
+  <!--Workbins.WorkbinsContentView.HeaderIsLocked: Column name in workbin/queue view: Lock flag (lock active or not)-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderIsLocked" Header="Locked" Content="Locked"/>
+  <!--Workbins.WorkbinsContentView.HeaderIsOnline: Column name in workbin/queue view: On line flag (is on line or not)-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderIsOnline" Header="Online" Content="Is Online"/>
+  <!--Workbins.WorkbinsContentView.HeaderMediaType: Column name in workbin/queue view: Interaction Media type-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderMediaType" Header="Media Type" Content="Media Type"/>
+  <!--Workbins.WorkbinsContentView.HeaderMovedToQueueAt: Column name in workbin/queue view: Time interaction was moved to current queue-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderMovedToQueueAt" Header="Moved To Queue" Content="Moved To Queue"/>
+  <!--Workbins.WorkbinsContentView.HeaderParentId: Column name in workbin/queue view: ID of the parent interaction-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderParentId" Header="Parent Id" Content="Parent Id"/>
+  <!--Workbins.WorkbinsContentView.HeaderPlacedInQueueAt: Column name in workbin/queue view: Time interaction was placed in queue-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderPlacedInQueueAt" Header="Placed In Queue" Content="Placed In Queue"/>
+  <!--Workbins.WorkbinsContentView.HeaderPlaceInQueueSeq: Column name in workbin/queue view: Sequence number of the last place in queue of this interaction-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderPlaceInQueueSeq" Header="Place In Queue Sequence" Content="Place In Queue Sequence"/>
+  <!--Workbins.WorkbinsContentView.HeaderQueue: Column name in workbin/queue view: Queue name-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderQueue" Header="Queue" Content="Queue"/>
+  <!--Workbins.WorkbinsContentView.HeaderReceivedAt: Column name in workbin/queue view: Time interaction was received-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderReceivedAt" Header="Received" Content="Received"/>
+  <!--Workbins.WorkbinsContentView.HeaderScheduledAt: Column name in workbin/queue view: Time when next interaction processing is scheduled-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderScheduledAt" Header="Scheduled" Content="Scheduled"/>
+  <!--Workbins.WorkbinsContentView.HeaderSubmittedAt: Column name in workbin/queue view: Time interaction was submitted-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderSubmittedAt" Header="Submitted" Content="Submitted"/>
+  <!--Workbins.WorkbinsContentView.HeaderSubmittedBy: Column name in workbin/queue view: Identified of the party which submitted the interaction-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderSubmittedBy" Header="Submitted By" Content="Submitted By"/>
+  <!--Workbins.WorkbinsContentView.HeaderSubmitSeq: Column name in workbin/queue view: Sequence number of the Submit operation-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderSubmitSeq" Header="Submit Sequence" Content="Submit Sequence"/>
+  <!--Workbins.WorkbinsContentView.HeaderTenantId: Column name in workbin/queue view: ID of the tenant-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderTenantId" Header="Tenant Id" Content="Tenant Id"/>
+  <!--Workbins.WorkbinsContentView.HeaderWorkbin: Column name in workbin/queue view: Name of current workbin-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderWorkbin" Header="Workbin" Content="Workbin"/>
+  <!--Workbins.WorkbinsContentView.HeaderWorkbinAgentGroupId: Column name in workbin/queue view: ID of the agent group owning the current workbin-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderWorkbinAgentGroupId" Header="Workbin Agent Group Id" Content="Workbin Agent Group Id"/>
+  <!--Workbins.WorkbinsContentView.HeaderWorkbinAgentId: Column name in workbin/queue view: ID of the agent owning the current workbin-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderWorkbinAgentId" Header="Workbin Agent Id" Content="Workbin Agent Id"/>
+  <!--Workbins.WorkbinsContentView.HeaderWorkbinPlaceGroupId: Column name in workbin/queue view: ID of the place group owning the current workbin-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderWorkbinPlaceGroupId" Header="Workbin Place Group Id" Content="Workbin Place Group Id"/>
+  <!--Workbins.WorkbinsContentView.HeaderWorkbinPlaceId: Column name in workbin/queue view: ID of the place owning the current workbin-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderWorkbinPlaceId" Header="Workbin Place Id" Content="Workbin Place Id"/>
+  <!--Workbins.WorkbinsContentView.HeaderHeldAt: Column name in workbin/queue view: Time interaction was put on hold-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderHeldAt" Header="Held" Content="Held"/>
+  <!--Workbins.WorkbinsContentView.HeaderCompletedAt: Column name in workbin/queue view: Time ineraction was completed-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderCompletedAt" Header="Completed" Content="Completed"/>
+  <!--Workbins.WorkbinsContentView.HeaderAssignedAt: Column name in workbin/queue view: Time interaction was assigned-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderAssignedAt" Header="Assigned" Content="Assigned"/>
+  <!--Workbins.WorkbinsContentView.HeaderAssignedTo: Column name in workbin/queue view: Identifier of the party to which the interaction is assigned-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderAssignedTo" Header="Assigned To" Content="Assigned To"/>
+  <!--Workbins.WorkbinsContentView.HeaderPriority: Column name in workbin/queue view: Priority of the interaction-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderPriority" Header="Priority" Content="Priority"/>
+  <!--Workbins.WorkbinsContentView.HeaderServiceObjective: Column name in workbin/queue view: Time objective for servicing the interaction-->
+  <Value Id="Workbins.WorkbinsContentView.HeaderServiceObjective" Header="Service Objective" Content="Service Objective"/>
+
+  <Value Id="Workbins.WorkbinsContentView.TooltipButtonRewind" ToolTip="Go to the first page" Name="Go to the first page"/>
+  <Value Id="Workbins.WorkbinsContentView.TooltipButtonPrev" ToolTip="Go to the previous page" Name="Go to the previous page"/>
+  <Value Id="Workbins.WorkbinsContentView.TooltipButtonNext" ToolTip="Go to the next page" Name="Go to the next page"/>
+  <Value Id="Workbins.WorkbinsContentView.TooltipButtonEnd" ToolTip="Go to the last page" Name="Go to the last page"/>
+  <Value Id="Workbins.WorkbinsContentView.TooltipPageNumber" ToolTip="Go to page number..."/>
+  <Value Id="Workbins.WorkbinsContentView.TooltipComboNbRows" ToolTip="Specify maximum number of elements per page" Name="Specify maximum number of elements per page"/>
+  <Value Id="Workbins.WorkbinsContentView.LabelObjectsRange" Text="{0} - {1} of {2}"/>
+  <Value Id="Workbins.WorkbinsContentView.LabelPerPage" Text="per page"/>
+  <!--Workbins.WorkbinsContentView.LabelPage: Label used for page segmentation presentation in the workbin/queue content view-->
+  <Value Id="Workbins.WorkbinsContentView.LabelPage" Text="Page"/>
+  <!--Workbins.WorkbinsContentView.LabelNbInteractionsInSnapshot: Label presented in view showing the list of interactions collected using a configured filter over queues-->
+  <!--Workbins.WorkbinsContentView.LabelNbInteractionsInSnapshot: 0: Number of interactions in snapshot-->
+  <!--Workbins.WorkbinsContentView.LabelNbInteractionsInSnapshot: 1: Date of the snapshot-->
+  <Value Id="Workbins.WorkbinsContentView.LabelNbInteractionsInSnapshot" Text="{0} interactions in snapshot, taken at {1}" />
+
+  <Value Id="Workbins.WorkbinsContentView.AddCondition" Content="Add Condition"/>
+  <Value Id="Workbins.WorkbinsContentView.SplitButtonTooltipAddCondition" ToolTip="Add another search condition"/>
+  <Value Id="Workbins.WorkbinsContentView.ComboBoxItemRemoveCondition" String="Remove this search condition"/>
+
+  <!-- Workbins.WorkbinsContentView.InteractionRow : Automation Name displayed by screen reader when an interaction raw is selected in Workbins View table />-->
+  <Value Id="Workbins.WorkbinsContentView.InteractionRow" Name="Interaction..."/>
+
+  <Value Id="Contacts.ContactHandling.NoActiveUCSConnection"  String="No active connection to UCS. Please contact your administrator."/>
+
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.HeaderExplorer" Text="_Explorer"/>
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.HeaderMailBox" Text="_Mail Box"/>
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.HeaderSharedFolders" Text="_Shared Folders"/>
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.HeaderReplied" Text="_Replied"/>
+
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.SplitToggleButtonWorkbins" Content="Work_bins"/>
+
+  <!--Contacts.MainToolbarWorkbinsContainer.MyWorkbinsMenuItemHeader: In workbin/queue management view, the tab giving access to personal/shared workbins-->
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.MyWorkbinsMenuItemHeader" Header="_My Workbins" Text="_My Workbins"/>
+  <!--Contacts.MainToolbarWorkbinsContainer.MyTeamWorkbinsMenuItemHeader: In workbin/queue management view, the tab giving access to team workbin management-->
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.MyTeamWorkbinsMenuItemHeader" Header="My _Team Workbins" Text="My _Team Workbins"/>
+  <!--Contacts.MainToolbarWorkbinsContainer.MyInteractionsFilterMenuItemHeader: In workbin/queue management view, the tab giving access to the interaction queues-->
+  <Value Id="InteractionManagement.MainToolbarWorkbinsContainer.MyInteractionsFilterMenuItemHeader" Header="My _Interaction Queues" Text="My _Interaction Queues"/>
+
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.HeaderPending" Header="_Pending" Text="_Pending"/>
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.HeaderCollaboration" Header="_Collaboration" Text="_Collaboration"/>
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.HeaderExternalResource" Header="_External Resource" Text="_External Resource"/>
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.HeaderPastDue" Header="_Past Due" Text="_Past Due"/>
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.HeaderDraft" Header="_Draft" Text="_Draft"/>
+  <Value Id="Contacts.MainToolbarWorkbinsContainer.Header" Header="Workbins" />
+
+  <Value Id="Workbins.WorkbinsContentView.WaterMarkHistoryListGridNoItems" Text="No items"/>
+  <Value Id="InteractionManagement.InteractionsFilterContentView.WaterMarkNoItems" Text="No items"/>
+
+  <Value Id="Workbins.WorkbinsMenuInGadget.MyWorkbinsHeaderMenu" Header="My Workbins"/>
+  <Value Id="Workbins.WorkbinsMenuInGadget.MyTeamWorkbinsHeaderMenu" Header="My Team Workbins"/>
+  <Value Id="Workbins.WorkbinsMenuInGadget.MyInteractionFiltersHeaderMenu" Header="My Interaction Queues"/>
+  <Value Id="Workbins.WorkbinsMenuInGadget.InteractionManagementHeaderMenu" Header="Interaction Management"/>
+  <Value Id="Workbins.WorkbinsMenuInGadget.WorkbinsHeaderMenu" Header="Workbins"/>
+
+  <Value Id="Workbins.WorkbinsExplorerView.MyWorkbinsTabItemHeader" Header="My Workbins"/>
+  <Value Id="Workbins.WorkbinsExplorerView.MyTeamWorkbinsTabItemHeader" Header="My Team Workbins"/>
+  <Value Id="InteractionManagement.InteractionFiltersExplorerView.MyInteractionFiltersTabItemHeader" Header="My Interaction Queues"/>
+
+  <Value Id="workbin.email.draft" String="Draft"/>
+  <Value Id="workbin.email.in-progress" String="In Progress"/>
+  <Value Id="Workbins.WorkbinsExplorerView.WorkbinGroupPersonalWorkbins" String="Personal Workbins"/>
+  <Value Id="Workbins.WorkbinsExplorerView.WorkbinGroupSharedWorkbins" String="Shared Workbins"/>
+  <Value Id="Workbins.WorkbinsExplorerView.WaterMarkNoWorkbinsConfigured" Text="No workbin configured"/>
+  <Value Id="Workbins.WorkbinsExplorerView.WaterMarkNoAvailableInformation" Text="No information is available"/>
+  <Value Id="Workbins.WorkbinsExplorerView.NoWorkbinSelected" Text="No Workbin Selected"/>
+  <!--Workbins.WorkbinsView.MyTeamWorkbinTabHeaderFormat: Title (in tab header) of the workbin content view -->
+  <!--Workbins.WorkbinsView.MyTeamWorkbinTabHeaderFormat: 0: Workbin owner display name -->
+  <!--Workbins.WorkbinsView.MyTeamWorkbinTabHeaderFormat: 1: Workbin display name -->
+  <Value Id="Workbins.WorkbinsView.MyTeamWorkbinTabHeaderFormat" Text="{0} - {1}"/>
+  <Value Id="Workbins.WorkbinsView.WaterMarkQuickSearch" String="Quick search"/>
+  <Value Id="Workbins.WorkbinsView.TooltipEditQuickCall" ToolTip="Type search criteria and press Enter to search for the interactions" Name="Quick search" ToolTipClearButton="Clear search criteria" ToolTipSearchButton="Search"/>
+  <Value Id="Workbins.WorkbinsView.ButtonShowAdvancedSearch" ToolTip="Show advanced search" Name="Show advanced search"/>
+  <Value Id="Workbins.WorkbinsView.ButtonHideAdvancedSearch" ToolTip="Hide advanced search" Name="Hide advanced search"/>
+
+  <!--InteractionManagement.InteractionFiltersExplorerView.WaterMarkNoInteractionFiltersConfigured: label presented in Interaction Queue list when it contains no entry-->
+  <Value Id="InteractionManagement.InteractionFiltersExplorerView.WaterMarkNoInteractionFiltersConfigured" Text="No interaction queue configured"/>
+  <!--InteractionManagement.InteractionFiltersExplorerView.WaterMarkNoAvailableInformation: label presented in Interaction Queue list when no information can be shown in it-->
+  <Value Id="InteractionManagement.InteractionFiltersExplorerView.WaterMarkNoAvailableInformation" Text="No information is available"/>
+  <!--InteractionManagement.InteractionFiltersExplorerView.WaterMarkNoInteractionFilterSelected: Title (in tab) of the view displaying the interactions when no interaction queue filter is selected-->
+  <Value Id="InteractionManagement.InteractionFiltersExplorerView.WaterMarkNoInteractionFilterSelected" Text="No Interaction Queue Selected"/>
+  <!--InteractionManagement.TakeSnapshotError.NoSnapshotBody: Error message presented when the interaction queue filter returns empty result-->
+  <Value Id="InteractionManagement.TakeSnapshotError.NoSnapshotBody" Text="Error - Empty snapshot" />
+  <!--InteractionManagement.TakeSnapshotError.IxnServerReason: Error message presented when the interaction queue filter returns an error-->
+  <!--InteractionManagement.TakeSnapshotError.IxnServerReason: 0: error message from the server-->
+  <Value Id="InteractionManagement.TakeSnapshotError.IxnServerReason" Text="Error - {0}" />
+  <!--InteractionManagement.TakeSnapshotError.IxnServerReason: Error message presented when the interaction queue filter returns an unknown error-->
+  <Value Id="InteractionManagement.TakeSnapshotError.Unknown Reason" Text="Error - Unknown Reason" />
+  
+  <Value Id="InteractionManagement.SearchWorkbinError.IxnServerReason" Text="Error in search - {0}" />
+  
+  <!--InteractionManagement.GetSnapshotError.NoSnapshotBody: Error message presented when the interaction queue filter returns empty result-->
+  <Value Id="InteractionManagement.GetSnapshotError.NoSnapshotBody" Text="Error - Empty snapshot" />
+  <!--InteractionManagement.GetSnapshotError.IxnServerReason: Error message presented when the interaction queue filter returns an error-->
+  <!--InteractionManagement.GetSnapshotError.IxnServerReason: 0: error message from the server-->
+  <Value Id="InteractionManagement.GetSnapshotError.IxnServerReason" Text="Error - {0}" />
+  <!--InteractionManagement.GetSnapshotError.Unknown Reason: Error message presented when the interaction queue filter returns an unknown error-->
+  <Value Id="InteractionManagement.GetSnapshotError.Unknown Reason" Text="Error - Unknown Reason" />
+  <!--InteractionManagement.InteractionsFilterView.Refresh: Tooltip of the button that can be used in interaction queue filter content view to refresh the content from the back-end server-->
+  <Value Id="InteractionManagement.InteractionsFilterView.Refresh" ToolTip="Refresh the list of interactions in the interaction filter" Name="Refresh the list of interactions in the interaction filter"/>
+
+  <!--InteractionManagement.SingleInteractionsAction.Success: Message displayed when an operation succeeded on 1 interaction selected in workbin/queue content view -->
+  <!--InteractionManagement.SingleInteractionsAction.Success: 0:name of the action -->
+  <Value Id="InteractionManagement.SingleInteractionsAction.Success" Text="{0} action successfully done." />
+  <!--InteractionManagement.SingleInteractionsAction.Failure: Eror displayed when an operation failed on 1 interaction selected in workbin/queue content view -->
+  <!--InteractionManagement.SingleInteractionsAction.Failure: 0:name of the action" -->
+  <Value Id="InteractionManagement.SingleInteractionsAction.Failure" Text="{0} action failed." />
+  <!--InteractionManagement.MultipleInteractionsAction.Success: Message displayed when an operation succeeded on multiple interactions selected in workbin/queue content view -->
+  <!--InteractionManagement.MultipleInteractionsAction.Success: 0:name of the action -->
+  <Value Id="InteractionManagement.MultipleInteractionsAction.Success" Text="{0} action successfully done on all selected interactions." />
+  <!--InteractionManagement.MultipleInteractionsAction.Failure: Error displayed when an operation failed on multiple interactions selected in workbin/queue content view -->
+  <!--InteractionManagement.MultipleInteractionsAction.Failure: 0:name of the action" -->
+  <Value Id="InteractionManagement.MultipleInteractionsAction.Failure" Text="{0} action failed on {1} interaction(s)." />
+
+  <!--InteractionManagement.PullFailed: Error message printed when the interaction on which a workbin/queue operation was attempted could not be reached-->
+  <Value Id="InteractionManagement.PullFailed" Text="Interaction is not accessible at this time" />
+
+  <Value Id="Workbins.MessageBoxWorkbinsErrorUCSDown" Text="The UCS connection is down. {0}." />
+  <Value Id="Workbins.MessageImpossibleToGetInteractionContent" Text="Impossible to get Interaction content" />
+
+  <Value Id="Workbins.Workitem.MessageBoxConfirmMarkDone" String="Are you sure that you want to mark this interaction as Done?"/>
+  <Value Id="Workbins.Workitem.MenuItemInteractionActionFromWorkbinMarkDone" Text="Mark Done" ToolTip="Mark Done"/>
+
+  <!--<Value Id="RequestActionClickToEmail" 0: email address" -->
+  <Value Id="RequestAction.ClickTo.Email" ToolTip="Click to create a new e-mail {0}"  Error="Cannot create a new e-mail {0}."/>
+
+  <!--Windows.ToolbarSmsView.ToolbarName: Name of the SMS toolbar (accessibility only)-->
+  <Value Id="Windows.ToolbarSmsView.ToolbarName" Tag="SMS" />
+  <!-- "Windows.ToolbarSmsView.ButtonDelete":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToolbarSmsView.ButtonDelete" Text="_Delete" ToolTip="Delete SMS {0}" Name="Delete SMS" />
+  <!-- "Windows.ToolbarSmsView.ButtonTransfer":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="Windows.ToolbarSmsView.ButtonTransfer" Text="SMS _Transfer" ToolTip="SMS Transfer" Name="SMS Transfer {0}"/>
+  <Value Id="Windows.SmsView.ButtonSend" Content="S_end" ToolTip="Send" Name="Send"/>
+  <Value Id="Windows.SmsView.TextBoxMessage" Name="Message to Send"/>
+  <Value Id="Windows.SmsView.ErrorMessageIsOffLine" Text="This session is offline "/>
+  <Value Id="Windows.SmsView.WarningTextLimitLabel" ToolTip="Text Over the Limit" Text="SMS _Text Limit" />
+  <Value Id="Windows.SmsView.WarningMsgsLimitLabel" ToolTip="Number of Msgs Over the Limit" Text="SMS _Msgs Limit" />
+  <!--Value Id="Windows.SmsView.MessageSytemExpiration" 0: client name 1:date"-->
+  <Value Id="Windows.SmsView.MessageSytemExpiration" Text="{0} has not sent any message since {1}. SMS session has expired and is now over."/>
+  <!--Windows.SmsView.MessageSessionDisconnected: Message printed in SMS Session media transcript when desktop lost connection to back end server, which interrupts the session-->
+  <Value Id="Windows.SmsView.MessageSessionDisconnected" Text="SMS Session has been disconnected"/>
+  <Value Id="Windows.SmsView.MessageJoinInProgress" Text="Trying to connect to SMS conversation ..."/>
+	
+
+  <Value Id="Windows.SmsView.MenuItemMainDialerNewOutboundSms" Text="New _SMS" Tooltip="Create a new SMS"/>
+  <Value Id="Windows.SmsView.MenuItemPartyNewOutboundSms" Text="New SMS to" Tooltip="Create a new SMS"/>
+  <Value Id="Windows.SmsView.MenuItemOneStepTransferDialer" Text="SMS _Transfer" Tooltip="SMS Transfer"/>
+
+  <Value Id="Windows.SmsView.CharactersRemaining" Text="Characters Remaining: {0}"/>
+  <Value Id="Windows.SmsView.Tooltip" Text="Sending message in {0} SMS"/>
+  <Value Id="Windows.SmsView.HideRelatedSms" Text="Hide messages" ToolTip="Hide the transcript messages"/>
+  <Value Id="Windows.SmsView.ShowRelatedSms" Text="Show messages" ToolTip="Show the transcript messages"/>
+  <Value Id="Windows.SmsView.ShowTranscriptSingleMsgSingleHour" Text="1 message exchange with this contact in the past hour" ToolTip="Show the transcript messages"/>
+  <Value Id="Windows.SmsView.ShowTranscriptMulMsgsSingleHour" Text="{0} message exchanges with this contact in the past hour" ToolTip="Show the transcript messages"/>
+  <Value Id="Windows.SmsView.ShowTranscriptSingleMsgMulHours" Text="1 message exchange with this contact in the past {0} hours" ToolTip="Show the transcript messages"/>
+  <Value Id="Windows.SmsView.ShowTranscriptMulMsgsMulHours" Text="{0} message exchanges with this contact in the past {1} hours" ToolTip="Show the transcript messages"/>
+  <Value Id="Windows.SmsView.ShowTranscriptMulMsgsInfiniteHours" Text="{0} message exchanges with this contact in the past" ToolTip="Show the transcript messages"/>
+  <Value Id="Windows.SmsView.ShowTranscriptSingleMsgInfiniteHours" Text="1 message exchange with this contact in the past" ToolTip="Show the transcript messages"/>
+
+  <!--Value Id="Windows.SmsView.Tooltips" Text="Sending message in {0} SMSes"/-->
+  <Value Id="Windows.SmsView.TooltipWarningMaxNoOfSmsReached" Text="You are over the character number limit.&#xa;The maximum number of SMS allowed per message is {0}."/>
+  <Value Id="Windows.SmsView.TooltipWarningMultipleSms" Text="You are over the character number limit.&#xa;The text will be split and sent as {0} messages."/>
+
+  <Value Id="Windows.SmsView.MessageBoxConfirmDeleteSms" String="Are you sure that you want to delete this SMS?"/>
+  <!-- Windows.SmsView.MultipleFromNumbersLabel: Tooltip of drop down box used to select the 'from number' of the new outbound SMS-->
+  <!-- Windows.SmsView.MultipleFromNumbersLabel: 0: the currently selected from number of the SMS (accessibility only)-->
+  <Value Id="Windows.SmsView.MultipleFromNumbersLabel" Content="_From:" ToolTip="Select the phone number to be used as source for the SMS" Name="From: {0}"/>
+  <Value Id="Windows.SmsView.SingleFromNumberLabel" Content="_From:" ToolTip="The phone number to be used as source for the SMS"/>
+  <Value Id="Windows.SmsView.SelectFromNumberToolTip" ToolTip="Select the source phone number"/>
+  <Value Id="Windows.SmsView.SelectFromNumberComboToolTip" ToolTip="Select the phone number from the list"/>
+  <!-- Windows.SmsView.ToNumberLabel: Tooltip of the edit box when agent can type the destination number of the outbound SMS-->
+  <!-- Windows.SmsView.ToNumberLabel: 0: the 'to' number of the SMS (accessibility only)-->
+  <Value Id="Windows.SmsView.ToNumberLabel" Content="To:" ToolTip="The destination phone number of the SMS" Name="To: {0}"/>
+  <Value Id="Windows.SmsView.ButtonSend" Name="Send Message"/>
+  <Value Id="Windows.SmsView.ButtonSendMessageToolTip" Name="Send Message ToolTip" ToolTip="Send the message"/>
+  <!--Value Id="Sms.Format.Subject" 0:text -->
+  <Value Id="Sms.Format.Subject.CharacterEllipsis" Text="{0}..."/>
+  <Value Id="Windows.SmsView.ErrorMessageJoin" Text="It is not possible to initialize an SMS conversation."/>
+
+
+  <Value Id="Windows.CaseDataView.Sms.PageMode" Text ="SMS Page Mode"/>
+  <Value Id="Windows.CaseDataView.Sms.SessionMode" Text ="SMS Session Mode"/>
+
+  <!--Value Id="Warning.SmsActionAborted.OptionNotDefined" 0:name of the option that is not defined-->
+  <Value Id="Warning.SmsActionAborted.OptionNotDefined" Text="Action aborted: '{0}' option is not defined."/>
+  <!--Value Id="Warning.SmsActionAborted.ObjectNotFound" 0:object name, 1:option name-->
+  <Value Id="Warning.SmsActionAborted.ObjectNotFound" Text="Action aborted: object '{0}' defined in option '{1}' not found."/>
+  <!--Value Id="Warning.SmsActionAborted.ObjectIsEmpty" 0:object name, 1:option name  -->
+  <Value Id="Warning.SmsActionAborted.ObjectIsEmpty" Text="Action aborted: object '{0}' defined in option '{1}' is empty."/>
+  <!--Value Id="Warning.SmsActionAborted.ObjectContainsNoValidValues" 0:object name, 1:option name  -->
+  <Value Id="Warning.SmsActionAborted.ObjectContainsNoValidValues" Text="Action aborted: object '{0}' defined in option '{1}' contains no valid values."/>
+
+  <Value Id="Channel.OpenMedia.Bundle.sms" DisplayName="SMS"/>
+
+  <Value Id="Windows.PlaceStatusView.Child.Ready.sms" ToolTipStatus="Page Mode" />
+  <Value Id="Windows.PlaceStatusView.Child.Ready.smssession" ToolTipStatus="Session Mode"/>
+
+  <Value Id="Channel.OpenMedia.Name.sms" DisplayName="SMS (Page Mode)"/>
+  <Value Id="Channel.OpenMedia.Name.smssession" DisplayName="SMS (Session Mode)"/>
+
+  <Value Id="Windows.Default.PromptForDone" String="Are you sure that you want to mark this interaction as Done?"/>
+  <Value Id="Windows.sms.PromptForDone" String="Are you sure that you want to mark this SMS interaction as Done?"/>
+  <Value Id="Windows.email.PromptForDone" String="Are you sure that you want to mark this e-mail interaction as Done?"/>
+
+  <!--Warning.Conference.Invite.Failed: Warning message presented to the initiator when the invitation of a group or skill or queeu for conference or consultation failed -->
+  <!--Warning.Conference.Invite.Failed: 0: the invited party-->
+  <Value Id="Warning.Conference.Invite.Failed" Text="It is not possible to invite your target {0}" />
+  <!--Warning.Conference.Accept.Failed: Warning message presented to the destination when it was impossible for destination desktop to render chat consultation/conference invitation -->
+  <Value Id="Warning.Conference.Accept.Failed" Text="For technical reasons, it is not possible to show the interaction" />
+
+	
+  
+  <!--Internal.Conference.Target.Skill: Description of the invited party for warning message Warning.Conference.Invite.Failed -->
+  <!--Internal.Conference.Target.Skill: 0: Display name of Skill -->
+  <Value Id="Internal.Conference.Target.Skill" Text="Skill '{0}'"/>
+  <!--Internal.Conference.Target.AgentGroup: Description of the invited party for warning message Warning.Conference.Invite.Failed -->
+  <!--Internal.Conference.Target.AgentGroup: 0: Display name of agent group -->
+  <Value Id="Internal.Conference.Target.AgentGroup" Text="Agent Group '{0}'" />
+  <!--Internal.Conference.Target.InteractionQueue: Description of the invited party for warning message Warning.Conference.Invite.Failed -->
+  <!--Internal.Conference.Target.InteractionQueue: 0: Display name of agent group -->
+  <Value Id="Internal.Conference.Target.InteractionQueue" Text="Interaction Queue '{0}'" />
+
+  <Value Id="Warning.EmailActionNotPossible.SubjectEmpty" Text="Cannot send e-mail interaction: subject is empty."/>
+  <Value Id="Email.Command.Question.Confirm.Empty.Subject" Question="Subject is empty. Do you want to send the message anyway?" />
+
+
+</Dictionary>

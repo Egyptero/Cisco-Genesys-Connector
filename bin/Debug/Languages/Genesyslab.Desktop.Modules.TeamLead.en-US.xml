@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+  <Value Id="TeamLead.TeamLeadView.ButtonTest" Content="Test" ToolTip="Test"/>
+  <Value Id="TeamLead.TeamLeadView.LabelTest" String="Test Label"/>
+
+  <!--ER 302256393   
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitor" String="Monitor" Tooltip="Monitor all the interactions for this agent" ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/auto-monitor.png" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemCoach" String="Coach" Tooltip="Coach all the interactions for this agent" ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/auto-coach.png" />
+  -->
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorNextInteractions" String="Monitor Next Interactions" Tooltip="Monitor all the interactions for this agent"  />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemCoachNextInteractions" String="Coach Next Interactions" Tooltip="Coach all the interactions for this agent"  />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopMonitor" String="Stop Monitoring" Tooltip="Stop the monitoring of this agent"  />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopCoach" String="Stop Coaching" Tooltip="Stop the coaching of this agent"  />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopMonitorVoice" String="Stop Voice Monitoring" Tooltip="Stop the voice monitoring of this agent"  />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopCoachVoice" String="Stop Voice Coaching" Tooltip="Stop the voice coaching of this agent"  />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopMonitorChat" String="Stop Chat Monitoring" Tooltip="Stop the chat monitoring of this agent"  />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopCoachChat" String="Stop Chat Coaching" Tooltip="Stop the chat coaching of this agent"  />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitor" String="Monitor"  />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemCoach" String="Coach" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitor.NextInteractions" String="Next interactions"/>
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorChat" Tooltip="Monitor this chat interaction"/>
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorVoice" Tooltip="Monitor this voice interaction"/>
+  <!--"TeamLead.TeamLeadMenuAction.MenuItemMonitorCurrentVoice": Menu item presented in a drop down menu pulled from a selected agent name - ask for monitoring of current voice interaction-->
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorCurrentVoice" Text="Current active voice interaction" />
+  <!--"TeamLead.TeamLeadMenuAction.MenuItemMonitorCurrentChat": Menu item presented in a drop down menu pulled from a selected agent name - ask for monitoring of the selected active chat interaction-->
+  <!--"TeamLead.TeamLeadMenuAction.MenuItemMonitorCurrentChat": 0: name of the customer engaged in the selected chat interaction-->
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorCurrentChat" Text="Current active chat interaction with {0}" />
+
+  <Value Id="TeamLead.StartMonitoringError" Text="Error when starting monitoring of {0}."/>
+  <Value Id="TeamLead.StopMonitoringError" Text="Error when stopping monitoring of {0}."/>
+  <Value Id="TeamLead.SwitchToMuteError" Text="Error when switching to silent monitoring."/>
+  <Value Id="TeamLead.SwitchToCoachError" Text="Error when switching to coaching."/>
+  <Value Id="TeamLead.SwitchToBargeInError" Text="Error when switching to barge-in."/>
+  <Value Id="TeamLead.EndMonitoringError" Text="Error when ending the voice monitoring."/>
+  <Value Id="TeamLead.UnregisterSupervisorError" Text="Error when unregistering the agent as supervisor."/>
+  <Value Id="TeamLead.RegisterSupervisorError" Text="Error when registering the agent as supervisor."/>
+  <Value Id="TeamLead.JoinError" Text="Error when joining the chat interaction."/>
+  <Value Id="TeamLead.IntrudeError" Text="Error when intruding the chat interaction."/>
+
+  <!--"TeamLead.ToolbarName": Name of the monitoring toolbar-->
+  <Value Id="TeamLead.ToolbarName" Tag="Monitoring"/>
+  <Value Id="TeamLead.ButtonSwitchToBargeIn" Name="Switch to barge in"  Header="Switch to barge in" ToolTip="Switch the monitored interactions to barge-in"/>
+  <!--"TeamLead.ButtonSelectInteractionToEndMonitoring": Tooptip of the monitoring toolbar drop down button used to end an active monitoring (select between voice and chat and both) -->
+  <Value Id="TeamLead.ButtonSelectInteractionToEndMonitoring" ToolTip="Select interaction to end the monitoring"/>
+  <!--"TeamLead.ButtonEndMonitoring": Information of the button used to completely end active monitoring (for chat and voice if both are active)-->
+  <!--"TeamLead.ButtonEndMonitoring": 0:  the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="TeamLead.ButtonEndMonitoring" Name="End the monitoring of the interactions (Voice and Chat) {0}" Header="End Monitoring For Voice and Chat" ToolTip="End the monitoring of the interactions (Voice and Chat) {0}"/>
+  <!--"TeamLead.ButtonSwitchToBargeInVoice": Information of the button used to barge-in the supervised voice interaction-->
+  <Value Id="TeamLead.ButtonSwitchToBargeInVoice" Name="Switch to barge in voice interaction" Header="Switch to barge in voice" ToolTip="Switch the monitored voice interaction to barge-in"/>
+  <!--"TeamLead.ButtonEndMonitoringVoice": Information of the monitoring toolbar drop down menu item used to end monitoring of voice interaction-->
+  <!--"TeamLead.ButtonEndMonitoringVoice": 0:  the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="TeamLead.ButtonEndMonitoringVoice" Name="End the monitoring of voice interaction {0}" Header="End Monitoring For Voice" ToolTip="End the monitoring of the voice interaction {0}"/>
+  <!--"TeamLead.ButtonSwitchToBargeInChat": Information of the button used to barge in the supervised chat interaction-->
+  <Value Id="TeamLead.ButtonSwitchToBargeInChat" Name="Switch to barge in chat interaction" Header="Switch to barge in chat" ToolTip="Switch the monitored chat interaction to barge-in"/>
+  <!--"TeamLead.ButtonEndMonitoringChat": Information of the monitoring toolbar drop down menu item used to end monitoring of chat interaction-->
+  <!--"TeamLead.ButtonEndMonitoringChat": 0:  the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it-->
+  <Value Id="TeamLead.ButtonEndMonitoringChat" Name="End the monitoring of chat interaction {0}" Header="End Monitoring For Chat" ToolTip="End the monitoring of the chat interaction {0}"/>
+  <!--"TeamLead.ButtonMute": Information of the button used to switch from coaching to monitoring the voice call-->
+  <Value Id="TeamLead.ButtonMute" Name="Mute (Monitor)" ToolTip="Mute (Monitor)"/>
+  <!--"TeamLead.ButtonUnmute": Information of the button used to start coaching the voice interaction-->
+  <Value Id="TeamLead.ButtonUnmute" Name="Unmute (Coach)" ToolTip="Unmute (Coach)"/>
+
+  <Value Id="TeamLead.Supervision.ActiveCoaching" Text="Coaching of {0} {1} started."/>
+  <Value Id="TeamLead.Supervision.EndActiveCoaching" Text="Coaching of {0} ended."/>
+  <Value Id="TeamLead.Supervision.ActiveSilentMonitoring" Text="Monitoring of {0} {1} started."/>
+  <Value Id="TeamLead.Supervision.EndActiveSilentMonitoring" Text="Monitoring of {0} ended."/>
+  <!--"TeamLead.Supervision.VoiceAndChatMonitoring": name of the media(s) for which a confirmation of monitoring is presented to supervisor in a toast: voice and chat-->
+  <Value Id="TeamLead.Supervision.VoiceAndChatMonitoring" Text="(Voice and Chat)" />
+  <!--"TeamLead.Supervision.VoiceMonitoring": name of the media(s) for which a confirmation of monitoring is presented to supervisor in a toast: voice-->
+  <Value Id="TeamLead.Supervision.VoiceMonitoring" Text="(Voice)" />
+  <!--"TeamLead.Supervision.ChatMonitoring": name of the media(s) for which a confirmation of monitoring is presented to supervisor in a toast: chat-->
+  <Value Id="TeamLead.Supervision.ChatMonitoring" Text="(Chat)" />
+  <Value Id="TeamLead.Supervision.MenuItemParty.CoachingChat" Text="Co_ach via chat" Tooltip="Start a coaching session with the selected party through the chat channel" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/chat.png"/>
+  <Value Id="TeamLead.Supervision.MenuItemParty.CoachingVoice" Text="Co_ach via voice" Tooltip="Start a coaching session with the selected party through the voice channel"/>
+  <!-- "TeamLead.Customer.Unidentified" 0: Alias of switch in context Hybrid agent -->
+  <Value Id="TeamLead.Customer.Unidentified" Text="Current call" TextAlias="Current call on {0}"/>
+</Dictionary>

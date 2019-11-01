@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary>
+
+  <!--
+	This file allows to change branding images and text.
+	For instance, you can replace the embedded splashscreen resource:
+		"pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Splash.png"
+	with a local image with a path relative to the application:
+		"MySplash.png"
+	or
+		"MyImagesFolder/MySplash.png"
+	-->
+
+  <Value Id="Application.SplashScreen" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Splash.png"/>
+  
+  <Value Id="Common.Images.CompanyLogo" ResourceKey="Common.CompanyLogo9.0"  />
+  <Value Id="Common.Images.ShortCompanyLogo" ResourceKey="Common.CompanyLogoWithOutText9.0"  Width=""/>
+  
+   <Value Id="Common.Images.Hamburger" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/ic_menu_hamburger.png"/>
+
+  <!-- Emoticons -->
+  <Value Id="Common.Images.Emoticons.Angry"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Emoticons/Angry.png"/>
+  <Value Id="Common.Images.Emoticons.Cheeky"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Emoticons/Cheeky.png"/>
+  <Value Id="Common.Images.Emoticons.Cool"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Emoticons/Cool.png"/>
+  <Value Id="Common.Images.Emoticons.Cry"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Emoticons/Cry.png"/>
+  <Value Id="Common.Images.Emoticons.Laugh"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Emoticons/Laugh.png"/>
+  <Value Id="Common.Images.Emoticons.Sad"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Emoticons/Sad.png"/>
+  <Value Id="Common.Images.Emoticons.Smile"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Emoticons/Smile.png"/>
+  <Value Id="Common.Images.Emoticons.Surprised"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Emoticons/Surprised.png"/>
+  <Value Id="Common.Images.Emoticons.Wink"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Emoticons/Wink.png"/>
+  <!---->
+
+  
+  <!-- Common Begin -->
+
+    <Value Id="Common.Images.BrokenFile"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/file-broken-icon.png"/>
+    
+    <Value Id="Common.Images.Interaction.Select.Case"  ResourceKey="Interaction.Select.Case"  />
+    <Value Id="Common.Images.Interaction.Bundle.MarkDone" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/markDone.png" />
+    <Value Id="Common.Images.Interaction.Bundle.Consultation" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/consultation.png"/>
+    <Value Id="Common.Images.Interaction.Bundle.Reschedule" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/reschedule.png"/>
+    <Value Id="Common.Images.Interaction.Bundle.RescheduleSet" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/rescheduleSet.png"/>
+    <Value Id="Common.Images.Interaction.Contact.Inbound"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Contact/in.png"/>
+  
+    <Value Id="Common.Images.Interaction.Contact.Outbound"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Contact/out.png"/>
+    <Value Id="Common.Images.Mike" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/mike.png" />
+    <Value Id="Common.Images.Mike.Mute" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/mike_mute.png" />
+    <Value Id="Common.Images.Sound" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/sound.png" />
+    <Value Id="Common.Images.Sound.Mute" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/sound_mute.png"/>
+    <Value Id="Common.Images.Video.Start" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/addVideo.png" />
+    <Value Id="Common.Images.Video.Stop" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/endVideoCall.png" />
+    <Value Id="Common.Images.Video.SwitchViews" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/toolbarSwitchButton.png" />
+    <Value Id="Common.Images.Main.DudeMenu" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/InteractionWorkspace_Header.png"/>
+  
+      <Value Id="Common.Images.Agent" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/agent.png"/>
+        <Value Id="Common.Images.Contact" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/contact.png"/>
+
+    <Value Id="Common.Images.Gadget.DudeMenu" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/InteractionWorkspace_Header.png"/>
+    <Value Id="Common.Images.Help" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/help.png" />
+    <Value Id="Common.Images.PictoValueChanged" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/PictoValueChanged.png" />
+    <Value Id="Common.Images.MessageBox.Error" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/General/error.png" />
+    <Value Id="Common.Images.MessageBox.Info" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/General/info.png" />
+    <Value Id="Common.Images.MessageBox.Question" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/General/question.png" />
+    <Value Id="Common.Images.MessageBox.Warning" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/General/warning.png" />
+    <Value Id="Common.Images.Error.Error" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Alert.png" />
+    <Value Id="Common.Images.Error.Warning" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Warn.png"/>
+    <Value Id="Common.Images.Error.Message" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Document32.png"/>
+    <Value Id="Common.Images.Error.Info" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/OK.png"/>
+    <Value Id="Common.Images.Page.First" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Common/pg-first.png"/>
+    <Value Id="Common.Images.Page.Previous" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Common/pg-prev.png"/>
+    <Value Id="Common.Images.Page.Next" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Common/pg-next.png"/>
+    <Value Id="Common.Images.Page.Last" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Common/pg-last.png"/>
+    <Value Id="Common.Images.Print.Zoom.Out" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Print/ic_zoom_out.png"/>
+    <Value Id="Common.Images.Print.Zoom.In" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Print/ic_zoom_in.png"/>
+    <Value Id="Common.Images.Print.Expand.Page" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Print/ic_window_expand.png"/>
+    <Value Id="Common.Images.Print.Page.Double" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Print/ic_page_multi.png"/>
+    <Value Id="Common.Images.Print.Page.Single" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Print/ic_page_single.png"/>
+    <Value Id="Common.Images.Print.Expand.Width" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Print/ic_page_zoom.png"/>
+    <Value Id="Common.Images.Search" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/search.png"/>
+  
+    <Value Id="Common.Images.TreeViewItem.Container" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/TreeView/folder.png"/>
+    <Value Id="Common.Images.TreeViewItem.ContainerOpen" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/TreeView/folderOpen.png"/>
+    <Value Id="Common.Images.Delete" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/remove.png"/>
+    <Value Id="Common.Images.Document" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/TreeView/document.png"/>
+    <Value Id="Common.Images.Url" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/URL.png" />
+  
+  <!-- Common End -->
+
+  <!-- Windows.CaseDataView Begin -->
+    <Value Id="Windows.CaseDataView.AddCaseData"   ResourceKey="Common.Images.Add"/>
+    <Value Id="Windows.CaseDataView.RemoveCaseData"  Source="pack://application:,,,/Genesyslab.Desktop.Modules.Windows;component/Images/Case Data/remove.png" />
+    <Value Id="Windows.CaseDataView.EditableCaseData"  Source="pack://application:,,,/Genesyslab.Desktop.Modules.Windows;component/Images/pencilSmall.png" />
+  <!-- Windows.CaseDataView End -->
+  
+  
+  <!-- MainToolbar Begin -->
+    <Value Id="Windows.ToolbarView.SplitButtonOpenHelp" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/help.png" />
+  <!-- MainTollbar End-->
+  
+  <!-- Agent State Begin -->
+
+    <Value Id="Common.Images.Main.Agent.State.Unknown"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewOutOfService.png"/>
+    <Value Id="Common.Images.Main.Agent.State.LoggedOff" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewLogOut.png"/>
+    <Value Id="Common.Images.Main.Agent.State.LoggedOff.White" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewLogOut.png"/>
+    <Value Id="Common.Images.Main.Agent.State.OutOfService" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewOutOfService.png"/>
+    <Value Id="Common.Images.Main.Agent.State.Ready" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewReady.png"/>
+    <Value Id="Common.Images.Main.Agent.State.PartiallyReady" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewPartiallyReady.png"/>
+    <Value Id="Common.Images.Main.Agent.State.NotReady" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewNotReady.png"/>
+    <Value Id="Common.Images.Main.Agent.State.NotReadyWithReason" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewNotReadyWithReason.png"/>
+    <Value Id="Common.Images.Main.Agent.State.DoNotDisturb" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewDoNotDisturb.png"/>
+    <Value Id="Common.Images.Main.Agent.State.AfterCallWork" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewAfterCallWork.png"/>
+    <Value Id="Common.Images.Main.Agent.State.AfterCallWork.Disabled" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewAfterCallWorkDisabled.png"/>
+    <Value Id="Common.Images.Main.Agent.State.Ready.Disabled" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewReadyDisabled.png"/>
+    <Value Id="Common.Images.Main.Agent.State.NotReady.Disabled" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewNotReadyDisabled.png"/>
+    <Value Id="Common.Images.Main.Agent.State.DoNotDisturb.Disabled" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewDoNotDisturbDisabled.png"/>
+  
+    <Value Id="Common.Images.Gadget.Agent.State.Unknown"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateGadget/gadgetOutOfService.png"/>
+    <Value Id="Common.Images.Gadget.Agent.State.LoggedOff" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateGadget/gadgetLogOut.png"/>
+    <Value Id="Common.Images.Gadget.Agent.State.OutOfService" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateGadget/gadgetOutOfService.png"/>
+    <Value Id="Common.Images.Gadget.Agent.State.Ready" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateGadget/gadgetReady.png"/>
+    <Value Id="Common.Images.Gadget.Agent.State.PartiallyReady" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateGadget/gadgetPartiallyReady.png"/>
+    <Value Id="Common.Images.Gadget.Agent.State.NotReady" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateGadget/gadgetNotReady.png"/>
+    <Value Id="Common.Images.Gadget.Agent.State.NotReadyWithReason" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateGadget/gadgetNotReady.png"/>
+    <Value Id="Common.Images.Gadget.Agent.State.DoNotDisturb" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateGadget/gadgetDoNotDisturb.png"/>
+    <Value Id="Common.Images.Gadget.Agent.State.AfterCallWork" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateGadget/gadgetAfterCallWork.png"/>
+
+    <Value Id="Common.Images.SystemTray.Agent.State.Unknown"  Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayUnknown.ico"/>
+    <Value Id="Common.Images.SystemTray.Agent.State.LoggedOff" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayLogOut.ico"/>
+    <Value Id="Common.Images.SystemTray.Agent.State.OutOfService" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayOutOfService.ico"/>
+    <Value Id="Common.Images.SystemTray.Agent.State.Ready" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayReady.ico"/>
+    <Value Id="Common.Images.SystemTray.Agent.State.PartiallyReady" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayPartiallyReady.ico"/>
+    <Value Id="Common.Images.SystemTray.Agent.State.NotReady" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayNotReady.ico"/>
+    <Value Id="Common.Images.SystemTray.Agent.State.NotReadyWithReason" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayNotReady.ico"/>
+    <Value Id="Common.Images.SystemTray.Agent.State.DoNotDisturb" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayDoNotDisturb.ico"/>
+    <Value Id="Common.Images.SystemTray.Agent.State.AfterCallWork" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayAfterCallWork.ico"/>
+  <!-- Agent State End -->
+  
+  <!-- Voice Begin -->
+    <Value Id="Common.Images.Media.Voice" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/Voice.png"  Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/voice.ico"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/Voice.png"/>
+    <Value Id="Common.Images.Media.VoiceIM" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/voice_IM.png" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/voice_IM.png" />
+    <Value Id="Common.Images.Media.Voice.Recording" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/VoiceRed.png" />
+    <Value Id="Common.Images.Media.Voice.SilentMonitoring" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/silentmonitoringvoice.png"/>
+    <Value Id="Common.Images.Media.Voice.SilentMonitoring.Recording" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/silentmonitoringvoicerecording.png"/>
+    <Value Id="Common.Images.Media.Voice.Conference" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/voiceConference.png"/>
+    <Value Id="Common.Images.Media.Voice.Conference.Suspended" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/voiceConferenceSuspended.png"/>
+  <!-- _TODO_ _FMA_ -->
+    <Value Id="Common.Images.Media.Voice.Hold" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/voiceHold.png"/>
+    <Value Id="Common.Images.Media.Voice.Ended" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/voiceEnded.png"/>
+
+    <Value Id="Common.Images.Interaction.Voice.Conference" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/conference.png" />
+    <Value Id="Common.Images.Interaction.Voice.Transfer" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/transfer.png" />
+    <Value Id="Common.Images.Interaction.Voice.Hold" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/hold.png" />
+    <Value Id="Common.Images.Interaction.Voice.Reconnect" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/release.png" />
+    <Value Id="Common.Images.Interaction.Voice.Release" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/release.png" />
+    <Value Id="Common.Images.Interaction.Voice.DTMF" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/DTMF.png" />
+    <Value Id="Common.Images.Interaction.Voice.DTMF.ClosePopup" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Common/cancel_idle_14x14_.png" />
+    <Value Id="Common.Images.Interaction.Voice.Retrieve" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/retrieve.png"/>
+    <Value Id="Common.Images.Interaction.Voice.Start.RecordingCall" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/startSIPRecording.png"/>
+    <Value Id="Common.Images.Interaction.Voice.Stop.RecordingCall" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/stopSIPRecording.png"/>
+    <Value Id="Common.Images.Interaction.Voice.ReportBadQualityOfMedia" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/reportBadQualityOfMedia.png"/>
+    <Value Id="Common.Images.Interaction.Voice.Preview" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/preview.png" />
+   
+    <Value Id="Common.Images.Media.Voice.Voicemail" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/voicemail.png"  Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/voicemail.ico"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/Voicemail.png"/>
+    <Value Id="Windows.VoiceView.MenuItemMainDialerMakeVoiceMailCall" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/voicemail.png"/>
+ 
+  
+  <Value Id="Windows.VoiceView.MenuItemMainDialerMakeCall" ImageUrl="/Genesyslab.Desktop.Modules.Voice;component/Images/voice.png"/>
+    <Value Id="Windows.VoiceView.MenuItemPartyMakeCall"  ImageUrl="/Genesyslab.Desktop.Modules.Voice;component/Images/voice.png"/>
+    <Value Id="Windows.VoiceView.MenuItemPartyMakeCallCoach"  ImageUrl="/Genesyslab.Desktop.Modules.Voice;component/Images/voice.png" />
+
+    <Value Id="Windows.VoiceView.MenuItemConsultationDialerConsultCall" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/voice.png" />
+    <Value Id="Windows.VoiceView.MenuItemOneStepConferenceDialer" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/conference.png" />
+    <Value Id="Windows.VoiceView.MenuItemConsultationDialerInitConference" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/conference.png" />
+    <Value Id="Windows.VoiceView.MenuItemPartyInitConference" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/conference.png" />
+  
+    <Value Id="Windows.VoiceView.MenuItemOneStepTransferDialer" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/transfer.png" />
+    <Value Id="Windows.VoiceView.MenuItemOneStepTransferToVoiceMailDialer" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/voicemailTransfer.png" />
+    <Value Id="Windows.VoiceView.MenuItemConsultationDialerInitTransfer" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/transfer.png" />
+    <Value Id="Windows.VoiceView.MenuItemPartyInitTransfer" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/transfer.png" />
+  <!-- Voice End -->
+
+  <!-- IM Begin -->
+    <Value Id="Common.Images.Media.IM" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/IM.png"  Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/IM.ico" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/IM.png"/> 
+    <Value Id="Common.Images.Interaction.IM.Preview" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/preview.png" />
+    <Value Id="Windows.IMView.MenuItemPartyMakeIM"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/IM.png" />
+    <Value Id="Windows.IMView.MenuItemConsultationDialerConsultationIM"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/IM.png" />
+    <Value Id="Windows.IMView.MenuItemPartyCoachingIM" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/component/Images/Media/MediaType/IM.png" />
+    <Value Id="Common.Images.Interaction.IM.End" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/StopIM.png" />
+    <Value Id="Common.Images.Interaction.IM.Transfer" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/transferIM.png" />
+    <Value Id="Common.Images.Interaction.IM.Conference" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/conferenceIM.png" />
+    <Value Id="Windows.IMView.MenuItemOneStepTransferDialer"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/transferIM.png"/>
+    <Value Id="Windows.IMView.MenuItemOneStepConferenceDialer"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/conferenceIM.png"/>
+  
+  <!-- IM End -->
+
+  <!-- Campaign Begin -->
+  <Value Id="Common.Images.Campaign.Event.Added" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/Campaign.png" />
+  <Value Id="Common.Images.Campaign.Event.Removed" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/Campaign.png" />
+  <Value Id="Common.Images.Campaign.GetRecord" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/GetRecord.png" />
+  <Value Id="Common.Images.Campaign.StateActive" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/CampaignActive.png" />
+  <Value Id="Common.Images.Campaign.StateRunning" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/CampaignRunning.png" />
+  <!-- Campaign End -->
+
+  <!-- Outbound Preview Begin -->
+    <Value Id="Common.Images.Interaction.OutboundPreview.Call" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/voice.png"/>
+    <Value Id="Common.Images.Interaction.OutboundPreview.Decline" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/OutboundPreview/decline.png"/>
+  <!-- Outbound Preview End -->
+
+  <!-- Pull Preview Begin -->
+    <Value Id="Common.Images.Interaction.PullPreview.MarkDone" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/markDone.png" />
+    <Value Id="Common.Images.Interaction.PullPreview.MarkDoneAndGetNextRecord" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/markDone.png" />
+    <Value Id="Common.Images.Interaction.PullPreview.MarkDoneAndStop" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/OutboundPreview/markDoneStop.png" />
+  <!-- Pull Preview End -->
+  
+  <!-- SMS Begin -->
+    <Value Id="Common.Images.Media.SMS" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/sms.png"  Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/sms.ico"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/sms.png"/>
+    <Value Id="Channel.OpenMedia.Bundle.sms" ImageUrl="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/sms.png"/>
+  
+    <Value Id="Common.Images.Interaction.SMS.Transfer" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Sms/transferSms.png" />
+    <Value Id="Common.Images.Interaction.SMS.Delete" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Sms/endSms.png" />
+  
+    <Value Id="Windows.SmsView.MenuItemMainDialerNewOutboundSms"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/sms.png"/>
+    <Value Id="Windows.SmsView.MenuItemPartyNewOutboundSms"   ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/sms.png"/>
+    <Value Id="Windows.SmsView.MenuItemOneStepTransferDialer"   ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Sms/transferSms.png"/>
+  
+    <Value Id="Windows.SmsView.WarningTextLimitLabel"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Sms/warningSmsTextLimit.png"/>
+    <Value Id="Windows.SmsView.WarningMsgsLimitLabel"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Sms/warningSmsMsgsLimit.png"/>
+  <!-- SMS End -->
+          
+  <!-- Chat Begin -->
+    <Value Id="Common.Images.Media.Chat" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/Chat.png"  Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/chat.ico"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/Chat.png"/>
+    <Value Id="Common.Images.Media.Chat.SilentMonitoring" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/silentmonitoringchat.png"/>
+    <!--<Value Id="Common.Images.Interaction.Chat.Responce" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/chatResponce.png" />--><!--IW-14324-->
+    <Value Id="Common.Images.Interaction.Chat.Responce" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/Chat.png" />
+    <Value Id="Common.Images.Interaction.Chat.Conference" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Chat/conferenceChat.png" />
+    <Value Id="Common.Images.Interaction.Chat.Transfer" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Chat/transferChat.png" />
+    <Value Id="Common.Images.Interaction.Chat.End" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Chat/endChat.png" />
+    <Value Id="Windows.ChatView.MenuItemOneStepTransferDialer"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Chat/transferChat.png"/>
+    <Value Id="Windows.ChatView.MenuItemOneStepConferenceDialer"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Chat/conferenceChat.png"/>
+    <Value Id="Windows.ChatView.MenuItemInitiateConsultationDialer" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/chat.png"/>
+    <Value Id="Windows.ChatView.CheckUrl.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/checkUrl.png" />
+    <Value Id="Windows.ChatView.AddUrl.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AddUrl.png" />
+    <Value Id="Common.Images.Interaction.Chat.Attachments" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/attachments.png"/>
+
+  <!-- Chat End -->
+
+  <!-- Email Begin -->
+    <Value Id="Common.Images.Media.Email" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/Email.png"  Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/email.ico"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/Email.png"/>
+    <Value Id="Common.Images.Media.Email.SilentMonitoring" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/silentmonitoringemail.png"/>
+    <Value Id="Windows.EmailView.MenuItemMainDialerNewOutboundEmail" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/email.png"/>
+    <Value Id="Windows.EmailView.Remove.Image" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Windows;component/Images/Case Data/remove.png"/>  
+    <Value Id="Common.Images.Interaction.Email.Reply" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/replyEmail.png" />
+    <Value Id="Common.Images.Interaction.Email.ReplyAll" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/replyAllEmail.png" />
+    <Value Id="Common.Images.Interaction.Email.SaveInInProgressWorkbin" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/saveInWorkbin.png" />
+    <Value Id="Common.Images.Interaction.Email.MoveToWorkbin" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/saveInWorkbin.png" />
+    <Value Id="Common.Images.Interaction.Email.Transfer" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/transferEmail.png" />
+    <Value Id="Common.Images.Interaction.Email.Forward" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/forwardEmail.png" />
+    <Value Id="Common.Images.Interaction.Email.Print" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/print.png" />
+    <Value Id="Common.Images.Interaction.Email.Send" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/sendEmail.png" />
+    <Value Id="Common.Images.Interaction.Email.Save" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/save.png" />
+    <Value Id="Common.Images.Interaction.Email.PutBackToOriginalSource" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/saveInWorkbin.png"/>
+    <Value Id="Common.Images.Interaction.Email.Delete" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/deleteEmail.png"/>
+    <Value Id="Common.Images.Interaction.Email.Attachments" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/attachments.png"/>
+
+    <Value Id="Windows.EmailView.MenuItemOneStepTransferDialer" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/transferEmail.png"/>
+    <Value Id="Windows.EmailView.MenuItemEmailForwardDialer" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/forwardEmail.png"/>
+    <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinReplyAll" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/replyAllEmail.png"/>
+    <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinReply"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/replyEmail.png"/>
+    <Value Id="Windows.EmailView.MenuItemInteractionActionPull" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/openFromWorkbin.png"/>
+    <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinMarkDone" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/markDone.png"/>
+    <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinDelete" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/deleteEmail.png"/>
+    <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinResend" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/resendEmail.png"/>
+    <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinOpen" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/openFromWorkbin.png"/>
+    <Value Id="Windows.EmailView.MenuItemInteractionActionPrint" ImageUrl="/Genesyslab.Desktop.Modules.Contacts;component/Resources/print.png" />
+    <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinDelete" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/deleteEmail.png"/>
+    <Value Id="Windows.EmailView.MenuItemInteractionActionFromHistoryInLineForward" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Email/forwardEmail.png"/>
+    <Value Id="Windows.EmailView.SelectEmailAddress" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/email.png"/>
+    <!-- IW-10224 -->
+    <Value Id="Windows.EmailView.SelectSearchedAgent" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/search.png"/>
+    <Value Id="Windows.EmailView.SelectSearchedContact" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/search.png"/>
+    <!-- Email End -->
+  
+   <!-- WorkItem Begin -->
+  <Value Id="Channel.OpenMedia.WorkItem.Image.Default" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/workItem.png"/>
+  <!-- Channel.OpenMedia.WorkItem.Image.<MediaType> ImageUrl="" />-->
+  <Value Id="InteractionWorkItem.Image.Default" Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/workitem.ico" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/workitem.png"/>
+  <!--Value Id="InteractionWorkItem.Image.<MediaType>" Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/workitem.ico" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/workitem.png"/>-->
+  <Value Id="Windows.ToolbarWorkitemView.ButtonTransfer" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/WorkItem/transferWorkItem.png"/>
+  <!--Value Id="Windows.ToolbarWorkitemView.ButtonTransfer.<MediaType>"-->
+  <Value Id="Windows.ToolbarWorkitemView.ButtonPutBackToOriginalSource"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/saveInWorkbin.png"/>
+  <!--Value Id="Windows.ToolbarWorkitemView.ButtonPutBackToOriginalSource.<MediaType>"-->
+  <Value Id="Windows.ToolbarWorkitemView.ButtonMoveToWorkbin" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/saveInWorkbin.png"/>
+  <!--Value Id="Windows.ToolbarWorkitemView.ButtonMoveToWorkbin.<MediaType>"-->
+  <Value Id="Windows.ToolbarWorkitemView.MenuItemOneStepTransferDialer" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/WorkItem/transferWorkItem.png"/>
+  <!--Value Id="Windows.ToolbarWorkitemView.MenuItemOneStepTransferDialer.<MediaType>"-->
+
+  <Value Id="Windows.WorkbinWorkItemView.MenuItemInteractionActionFromWorkbinOpen"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/openFromWorkbin.png"/>
+  <Value Id="Windows.WorkitemView.MenuItemInteractionActionPull" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/openFromWorkbin.png"/>
+  <Value Id="Workbins.Workitem.MenuItemInteractionActionFromWorkbinMarkDone" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/markDone.png"/>
+  
+  <!-- WorkItem End -->
+
+  <!-- WebCallBack Begin -->
+    <Value Id="Common.Images.Media.WebCallBack" ImageUrl="/Genesyslab.Desktop.Modules.Callback;component/Resources/Callback.png" Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/Callback/Callback.ico" />
+    <Value Id="Common.Images.Interaction.WebCallBack.Call" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/voice.png"/>
+    <Value Id="Common.Images.Interaction.WebCallBack.Image" Ico="pack://application:,,,/Genesyslab.Desktop.Modules.Callback;component/Resources/Callback.ico" ImageUrl="/Genesyslab.Desktop.Modules.Callback;component/Resources/Callback.png"/>
+  <!-- WebCallBack Begin -->
+
+  <!-- GMECallBack Begin -->
+  <Value Id="Common.Images.Media.GMECallBack" ImageUrl="/Genesyslab.Desktop.Modules.GMECallback;component/Resources/GMECallback.png" Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/Callback/Callback.ico" />
+  <Value Id="GMECallback.MenuItemMainDialerAddNewCallback" ImageUrl="/Genesyslab.Desktop.Modules.GMECallback;component/Resources/ScheduleGMECallback.png"/>
+  <Value Id="Common.Images.Interaction.Bundle.NewCallback" Source="/Genesyslab.Desktop.Modules.GMECallback;component/Resources/ScheduleGMECallback.png"/>
+  <!-- GMECallBack Begin -->
+
+  <!-- OutboundPreview Begin -->
+    <Value Id="Channel.OpenMedia.WorkItem.Image.outboundpreview" ImageUrl="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/OutboundPreview.png" />
+    <Value Id="Common.Images.Interaction.Outbound.PullPreview.Image" Ico="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/OutboundPreview.ico" ImageUrl="/Genesyslab.Desktop.Modules.Outbound;component/Resources/OutboundPreview.png"/>
+    <Value Id="Common.Images.Interaction.Outbound.PushPreview.Image" Ico="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/OutboundPreview.ico" ImageUrl="/Genesyslab.Desktop.Modules.Outbound;component/Resources/OutboundPreview.png"/>
+  <!-- OutboundPreview Begin -->
+  
+  <!--Team Lead Begin -->
+    <Value Id="TeamLead.Supervision.MenuItemParty.CoachingVoice" ImageUrl="/Genesyslab.Desktop.Modules.Voice;component/Images/voice.png"/>
+    <Value Id="TeamLead.Supervision.MenuItemParty.CoachingChat" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/chat.png"/>
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorNextInteractions"  ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/auto-monitor.png" />
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemCoachNextInteractions"  ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/auto-coach.png" />
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopMonitor"  ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/stop-monitor.png" />
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopCoach"  ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/stop-coach.png" />
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopMonitorVoice"  ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/SilentVoiceStop.png" />
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopCoachVoice"  ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/coachVoiceStop.png" />
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopMonitorChat"  Tooltip="Stop the chat monitoring of this agent" ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/SilentChatStop.png" />
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopCoachChat"  ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/coachChatStop.png" />
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitor"  ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/auto-monitor.png" />
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemCoach" ImageUrl="/Genesyslab.Desktop.Modules.TeamLead;component/Resources/auto-coach.png" />
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorChat"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/chat.png"/>
+    <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorVoice"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/voice.png"/>
+    <Value Id="Common.Images.Supervisor.BargeIn" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Supervisor/barge-in.png"/>
+    <Value Id="Common.Images.Supervisor.EndMonitoring" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Supervisor/stopMonitoring.png"/>
+  <!--Team Lead Begin -->
+
+ <!-- TeamCommunication Begin -->
+   <Value Id="TeamCommunication.Images.Search" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/search.png" />
+   <Value Id="TeamCommunication.Images.MainReduce" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/teamCommunicatorMain.png" />
+   <Value Id="TeamCommunication.Images.SearchIn.AllContacts" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/green.png" />
+   <Value Id="TeamCommunication.Images.SearchIn.Favorites" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/favorite_16x16.png" />
+   <Value Id="TeamCommunication.Images.SearchIn.Recents" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/history.png" />
+   <Value Id="TeamCommunication.Images.ShowGroups" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/showGroups.png" />
+   <Value Id="TeamCommunication.Images.ObjectTC.Contact" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/contactCard.png" />
+   <Value Id="TeamCommunication.Images.ObjectTC.Agent" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/genericAgent.png" />
+   <Value Id="TeamCommunication.Images.ObjectTC.Skill" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/skills.png" />
+   <Value Id="TeamCommunication.Images.ObjectTC.AgentGroup" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/agentGroup.png" />
+   <Value Id="TeamCommunication.Images.ObjectTC.InteractionQueue" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/queue.png" />
+   <Value Id="TeamCommunication.Images.ObjectTC.ACDQueue" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/queue.png" />
+   <Value Id="TeamCommunication.Images.ObjectTC.RoutingPoint" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/routingPoint.png" />
+   <Value Id="TeamCommunication.Images.ObjectTC.Other" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/genericContact.png" />
+   <Value Id="TeamCommunicator.ContactTCView.CorporateFavorites"  Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/favoriteLocked.png"  /> 
+   <Value Id="TeamCommunicator.ContactTCView.PersonalFavorites"   Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/favorite_16x16.png" />
+   <Value Id="TeamCommunicator.Images.Media.voice"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/voice.png" />
+   <Value Id="TeamCommunicator.Images.Media.im"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/IM.png" />
+   <Value Id="TeamCommunicator.Images.Media.chat"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/chat.png" />
+   <Value Id="TeamCommunicator.Images.Media.sms"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/sms.png" />
+   <Value Id="TeamCommunicator.Images.Media.email"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/email.png" />
+   <Value Id="TeamCommunicator.Images.Media.webcallback"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/Callback.png" />
+   <Value Id="TeamCommunicator.Images.Media.workitem"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/workitem.png" />
+   <!--<Value Id="TeamCommunicator.Images.Media.<mediaType>"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/workitem.png" />-->
+   <Value Id="TeamCommunicator.Images.AgentState.Unknown"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/UnknownState.png" />
+   <Value Id="TeamCommunicator.Images.AgentState.Ready"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewReady.png" />
+   <Value Id="TeamCommunicator.Images.AgentState.NotReady"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewNotReady.png" />
+   <Value Id="TeamCommunicator.Images.AgentState.Busy"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewBusy.png" />
+   <Value Id="TeamCommunicator.Images.AgentState.PartiallyReady"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewPartiallyReady.png" />
+   <Value Id="TeamCommunicator.Images.AgentState.LoggedOff"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewLogOut.png" />
+   <Value Id="TeamCommunicator.Images.AgentState.AfterCallWork"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateMainView/mainViewAfterCallWork.png" />
+   <Value Id="TeamCommunicator.Images.AgentState.OnCall"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/voice.png" />
+   <Value Id="TeamCommunicator.Images.ObjStat.Unknown"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/UnknownState.png" />
+   <Value Id="TeamCommunicator.Images.ObjStat.Empty"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/queueEmpty.png "/>
+   <Value Id="TeamCommunicator.Images.ObjStat.PartiallyFull"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/queuePartiallyFull.png" />
+   <Value Id="TeamCommunicator.Images.ObjStat.Full"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/queueFull.png" />
+   <Value Id="TeamCommunicator.Images.Favorite.Remove"  ImageUrl="/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/Delete.png"/>
+   <Value Id="TeamCommunicator.Images.Favorite.Add"  ImageUrl="/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/addToFavorite.png"/>
+   <Value Id="TeamCommunicator.Images.Favorite.Edit"  ImageUrl="/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/Properties16.png"/>
+   <Value Id="TeamCommunicator.Images.Missed.Call"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/Contact/inRed.png"/> 
+   <!-- TeamCommunication End -->
+
+  <!-- Contact Begin -->
+    <Value Id="Contact.Images.Common.Horizontal" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/horisontalView.png"/>
+    <Value Id="Contact.Images.Common.Vertical" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/verticalView.png"/>
+    <Value Id="Contact.Images.Common.Delete" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Windows;component/Images/Case Data/remove.png" />
+    <Value Id="Contact.Images.Common.GridView" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/gridView.png" />
+    <Value Id="Contact.Images.Common.TreeView" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/treeView.png" />
+    <Value Id="Contact.Images.Common.ListView" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/listView.png" />
+    <Value Id="Contact.Images.Common.OnceView" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/OnceView.png" />
+    <Value Id="Contact.Images.Common.Merge" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/merge.png"/>
+    <Value Id="Contact.Images.Common.Merge.Undo" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/undomerge.png"/>
+    <Value Id="Contact.Images.Common.MarkDone" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/markDone.png"/>
+
+    <Value Id="Contact.Images.Media.Voice" ImageUrl="/Genesyslab.Desktop.Modules.Contacts;component/Resources/voice.png" />
+    <Value Id="Contact.Images.Media.Email" ImageUrl="/Genesyslab.Desktop.Modules.Contacts;component/Resources/email.png" />
+    <Value Id="Contact.Images.Media.Chat" ImageUrl="/Genesyslab.Desktop.Modules.Contacts;component/Resources/chat.png" />
+    <Value Id="Contact.Images.Media.SMS" ImageUrl="/Genesyslab.Desktop.Modules.Contacts;component/Resources/sms.png" />
+    <Value Id="Contact.Images.Media.WebCallback" ImageUrl="/Genesyslab.Desktop.Modules.Contacts;component/Resources/Callback.png" />
+    <Value Id="Contact.Images.Media.WorkItem" ImageUrl="/Genesyslab.Desktop.Modules.Contacts;component/Resources/workitem.png" />
+    <Value Id="Contacts.ContactHistoryView.InteractionWorkItem.Default" ImageUrl="/Genesyslab.Desktop.Modules.Contacts;component/Resources/workitem.png"/>
+  
+    <Value Id="Contacts.ContactInformationView.Save" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/save.png" />
+    <Value Id="Contacts.ContactInformationView.Reset" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/reset.png" />
+    <Value Id="Contacts.ContactInformationView.AssignContact" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/assignContactSearch.png" />
+  
+    <Value Id="Contacts.ContactHistoryView.Calendar" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/reschedule.png" />
+
+    <Value Id="Contacts.ContactDirectoryView.ContextMenuArrow" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/contextMenu.png" />
+    <Value Id="Contacts.ContactDirectoryView.Contact.Delete" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/deleteContact.png" />
+    <Value Id="Contacts.ContactDirectoryView.Contact.Add" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/newContact.png" />
+
+    <Value Id="Contact.ContactNotificationView.CountValue" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/contactNotification.png"/>
+    <Value Id="Contact.InteractionInQueueView.CountValue"  Source="pack://application:,,,/Genesyslab.Desktop.Modules.Contacts;component/Resources/interactionPending.png"/>
+    <Value Id="Common.Arrow.Left" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Common/arrowBack.png" />
+
+  <!-- Contact End -->
+
+
+  <!-- SRL Begin -->
+    <Value Id="SRL.TreeViewItem.Container" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/TreeView/folder.png" />
+    <Value Id="SRL.TreeViewItem.ContainerOpen" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/TreeView/folderOpen.png" />
+    <Value Id="SRL.TreeViewItem.Element" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/TreeView/folderOpen.png" />
+    <Value Id="SRL.Mode.View.List" Source="pack://application:,,,/Genesyslab.Desktop.Modules.StandardResponse;component/Resources/listView.png" />
+    <Value Id="SRL.Mode.View.Tree" Source="pack://application:,,,/Genesyslab.Desktop.Modules.StandardResponse;component/Resources/treeView.png" />
+    <Value Id="SRL.Mode.View.Once" Source="pack://application:,,,/Genesyslab.Desktop.Modules.StandardResponse;component/Resources/onceView.png" />
+    <Value Id="SRL.Mode.View.Horizontal" Source="pack://application:,,,/Genesyslab.Desktop.Modules.StandardResponse;component/Resources/horizontalView.png" />
+    <Value Id="SRL.Add.Favorite" Source="pack://application:,,,/Genesyslab.Desktop.Modules.StandardResponse;component/Resources/addToFavorite.png"/>
+    <Value Id="SRL.Remove.Favorite" Source="pack://application:,,,/Genesyslab.Desktop.Modules.StandardResponse;component/Resources/removeFromFavorites.gif"/>
+    <Value Id="SRL.Insert" Source="pack://application:,,,/Genesyslab.Desktop.Modules.StandardResponse;component/Resources/insert.png"/>  
+  <!-- SRL End -->
+  
+  <!-- Active Recoding Begin -->
+    <Value Id="ActiveRecording.Images.SIP.Pause" Source="pack://application:,,,/Genesyslab.Desktop.Modules.ActiveRecording;component/Images/pauseSIPRecording.png" />
+    <Value Id="ActiveRecording.Images.SIP.Start" Source="pack://application:,,,/Genesyslab.Desktop.Modules.ActiveRecording;component/Images/startSIPRecording.png" />
+    <Value Id="ActiveRecording.Images.SIP.Resume" Source="pack://application:,,,/Genesyslab.Desktop.Modules.ActiveRecording;component/Images/resumeSIPRecording.png" />
+    <Value Id="ActiveRecording.Images.SIP.Stop" Source="pack://application:,,,/Genesyslab.Desktop.Modules.ActiveRecording;component/Images/stopSIPRecording.png" />
+    <Value Id="ActiveRecording.Images.Screen.Pause" Source="pack://application:,,,/Genesyslab.Desktop.Modules.ActiveRecording;component/Images/pauseScreenRecording.png" />
+    <Value Id="ActiveRecording.Images.Screen.Start" Source="pack://application:,,,/Genesyslab.Desktop.Modules.ActiveRecording;component/Images/startScreenRecording.png" />
+    <Value Id="ActiveRecording.Images.Screen.Resume" Source="pack://application:,,,/Genesyslab.Desktop.Modules.ActiveRecording;component/Images/resumeScreenRecording.png" />
+    <Value Id="ActiveRecording.Images.Screen.Stop" Source="pack://application:,,,/Genesyslab.Desktop.Modules.ActiveRecording;component/Images/stopScreenRecording.png" />
+    <Value Id="ActiveRecording.Images.Indicator.Recording.Voice" Source="pack://application:,,,/Genesyslab.Desktop.Modules.ActiveRecording;component/Images/voiceGblRecordingInProgress.png"/>
+    <Value Id="ActiveRecording.Images.Indicator.Recording.Screen" Source="pack://application:,,,/Genesyslab.Desktop.Modules.ActiveRecording;component/Images/screenGBLRecordingInProgress.png"/>
+  <!-- Active Recoding End -->
+
+  <!-- Workbins Begin-->
+    <Value Id="Workbins.Images.Media.Voice" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/voice.png" />
+    <Value Id="Workbins.Images.Media.Email" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/email.png" />
+    <Value Id="Workbins.Images.Media.Chat" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/chat.png" />
+    <Value Id="Workbins.Images.Media.SMS" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/sms.png" />
+    <Value Id="Workbins.Images.Media.WebCallback" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/callback.png" />
+    <Value Id="Workbins.Images.Media.WorkItem" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/workItem.png"/>
+    <Value Id="InteractionWorkItem.MediaType.Image.Default" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/workItem.png"/>
+    <!--<Value Id="InteractionWorkItem.MediaType.Image.<MediaType>" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/MediaType/workItem.png"/>-->
+    <Value Id="Workbins.WorkbinsContentView.Details.Hide.Image" Source="pack://application:,,,/Genesyslab.Desktop.Modules.OpenMedia;component/Resources/OnceView.png" />
+    <Value Id="Workbins.WorkbinsContentView.Details.Show.Image" Source="pack://application:,,,/Genesyslab.Desktop.Modules.OpenMedia;component/Resources/horisontalView.png" />
+    <Value Id="Workbins.WorkbinsContentView.Refresh.Image" Source="pack://application:,,,/Genesyslab.Desktop.Modules.OpenMedia;component/Resources/refresh.png" />
+    <Value Id="Workbins.WorkbinsExplorerView.ContainerOpen.Image" Source="pack://application:,,,/Genesyslab.Desktop.Modules.OpenMedia;component/Resources/open.png"/> 
+    <Value Id="Workbins.WorkbinsExplorerView.Container.Image" Source="pack://application:,,,/Genesyslab.Desktop.Modules.OpenMedia;component/Resources/folder.png" />
+  
+  <!-- Workbins End -->
+
+  <!-- InteractionManagement Begin-->
+    <Value Id="Windows.InteractionManagement.MenuItemInteractionActionMoveToQueue"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/moveToQueue.png"/>
+    <Value Id="Windows.InteractionManagement.MenuItemInteractionActionMoveToWorkbin"  ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Interactions/moveToWorkbin.png"/>
+    <Value Id="Windows.InteractionManagement.MenuItemInteractionActionEditCaseData" ImageUrl="/Genesyslab.Desktop.Modules.Windows;component/Images/pencilSmall.png"/>
+    <Value Id="InteractionManagement.Container.Image" Source="pack://application:,,,/Genesyslab.Desktop.Modules.OpenMedia;component/Resources/folder.png" />
+    <Value Id="InteractionManagement.ContainerOpen.Image" Source="pack://application:,,,/Genesyslab.Desktop.Modules.OpenMedia;component/Resources/open.png"/>
+    <Value Id="InteractionManagement.Document.Image" Source="pack://application:,,,/Genesyslab.Desktop.Modules.OpenMedia;component/Resources/document.png"/>
+    <Value Id="InteractionManagement.Queue.Image" Source="pack://application:,,,/Genesyslab.Desktop.Modules.OpenMedia;component/Resources/queue.png"/>
+  <!-- InteractionManagement End-->  
+  
+  <!-- Editor Begin-->
+    <Value Id="Editor.Table.InsertTable.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Gadget/stat_table.png" />
+    <Value Id="Editor.FontBold.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/font_bold.png" />
+    <Value Id="Editor.FontItalic.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/font_italic.png" />
+    <Value Id="Editor.FontUnderline.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/font_underline.png" />
+    <Value Id="Editor.FormatNumbers.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/format_numbers.png" />
+    <Value Id="Editor.FormatBullets.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/format_bullets.png"/>
+    <Value Id="Editor.FormatIndent.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/format_indent.png"/>
+    <Value Id="Editor.FormatOutdent.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/format_outdent.png"/>
+    <Value Id="Editor.AlignLeft.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/align_left.png"/>
+    <Value Id="Editor.AlignCenter.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/align_center.png"/>
+    <Value Id="Editor.AlignRight.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/align_right.png"/>
+    <Value Id="Editor.AlignNone.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/align_none.png"/>
+    <Value Id="Editor.SpellChecker.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/spell_checker.png"/>
+    <Value Id="Editor.Image.Error" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/ErrorImage.png"/>
+    <Value Id="Editor.InsertImage.Image" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/SpellChecker/insert_picture.png" />
+  <!-- Editor End-->
+  
+  <!-- Attachment Begin -->
+    <Value Id="AttachmentViewer.Attachment.Image"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/attachments.png" />
+    <Value Id="AttachmentViewer.MenuItemOpen.Image"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/open.png" />
+    <Value Id="AttachmentViewer.MenuItemSaveAs.Image"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/save.png" />
+    <Value Id="AttachmentViewer.MenuItemDelete.Image"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/Delete.png" />
+    <Value Id="AttachmentViewer.MenuItemDeleteAll.Image"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/DeleteAll.png" />
+    <Value Id="AttachmentViewer.MenuItemPrint.Image"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/print.png" />
+    <Value Id="AttachmentViewer.MenuItemSaveAll.Image"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/saveAll.png" />
+    <Value Id="AttachmentViewer.File.Image"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Attachments/file.png" />
+  <!-- Attachment End -->
+
+  <!-- Stats Begin -->
+    <Value Id="Common.Images.Stat.Error" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Alert.png" />
+    <Value Id="Common.Images.Stat.Warning" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Warn.png"/>
+  <!-- Stats End -->
+
+  <!-- Stats Begin -->
+    <Value Id="Common.Images.Gadget.Stat.Error" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/General/error.png" />
+    <Value Id="Common.Images.Gadget.Stat.Rewind" Source="/Genesyslab.Desktop.WPFCommon;component/Images/Gadget/control_rewind.png" />
+    <Value Id="Common.Images.Gadget.Stat.Stop" Source="/Genesyslab.Desktop.WPFCommon;component/Images/Gadget/control_stop.png" />
+    <Value Id="Common.Images.Gadget.Stat.Play" Source="/Genesyslab.Desktop.WPFCommon;component/Images/Gadget/control_play.png" />
+    <Value Id="Common.Images.Gadget.Stat.Forward" Source="/Genesyslab.Desktop.WPFCommon;component/Images/Gadget/control_forward.png" />
+    <Value Id="Common.Images.Gadget.Stat.Chart" Source="/Genesyslab.Desktop.WPFCommon;component/Images/Gadget/stat_chart.png" />
+    <Value Id="Common.Images.Gadget.Stat.Tag.Remove" Source="/Genesyslab.Desktop.WPFCommon;component/Images/Gadget/stat_tag_delete.png" />
+    <Value Id="Common.Images.Gadget.Stat.Tag.Add" Source="/Genesyslab.Desktop.WPFCommon;component/Images/Gadget/stat_tag_add.png" />
+    <Value Id="Common.Images.Gadget.Stat.Table" Source="/Genesyslab.Desktop.WPFCommon;component/Images/Gadget/stat_table.png" />
+  <!-- Stats End -->
+
+    <!-- Video Begin -->
+    <Value Id="Common.Images.Video.VideoCam" ResourceKey="ic_videocam_1"/>
+    <Value Id="Common.Images.Video.VideoCamDisable" ResourceKey="ic_videocam_1_disable"/>
+    <Value Id="Common.Images.Video.SwitchViews" ResourceKey="ic_iw_video_thumbnail_revert"/>
+    <Value Id="Common.Images.Video.ThumbnailHide" ResourceKey="ic_iw_video_thumbnail_hide"/>
+    <Value Id="Common.Images.Video.ThumbnailShow" ResourceKey="ic_iw_video_thumbnail_show"/>
+    <!-- Video End -->
+
+
+</Dictionary>

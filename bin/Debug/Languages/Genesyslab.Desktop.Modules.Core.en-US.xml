@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+  <!-- "Agent.Authentication.UnknownError": Error message presented when agent tries to authenticate at login time - unknown cause -->
+  <Value Id="Agent.Authentication.UnknownError" Text="Unknown authentication problem." />
+  <!--"Agent.Authentication.NoConfigServer": Error message presented when agent tries to authenticate at login time - server used for authentication is not accessible -->
+  <Value Id="Agent.Authentication.NoConfigServer" Text="Cannot find Configuration Server for authentication." />
+  <!--"Agent.Authentication.NoConnectionToConfigServer": Error message presented when agent tries to authenticate at login time - server used for authentication is not connected -->
+  <Value Id="Agent.Authentication.NoConnectionToConfigServer" Text="No connection to configuration server. Cannot authenticate." />
+  <!--"Agent.Authentication.Exception": Error message presented when agent tries to authenticate at login time - error details provided in 0 -->
+  <!--"Agent.Authentication.Exception": 0: detailed error message -->
+  <Value Id="Agent.Authentication.Exception" Text="Cannot authenticate: {0}" />
+  <!--"Channel.Authentication.Exception": Error message presented when connection to a particular back-end server failed due to a security certificate issue -->
+  <!--"Channel.Authentication.Exception" 0: channel name (voice, etc) -->
+  <Value Id="Channel.Authentication.Exception" Text="Security Certificate Error on channel: {0}" MediaInformation="Security Certificate Error"/>
+
+  <!--"Agent.ChangePassword.UnknownError": Error message presented to agent when he tries to change his password - unknown error cause -->
+  <Value Id="Agent.ChangePassword.UnknownError" Text="Unknown change password problem." />
+  <!--"Agent.ChangePassword.NoConfigServer": Error message presented to agent when he tries to change his password - server used for authentication is not accessible-->
+  <Value Id="Agent.ChangePassword.NoConfigServer" Text="Cannot find Configuration Server for change password." />
+  <!--"Agent.ChangePassword.NoConnectionToConfigServer": Error message presented to agent when he tries to change his password - server used for authentication is not connected-->
+  <Value Id="Agent.ChangePassword.NoConnectionToConfigServer" Text="No connection to configuration server. Cannot change password." />
+  <!--"Agent.ChangePassword.Exception": Error message presented to agent when he tries to change his password - message provided in details-->
+  <!--"Agent.ChangePassword.Exception": 0: detailed error message -->
+  <Value Id="Agent.ChangePassword.Exception" Text="Cannot change password: {0}" />
+  
+  <!--"Statistic.Configuration.Error : When the text of statistic contains a bad format -->
+  <Value Id="Statistic.Configuration.Error" Text="Error in statistic configuration" />
+		
+</Dictionary>

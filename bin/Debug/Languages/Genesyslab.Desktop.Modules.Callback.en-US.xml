@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+
+    <Value Id="Callback.Warning.TreatmentBeforeClose" Text="Call or decline before closing this window"/>
+
+    
+    <!-- InteractionCallbackToolbarView resources -->
+    <!-- Callback.Toolbar.ToolbarName: Name of the toolbar (accessibility only) -->
+    <Value Id="Callback.Toolbar.ToolbarName" Tag="Callback"/>
+    <!-- Value Id="Callback.Toolbar.Call" 0:the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it-->
+    <Value Id="Callback.Toolbar.Call" Content="Call" ToolTip="Call this contact {0}" Name="Call this contact {0}"/>
+    <Value Id="Callback.Toolbar.Decline" Content="Decline" ToolTip="Decline the call" Name="Decline the call"/>
+    <!-- Value Id="Callback.Toolbar.Reject" 0:the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it-->
+    <Value Id="Callback.Toolbar.Reject" Header ="Call this contact later" Content="Call this contact later" ToolTip="Call this contact later {0}" Name="Call this contact later {0}"/>
+    <!-- Value Id="Callback.Toolbar.Cancel" 0:the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it-->
+    <Value Id="Callback.Toolbar.Cancel" Header="Do not call this contact for this callback" Content="Do not call this contact for this callback" ToolTip="Do not call this contact for this callback {0}" Name="Do not call this contact for this callback {0}"/>
+
+    
+    <!-- InteractionCallbackInformationView -->
+    <Value Id="Callback.CallbackInformation" Text="Callback Information" String="Callback Information" Name="Callback Information"/>
+    <!--"Callback.CallbackInformation.ExpanderToolTip.Show": tooltip on the control used to collapse/expand the callback information area: show -->
+    <Value Id="Callback.CallbackInformation.ExpanderToolTip.Show" ToolTip="Show the Callback Information"/>
+    <!--"Callback.CallbackInformation.ExpanderToolTip.Hide": tooltip on the control used to collapse/expand the callback information area: hide-->
+    <Value Id="Callback.CallbackInformation.ExpanderToolTip.Hide" ToolTip="Hide the Callback Information"/>
+    <Value Id="Callback.CallbackInformation.Subject" Text="Subject" Name="Subject"/>
+    <Value Id="Callback.CallbackInformation.PhoneNumber" Text="Phone Number" Name="Phone Number"/>
+    <Value Id="Callback.CallbackInformation.Type" Text="Type" Name="Type"/>
+    <Value Id="Callback.CallbackInformation.Type.ASAP" Text="ASAP" Name="ASAP"/>
+    <Value Id="Callback.CallbackInformation.Type.Scheduled" Text="Scheduled" Name="Scheduled"/>
+    <Value Id="Callback.CallbackInformation.ScheduledDate" Text="Scheduled Date" Name="Scheduled Date"/>
+    <Value Id="Callback.CallbackInformation.ContactTimeInterval" Text="Time (Contact)" Name="Time (Contact)"/>
+    <Value Id="Callback.CallbackInformation.LocalTimeInterval" Text="Time (Local)" Name="Time (Local)"/>
+    <!--<Value Id="Callback.CallbackInformation.TimeIntervalValue" 0: start time 1: end time />-->
+    <Value Id="Callback.CallbackInformation.TimeIntervalValue" Text="from {0} till {1}" Name="from {0} till {1}"/>
+    <Value Id="Callback.CallbackInformation.FormerAttempts" Text="Former Attempts" Name="Former Attempts"/>
+    <Value Id="Callback.CallbackInformation.Result" Text="Result" Name="Result"/>
+    <Value Id="Callback.CallbackInformation.MoreOptions" Text="More" Name="More"/>
+    <Value Id="Callback.CallbackInformation.LessOptions" Text="Less" Name="Less"/>
+
+    
+    <!-- Reschedule -->
+    <Value Id="Callback.RescheduleToolbarView.RescheduleTheCall" ToolTip="Reschedule a callback" Name="Reschedule a callback"/>
+    <!--<Value Id="Callback.RescheduleToolbarView.CallRescheduled" 0: scheduled date 1: scheduled time />-->
+    <Value Id="Callback.RescheduleToolbarView.CallRescheduled" ToolTip="Callback rescheduled on {0} at {1} (Contact Time)"/>
+    <Value Id="Callback.RescheduleControl.ButtonClose" Name="Close" ToolTip="Close"/>
+    <Value Id="Callback.RescheduleControl.CallbackOn" Content="Reschedule Callback"/>
+    <Value Id="Callback.RescheduleControl.On" Content="On:"/>
+    <!--<Value Id="Callback.RescheduleControl.ScheduleOnDate" 0: scheduled date/>-->
+    <Value Id="Callback.RescheduleControl.ScheduleOnDate" Name="Callback Rescheduled Date:"/>
+    <Value Id="Callback.RescheduleControl.From" Content="From:"/>
+    <!--<Value Id="Callback.RescheduleControl.ScheduleFromTime" 0: scheduled start time/>-->
+    <Value Id="Callback.RescheduleControl.ScheduleFromTime" Name="Callback Rescheduled From: {0}"/>
+    <Value Id="Callback.RescheduleControl.Till" Content="Till:"/>
+    <!--<Value Id="Callback.RescheduleControl.ScheduleTillTime" 0: scheduled end time/>-->
+    <Value Id="Callback.RescheduleControl.ScheduleTillTime" Name="Callback Rescheduled Till: {0}"/>
+    <!--<Value Id="Callback.RescheduleControl.ScheduleLocalDateTime" 0: scheduled date, 1: scheduled start time, 2: scheduled end time/>-->
+    <Value Id="Callback.RescheduleControl.ScheduleLocalDateTime" Name="Local Time: {0}, from {1} till {2}"/>
+    <Value Id="Callback.RescheduleControl.RemoveCallback" ToolTip="Remove Callback"/>
+    <Value Id="Callback.RescheduleControl.PersonalCallback" Content="Personal Callback"/>
+    <Value Id="Callback.RescheduleControl.Phone" Content="To:"/>
+    <Value Id="Callback.RescheduleControl.EnterNewPhoneNumber" Text="Enter Phone Number" ToolTip="Enter Phone Number" Name="Enter Phone Number"/>
+    <Value Id="Callback.RescheduleControl.AddNewNumber" Content="New Phone Number..."/>
+    <Value Id="Callback.RescheduleControl.Number" Name="New Phone Number Value" ToolTip="New Phone Number Value"/>
+    <!--<Value Id="Callback.RescheduleControl.Error.DateIsNotValid : Warning message displayed when scheduled date has not a valid format -->
+    <Value Id="Callback.RescheduleControl.Error.DateIsNotValid" Text="Callback scheduling failed, enter a valid date." />
+    <!--<Value Id="Callback.RescheduleControl.Error.SelectedDateIsInThePast : Warning message displayed when scheduled date time is in the past -->
+    <Value Id="Callback.RescheduleControl.Error.SelectedDateIsInThePast" Text="You cannot schedule a callback in the past." />
+    <Value Id="Callback.RescheduleControl.Error.NewPhoneNumberIsEmpty" Text="Callback scheduling failed, enter the new phone number." />
+    <Value Id="Callback.RescheduleControl.Error.CreateRecordFails" Text="Callback scheduling failed when trying to create the new phone number." />
+    <Value Id="Callback.RescheduleControl.Error.AddRecordFails" Text="Callback scheduling failed when trying to add the new phone number: {0}" />
+    <Value Id="Callback.RescheduleControl.Error.GetChainedRecordsFails" Text="Callback scheduling failed when trying to get the phone numbers: {0}" />
+    <Value Id="Callback.RescheduleControl.Error.NewRecordNotFoundInChain" Text="Callback scheduling failed when trying to find the new phone number." />
+    <Value Id="Callback.RescheduleControl.Error" Text="Callback scheduling failed: {0}" />
+
+
+</Dictionary>
+

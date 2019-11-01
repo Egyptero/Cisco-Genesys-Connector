@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:tns="http://www.genesyslab.com/interaction" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://www.genesyslab.com/interaction" targetNamespace="http://www.genesyslab.com/interaction" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.genesyslab.com/interaction" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.genesyslab.com/interaction">
+      <xsd:complexType name="KVPairValue">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="1" name="ValueInt" type="xsd:int" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ValueString" type="xsd:string" />
+          <xsd:element minOccurs="0" maxOccurs="1" name="ValueList" type="tns:KVList" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KVPair">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" name="key" type="xsd:string" />
+          <xsd:element minOccurs="1" name="value" type="tns:KVPairValue" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="KVList">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="kvitem" type="tns:KVPair" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="FaultMessage">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" name="ErrorCode" type="xsd:int" />
+            <xsd:element minOccurs="1" name="ErrorDescription" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Submit">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="InteractionId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ExternalId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="MediaType" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="InteractionType" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="InteractionSubtype" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="TenantId" nillable="true" type="xsd:int" />
+            <xsd:element minOccurs="0" name="Queue" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Workbin" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="WorkbinAgentId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="WorkbinAgentGroupId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="WorkbinPlaceId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="WorkbinPlaceGroupId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ParentInteractionId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" default="false" name="IsOnline" type="xsd:boolean" />
+            <xsd:element minOccurs="0" name="ReceivedAt" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="InQueues" nillable="true" type="tns:KVList" />
+            <xsd:element minOccurs="0" name="OutQueues" nillable="true" type="tns:KVList" />
+            <xsd:element minOccurs="0" name="UserData" nillable="true" type="tns:KVList" />
+            <xsd:element minOccurs="0" name="Hold" nillable="true" type="xsd:boolean" />
+            <xsd:element minOccurs="0" name="Extension" nillable="true" type="tns:KVList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Hold">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="InteractionId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ExternalId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ReasonSystemName" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ReasonDescription" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Extension" nillable="true" type="tns:KVList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Stop">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="InteractionId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ExternalId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ReasonSystemName" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ReasonDescription" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Extension" nillable="true" type="tns:KVList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Resume">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="InteractionId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ExternalId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ReasonSystemName" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ReasonDescription" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Extension" nillable="true" type="tns:KVList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Update">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="InteractionId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ExternalId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Changed" nillable="true" type="tns:KVList" />
+            <xsd:element minOccurs="0" name="Deleted" nillable="true" type="tns:KVList" />
+            <xsd:element minOccurs="0" name="Queue" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Extension" nillable="true" type="tns:KVList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="InteractionId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="ExternalId" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="Extension" nillable="true" type="tns:KVList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Ping">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="Extension" nillable="true" type="tns:KVList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="RequestResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="Extension" nillable="true" type="tns:KVList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GetInfoRequestResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="Extension" nillable="true" type="tns:KVList" />
+            <xsd:element minOccurs="0" name="InteractionProperties" nillable="true" type="tns:KVList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="PingResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="EventTime" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="0" name="UserData" nillable="true" type="tns:KVList" />
+            <xsd:element minOccurs="0" name="PingInfo" nillable="true" type="tns:KVList" />
+            <xsd:element minOccurs="0" name="Extension" nillable="true" type="tns:KVList" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="iWebServiceCapturePointSubmitInputMessage">
+    <wsdl:part name="parameters" element="tns:Submit" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointSubmitOutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointHoldInputMessage">
+    <wsdl:part name="parameters" element="tns:Hold" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointHoldOutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointStopInputMessage">
+    <wsdl:part name="parameters" element="tns:Stop" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointStopOutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointResumeInputMessage">
+    <wsdl:part name="parameters" element="tns:Resume" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointResumeOutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointUpdateInputMessage">
+    <wsdl:part name="parameters" element="tns:Update" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointUpdateOutputMessage">
+    <wsdl:part name="parameters" element="tns:RequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointGetInfoInputMessage">
+    <wsdl:part name="parameters" element="tns:GetInfo" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointGetInfoOutputMessage">
+    <wsdl:part name="parameters" element="tns:GetInfoRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointFaultMessage">
+    <wsdl:part name="details" element="tns:FaultMessage" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointPingInputMessage">
+    <wsdl:part name="parameters" element="tns:Ping" />
+  </wsdl:message>
+  <wsdl:message name="iWebServiceCapturePointPingOutputMessage">
+    <wsdl:part name="parameters" element="tns:PingResponse" />
+  </wsdl:message>
+  <wsdl:portType name="iWebServiceCapturePoint">
+    <wsdl:operation name="Submit">
+      <wsdl:input name="iWebServiceCapturePointSubmitInputMessage" message="tns:iWebServiceCapturePointSubmitInputMessage" />
+      <wsdl:output name="iWebServiceCapturePointSubmitOutputMessage" message="tns:iWebServiceCapturePointSubmitOutputMessage" />
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage" message="tns:iWebServiceCapturePointFaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Hold">
+      <wsdl:input name="iWebServiceCapturePointHoldInputMessage" message="tns:iWebServiceCapturePointHoldInputMessage" />
+      <wsdl:output name="iWebServiceCapturePointHoldOutputMessage" message="tns:iWebServiceCapturePointHoldOutputMessage" />
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage" message="tns:iWebServiceCapturePointFaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Stop">
+      <wsdl:input name="iWebServiceCapturePointStopInputMessage" message="tns:iWebServiceCapturePointStopInputMessage" />
+      <wsdl:output name="iWebServiceCapturePointStopOutputMessage" message="tns:iWebServiceCapturePointStopOutputMessage" />
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage" message="tns:iWebServiceCapturePointFaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <wsdl:input name="iWebServiceCapturePointUpdateInputMessage" message="tns:iWebServiceCapturePointUpdateInputMessage" />
+      <wsdl:output name="iWebServiceCapturePointUpdateOutputMessage" message="tns:iWebServiceCapturePointUpdateOutputMessage" />
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage" message="tns:iWebServiceCapturePointFaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Resume">
+      <wsdl:input name="iWebServiceCapturePointResumeInputMessage" message="tns:iWebServiceCapturePointResumeInputMessage" />
+      <wsdl:output name="iWebServiceCapturePointResumeOutputMessage" message="tns:iWebServiceCapturePointResumeOutputMessage" />
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage" message="tns:iWebServiceCapturePointFaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Ping">
+      <wsdl:input name="iWebServiceCapturePointPingInputMessage" message="tns:iWebServiceCapturePointPingInputMessage" />
+      <wsdl:output name="iWebServiceCapturePointPingOutputMessage" message="tns:iWebServiceCapturePointPingOutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInfo">
+      <wsdl:input name="iWebServiceCapturePointGetInfoInputMessage" message="tns:iWebServiceCapturePointGetInfoInputMessage" />
+      <wsdl:output name="iWebServiceCapturePointGetInfoOutputMessage" message="tns:iWebServiceCapturePointGetInfoOutputMessage" />
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage" message="tns:iWebServiceCapturePointFaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="iWebServiceCapturePointHttpBinding" type="tns:iWebServiceCapturePoint">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Submit">
+      <soap:operation soapAction="" />
+      <wsdl:input name="iWebServiceCapturePointSubmitInputMessage">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="iWebServiceCapturePointSubmitOutputMessage">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage">
+        <soap:fault use="literal" name="iWebServiceCapturePointFaultMessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Hold">
+      <soap:operation soapAction="" />
+      <wsdl:input name="iWebServiceCapturePointHoldInputMessage">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="iWebServiceCapturePointHoldOutputMessage">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage">
+        <soap:fault use="literal" name="iWebServiceCapturePointFaultMessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Stop">
+      <soap:operation soapAction="" />
+      <wsdl:input name="iWebServiceCapturePointStopInputMessage">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="iWebServiceCapturePointStopOutputMessage">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage">
+        <soap:fault use="literal" name="iWebServiceCapturePointFaultMessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Resume">
+      <soap:operation soapAction="" />
+      <wsdl:input name="iWebServiceCapturePointResumeInputMessage">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="iWebServiceCapturePointResumeOutputMessage">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage">
+        <soap:fault use="literal" name="iWebServiceCapturePointFaultMessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Update">
+      <soap:operation soapAction="" />
+      <wsdl:input name="iWebServiceCapturePointUpdateInputMessage">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="iWebServiceCapturePointUpdateOutputMessage">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage">
+        <soap:fault use="literal" name="iWebServiceCapturePointFaultMessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetInfo">
+      <soap:operation soapAction="" />
+      <wsdl:input name="iWebServiceCapturePointGetInfoInputMessage">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="iWebServiceCapturePointGetInfoOutputMessage">
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="iWebServiceCapturePointFaultMessage">
+        <soap:fault use="literal" name="iWebServiceCapturePointFaultMessage" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Ping">
+      <soap:operation soapAction="" />
+      <wsdl:input name="iWebServiceCapturePointPingInputMessage">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="iWebServiceCapturePointPingOutputMessage">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceCapturePoint">
+    <wsdl:port name="iWebServiceCapturePointHttpBinding" binding="tns:iWebServiceCapturePointHttpBinding">
+      <soap:address location="http://DRCCGNCRUATAP2V:7005/Genesys/Interaction/Cisco_WSCP/WebServiceCapturePoint" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

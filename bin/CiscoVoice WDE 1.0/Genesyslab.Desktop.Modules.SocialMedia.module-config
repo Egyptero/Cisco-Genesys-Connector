@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+
+  <configSections>
+    <section name="themes" type="Genesyslab.Desktop.Infrastructure.Theming.ThemesSection, Genesyslab.Desktop.Infrastructure" />
+    <section name="modules" type="Microsoft.Practices.Composite.Modularity.ModulesConfigurationSection, Microsoft.Practices.Composite" />
+    <section name="tasks" type="Genesyslab.Desktop.Infrastructure.Config.TasksSection, Genesyslab.Desktop.Infrastructure" />
+  </configSections>
+
+  <tasks>
+    <!-- If the task 'InteractionWorkspace.ExtensionSample.canUse' is granted,
+				the bootstrap downloads the files in the group 'clickOnceGroupsToDownload' if any,
+				and then, the module in the 'modulesToLoad' list are loaded.
+				'clickOnceGroupsToDownload' and 'modulesToLoad' are a coma separated lists 
+
+FacebookModule
+-->
+    <!--task name="InteractionWorkspace.WorkItem.canUse" clickOnceGroupsToDownload="Facebook" modulesToLoad="InstGenesysModule" /-->
+    <task name="InteractionWorkspace.WorkItem.canUse" clickOnceGroupsToDownload="Facebook" modulesToLoad="CiscoVoiceModule" />
+    <task name="InteractionWorkspace.Facebook.canUse" clickOnceGroupsToDownload="Facebook" modulesToLoad="FacebookModule" />
+    <task name="InteractionWorkspace.FacebookPM.canUse" clickOnceGroupsToDownload="FacebookPM" modulesToLoad="FacebookPMModule" />
+    <task name="InteractionWorkspace.RSS.canUse" clickOnceGroupsToDownload="RSS" modulesToLoad="RSSModule" />
+    <task name="InteractionWorkspace.TwitterDirect.canUse" clickOnceGroupsToDownload="TwitterDirect" modulesToLoad="TwitterDirectModule" />
+    <task name="InteractionWorkspace.Twitter.canUse" clickOnceGroupsToDownload="Twitter" modulesToLoad="TwitterModule" />
+<!--    <task name="InteractionWorkspace.FacebookDMSession.canUse" clickOnceGroupsToDownload="FacebookDMSession" modulesToLoad="FacebookDMSessionModule" />-->
+    <task name="InteractionWorkspace.FacebookDMSession.canUse" clickOnceGroupsToDownload="FacebookDMSession" modulesToLoad="FbChatModule" />
+    
+  </tasks>
+
+  <modules>
+    <!-- Uncomment the following to load the module if the corresponding task is granted -->
+
+    <module assemblyFile="Genesyslab.Desktop.Modules.Facebook.dll"
+				moduleType="Genesyslab.Desktop.Modules.Facebook.FacebookModule"
+				moduleName="FacebookModule"
+				startupLoaded="false"/>
+    <module assemblyFile="Genesyslab.Desktop.Modules.InstGenesys.dll"
+				moduleType="Genesyslab.Desktop.Modules.InstGenesys.InstGenesysModule"
+				moduleName="InstGenesysModule"
+				startupLoaded="false"/>
+
+    <module assemblyFile="Genesyslab.Desktop.Modules.CiscoVoice.dll"
+				moduleType="Genesyslab.Desktop.Modules.CiscoVoice.CiscoVoiceModule"
+				moduleName="CiscoVoiceModule"
+				startupLoaded="false"/>
+
+    <module assemblyFile="Genesyslab.Desktop.Modules.FacebookPM.dll"
+				moduleType="Genesyslab.Desktop.Modules.FacebookPM.FacebookPMModule"
+				moduleName="FacebookPMModule"
+				startupLoaded="false"/>
+
+<!--    <module assemblyFile="Genesyslab.Desktop.Modules.FacebookDMSession.dll"
+				moduleType="Genesyslab.Desktop.Modules.FacebookDMSession.FacebookDMSessionModule"
+				moduleName="FacebookDMSessionModule"
+				startupLoaded="false"/>-->
+
+    <module assemblyFile="Genesyslab.Desktop.Modules.FbChat.dll"
+				moduleType="Genesyslab.Desktop.Modules.FbChat.FbChatModule"
+				moduleName="FbChatModule"
+				startupLoaded="false"/>
+
+    
+    <module assemblyFile="Genesyslab.Desktop.Modules.TwitterDirect.dll"
+       moduleType="Genesyslab.Desktop.Modules.TwitterDirect.TwitterDirectModule"
+       moduleName="TwitterDirectModule"
+       startupLoaded="false"/>
+
+    <module assemblyFile="Genesyslab.Desktop.Modules.Twitter.dll"
+        moduleType="Genesyslab.Desktop.Modules.Twitter.TwitterModule"
+        moduleName="TwitterModule"
+        startupLoaded="false"/>
+
+  </modules>
+
+
+  <themes>
+    <theme name="Default" >
+      <xmlDictionaries>
+        <xmlDictionary name="RSSModule" path=".\Resources\ResourcesDefinition85RSS.xml"></xmlDictionary>
+        <xmlDictionary name="FacebookModule" path=".\Resources\ResourcesDefinition85Facebook.xml"></xmlDictionary>
+        <xmlDictionary name="FacebookPMModule" path=".\Resources\ResourcesDefinition85FacebookPM.xml"></xmlDictionary>
+        <!--<xmlDictionary name="FacebookDMSessionModule" path=".\Resources\ResourcesDefinition85FacebookDMSession.xml"></xmlDictionary>-->
+        <xmlDictionary name="FbChatModule" path=".\Resources\ResourcesDefinition85FbChat.xml"></xmlDictionary>
+        <xmlDictionary name="TwitterDirectModule" path=".\Resources\ResourcesDefinition85TwitterDirect.xml"></xmlDictionary>
+        <xmlDictionary name="TwitterModule" path=".\Resources\ResourcesDefinition85Twitter.xml"></xmlDictionary>
+        <xmlDictionary name="SocialMediaModule" path=".\Resources\ResourcesDefinition85SocialMedia.xml"></xmlDictionary>
+      </xmlDictionaries>
+      <extensionResourceDictionaries>
+        <extensionResourceDictionary name="SocialMediaModule"  path="/Genesyslab.Desktop.Modules.SocialMedia;component/Resources/SM_Styles85.xaml"></extensionResourceDictionary>
+      </extensionResourceDictionaries>
+    </theme>
+    <theme name="HighContrast" >
+      <xmlDictionaries>
+        <xmlDictionary name="RSSModule" path=".\Resources\ResourcesDefinition85RSS.xml"></xmlDictionary>
+        <xmlDictionary name="FacebookModule" path=".\Resources\ResourcesDefinition85Facebook.xml"></xmlDictionary>
+        <xmlDictionary name="FacebookPMModule" path=".\Resources\ResourcesDefinition85FacebookPM.xml"></xmlDictionary>
+        <!--<xmlDictionary name="FacebookDMSessionModule" path=".\Resources\ResourcesDefinition85FacebookDMSession.xml"></xmlDictionary>-->
+        <xmlDictionary name="FbChatModule" path=".\Resources\ResourcesDefinition85FbChat.xml"></xmlDictionary>
+        <xmlDictionary name="TwitterDirectModule" path=".\Resources\ResourcesDefinition85TwitterDirect.xml"></xmlDictionary>
+        <xmlDictionary name="TwitterModule" path=".\Resources\ResourcesDefinition85Twitter.xml"></xmlDictionary>
+        <xmlDictionary name="SocialMediaModule" path=".\Resources\ResourcesDefinition85SocialMedia.xml"></xmlDictionary>
+      </xmlDictionaries>
+      <extensionResourceDictionaries>
+        <extensionResourceDictionary name="SocialMediaModule"  path="/Genesyslab.Desktop.Modules.SocialMedia;component/Resources/SM_Styles85.xaml"></extensionResourceDictionary>
+        <extensionResourceDictionary name="FbChatModule"  path="/Genesyslab.Desktop.Modules.FbChat;component/Resources/Theme/ResourcesDictionaryFbChat85.xaml"></extensionResourceDictionary>
+      </extensionResourceDictionaries>
+    </theme>
+    <theme name="Blue" >
+      <xmlDictionaries>
+        <xmlDictionary name="RSSModule" path=".\Resources\ResourcesDefinitionRSS.xml"></xmlDictionary>
+        <xmlDictionary name="FacebookModule" path=".\Resources\ResourcesDefinitionFacebook.xml"></xmlDictionary>
+        <xmlDictionary name="FacebookPMModule" path=".\Resources\ResourcesDefinitionFacebookPM.xml"></xmlDictionary>
+<!--    <xmlDictionary name="FacebookDMSessionModule" path=".\Resources\ResourcesDefinitionFacebookDMSession.xml"></xmlDictionary>-->
+        <xmlDictionary name="FbChatModule" path=".\Resources\ResourcesDefinition85FbChat.xml"></xmlDictionary>
+        <xmlDictionary name="TwitterDirectModule" path=".\Resources\ResourcesDefinitionTwitterDirect.xml"></xmlDictionary>
+        <xmlDictionary name="TwitterModule" path=".\Resources\ResourcesDefinitionTwitter.xml"></xmlDictionary>
+        <xmlDictionary name="SocialMediaModule" path=".\Resources\ResourcesDefinitionSocialMedia.xml"></xmlDictionary>
+      </xmlDictionaries>
+      <extensionResourceDictionaries>
+        <extensionResourceDictionary name="SocialMediaModule"  path="/Genesyslab.Desktop.Modules.SocialMedia;component/Resources/SM_Styles.xaml"></extensionResourceDictionary>
+        <extensionResourceDictionary name="FbChatModule"  path="/Genesyslab.Desktop.Modules.FbChat;component/Resources/Theme/ResourcesDictionaryFbChat85.xaml"></extensionResourceDictionary>
+      </extensionResourceDictionaries>
+    </theme>
+    <theme name="Royale">
+      <xmlDictionaries>
+        <xmlDictionary name="RSSModule" path=".\Resources\ResourcesDefinitionRSS.xml"></xmlDictionary>
+        <xmlDictionary name="FacebookModule" path=".\Resources\ResourcesDefinitionFacebook.xml"></xmlDictionary>
+        <xmlDictionary name="FacebookPMModule" path=".\Resources\ResourcesDefinitionFacebookPM.xml"></xmlDictionary>
+        <!--<xmlDictionary name="FacebookDMSessionModule" path=".\Resources\ResourcesDefinitionFacebookDMSession.xml"></xmlDictionary>-->
+        <xmlDictionary name="FbChatModule" path=".\Resources\ResourcesDefinition85FbChat.xml"></xmlDictionary>
+        <xmlDictionary name="TwitterDirectModule" path=".\Resources\ResourcesDefinitionTwitterDirect.xml"></xmlDictionary>
+        <xmlDictionary name="TwitterModule" path=".\Resources\ResourcesDefinitionTwitter.xml"></xmlDictionary>
+        <xmlDictionary name="SocialMediaModule" path=".\Resources\ResourcesDefinitionSocialMedia.xml"></xmlDictionary>
+      </xmlDictionaries>
+      <extensionResourceDictionaries>
+        <extensionResourceDictionary name="SocialMediaModule"  path="/Genesyslab.Desktop.Modules.SocialMedia;component/Resources/SM_Styles.xaml"></extensionResourceDictionary>
+        <extensionResourceDictionary name="FbChatModule"  path="/Genesyslab.Desktop.Modules.FbChat;component/Resources/Theme/ResourcesDictionaryFbChat85.xaml"></extensionResourceDictionary>
+      </extensionResourceDictionaries>
+    </theme>
+    <theme name="Fancy" >
+      <xmlDictionaries>
+        <xmlDictionary name="RSSModule" path=".\Resources\ResourcesDefinitionRSS.xml"></xmlDictionary>
+        <xmlDictionary name="FacebookModule" path=".\Resources\ResourcesDefinitionFacebook.xml"></xmlDictionary>
+        <xmlDictionary name="FacebookPMModule" path=".\Resources\ResourcesDefinitionFacebookPM.xml"></xmlDictionary>
+        <!--<xmlDictionary name="FacebookDMSessionModule" path=".\Resources\ResourcesDefinitionFacebookDMSession.xml"></xmlDictionary>-->
+        <xmlDictionary name="FbChatModule" path=".\Resources\ResourcesDefinition85FbChat.xml"></xmlDictionary>
+        <xmlDictionary name="TwitterDirectModule" path=".\Resources\ResourcesDefinitionTwitterDirect.xml"></xmlDictionary>
+        <xmlDictionary name="TwitterModule" path=".\Resources\ResourcesDefinitionTwitter.xml"></xmlDictionary>
+        <xmlDictionary name="SocialMediaModule" path=".\Resources\ResourcesDefinitionSocialMedia.xml"></xmlDictionary>
+      </xmlDictionaries>
+      <extensionResourceDictionaries>
+        <extensionResourceDictionary name="SocialMediaModule"  path="/Genesyslab.Desktop.Modules.SocialMedia;component/Resources/SM_Styles.xaml"></extensionResourceDictionary>
+        <extensionResourceDictionary name="FbChatModule"  path="/Genesyslab.Desktop.Modules.FbChat;component/Resources/Theme/ResourcesDictionaryFbChat85.xaml"></extensionResourceDictionary>
+      </extensionResourceDictionaries>
+    </theme>
+  </themes>
+
+</configuration>

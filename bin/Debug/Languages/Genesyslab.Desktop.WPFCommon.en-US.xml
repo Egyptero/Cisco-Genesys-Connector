@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+    <Value Id="TimePicker.Time" Name="Time {0}:" />
+    <Value Id="TimePicker.Hour" Name="Hour" />
+    <Value Id="TimePicker.Minute" Name="Minute" />
+    <Value Id="TimePicker.Second" Name="Second" />
+    <Value Id="TimePicker.AmPm" Name="AM/PM" />
+
+    <!--"Toolbar.Name": Generic tooltip of any toolbar -->
+    <!--"Toolbar.Name": 0: Toolbar name-->
+    <Value Id="Toolbar.Name" ToolTip="{0} Controls" Name="{0} Controls" />
+    <!--"Toolbar.OverflowButtonWithToolbarName": Tooltip over the control that allows to access hidden controls of a toolbar -->
+    <!--"Toolbar.OverflowButtonWithToolbarName": 0: Name of the toolbar -->
+    <Value Id="Toolbar.OverflowButtonWithToolbarName" ToolTip="More {0} controls" Name="More {0} controls" />
+
+</Dictionary>

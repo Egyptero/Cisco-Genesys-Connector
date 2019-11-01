@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+  <!--  VoiceRecording SIP-->
+  <Value Id="ActiveRecording.ToolbarRecordingView.MenuStart" ToolTip="Start Voice Recording" Header="Start" Text="Start Voice Recording"/>
+  <Value Id="ActiveRecording.ToolbarRecordingView.MenuStop" ToolTip="Stop Voice Recording" Header="Stop" Text="Stop Voice Recording"/>
+  <Value Id="ActiveRecording.ToolbarRecordingView.MenuPause" ToolTip="Pause Voice Recording" Header="Pause" Text="Pause Voice Recording"/>
+  <Value Id="ActiveRecording.ToolbarRecordingView.MenuResume" ToolTip="Resume Voice Recording" Header="Resume" Text="Resume Voice Recording" />
+  <Value Id="ActiveRecording.ToolbarRecordingView.ScrMenuStart" ToolTip="Start Screen Recording" Header="Start" Text="Start Screen Recording"/>
+  <Value Id="ActiveRecording.ToolbarRecordingView.ScrMenuStop" ToolTip="Stop Screen Recording" Header="Stop" Text="Stop Screen Recording"/>
+  <Value Id="ActiveRecording.ToolbarRecordingView.ScrMenuPause" ToolTip="Pause Screen Recording" Header="Pause" Text="Pause Screen Recording"/>
+  <Value Id="ActiveRecording.ToolbarRecordingView.ScrMenuResume" ToolTip="Resume Screen Recording" Header="Resume" Text="Resume Screen Recording"/>
+  <Value Id="ActiveRecording.ToolbarRecordingView.ScreenRecordingInProgress" Text="Screen recording in progress ..."/>
+  <Value Id="ActiveRecording.ToolbarRecordingView.VoiceRecordingInProgress" Text="Voice recording in progress ..."/>
+  <Value Id="ActiveRecording.Executible.NotFound" Text="The Screen Recording client '{0}' is not started. Contact your administrator."/>
+
+</Dictionary>

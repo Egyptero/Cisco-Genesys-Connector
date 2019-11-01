@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+
+    <Value Id="Windows.Minimize" Name="Minimize" ToolTip="Minimize"/>
+    <Value Id="Windows.MaximizeRestore" Name="Maximize or Restore"/>
+    <Value Id="Windows.Close" Name="Close" ToolTip="Close"/>
+    <!-- ToolTip strings for MaximizeRestore button -->
+    <Value Id="Windows.Maximize" Text="Maximize" ToolTip="Maximize"/>
+    <Value Id="Windows.Restore" Text="Restore" ToolTip="Restore"/>
+
+    <!--Windows.CloseView: Description of close button of middle panel (My Workspace, My Workbins...) used for accessibility tools -->
+    <!--Windows.CloseView: 0: Title of the panel that will be closed (My Workspace, My Workbins...) -->
+    <Value Id="Windows.CloseView" Name="Close {0}"/>
+
+    <!--Windows.ErrorView.CloseButton: Name : Description of close button in Error View used for accessibility tools -->
+    <!--Windows.ErrorView.CloseButton: ToolTip : ToolTip of close button in Error View -->
+    <Value Id="Windows.ErrorView.CloseButton" Name="Close Error" ToolTip="Close"/>
+
+  <Value Id="Ready" String="Ready" Header="Ready"/>
+    <Value Id="NotReady" String="Not Ready" Header="Not Ready"/>
+    <Value Id="Login" String="_Log In" Header="_Log In"/>
+    <Value Id="LoggedOut" String="Log_out" Header="Log_out"/>
+    <Value Id="On" String="On" Header="On"/>
+    <Value Id="Off" String="Off" Header="Off"/>
+    <Value Id="Unknown" String="Unknown" Header="Unknown"/>
+
+    <Value Id="Clipboard.Cut" Header="_Cut"/>
+    <Value Id="Clipboard.Copy" Header="Co_py"/>
+    <Value Id="Clipboard.Paste" Header="_Paste"/>
+    <Value Id="Clipboard.SelectAll" Header="Select _All"/>
+
+    <!--"Editor.TextContent": Generic Editor Control Description used for Screen Reader -->
+    <Value Id="Editor.TextContent" Name="Editor Text Content:" />
+    <!--"Editor.ToolbarHtml.Name": HTML Formatting toolbar name (accessibility/screen reader only)-->
+    <Value Id="Editor.ToolbarHtml.Name" Tag="Html Formatting"/>
+    <Value Id="Editor.FontFamily" ToolTip="Font" Name="Font"/>
+    <Value Id="Editor.FontSize" ToolTip="Font Size" Name="Font Size"/>
+    <!--Editor.DetailedFontSize: In Rich Text Edit Toolbar, the base tooltip of the font size selection -->
+    <!--Editor.DetailedFontSize: 0: The font size units -->
+    <Value Id="Editor.DetailedFontSize" ToolTip="Font Size ({0})" Name="Font Size ({0})"/>
+    <!--Editor.PixelUnitText: In Rich Text Edit Toolbar, portion of the tooltip of the font size selection specifying the units -->
+    <Value Id="Editor.PixelUnitText" Text="In Pixels"/>
+    <!--Editor.PointUnitText: In Rich Text Edit Toolbar, portion of the tooltip of the font size selection specifying the units -->
+    <Value Id="Editor.PointUnitText" Text="In Points"/>
+    <Value Id="Editor.Bold" ToolTip="Bold  Ctrl+B" Name="Bold  Ctrl+B"/>
+    <Value Id="Editor.Italic" ToolTip="Italic  Ctrl+I" Name="Italic  Ctrl+I"/>
+    <Value Id="Editor.Underline" ToolTip="Underline  Ctrl+U" Name="Underline  Ctrl+U"/>
+    <Value Id="Editor.ForegroundColor" ToolTip="Foreground Color" Name="Foreground Color: {0}"/>
+    <Value Id="Editor.Numbering" ToolTip="Numbering  Ctrl+Shift+N" Name="Numbering  Ctrl+Shift+N"/>
+    <Value Id="Editor.Bullets" ToolTip="Bullets  Ctrl+Shift+L" Name="Bullets  Ctrl+Shift+L"/>
+    <Value Id="Editor.DecreaseIndent" ToolTip="Decrease Indent  Ctrl+Shift+T" Name="Decrease Indent  Ctrl+Shift+T"/>
+    <Value Id="Editor.IncreaseIndent" ToolTip="Increase Indent  Ctrl+T" Name="Increase Indent  Ctrl+T"/>
+    <Value Id="Editor.AlignLeft" ToolTip="Align Left" Name="Align Left"/>
+    <Value Id="Editor.AlignCenter" ToolTip="Align Center" Name="Align Center"/>
+    <Value Id="Editor.AlignRight" ToolTip="Align Right" Name="Align Right"/>
+    <Value Id="Editor.AlignJustify" ToolTip="Align Justify" Name="Align Justify"/>
+    <!--"Editor.ToolbarFormat.Name": Name of the toolbar where agent can select formatting type (accessibility/screen reader only)-->
+    <Value Id="Editor.ToolbarFormat.Name" Tag="Editor Format"/>
+    <Value Id="Editor.Format" ToolTip="Text or HTML Format" Name="Text or HTML Format"/>
+    <Value Id="Editor.FormatText" Content="Text"/>
+    <Value Id="Editor.FormatHTML" Content="HTML"/>
+    <Value Id="Editor.ContentIsTruncated" Text="The content is truncated to prevent possible performance issue."/>
+    <Value Id="Editor.FullContentLink" Text="Preview full content in external browser."/>
+    <!--"Editor.ToolbarSpellChecker.Name": Name of the spellchecker toolbar (accessibility/screen reader only)-->
+    <Value Id="Editor.ToolbarSpellChecker.Name" Tag="Spelling Check"/>
+    <Value Id="Editor.AutoSpellCheck" ToolTip="Check Spelling" Name="Spelling Check"/>
+    <Value Id="Editor.StartManualSpellCheck" ToolTip="Check Spelling" Name="Spelling Check"/>
+    <Value Id="Editor.LanguageDictionary" ToolTip="Language" Name="Language"/>
+    <Value Id="Editor.ColorPicker.DefaultColors" Header="Default Colors"/>
+    <Value Id="Editor.ColorPicker.MoreColors" Header="More Colors"/>
+    <Value Id="Editor.Document.Hyperlink" ToolTip="Click or Ctrl+Click to follow the link..."/>
+    <!--Editor.Document.InsertedLink: Tooltip of the inserted link-->
+    <Value Id="Editor.Document.InsertedLink" ToolTip="Ctrl+Click to follow link"/>
+    <!--Editor.Document.InsertedLinkNotEditable: Tooltip of the inserted link-->
+    <Value Id="Editor.Document.InsertedLinkNotEditable" ToolTip="Click to follow link"/>
+    <!--Editor.Document.InsertLink: Tooltip of the Insert Link toolbar button, Insert Link menu item, and title of the Insert Link dialog-->
+    <Value Id="Editor.Document.InsertLink" Text="Insert Hyperlink" Header="Insert _Hyperlink..." ToolTip="Hyperlink..."/>
+    <!--Editor.Document.EditLink: Edit Link menu item and title of the Edit Link dialog-->
+    <Value Id="Editor.Document.EditLink" Text="Edit Hyperlink" Header="Edit _Hyperlink..."/>
+    <!--Editor.Document.OpenLink: Open Link menu item-->
+    <Value Id="Editor.Document.OpenLink" Header="_Open Hyperlink"/>
+    <!--Editor.Document.RemoveLink: Remove Link menu item and Dialog button-->
+    <Value Id="Editor.Document.RemoveLink" Header="_Remove Hyperlink" ToolTip="Remove Hyperlink" Text="Remove"/>
+    <!--Editor.Document.LinkTitle: Title of the control for the inserted link title-->
+    <Value Id="Editor.Document.LinkTitle" Content="Text to Display"/>
+    <!--Editor.Document.LinkAddress: Title of the control for the inserted link address-->
+    <Value Id="Editor.Document.LinkAddress" Content="Address"/>
+    <!--Editor.Document.ValidationLinkAddressWarning: Warning message when the link address isn't valid-->
+    <Value Id="Editor.Document.ValidationLinkAddressWarning" Text="This is not a valid link address."/>
+    <!--Editor.Document.ValidationLinkTitleWarning: Warning message when the link title isn't valid-->
+    <Value Id="Editor.Document.ValidationLinkTitleWarning" Text="This is not a valid link title."/>
+    <!--Editor.Table.InsertTable: Tooltip of the Insert Table toolbar button and title of the Insert Table dialog-->
+    <Value Id="Editor.Table.InsertTable" Text="Insert Table" ToolTip="Insert Table"/>
+    <!--Editor.Table.InsertRowsAbove: Context menu item of the insert rows above command-->
+    <Value Id="Editor.Table.InsertRowsAbove" Header="Insert Rows Above"/>
+    <!--Editor.Table.InsertRowsBelow: Context menu item of the insert rows below command-->
+    <Value Id="Editor.Table.InsertRowsBelow" Header="Insert Rows Below"/>
+    <!--Editor.Table.DeleteRows: Context menu item of the delete rows command-->
+    <Value Id="Editor.Table.DeleteRows" Header="Delete Rows"/>
+    <!--Editor.Table.InsertColumnsLeft: Context menu item of the insert columns to the left command-->
+    <Value Id="Editor.Table.InsertColumnsLeft" Header="Insert Columns to the Left"/>
+    <!--Editor.Table.InsertColumnsRight: Context menu item of the insert columns to the right command-->
+    <Value Id="Editor.Table.InsertColumnsRight" Header="Insert Columns to the Right"/>
+    <!--Editor.Table.DeleteColumns: Context menu item of the delete columns command-->
+    <Value Id="Editor.Table.DeleteColumns" Header="Delete Columns"/>
+    <!--Editor.Table.TableProperties: Title of the Table Properties dialog-->
+    <Value Id="Editor.Table.TableProperties" Text="Table Properties" Header="Table Properties"/>
+    <!--Editor.Table.TableTitle: Title of the table tab in Table Properties dialog-->
+    <Value Id="Editor.Table.TableTitle" Header="Table"/>
+    <!--Editor.Table.ColumnTitle: Title of the column tab in Table Properties dialog-->
+    <Value Id="Editor.Table.ColumnTitle" Header="Column"/>
+    <!--Editor.Table.FixedWidth: Title of the control for the table width setting-->
+    <Value Id="Editor.Table.FixedWidth" Content="Fixed Width:"/>
+    <!--Editor.Table.AlignColumnWidth: Title of the control for the columns width setting-->
+    <Value Id="Editor.Table.AlignColumnWidth" Content="Align Column Widths:"/>
+    <!--Editor.Table.ColumnWidth: Title of the control for the column width setting-->
+    <Value Id="Editor.Table.ColumnWidth" Content="Column Width:"/>
+    <!--Editor.Table.TableSize: Title of the controls group for the table properties setting-->
+    <Value Id="Editor.Table.TableSize" Header="Table Size"/>
+    <!--Editor.Table.ColumnsNumber: Title of the control for the columns count setting-->
+    <Value Id="Editor.Table.ColumnsNumber" Content="Number of Columns:"/>
+    <!--Editor.Table.RowsNumber: Title of the control for the rows count setting-->
+    <Value Id="Editor.Table.RowsNumber" Content="Number of Rows:"/>
+    <!--Editor.Table.AutoColumnWidth: Title of the control for the auto size mode setting-->
+    <Value Id="Editor.Table.AutoColumnWidth" Content="AutoFit to Window"/>
+    <!--Editor.Table.ValidationNumberWarning: Warning message when the data isn't valid-->
+    <Value Id="Editor.Table.ValidationNumberWarning" Text="This is not a valid number."/>
+    <!--Editor.Table.PixelUnitWidth: Tooltip of the controls for the table or column width setting-->
+    <Value Id="Editor.Table.PixelUnitWidth" ToolTip="Width In Pixels"/>
+    <!--Editor.Table.ShortPixelUnit: Short unit name-->
+    <Value Id="Editor.Table.ShortPixelUnit" Content="px"/>
+    <!--Editor.Table.TooSmallValueWarning: Warning message when the table or column width is too small-->
+    <!--Editor.Table.TooSmallValueWarning: 0: The current context (table or column)-->
+    <Value Id="Editor.Table.TooSmallValueWarning" Text="{0} width is too small."/>
+    <!--Editor.Table.TooBigValueWarning: Warning message when the table or column width is too big-->
+    <!--Editor.Table.TooBigValueWarning: 0: The current context (table or column)-->
+    <Value Id="Editor.Table.TooBigValueWarning" Text="{0} width is too large."/>
+    <!--Editor.Table.KeepTableWidth: Title of the control for the keep table mode setting-->
+    <Value Id="Editor.Table.KeepTableWidth" Content="Keep Table Size"/>
+    <!--Editor.Table.InsertImage: Tooltip of the Insert Image toolbar button-->
+    <Value Id="Editor.Image.InsertImage" ToolTip="Insert Image"/>
+    <!--Editor.Image.AllPicturesFilter: Title of the filter for the Insert Image dialog-->
+    <Value Id="Editor.Image.AllPicturesFilter" Text="All Pictures"/>
+    <!--Editor.Image.SaveImage: Menu item of editor context menu to save the selected embedded image as a file-->
+    <Value Id="Editor.Image.SaveImage" Header="Save image as..."/>
+    <!--Editor.MenuItem.HtmlPreview: Menu item of editor context menu to preview HTML email body in an external browser-->
+    <Value Id="Editor.MenuItem.HtmlPreview" Header="HTML Preview..."/>
+    <!--Editor.Tooltip.InsertShortcut: Instruction displayed in a tooltip to insert a predefined phrase -->
+    <Value Id="Editor.Tooltip.InsertShortcut" Content="Press CTRL+SPACE to insert:"/>
+
+    <Value Id="SpellChecker.CheckSpellingStart" Header="Check _Spelling"/>
+    <Value Id="SpellChecker.CheckSpellingStop" Header="C_lear Check Spelling"/>
+    <Value Id="SpellChecker.Language" Header="_Languages"/>
+    <Value Id="SpellChecker.Ignore" Header="_Ignore"/>
+    <Value Id="SpellChecker.IgnoreAll" Header="Ignore _All"/>
+    <Value Id="SpellChecker.AddToDictionary" Header="Add to My _Dictionary"/>
+    <Value Id="SpellChecker.NoSuggestionFound" Header="No Suggestion Found"/>
+    <Value Id="SpellChecker.MisspellWordsPromt" Text="The text contains some misspelling. Are you sure you want to send it?"/>
+
+    <Value Id="AttachmentViewer.MenuItemOpen" Text="Open"/>
+    <Value Id="AttachmentViewer.MenuItemSaveAs" Text="Save As..."/>
+    <Value Id="AttachmentViewer.MenuItemDelete" Text="Delete"/>  
+    <Value Id="AttachmentViewer.MenuItemDeleteAll" Text="Delete All"/>  
+    <Value Id="AttachmentViewer.MenuItemPrint" Text="Print..."/>
+    <Value Id="AttachmentViewer.MenuItemSaveAll" Text="Save All..."/>
+    <Value Id="AttachmentViewer.Attachment" Name="Attachment: {0} ({1})"/>
+    <Value Id="AttachmentViewer.CorruptFile" Text="The file is corrupted"/>
+  
+    <Value Id="State.Agent.OutOfService" Text="Out Of Service" String="Out Of Service"/>
+    <Value Id="State.Agent.Logout" Text="Logged Off" String="Logged Off"/>
+    <Value Id="State.Agent.LogoutDnd" Text="Logged Off (Do Not Disturb)" Header="Logged Off (Do Not Disturb)"/>
+    <Value Id="State.Agent.Ready" Text="Ready" String="Ready"/>
+    <Value Id="State.Agent.PartiallyReady" Text="Conditionally Ready" String="Conditionally Ready"/>
+    <Value Id="State.Agent.NotReady" Text="Not Ready" String="Not Ready"/>
+    <Value Id="State.Agent.NotReadyActionCode" Text="Not Ready - {0}" String="Not Ready - {0}"/>
+    <Value Id="State.Agent.AfterCallWork" Text="After Call Work" String="After Call Work"/>
+    <Value Id="State.Agent.Dnd" Text="Do Not Disturb" String="Do Not Disturb"/>
+    <Value Id="State.Agent.InternalCall" Text="Internal Call" String="Internal Call"/>
+    <Value Id="State.Agent.InboundCall" Text="Inbound Call" String="Inbound Call"/>
+    <Value Id="State.Agent.OutboundCall" Text="Outbound Call" String="Outbound Call"/>
+    <Value Id="State.Agent.OnHoldCall" String="Hold Call"/>
+    <Value Id="State.Agent.ConsultCall" String="Consult Call"/>
+    <Value Id="State.Agent.Busy" String="Busy"/>
+    <Value Id="Menu.Agent.LogOn" Text="Log On" Header="Log On"/>
+    <Value Id="Menu.Agent.LogOff" Text="Log Off" Header="Log Off"/>
+
+    <!--Value Id="Display.Agent.Name.Format.FullName" 0:First Name 1:Last Name -->
+    <Value Id="Display.Agent.Name.Format.FullName" String="{0} {1}"/>
+    <!--Value Id="Display.Contact.Name.Format.FullName" 0:First Name 1:Last Name -->
+    <Value Id="Display.Contact.Name.Format.FullName" String="{0} {1}"/>
+
+    <Value Id="State.Channel.OutOfService" Text="Out Of Service" Header="Out Of Service"/>
+    <Value Id="State.Channel.PassiveDRSite" Text="Passive DR Site" Header="Passive DR Site"/>
+    <Value Id="State.Channel.LogOff" Text="Logged Off" Header="Logged Off"/>
+    <Value Id="State.Channel.Ready" Text="Ready" Header="Ready"/>
+    <Value Id="State.Channel.NotReady" Text="Not Ready" Header="Not Ready"/>
+    <Value Id="State.Channel.NotReadyActionCode" Text="Not Ready - {0}" Header="Not Ready - {0}"/>
+    <Value Id="State.Channel.AfterCallWork" Text="After Call Work" Header="After Call Work"/>
+    <Value Id="State.Channel.PartiallyReady" Text="Conditionally Ready" String="Conditionally Ready"/>
+    <Value Id="State.Channel.Dnd" Text="Do Not Disturb" Header="Do Not Disturb"/>
+    <Value Id="State.Channel.LogOffDnd" Text="Logged Off (Do Not Disturb)" Header="Logged Off (Do Not Disturb)"/>
+    <Value Id="State.Channel.Dnd.On" Text="On" Header="On"/>
+    <Value Id="State.Channel.Dnd.Off" Text="On" Header="Off"/>
+    <Value Id="Menu.Channel.LogOn" Text="Log On" Header="Log On"/>
+    <Value Id="Menu.Channel.LogOff" Text="Log Off" Header="Log Off"/>
+
+    <Value Id="ConfigurationServer.OutOfService" Text="The Configuration Server is out of service"/>
+    <Value Id="ConfigurationServer.BackInService" Text="The Configuration Server is back in service"/>
+    <Value Id="ConfigurationServer.OutOfServiceLater" Text="The connection to Configuration Server has been lost. Please contact your administrator and restart your application when instructed to do so."/>
+    <Value Id="ConfigurationServer.DisasterRecovery.Switchover" Text="Configuration Server connection failed - switching to Disaster Recovery site."/>
+    <Value Id="ConfigurationServer.PreferredBackInService" Text="Preferred Configuration Server is available - switching back to Preferred site."/>
+
+    <!-- Id="Channel.OutOfService" 0: The channel name -->
+    <Value Id="Channel.OutOfService" Text="The channel {0} is out of service"/>
+    <!-- Id="Channel.BackInService" 0: The name channel -->
+    <Value Id="Channel.BackInService" Text="The channel {0} is back in service"/>
+    <Value Id="Channel.BackDRPreferred" Text="The channel {0} switched back to the preferred voice service"/>
+    <Value Id="Channel.BackDRPreferredNotSipEndpointAvailable" Text="The channel {0} switched back to the preferred service but SIP Endpoint has not been registered yet, waiting ..."/>
+    <Value Id="Channel.ToDRBackup" Text="The channel {0} switched to the reserved channel"/>
+    <Value Id="Channel.DRBothDown" Text="Neither the preferred nor reserved channel for {0} are available"/>
+    <Value Id="Channel.DRBothUnreg" Text="Neither the preferred nor reserved SIP Endpoint line for {0} are available"/>
+
+    <!--<Value Id="Channel.SetForwardError" 0: Forward destination"/>-->
+    <Value Id="Channel.SetForwardError" Text="{0} is not a valid value for Forward"/>
+
+    <!--Channel.LogOnFailed: Error message reported at login time reporting an error on a specific media channel-->
+    <!--Channel.LogOnFailed: 0: The channel name for which logon failed-->
+    <Value Id="Channel.LogOnFailed" Text="Log On failed for the channel {0}"/>
+    <!--Channel.LogOnPostponed: Warning message reported at login time to invite agent to wait for an external operation to terminate (SIP Registration)-->
+    <Value Id="Channel.LogOnPostponed" Text="Log On Postponed. Waiting for the actual registration of the {0} Sip Phone."/>
+
+    <Value Id="Type.Interaction.Inbound" Text="Inbound"/>
+    <Value Id="Type.Interaction.Outbound" Text="Outbound"/>
+
+    <Value Id="State.Interaction.Unknown" Text="Unknown"/>
+    <Value Id="State.Interaction.Presented" Text="Establishing"/>
+    <Value Id="State.Interaction.Connected" Text="Connected"/>
+    <Value Id="State.Interaction.Preview.Connected" Text="Ready to Call"/>
+    <!--"State.Interaction.Preview.CallRescheduled": State of preview interaction presented in front of the identifier of the party, when agent has configured a callback-->
+    <Value Id="State.Interaction.Preview.CallRescheduled" Text="Callback Scheduled"/>
+    <!--"State.Interaction.Preview.AddingNewPhoneNumber": State of preview interaction presented in front of the identifier of the party, when agent is adding a new phone number to call -->
+    <Value Id="State.Interaction.Preview.AddingNewPhoneNumber" Text="Adding New Phone Number"/>
+    <Value Id="State.Interaction.Held" Text="On Hold"/>
+    <Value Id="State.Interaction.Ended" Text="Ended"/>
+    <Value Id="State.Interaction.Dropped" Text="Dropped"/>
+    <Value Id="State.Interaction.Queued" Text="Queued"/>
+    <Value Id="State.Interaction.Abandonned" Text="Abandoned"/>
+    <Value Id="State.Interaction.Redirected" Text="Redirected"/>
+    <Value Id="State.Interaction.HeldPresented" Text="Establishing On Hold"/>
+    <Value Id="State.Interaction.Busy" Text="Busy"/>
+    <Value Id="State.Interaction.InvalidDestination" Text="Invalid Destination"/>
+    <Value Id="State.Interaction.Disconnected" Text="Disconnected"/>
+    <Value Id="State.Interaction.NotConnected" Text="Not Connected"/>
+    <Value Id="State.Interaction.Transferring" Text="Transferring"/>
+    <!--State.Interaction.Forward: Interaction state displayed in party aera when forward e-mail view is diplayed to enter forward information -->
+    <Value Id="State.Interaction.Forward" Text="Inbound Forward"/>
+
+  <Value Id="Media.IM.Name" Text="instant messaging"/>
+
+    <Value Id="Windows.Common.Label.None" Content="None" Text="None" />
+    <Value Id="Windows.Common.Label.LoggedInAs" Text="Welcome {0}"/>
+    <Value Id="Windows.Common.Label.Password" Content="Password"/>
+
+    <!--"Windows.Common.Text.InteractionWorkspace": "Workspace" should not be translated-->
+    <Value Id="Windows.Common.Text.InteractionWorkspace" Text="Workspace"/>
+    <!--"Windows.Common.Text.CompagnyShotcut": "Genesys" should not be translated-->
+    <Value Id="Windows.Common.Text.CompagnyShotcut" Text="Genesys"/>
+    <!--"Windows.Common.Text.ProductVersion": "Desktop Edition" should not be translated-->
+    <Value Id="Windows.Common.Text.ProductVersion" Content="Desktop Edition"/>
+    <Value Id="Windows.Common.Text.MoreOptions" Text="More"/>
+    <Value Id="Windows.Common.Text.LessOptions" Text="Less"/>
+    <Value Id="Windows.Common.Text.NoItems" Text="No items"/>
+    <Value Id="Windows.Common.Text.NoAvailableInformation" Text="Information is not available"/>
+
+    <!--"Windows.Common.Button.Exit": Button used in some dialog windows that is used to exit the application-->
+	  <Value Id="Windows.Common.Button.Exit" Content="_Exit"/>
+    <Value Id="Windows.Common.Button.OK" Content="_OK"/>
+    <Value Id="Windows.Common.Button.Cancel" Content="_Cancel"/>
+    <Value Id="Windows.Common.Button.Login" Content="_Log In"/>
+    <Value Id="Windows.Common.Button.Back" Content="_Back"/>
+    <Value Id="Windows.Common.Button.Apply" Content="_Apply"/>
+    <Value Id="Windows.Common.Button.Send" Content="S_end" ToolTip="Send" Name="Send"/>
+    <Value Id="Windows.Common.Button.SendToolTip" Text="Send"/>
+    <Value Id="Windows.Common.Button.Yes" Content="_Yes"/>
+    <Value Id="Windows.Common.Button.No" Content="_No"/>
+    <Value Id="Windows.Common.Button.Ignore" Content="_Ignore"/>
+    <Value Id="Windows.Common.Button.Retry" Content="_Retry"/>
+    <Value Id="Windows.Common.Button.Abort" Content="_Abort"/>
+    <Value Id="Windows.Common.Button.Close" Name="Close message box"/>
+
+  <!--"Windows.Common.Copyright": Copyright details of the application -->
+  <Value Id="Windows.Common.Copyright" Text="© 2009-2017 Genesys Telecommunications Laboratories, Inc. Genesys suite applications are covered by U.S. and Foreign Patents."/>
+
+    <Value Id="Windows.AboutWindow" Title="About..."/>
+    <Value Id="Windows.AboutWindow.ButtonOK" Content="OK"/>
+    <Value Id="Windows.AboutWindow.TextBlockWarning" Text="Warning: This computer program is protected by copyright law and international treaties and a software license agreement entered into by you. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law."/>
+
+    <!--"Windows.Authentication": "Workspace" should not be translated here-->
+    <Value Id="Windows.Authentication" Title="Workspace - Authentication"/>
+    <Value Id="Windows.Common.Button.Authenticate" Content="_Authenticate"/>
+    <!--"Agent.Inactivity.Timeout": "Workspace" should not be translated here-->
+    <Value Id="Agent.Inactivity.Timeout" Text="Inactivity timeout occurs. You have to re-authenticate to be able to use Workspace application"/>
+
+    <Value Id="Windows.Systray.NewInteractions" Text="{0} new interaction(s)"/>
+
+    <Value Id="Windows.AlertMessageView.TextBlockConnectionToServerRestored" Text="Connection to server has been restored."/>
+    <Value Id="Windows.AlertMessageView.Expand" ToolTip="Show my message(s)"/>
+    <Value Id="Windows.AlertMessageView.Collapse" ToolTip="Hide my message(s)"/>
+
+
+    <Value Id="Windows.CaseData.Header" String="C_ase Data"/>
+    <Value Id="Windows.CaseDataView.ExpanderHeaderTextBlock" Text="Case Information" Name="Case Information"/>
+    <Value Id="Windows.CaseDataView.TextBlockCaseData" Text="Case Information" Name="Case Information"/>
+    <Value Id="Windows.CaseDataView.Name" Name="Name: {0}"/>
+    <Value Id="Windows.CaseDataView.Value" Name="Value: {0}"/>
+    <Value Id="Windows.CaseDataView.AddCaseData" ToolTip="Add field" Name="Add Case Information field"/>
+    <Value Id="Windows.CaseDataView.RemoveCaseData" ToolTip="Remove this field" Name="Remove the field: {0}"/>
+
+
+    <Value Id="Windows.CaseDataView.KeyDisplayNameOrigin" Text="Origin"/>
+    <Value Id="Windows.CaseDataView.KeyDisplayNameMonitoringMode" Text="Monitoring Mode"/>
+    <Value Id="Windows.CaseDataView.MonitoringModeNotMonitored" Text="Not Monitored"/>
+    <Value Id="Windows.CaseDataView.MonitoringModeSilentMonitoring" Text="Silent Monitoring"/>
+    <Value Id="Windows.CaseDataView.MonitoringModeCoaching" Text="Coaching"/>
+    <Value Id="Windows.CaseDataView.MonitoringModeBargeIn" Text="Barge In"/>
+    <Value Id="Windows.CaseDataView.KeyDisplayNameCaller" Text="Caller"/>
+    <Value Id="Windows.CaseDataView.KeyDisplayNameChannel" Text="Channel"/>
+    <Value Id="Windows.CaseDataView.KeyDisplayNameQueue" Text="Queue"/>
+    <Value Id="Windows.CaseDataView.KeyDisplayNameDuration" Text="Duration"/>
+    <Value Id="Windows.CaseDataView.TextUnidentified" Text="'Unidentified'"/>
+    <Value Id="Windows.CaseDataView.TextInternalCallFrom" Text="Internal call from {0}"/>
+    <Value Id="Windows.CaseDataView.TextInternalInstantMessagingFrom" Text="Instant messaging from {0}"/>
+    <Value Id="Windows.CaseDataView.TextConsultationInstantMessagingFrom" Text="Consultation instant messaging from {0}"/>
+    <Value Id="Windows.CaseDataView.TextInternalPreview" Text="Preview interaction from {0}"/>
+    <Value Id="Windows.CaseDataView.TextInternalCallTo" Text="Internal call to {0}"/>
+    <Value Id="Windows.CaseDataView.TextInternalInstantMessagingTo" Text="Instant messaging to {0}"/>
+    <Value Id="Windows.CaseDataView.TextConsultationInstantMessagingTo" Text="Consultation instant messaging to {0}"/>
+    <Value Id="Windows.CaseDataView.TextConsultationCallFrom" Text="Consultation call from {0}"/>
+    <Value Id="Windows.CaseDataView.TextConsultationCallTo" Text="Consultation call to {0}"/>
+    <Value Id="Windows.CaseDataView.TextInboundCallTo" Text="Inbound call to {0}"/>
+    <Value Id="Windows.CaseDataView.TextOutboundCallTo" Text="Outbound call to {0}"/>
+    <Value Id="Windows.CaseDataView.MonitoringCall" Text="Monitoring of call between {0} and {1}"/>
+    <Value Id="Windows.CaseDataView.MonitoringChat" Text="Monitoring of chat between {0} and {1}"/>
+    <Value Id="Windows.CaseDataView.CoachingCall" Text="Coaching of call between {0} and {1}"/>
+    <Value Id="Windows.CaseDataView.CoachingChat" Text="Coaching of chat between {0} and {1}"/>
+    <Value Id="Windows.CaseDataView.MonitoringChatNoParties" Text="Monitoring of chat interaction"/>
+    <Value Id="Windows.CaseDataView.CoachingChatNoParties" Text="Coaching of chat interaction"/>
+    <Value Id="Windows.CaseDataView.KeyDisplayNameConsult" Text="Status"/>
+    <Value Id="Windows.CaseDataView.TextTransferredCall" Text="Transferred call by {0}"/>
+    <Value Id="Windows.CaseDataView.TextTransferredCallTo" Text="Transferred call to {0}"/>
+    <Value Id="Windows.CaseDataView.TextConferencedCall" Text="Conference established by {0}"/>
+    <Value Id="Windows.CaseDataView.KeyDisplayNameTransferringReason" Text="Transferred reason"/>
+    <!--Value Id="Windows.CaseDataView.TextInternal" 0:SubMediaType}"-->
+    <Value Id="Windows.CaseDataView.TextInternal" Text="Internal {0}"/>
+    <!--Value Id="Windows.CaseDataView.TextInbound" 0:SubMediaType}"/-->
+    <Value Id="Windows.CaseDataView.TextInbound" Text="Inbound {0}"/>
+    <!--Value Id="Windows.CaseDataView.TextOutbound" 0:SubMediaType}"/-->
+    <Value Id="Windows.CaseDataView.TextOutbound" Text="Outbound {0}"/>
+    <!--Value Id="Windows.CaseDataView.TextConsultation" 0:SubMediaType}"/-->
+    <Value Id="Windows.CaseDataView.TextConsultation" Text="Consultation {0}"/>
+    <Value Id="Windows.CaseDataView.TextQAReview" Text="QA Review of e-mail interaction edited by {0}"/>
+  <!--"Windows.EditableCaseDataWindow": Title of the edit case data dialog opened from workbin management-->
+    <Value Id="Windows.EditableCaseDataWindow" Title="Edit Case Information" />
+  
+  
+    <Value Id="Windows.ToggleButtonSearchCaseDataWindow.WaterMarkQuickSearch" Content="Quick Search"/>
+    <Value Id="Windows.ToggleButtonSearchCaseDataWindow.TooltipQuickSearch" ToolTip="Search by typing words" Name="Quick Search" ToolTipClearButton="Clear search criteria" ToolTipSearchButton="Search"/>
+    <Value Id="Windows.ToggleButtonSearchCaseDataWindow.SelectedLabel" Text="Selected:"/>
+    <Value Id="Windows.ToggleButtonSearchCaseDataWindow.KeyValuePairNodeToolTip" ToolTip="Clear selection"/>
+  
+    <Value Id="Windows.CaseView.TextBlockPhoneCall" Text="Voice Call"/>
+    <Value Id="Windows.CaseView.ForceCloseMessage" Text="Are you sure that you want to close this case? It contains {0} non-closed interaction(s)!"/>
+    <Value Id="Windows.CaseView.ForceCloseMessageCaption" Text="Close Case"/>
+    <Value Id="Windows.CaseView.MenuItemForceClose" Header="_Force Close this Case..."/>
+    <!--"Windows.CaseView.DiscardMalformedCaseInfo": this message is printed in a message box when case is closed while editable data are still no committed as they have invalid format-->
+    <Value Id="Windows.CaseView.DiscardMalformedCaseInfo" String="Incorrect information in editable fields will be discarded. Are you sure that you want to proceed?"/>
+    <!--"Windows.CaseView.FormatErrorIntMinMax": tooltip that inform user of the value he should enter -->
+    <!--"Windows.CaseView.FormatErrorIntMinMax":0: min value-->
+    <!--"Windows.CaseView.FormatErrorIntMinMax":1: max value-->
+    <Value Id="Windows.CaseView.FormatErrorIntMinMax" String="The value must be an integer in range from {0} to {1}"/>
+    <!--"Windows.CaseView.FormatErrorIntMin": tooltip that inform user of the value he should enter -->
+    <!--"Windows.CaseView.FormatErrorIntMin":0: min value-->
+    <Value Id="Windows.CaseView.FormatErrorIntMin" String="The value must be an integer greater than {0}"/>
+    <!--"Windows.CaseView.FormatErrorIntMax": tooltip that inform user of the value he should enter -->
+    <!--"Windows.CaseView.FormatErrorIntMax":0: max value-->
+    <Value Id="Windows.CaseView.FormatErrorIntMax" String="The value must be an integer less than {0}"/>
+    <!--"Windows.CaseView.FormatErrorFloatMinMax": tooltip that inform user of the value he should enter -->
+    <!--"Windows.CaseView.FormatErrorFloatMinMax":0: min value-->
+    <!--"Windows.CaseView.FormatErrorFloatMinMax":1: max value-->
+    <Value Id="Windows.CaseView.FormatErrorFloatMinMax" String="The value must be a decimal in range from {0} to {1}"/>
+    <!--"Windows.CaseView.FormatErrorFloatMin": tooltip that inform user of the value he should enter -->
+    <!--"Windows.CaseView.FormatErrorFloatMin":0: min value-->
+    <Value Id="Windows.CaseView.FormatErrorFloatMin" String="The value must be a decimal greater than {0}"/>
+    <!--"Windows.CaseView.FormatErrorFloatMax": tooltip that inform user of the value he should enter -->
+    <!--"Windows.CaseView.FormatErrorFloatMax":0: max value-->
+    <Value Id="Windows.CaseView.FormatErrorFloatMax" String="The value must be a decimal less than {0}"/>
+    <!--"Windows.CaseView.FormatErrorRegexDefault": default tooltip displayed when the value does not match the complex format defined by the administrator-->
+    <Value Id="Windows.CaseView.FormatErrorRegexDefault" String="The value does not match the format defined by your administrator"/>
+    <!--"Windows.CaseView.FormatErrorStringMaxLength_Several": tooltip that informs user that the typed string is beyond max authorized length-->
+    <!--"Windows.CaseView.FormatErrorStringMaxLength_Several":0: Max number of chars-->
+    <Value Id="Windows.CaseView.FormatErrorStringMaxLength_Several" String="The value must not contain more than {0} characters"/>
+    <!--"Windows.CaseView.FormatErrorStringMaxLength_1": tooltip that informs user that the typed string is beyond max authorized length-->
+    <Value Id="Windows.CaseView.FormatErrorStringMaxLength_1" String="The value must be no more than 1 character"/>
+    <!--"Windows.CaseView.Header": accessibility / screen reader text for the tab representing the customer in interaction window-->
+    <!--"Windows.CaseView.Header" 0:Contact Full Name, 1: interaction type (see Type.Interaction.xx ids), 2: interaction duration-->
+    <Value Id="Windows.CaseView.Header" Name="Case: {0} [{1} - {2}]"/>
+    <!--"Windows.CaseView.HeaderWithoutDuration": accessibility / screen reader text for the tab representing the customer in interaction window (no duration displayed)-->
+    <!--"Windows.CaseView.HeaderWithoutDuration" 0:Contact Full Name, 1: interaction type (see Type.Interaction.xx ids)-->
+    <Value Id="Windows.CaseView.HeaderWithoutDuration" Name="Case: {0} [{1}]"/>
+    <Value Id="Windows.CaseView.TextBlockIMChat" Text="Instant Messaging"/>
+    <Value Id="Windows.CaseView.TextBeginTime" Text="("/>
+    <Value Id="Windows.CaseView.TextEndTime" Text=")"/>
+    
+    <!--"Windows.CaseView.CaseInteractionPanelHideToolTip": tooltip on the control used to collapse/expand the interaction area: hide-->
+    <Value Id="Windows.CaseView.CaseInteractionPanelHideToolTip" ToolTip="Hide the interaction" Text="Hide the interaction"/>
+    <!--"Windows.CaseView.CaseInteractionPanelShowToolTip": tooltip on the control used to collapse/expand the interaction area: show-->
+    <Value Id="Windows.CaseView.CaseInteractionPanelShowToolTip" ToolTip="Show the interaction"/>
+  
+    <!--"Windows.CaseView.CaseInformationPanelHideToolTip": tooltip on the control used to collapse/expand the case information area: hide-->
+    <Value Id="Windows.CaseView.CaseInformationPanelHideToolTip" ToolTip="Hide the Case Information"/>
+    <!--"Windows.CaseView.CaseInformationPanelShowToolTip": tooltip on the control used to collapse/expand the case information area: show-->
+    <Value Id="Windows.CaseView.CaseInformationPanelShowToolTip" ToolTip="Show the Case Information"/>
+
+    <Value Id="Windows.BundleView.Header" Name="Consultation: {0}" Text="Consultation:"/>
+    <Value Id="Windows.BundleView.HeaderCoaching" Name="Coaching: {0}" Text="Coaching:"/>
+
+    <Value Id="Windows.BundleView.ForceCloseMessage" Text="Are you sure that you want to close this consultation? It contains {0} non-closed interaction(s)!"/>
+    <Value Id="Windows.BundleView.ForceCloseMessageCaption" Text="Close Consultation"/>
+    <Value Id="Windows.BundleView.MenuItemForceClose" Header="_Force Close this Consultation..."/>
+    <Value Id="Windows.BundleViewParty.MenuItemNoAction" Text="No possible action" Tooltip="No possible action"/>
+    <Value Id="Windows.BundleViewParty.MenuItemAutomationName" Name="Party Actions"/>
+    <Value Id="Windows.BundleViewParty.SilentMonitoring" Name="Silent monitoring"/>
+    <Value Id="Windows.BundleViewParty.Recording" Name="Recording"/>
+    <Value Id="Windows.BundleViewParty.InteractionType" Name="Interaction: {0}"/>
+
+    <!--"Windows.BundleToolBar.ToolbarName": name of the bundle toolbar (accessibility/screen reader only)-->
+    <Value Id="Windows.BundleToolBar.ToolbarName" Tag="Main"/>
+    <!-- "Windows.BundleToolBar.ButtonMarkDone":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.BundleToolBar.ButtonMarkDone" Content="Done" ToolTip="Done {0}" Name="Done {0}"/>
+    <!-- "Windows.BundleToolBar.ButtonConsultation":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.BundleToolBar.ButtonConsultation" ToolTip="Start a consultation {0}" Name="Start a consultation {0}"/>
+
+    <Value Id="Windows.ChildInteractionNavigatorView.TextBlockTitle" Text="Consultations"/>
+    <Value Id="Windows.DialerView.TextBlockComboBoxQuickCall" Text="Quick call"/>
+    <Value Id="Windows.DispositionsView.Header" String="_Dispositions"/>
+    <Value Id="Windows.DispositionCodeView.Header" String="Disposition"/>
+
+    <Value Id="Windows.DispositionCodeView.WaterMarkQuickSearch" Content="Quick Search"/>
+    <Value Id="Windows.DispositionCodeView.TooltipQuickSearch" ToolTip="Search by typing words" Name="Quick Search" ToolTipClearButton="Clear search criteria" ToolTipSearchButton="Search"/>
+    <Value Id="Windows.DispositionCodeView.DispositionLabel" Text="Selected:"/>
+    <Value Id="Windows.DispositionCodeView.NotSelectedDispositionValue" Text="None"/>
+    <Value Id="Windows.DispositionCodeView.DeleteDispositionToolTip" ToolTip="Clear selection"/>
+  
+  	<Value Id="Windows.ToolbarView.MenuItemEditorZoom" Header="_Zoom"/>
+    <Value Id="Windows.ToolbarView.MenuItemResetEditorZoom" ToolTip="Set zoom level to {0}%" String="Set zoom level to {0}%"/>
+   
+    <Value Id="Windows.StaticCaseDataView.DispositionLabel" Text="Selected"/>
+  
+    <Value Id="Windows.EmailView.ButtonAddContact" ToolTip="Add a contact"/>
+    <Value Id="Windows.EmailView.ButtonMarkDone" ToolTip="Mark interaction as Done"/>
+    <Value Id="Windows.EmailView.ButtonTransfer" ToolTip="Transfer the e-mail interaction"/>
+    <Value Id="Windows.EmailView.InteractionChatToggleButton" ToolTip="Delete"/>
+    <Value Id="Windows.EmailView.LabelFrom" Content="_From"/>
+    <Value Id="Windows.EmailView.LabelTo" Content="_To"/>
+    <!--"Windows.GadgetWindow": "Workspace" should not be translated-->
+    <Value Id="Windows.GadgetWindow" Title="Workspace"/>
+    <Value Id="Windows.GadgetWindow.DropDownButtonAgentStatus" ToolTip="Agent status menu"/>
+    <!--"Windows.GadgetWindow.MenuItemAboutInteractionWorkspace": "Workspace" should not be translated-->
+    <Value Id="Windows.GadgetWindow.MenuItemAboutInteractionWorkspace" Header="_About Workspace..."/>
+    <Value Id="Windows.GadgetWindow.MenuItemAgentStatus" Header="Agent _Status"/>
+    <Value Id="Windows.GadgetWindow.MenuItemChangePlace" Header="_Refine Place / Channel Information..."/>
+    <Value Id="Windows.GadgetWindow.MenuItemChangeTheme" Header="Change _Theme"/>
+    <Value Id="Windows.GadgetWindow.MenuItemChangeLanguage" Header="Change _Language"/>
+    <Value Id="Windows.GadgetWindow.MenuItemCheckAndUpdate" Header="Check and _Update..."/>
+    <!--"Windows.GadgetWindow.MenuItemChangePassword": Menu item of the main menu of the main toolbar: change password-->
+	  <Value Id="Windows.GadgetWindow.MenuItemChangePassword" Header="Change _Password"/>
+	  <Value Id="Windows.GadgetWindow.MenuItemGadgetAlwaysOnTop" Header="Gadget _Always on Top"/>
+    <Value Id="Windows.GadgetWindow.MenuItemHelp" Header="_Help..."/>
+    <Value Id="Windows.GadgetWindow.MenuItemLogoutAndExit" Header="_Exit..."/>
+    <Value Id="Windows.GadgetWindow.MenuItemSIPTuningWizard" Header="SIP Tuning _Wizard"/>
+    <Value Id="Windows.GadgetWindow.MenuItemShowMainWindow" Header="Switch to _Main Window"/>
+    <Value Id="Windows.GadgetWindow.MenuItemThemeClassic" Header="_Classic"/>
+    <Value Id="Windows.GadgetWindow.MenuItemThemeGeneric" Header="_Default"/>
+    <Value Id="Windows.GadgetWindow.MenuItemThemeLuna" Header="_Luna"/>
+    <Value Id="Windows.GadgetWindow.MenuItemThemeRoyale" Header="_Royale"/>
+    <Value Id="Windows.GadgetWindow.SplitButtonDropDownButtonMainMenu" ToolTip="Main menu" Name="Main menu"/>
+    <!-- ADD ON FOR STATISTICS NEW DESIGN + -->
+    <!--<Value Id="Windows.GadgetWindow.MenuItemShowMyStatistics" ToolTip="Show My _Statistics"/>
+  <Value Id="Windows.GadgetWindow.MenuItemShowCallCenterStatistics" ToolTip="Show _Call Center Statistics"/>
+  <Value Id="Windows.SystemTrayContextMenu.MenuItemShowGadgetMyStatistics" Header="Show My _Statistics"/>
+  <Value Id="Windows.SystemTrayContextMenu.MenuItemShowGadgetCallCenterStatistics" Header="Show _Call Center Statistics"/>-->
+    <Value Id="Windows.GadgetWindow.MenuItemShowGadgetStatistics" Header="Show _Statistics Gadget"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemShowGadgetStatistics" Header="Show _Statistics Gadget"/>
+    <!-- ADD ON FOR STATISTICS NEW DESIGN - -->
+    <Value Id="Windows.GadgetWindow.MenuItemShowGadgetTeamLead" Header="Show _Team Lead Gadget"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemShowGadgetTeamLead" Header="Show _Team Lead Gadget"/>
+    <!--"Windows.HelpController.MsgBoxCallCenterAgentDesktopApplication": "Workspace" should not be translated-->
+    <Value Id="Windows.HelpController.MsgBoxCallCenterAgentDesktopApplication" String="Workspace is the Contact Center Agent Desktop application from Genesys\r\nCopyright � 2009-2017 Genesys Telecommunications Laboratories, Inc. All rights reserved."/>
+    <Value Id="Windows.Interactions.MsgBoxCloseAllCaseBefore" Text="Mark all open interactions as Done before closing."/>
+    <!--"Windows.InteractionsWindow": "Workspace" should not be translated-->
+    <Value Id="Windows.InteractionsWindow" Title="Workspace"/>
+    <!--"Windows.InteractionsWindow.DropDownButtonMenuItemAboutInteractionWorkspace": "Workspace" should not be translated-->
+    <Value Id="Windows.InteractionsWindow.DropDownButtonMenuItemAboutInteractionWorkspace" Header="_About Workspace..."/>
+    <Value Id="Windows.InteractionsWindow.DropDownButtonMenuItemAccount" Header="_Account"/>
+    <Value Id="Windows.InteractionsWindow.DropDownButtonMenuItemHelp" Header="_Help..."/>
+    <Value Id="Windows.InteractionsWindow.DropDownButtonMenuItemHistory" Header="_History"/>
+    <Value Id="Windows.InteractionsWindow.DropDownButtonMenuItemOffers" Header="_Offers"/>
+    <Value Id="Windows.InteractionsWindow.SplitButtonShowHelpCommand" ToolTip="Help menu"/>
+    <Value Id="Windows.MainLoginView.LabelUserName" Content="User Name"/>
+    <Value Id="Windows.MainLoginView.Watermark.ApplicationName" Content="Application Name"/>
+    <Value Id="Windows.MainLoginView.Watermark.ConfigServerHostConfiguration" Content="Host/Configuration"/>
+    <Value Id="Windows.MainLoginView.Watermark.ConfigServerPort" Content="Port"/>
+  
+    <Value Id="Windows.MainLoginView.ApplicationName" Content="_Application Name:"/>
+    <Value Id="Windows.MainLoginView.ConfigServerHost" Content="_Host Name:" Text="Host Name:" Name="Host Name:"/>
+    <Value Id="Windows.MainLoginView.ConfigServerPort" Content="P_ort:" Text="Port:" Name="Port:"/>
+    <Value Id="Windows.MainLoginView.KeepPlace" Text="_Log in using recent place {0}"/>
+    <Value Id="Windows.ChannelInformationView.LabelPlace" Content="Place"/>
+    <Value Id="Windows.ChannelInformationView.ChangeLoginAccount" Text="Change login account" Name="Change login account"/>
+    <!--"Windows.ChannelInformationView": "Workspace" should not be translated-->
+    <Value Id="Windows.ChannelInformationView" Title="Workspace - Channel Information"/>
+    <!--"Windows.LoginWindow": "Workspace" should not be translated-->
+    <Value Id="Windows.LoginWindow" Title="Workspace - Log In"/>
+    <Value Id="Windows.MyStatisticsView.ColumnAgent" Header="Agent Result"/>
+    <Value Id="Windows.MyStatisticsView.ColumnDisplayImage" Header=""/>
+    <Value Id="Windows.MyStatisticsView.ColumnGroup" Header="Group Result"/>
+    <Value Id="Windows.MyStatisticsView.ColumnKey" Header="Key Performance Indicator"/>
+    <Value Id="Windows.MyStatisticsView.ColumnTarget" Header="Target"/>
+    <Value Id="Windows.MyStatisticsView.ItemSample1" Text="Average amount of time that you were idle"/>
+    <Value Id="Windows.MyStatisticsView.ItemSample2" Text="Average talk-time for inbound calls"/>
+    <Value Id="Windows.MyStatisticsView.ItemSample3" Text="Average quality monitoring score"/>
+    <Value Id="Windows.MyStatisticsView.ItemSample4" Text="Calls per hour"/>
+    <Value Id="Windows.MyStatisticsView.ItemSample5" Text="Percentage of customer issues resolved"/>
+    <!--"Windows.MyWorkplaceView.TextBlockMyWorkspace": "My Workspace" MUST be translated here-->
+    <Value Id="Windows.MyWorkplaceView.TextBlockMyWorkspace" Text="My Workspace"/>
+
+    <Value Id="Windows.NotepadView.Header" String="_Note"/>
+    <Value Id="Windows.NotepadView.ButtonSave" Content="_Save" ToolTip="Save the notepad content" Name="Save the notepad content"/>
+    <!--"Windows.NotepadView.Editor": Description of the notepad editor used for screen reader-->
+    <Value Id="Windows.NotepadView.Editor" Name="Note:"/>
+    <Value Id="Windows.NotepadView.InsertTimestamp" Header="_Insert a Timestamp"/>
+
+    <Value Id="Windows.PlaceStatusView.Header" Header="M_y Channels" Name="My Channels"/>
+    <Value Id="Windows.PlaceStatusView.ColumnDoNotDisturb" Header="Do Not Disturb"/>
+    <Value Id="Windows.PlaceStatusView.ColumnMedia" Content="Media"/>
+    <Value Id="Windows.PlaceStatusView.ColumnStatus" Content="Status"/>
+    <Value Id="Windows.PlaceStatusView.ColumnForward" Content="Forward"/>
+    <Value Id="Windows.PlaceStatusView.ColumnInformation" Content="Information"/>
+    <Value Id="Windows.PlaceStatusView.ContextMenu.Forward" Header="Forward"/>
+    <Value Id="Windows.PlaceStatusView.ContextMenu.CancelForward" Header="Cancel Forward"/>
+    <Value Id="Windows.PlaceStatusView.NoActivateForward" Text="No Active Forward"/>
+    <Value Id="Windows.PlaceStatusView.ActivateForward" Text="Forwarded to {0}"/>
+    <!--Value Id="Windows.PlaceStatusView.Child.Ready" 0: type-->
+    <Value Id="Windows.PlaceStatusView.Child.Ready" ToolTipStatus="Ready only for {0}"/>
+    <!-- Value Id="Windows.PlaceStatusView.Children.Ready" 0: type-->
+    <Value Id="Windows.PlaceStatusView.Children.Ready" ToolTipStatus="Ready for {0}" />
+
+    <!--"Windows.MyWorkplaceButtonView.SplitToggleButton": "My Workspace" MUST be translated here-->
+    <Value Id="Windows.MyWorkplaceButtonView.SplitToggleButton" Content="_Workspace" />
+
+
+    <Value Id="Windows.Forward" Title="Forward" Content="_Forward:"/>
+    <Value Id="Windows.Forward.TextBlock" Text="Type forward destination on media {0}."/>
+
+    <Value Id="Windows.CancelForward" Title="Cancel Forward"/>
+    <Value Id="Windows.CancelForward.TextBlock" Text="Are you sure that you want to cancel forward to '{0}' on media {1}?"/>
+
+    <Value Id="Windows.SystemTrayContextMenu.AgentStatusNotReady" Header="Not Ready"/>
+    <Value Id="Windows.SystemTrayContextMenu.AgentStatusReady" Header="Ready"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemAgentStatus" Header="Agent _Status"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemChangePlace" Header="_Refine Place / Channel information"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemChangeTheme" Header="Change _Theme"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemCheckAndUpdate" Header="Check and _Update..."/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemGadgetAlwaysOnTop" Header="Gadget _Always on Top"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemLogoutAndExit" Header="_Exit"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemSIPTuningWizard" Header="SIP Tuning _Wizard"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemShowGadget" Header="Switch to _Gadget"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemShowMainWindow" Header="Switch to _Main Window"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemThemeClassic" Header="_Classic"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemThemeGeneric" Header="_Generic"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemThemeLuna" Header="_Luna"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemThemeRoyale" Header="_Royale"/>
+    <Value Id="Windows.SystemTrayContextMenu.MenuItemToolbarAlwaysOnTop" Header="Main Window _Always on Top"/>
+    <!--"Windows.ToasterWindow": "Workspace" should not be translated-->
+    <Value Id="Windows.ToasterWindow" Title="Workspace"/>
+    <Value Id="Windows.ToasterWindow.ButtonAccept" Content="_Accept"/>
+    <!--"Windows.ToasterWindow.ButtonAcceptTimer": label appearing in Accept button of an interaction toaster when the corresponding <media-type>.auto-answer is true and <media-type>.auto-answer.timer is greater than zero -->
+    <!--"Windows.ToasterWindow.ButtonAcceptTimer": {0} time before auto-accept is triggered -->
+    <Value Id="Windows.ToasterWindow.ButtonAcceptTimer" Content="_Accept ({0})"/>
+    <Value Id="Windows.ToasterWindow.ButtonShow" Content="_Show"/>
+    <Value Id="Windows.ToasterWindow.ButtonCancel" Content="_Cancel"/>
+    <Value Id="Windows.ToasterWindow.ButtonReject" Content="_Reject"/>
+
+    <Value Id="Windows.ToolbarView.MessageBox.CloseApplicationWithoutInteractions" String="Are you sure that you want to log off all channels and exit the application?"/>
+    <Value Id="Windows.ToolbarView.MessageBox.CloseApplicationWithoutInteractions2" String="Are you sure that you want to log off all channels and exit the application? This operation will clear any former active call!"/>
+    <Value Id="Windows.ToolbarView.MessageBox.CloseApplicationWithoutActiveInteractions" String="Are you sure that you want to close all cases and exit the application?"/>
+    <Value Id="Windows.ToolbarView.MessageBox.CloseApplicationWithActiveInteractions" String="There are some active interactions. Please close all active interactions before exiting the application."/>
+    <Value Id="Windows.ToolbarView.MessageBox.CloseApplicationWithoutActiveInteractionsWithActiveCall" String="This operation will clear any active call. Are you sure you want to continue?"/>
+    <Value Id="Windows.ToolbarView.ButtonLogout" Content="_Log Out"/>
+    <!-- "Windows.ToolbarView.ButtonLogoutToolTip":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.ToolbarView.ButtonLogoutToolTip" Text="Log off all channels and exit the application" Name="Log off all channels and exit the application {0}"/>
+    <Value Id="Windows.ToolbarView.ButtonOK" Content="_OK" ToolTip="Validate the contact search and then call this contact"/>
+    <Value Id="Windows.ToolbarView.ButtonReady" ToolTip="Set the agent status to Ready or Not Ready"/>
+    <!--"Windows.ToolbarView.MenuItemAboutInteractionWorkspace": "Workspace" should not be translated-->
+    <Value Id="Windows.ToolbarView.MenuItemAboutInteractionWorkspace" Header="_About Workspace..."/>
+    <Value Id="Windows.ToolbarView.MenuItemChangePlace" Header="_Refine Place / Channel information"/>
+    <Value Id="Windows.ToolbarView.MenuItemChangeTheme" Header="Change _Theme"/>
+    <Value Id="Windows.ToolbarView.MenuItemChangeLanguage" Header="Change _Language"/>
+    <Value Id="Windows.ToolbarView.MenuItemCheckAndUpdate" Header="Check and _Update..."/>
+    <Value Id="Windows.ToolbarView.MenuItemHelp" Header="_Help..."/>
+    <Value Id="Windows.ToolbarView.MenuItemLogoutAndExit" Header="_Exit"/>
+    <Value Id="Windows.ToolbarView.MenuItemSIPTuningWizard" Header="SIP Tuning _Wizard"/>
+    <Value Id="Windows.ToolbarView.MenuItemShowGadget" Header="Switch to _Gadget"/>
+    <Value Id="Windows.ToolbarView.MenuItemThemeClassic" Header="_Classic"/>
+    <Value Id="Windows.ToolbarView.MenuItemThemeGeneric" Header="_Generic"/>
+    <Value Id="Windows.ToolbarView.MenuItemThemeLuna" Header="_Luna"/>
+    <Value Id="Windows.ToolbarView.MenuItemThemeRoyale" Header="_Royale"/>
+    <Value Id="Windows.ToolbarView.MenuItemToolbarAlwaysOnTop" Header="Main Window _Always on Top"/>
+    <Value Id="Windows.ToolbarView.MenuItemToolbarAutoHide" Header="Auto-Hide the Main Window"/>
+    <!--"Windows.ToolbarView.MenuItemMyWorkspace": "My Workspace" MUST be translated here-->
+    <Value Id="Windows.ToolbarView.MenuItemMyWorkspace" Header="My _Workspace"/>
+    <Value Id="Windows.ToolbarView.SplitButtonMainMenu" ToolTip="Main menu" Name="Main menu"/>
+    <Value Id="Windows.ToolbarView.SplitButtonMenuHelp" ToolTip="Help menu"/>
+    <Value Id="Windows.ToolbarView.SplitButtonOpenHelp" ToolTip="Open Help"/>
+    <Value Id="Windows.ToolbarView.StackPanelNamePhoneOrEmailAdress" ToolTip="Search by typing a name or phone number"/>
+    <Value Id="Windows.ToolbarView.StackPanelToolTipTextBlockOnPlace" Text="Using "/>
+    <Value Id="Windows.ToolbarView.StackPanelToolTipTextBlockLoggedSince" Text="Logged in since "/>
+    <Value Id="Windows.ToolbarView.StackPanelToolTipTextBlockLastUserConnection" Text="Last user connection on "/>
+    <Value Id="Windows.ToolbarView.StackPanelToolTipTextBlockOneChannel" Text=", Channel "/>
+    <!--"Windows.ToolbarView.StackPanelToolTipTextBlockOneChannelDnLess": label appearing in the agent state tooltip to name the used media channel -->
+	  <Value Id="Windows.ToolbarView.StackPanelToolTipTextBlockOneChannelDnLess" Text="Channel "/>
+    <Value Id="Windows.ToolbarView.StackPanelToolTipColons" Text=":"/>
+    <!--"Windows.ToolbarView.TextBlockInteractionWorkspace": "Workspace" should not be translated-->
+    <Value Id="Windows.ToolbarView.TextBlockInteractionWorkspace" Text="Workspace"/>
+    <Value Id="Windows.ToolbarView.TextBeginTime" Text="("/>
+    <Value Id="Windows.ToolbarView.TextEndTime" Text=")"/>
+    <Value Id="Windows.ToolbarView.TextBlockLoggedInAs" Text="Logged in as:"/>
+    <!--"Windows.ToolbarWindow": "Workspace" should not be translated-->
+    <Value Id="Windows.ToolbarWindow" Title="Workspace"/>
+    <Value Id="Windows.ToolbarView.AgentState.Pending" Text="(Pending)"/>
+    <Value Id="Windows.ToolbarView.ChannelState.Pending" Text="(Pending)"/>
+    <Value Id="Windows.ToolbarView.MsgTwoAutoHiddenBarsNotAllowed" Text="You cannot auto-hide the Main Window here. Another window is already in auto-hide mode on this edge of your display."/>
+    <!--"Windows.ToolbarView.HamburgerButton": "Workspace" should not be translated-->
+    <Value Id="Windows.ToolbarView.HamburgerButton" Name="Hamburger Button" ToolTip="Access and use Workspace supporting views"/>
+    <Value Id="Windows.ToolbarView.CollapseStaticContentButton" Name="Close" ToolTip="Close"/>
+  
+
+    <Value Id="Windows.VoiceParamView.AccessTextMediavoice" Text="Media voice"/>
+    <Value Id="Windows.VoiceParamView.LabelAgentLogin" Content="Agent _Login:"/>
+    <Value Id="Windows.VoiceParamView.LabelQueue" Content="_Queue:"/>
+    <Value Id="Windows.VoiceParamView.LabelAgentPassword" Content="_Agent Password:"/>
+    <Value Id="Windows.VoiceParamView.LabelAgentPhoneNumber" Content="Phone _Number:"/>
+
+    <Value Id="Windows.ToasterBroadcastMessageView.Button.Show" Content="_Show"/>
+    <Value Id="Windows.ToasterBroadcastMessageView.Button.Dismiss" Content="_Dismiss"/>
+
+    <Value Id="Windows.BroadcastMessageView.Priority.Minimal" Text="Minimal"/>
+    <Value Id="Windows.BroadcastMessageView.Priority.Low" Text="Low"/>
+    <Value Id="Windows.BroadcastMessageView.Priority.Normal" Text="Normal"/>
+    <Value Id="Windows.BroadcastMessageView.Priority.High" Text="High"/>
+    <Value Id="Windows.BroadcastMessageView.Priority.Important" Text="Important"/>
+    <Value Id="Windows.BroadcastMessageView.Id" Content="Id:"/>
+    <Value Id="Windows.BroadcastMessageView.Sender" Content="Sender:"/>
+    <Value Id="Windows.BroadcastMessageView.Priority" Content="Priority:"/>
+    <Value Id="Windows.BroadcastMessageView.Topic" Content="Audience:"/>
+    <Value Id="Windows.BroadcastMessageView.Date" Content="Date:"/>
+    <Value Id="Windows.BroadcastMessageView.Subject" Content="Subject:"/>
+    <Value Id="Windows.BroadcastMessageView.MessageType" Content="Type:"/>
+    <Value Id="Windows.BroadcastMessages.ContextMenu.MarkRead" Header="Mark as Read" Text="Mark selected messages as read"/>
+    <Value Id="Windows.BroadcastMessages.ContextMenu.MarkUnRead" Header="Mark as Unread" Text="Mark selected messages as unread"/>
+    <Value Id="Windows.BroadcastMessages.ContextMenu.Delete" Header="Delete" Text="Delete selected messages"/>
+
+    <Value Id="Windows.MyInteractionSearch.Header" Header="Interaction Directory"/>
+  
+  
+    <Value Id="Windows.MyBroadcastMessage.Header" Header="My _Messages"/>
+    <Value Id="Windows.MyBroadcastMessage.Sender" Content="Sender"/>
+    <Value Id="Windows.MyBroadcastMessage.Priority" Content="Priority"/>
+    <Value Id="Windows.MyBroadcastMessage.Topic" Content="Audience"/>
+    <Value Id="Windows.MyBroadcastMessage.Id" Content="Id"/>
+    <Value Id="Windows.MyBroadcastMessage.Date" Content="Date"/>
+    <Value Id="Windows.MyBroadcastMessage.Subject"  Content="Subject" />
+    <Value Id="Windows.MyBroadcastMessage.MessageType" Content="Type"/>
+    <Value Id="Windows.MyBroadcastMessage.FewWords" Text="Few words of message"/>
+    <Value Id="Windows.MyBroadcastMessage.Total" Content="Total:" Accessibility="; Total: {0}"/>
+    <Value Id="Windows.MyBroadcastMessage.UnreadedMessage" Content="Unread:" Accessibility="Unread: {0}"/>
+    <Value Id="Windows.MyBroadcastMessage.UnreadedImportantMessage" Content="Unread important:" Accessibility="; Unread important: {0}"/>
+    <!-- Windows.Hamburger.NumberOfMessages: Tooltip displayed on mouse over the red circle that appears on the Hamburger button if there is unread messages -->
+    <!-- Windows.Hamburger.NumberOfMessages: 0: Message Type -->
+    <!-- Windows.Hamburger.NumberOfMessages: 1: Number of messages -->
+    <Value Id="Windows.Hamburger.NumberOfMessages" ToolTip="Messages: {0} ({1})" />
+    <!-- Windows.Hamburger.SystemMessageType: Type of message displayed in Tooltip when mouse over the red circle that appears on the Hamburger button if there is unread messages -->
+    <Value Id="Windows.Hamburger.SystemMessageType" ToolTip="System" />
+    <!-- Windows.Hamburger.SystemMessageType: Type of message displayed in Tooltip when mouse over the red circle that appears on the Hamburger button if there is unread messages -->
+    <Value Id="Windows.Hamburger.UserMessageType" ToolTip="User" />
+
+    <Value Id="Windows.BroadcastMessageItemTooltip.Sender" Text="Sender: "/>
+    <Value Id="Windows.BroadcastMessageItemTooltip.Priority" Text="Priority: "/>
+    <Value Id="Windows.BroadcastMessageItemTooltip.Topic" Text="Audience: "/>
+    <Value Id="Windows.BroadcastMessageItemTooltip.Date" Text="Date: "/>
+    <Value Id="Windows.BroadcastMessageItemTooltip.Subject" Text="Subject: "/>
+    <Value Id="Windows.BroadcastMessageItemTooltip.Message" Text="Message: "/>
+    <Value Id="Windows.BroadcastMessageItemTooltip.Id" Text="Id: "/>
+
+    <Value Id="Windows.BroadcastMessage.SystemSender" Text="System"/>
+
+    <!-- Broadcast Message Message Type DisplayName -->
+    <Value Id="Broadcast.MessageType.System" String="System"/>
+    <Value Id="Broadcast.MessageType.Error" String="Error"/>
+    <Value Id="Broadcast.MessageType.Information" String="Information"/>
+    <Value Id="Broadcast.MessageType.Internal Note" String="Internal Note"/>
+    <Value Id="Broadcast.MessageType.Campaign" String="Outbound Campaign"/>
+
+    <Value Id="Windows.Warning.CannotMarkDoneCauseChildNotEnded" Text="End all interactions before closing this case."/>
+    <Value Id="Windows.Warning.CannotMarkDoneCauseInteractionNonIdle" Text="End the interaction before closing this case."/>
+
+    <!-- Error RoutingBased -->
+    <!--Value Id="RoutingBased.ActionFailed" 0:Comment"/>-->
+    <Value Id="RoutingBased.ActionFailed" Text="The '{0}' action failed. Please contact your administrator."/>
+    <!--Value Id="RoutingBased.ActionFailed" 0:Comment"/>-->
+    <Value Id="RoutingBased.ActionFailed.Channel" Text="The '{0}' action failed. Destination has no available channel."/>
+    <!--Value Id="RoutingBased.ActionFailed.StatServer" 0:Routing based action -->
+    <Value Id="RoutingBased.ActionFailed.StatServer" Text="The '{0}' action failed: The Statistics Server is not connected. Please contact your administrator."/>
+    <!--Value Id="RoutingBased.ActionFailed.AgentStatistics" 0:Routing based action -->
+    <Value Id="RoutingBased.ActionFailed.AgentStatistics" Text="The '{0}' action failed: The statistics of agent are not available. Please contact your administrator."/>
+    <!--Value Id="RoutingBased.ActionFailed..ConfigServer" 0:Routing based action -->
+    <Value Id="RoutingBased.ActionFailed.ConfigServer" Text="The '{0}' action failed: The Configuration Server is not connected. Please contact your administrator."/>
+    <!--Value Id="RoutingBased.ActionFailed.Agent" 0:Routing based action 1: name of agent-->
+    <Value Id="RoutingBased.ActionFailed.Agent" Text="The '{0}' action failed: The agent '{1}' is not defined in Configuration Server. Please contact your administrator."/>
+    <!--Value Id="RoutingBased.ActionFailed.Agent" 0:Routing based action 1: name of place -->
+    <Value Id="RoutingBased.ActionFailed.Place" Text="The '{0}' action failed: The place '{1}' is not defined in Configuration Server. Please contact your administrator."/>
+    <!--<Value Id="RoutingBased.AgentIdentificationFailed" 0: Displayname of Agent./>-->
+    <Value Id="RoutingBased.AgentIdentificationFailed" Text="Cannot retrieve information about {0}. Please contact your administrator."/>
+
+    <!--Value Id="RoutingBased.ActionFailed.AgentStatPlace.MakeIM" 0: name of target-->
+    <Value Id="RoutingBased.ActionFailed.AgentStatPlace.MakeIM" Text="Cannot send an instant message to {0}."/>
+    <!--Value Id="RoutingBased.ActionFailed.AgentStatPlace.MakeCall" 0: name of target-->
+    <Value Id="RoutingBased.ActionFailed.AgentStatPlace.MakeCall" Text="Cannot make call to {0}."/>
+    <!--Value Id="RoutingBased.ActionFailed.AgentStatPlace.CreateNewOutboundEmail" 0: name of target-->
+    <Value Id="RoutingBased.ActionFailed.AgentStatPlace.CreateNewOutboundEmail" Text="Cannot create a new outbound e-mail interaction to {0}."/>
+    <!--Value Id="RoutingBased.ActionFailed.AgentStatPlace.InitTransfer" 0: name of target-->
+    <Value Id="RoutingBased.ActionFailed.AgentStatPlace.InitTransfer" Text="Cannot initiate a consultation with {0}."/>
+    <!--Value Id="RoutingBased.ActionFailed.AgentStatPlace.OneStepTransfer" 0: name of target-->
+    <Value Id="RoutingBased.ActionFailed.AgentStatPlace.OneStepTransfer" Text="Cannot transfer the call to {0}."/>
+    <!--Value Id="RoutingBased.ActionFailed.AgentStatPlace.OneStepConference" 0: name of target-->
+    <Value Id="RoutingBased.ActionFailed.AgentStatPlace.OneStepConference" Text="Cannot establish a conference with {0}."/>
+
+    <!--Value Id="RoutingBased.ActionFailed.CallNumber" 0:Routing based action 1: name of agent-->
+    <Value Id="RoutingBased.ActionFailed.CallNumber" Text="The '{0}' action failed: No available call number for agent '{1}'."/>
+    <!--Value Id="RoutingBased.ActionFailed.RoutingPoint.CallNumber" 0:Routing based action 1: name of Routing Point -->
+    <Value Id="RoutingBased.ActionFailed.RoutingPoint.CallNumber" Text="The '{0}' action failed: No available call number for the '{1}' routing point."/>
+    <!--Value Id="RoutingBased.ActionFailed.ACDQueue.CallNumber" 0:Routing based action 1: name of Acd Queue -->
+    <Value Id="RoutingBased.ActionFailed.ACDQueue.CallNumber" Text="The '{0}' action failed: No available call number for the '{1}' acd queue."/>
+    <!--"RoutingBased.ActionFailed.CompleteVoice.NoPrivilege": Warning message presented to the agent when he tries to complete a transfer or a conference and he is not granted the right to make two-step tranfer or conference-->
+    <Value Id="RoutingBased.ActionFailed.CompleteVoice.NoPrivilege" Text="You are not granted the privilege to perform this action."/>
+    <!--"RoutingBased.ActionFailed.CompleteVoice.NotPossibleNow": Warning message presented to the agent when he tries to complete a transfer or a conference while it is not possible at the moment-->
+    <Value Id="RoutingBased.ActionFailed.CompleteVoice.NotPossibleNow" Text="This action is not possible in current context."/>
+
+    <Value Id="RoutingBase.Voice.RoutingPoint"  Text="Action Failed. The Routing base-point is not defined for the '{0}' switch."/>
+
+    <!-- Warning -->
+    <!--Value Id="Warning.DispositionCode.IsMandatory" 0:Label of disposition code-->
+    <Value Id="Warning.DispositionCode.IsMandatory" Text="'{0}' is mandatory."/>
+    <Value Id="Warning.CaseData.IsMandatory" Text="You must set mandatory case information before closing."/>
+    <Value Id="Warning.CaseData.MandatoryIsNotValid" Text="You must set correct value of mandatory case information before closing."/>
+    <Value Id="Warning.RecordData.IsMandatory" Text="You must set mandatory record information before closing."/>
+    <Value Id="Warning.RecordData.MandatoryIsNotValid" Text="You must set correct value of mandatory record information before closing."/>
+    <Value Id="Warning.Party.Busy" Text="The call destination is busy"/>
+    <Value Id="Warning.Party.Busy.SitInvalidnum" Text="The call destination is invalid"/>
+    <Value Id="Warning.Channel.Changed" Text="The active channel was changed - call control lost"/>
+
+    <!-- Error Loggin -->
+    <Value Id="Windows.ErrorLoginView.Title" Text="Error"/>
+
+    <!--Value Id="Windows.ErrorLoginView.Error" 0: Error Message -->
+    <Value Id="Windows.ErrorLoginView.Error" Text="{0}"/>
+    <!--Value Id="Windows.ErrorLoginView.NoConnectConfigurationServer" 0: host of configuration server 1: port number of configuration server-->
+    <Value Id="Windows.ErrorLoginView.NoConnectConfigurationServer" Text="Could not connect to Configuration Server host '{0}' on port '{1}'."/>
+
+  <!--Value Id="Windows.ErrorLoginView.NoConnectConfigurationServerConfiguration" 0: name of configuration -->
+    <Value Id="Windows.ErrorLoginView.NoConnectConfigurationServerConfiguration" Text="Could not connect to any Configuration Server defined in configuration '{0}'."/>
+  
+    <Value Id="Windows.ErrorLoginView.ConnectionIsNotOpened" Text="Connection is not opened."/>
+
+    <Value Id="Windows.ErrorLoginView.NoSelectedMedia" Text="Unavailable action. You are not logged in on any media."/>
+    <!--Value Id="Windows.ErrorLoginView.NoAgentLogin" 0: name of the channel-->
+    <Value Id="Windows.ErrorLoginView.NoAgentLogin" Text="No agent login available for the {0} channel."/>
+    <Value Id="Windows.ErrorLoginView.LogonIncorrectUser" Text="Invalid logon information specified. Check the User Name and Password then try again." />
+    <!--Value Id="Windows.ErrorLoginView.AccessRightHostTServer" 0: name of the channel-->
+    <Value Id="Windows.ErrorLoginView.AccessRightHostTServer" Text="You do not have permission to activate the '{0}' channel. Please contact your administrator."/>
+    <Value Id="Windows.ErrorLoginView.NoAvailableChannelOnPlace" Text="No available channel for this place"/>
+
+    <!--Value Id="Windows.ErrorLoginView.SwitchPolicyLabelUnknown" 0: value of label -->
+    <!--<Value Id="Windows.ErrorLoginView.SwitchPolicyLabelUnknown" Text="This switch policy label '{0}' is unknown. Please contact your administrator."/>-->
+
+    <!--Value Id="Windows.ErrorLoginView.ConfigurationServerPortIncorrect" 0: port number -->
+    <Value Id="Windows.ErrorLoginView.ConfigurationServerPortIncorrect" Text="Configuration server port '{0}' is not correct." />
+    <Value Id="Windows.ErrorLoginView.ConfigurationServerHostEmpty" Text="Configuration server port is empty."/>
+    <Value Id="Windows.ErrorLoginView.ConfigurationServerHostIncorrect" Text="Configuration server host is empty."/>
+    <Value Id="Windows.ErrorLoginView.ApplicationNameIncorrect" Text="Application name is empty."/>
+    <!--Value Id="Windows.ErrorLoginView.URLIncorrect" 0: The URL of Connection -->
+    <Value Id="Windows.ErrorLoginView.URLIncorrect" Text="Connection URL '{0}' is not correct. Please contact your administrator."/>
+    <Value Id="Windows.ErrorLoginView.URLEmpty" Text="Please provide requested login information." />
+    <!--<Value Id="Windows.ErrorLoginView.Warn.PlaceLoadingFailure" 0:Name place"/>-->
+    <Value Id="Windows.ErrorLoginView.Warn.PlaceLoadingFailure" Text="The place {0} does not exist."/>
+    <!--<Value Id="Windows.ErrorLoginView.Warn.PlaceGroupLoadingFailure" 0:Name place group"/>-->
+    <Value Id="Windows.ErrorLoginView.Warn.PlaceGroupLoadingFailure" Text="'{0}' does not contain available place."/>
+    <!--<Value Id="Windows.ErrorLoginView.Error.PlaceGroupBusy" 0:Name place group"/>-->
+    <Value Id="Windows.ErrorLoginView.Error.PlaceGroupBusy" Text="'{0}' is busy."/>
+    <!--<Value Id="Windows.ErrorLogOn.PlaceGroup" 0:Name place group"/>-->
+    <Value Id="Windows.ErrorLogOn.PlaceGroup" Text="It is not possible to log on to '{0}'. Please retry later."/>
+   
+  
+    <Value Id="Windows.ErrorLoginView.ApplicationNotFound" Text="The application is not found. Please contact your administrator."/>
+    <Value Id="Windows.ErrorLoginView.UnknownHost" Text="Cannot connect to the Configuration server host"/>
+    <Value Id="Windows.ErrorLoginView.ApplicationType" Text="The application type does not match. Please contact your administrator."/>
+    <Value Id="Windows.ErrorLoginView.NoExecutePermissions" Text="You do not have &lt;execute&gt; permissions for the application. Please contact your administrator."/>
+    <Value Id="Windows.ErrorLoginView.NoTasks" Text="You have no tasks assigned. The login operation is not possible."/>
+    <Value Id="Windows.ErrorLoginView.NoMediaTasks" Text="You do not have the privileges that are required to log in to the application. Please contact your administrator."/>
+    <Value Id="Windows.ErrorLoginView.AgentAlreadyLoggedIn" Text="You are already logged in on the place {0}"/>
+    <!--"Windows.ErrorLoginView.AgentAlreadyLoggedInDN": error message prompted to the agent at login time when agent is already logged in elsewhere on another DN-->
+    <!--"Windows.ErrorLoginView.AgentAlreadyLoggedInDN": 0: other DN identifier-->
+    <Value Id="Windows.ErrorLoginView.AgentAlreadyLoggedInDN" Text="You are already logged in on the {0} DN"/>
+    <Value Id="Windows.ErrorLoginView.PlaceAlreadyInUse" Text="The place is already used by agent {0}"/>
+    <Value Id="Windows.ErrorLoginView.PlaceStatusNotAvailable" Text="The availability of your place cannot be controlled. Please contact your administrator."/>
+    <!--"Windows.ErrorLoginView.DNAlreadyInUse": error message prompted to the agent at login time when agent is trying to log on a DN already used by another agent-->
+    <!--"Windows.ErrorLoginView.DNAlreadyInUse": 0: other agent identifier-->
+    <Value Id="Windows.ErrorLoginView.DNAlreadyInUse" Text="The DN is already used by the agent {0}"/>
+    <Value Id="Windows.ErrorChannel.NotLogin" Text="Cannot log in to the {0} channel. Please check or refine your channel information."/>
+    <!--"Windows.ErrorCommandLine.General": Error message prompted to the agent at login time when a problem occurs after the connection to configuration server when the application is started from line of command -->
+    <Value Id="Windows.ErrorCommandLine.General" Text="A configuration error occurred. Verify your settings (Place, Privileges, …) and try reconnecting." />
+
+    <!--Exception -->
+    <Value Id="InteractionWorkspaceException.Unknown" Text="Unknown Error."/>
+    <Value Id="InteractionWorkspaceException.ConfigAgentMustBeReloaded" Text="Cannot load information about the agent from Configuration Server. Agent information must be reloaded."/>
+    <Value Id="InteractionWorkspaceException.ConfigConfigServiceNotConnected" Text="The Configuration Service must be connected. Please contact your administrator."/>
+    <Value Id="InteractionWorkspaceException.ApplicationUnknown" Text="The application '{0}' has not been found in the configuration server."/>
+    <Value Id="InteractionWorkspaceException.MissingConfigurationInformation" Text="Information related to configuration '{0}' has not been found. Please contact your administrator."/>
+    <Value Id="InteractionWorkspaceException.AgentUnknown" Text="The person '{0}' has not been found in the configuration server."/>
+    <Value Id="InteractionWorkspaceException.PlaceUnknown" Text="The place '{0}' has not been found in the configuration server."/>
+    <!--Value Id="InteractionWorkspaceException.DnNoRegistered" 0: the channel name -->
+    <Value Id="InteractionWorkspaceException.DnNoRegistered" Text="The channel '{0}' is out of service."/>
+    <!--Value Id="InteractionWorkspaceException.NoPermission" 0: the usermane of agent -->
+    <Value Id="InteractionWorkspaceException.NoPermission" Text="User '{0}' does not have the privileges to log in. Please contact your administrator."/>
+    <!--Value Id="InteractionWorkspaceException.NotAgent" 0:username -->
+    <Value Id="InteractionWorkspaceException.NotAgent" Text="Person '{0}' is not defined as agent. Please contact your administrator."/>
+    <Value Id="InteractionWorkspaceException.NoPossiblePlaces" Text="No places are defined for the agent '{0}' in the Tenant '{1}'. Please contact your administrator."/>
+    <!--Value Id="InteractionWorkspaceException.ChannelNotConnected" 0: name of the channel -->
+    <Value Id="InteractionWorkspaceException.ChannelNotConnected" Text="Channel '{0}' connection failed"/>
+    <!--Value Id="InteractionWorkspaceException.MissingConnectionInformation" 0: name of the application -->
+    <Value Id="InteractionWorkspaceException.MissingConnectionInformation" Text="Cannot read the connection information of '{0}' from the Configuration Server. Please contact your administrator."/>
+
+    <Value Id="ChannelException.ChannelUnknownError" Text="Unknown Error."/>
+    <Value Id="ChannelException.HABCConflict" Text="Channel '{0}': Configuration conflict SuperHA cannot be used with Business Continuity enabled"/>
+    <Value Id="ChannelException.ChannelConnectionFailed" Text="Channel '{0}' connection failed."/>
+    <Value Id="ChannelException.ChannelNotInitializedProperly" Text="Channel '{0}' is not initialized."/>
+    <Value Id="ChannelException.ChannelDoesNotExist" Text="Channel '{0}' does not exist."/>
+    <Value Id="ChannelException.ChannelInvalidTimeout" Text="Timeout Connection on channel'{0}'."/>
+
+    <Value Id="StatisticServer.ConnectionClosed" Text="The connection with the Statistic Server {0} has ended. "/>
+    <Value Id="StatisticServer.ConnectionClosedDR" Text="The connection with the Statistic Server {0} lost."/>
+    <Value Id="StatisticServer.ConnectionRestarted" Text="The connection with the Statistic Server {0} is back in service."/>
+    <Value Id="StatisticServer.ConnectionStarted" Text="The connection with the Statistic Server {0} is now in service."/>
+    <Value Id="StatisticServer.NoStatisticServerInConnection" Text="There is no Statistic Server application in the connections of your application. Please contact your administrator."/>
+    <Value Id ="StatisticServer.StatisticServerNotStarted" Text="It is not possible to connect to the Statistic Server {0}. Please contact your administrator."/>
+    <Value Id="StatisticServer.SwitchoverDR" Text="Statistics Server Switched over to disaster recovery {0} site."/>
+    <!--Value Id="Warning" 0: Warning Message -->
+    <Value Id="Warning" Text="{0}"/>
+
+    <Value Id="AttachmentFile.SizeFile.EmptyFile" String="0B"/>
+    <Value Id="AttachmentFile.SizeFile.Byte" String="B"/>
+    <Value Id="AttachmentFile.SizeFile.KByte" String="KB"/>
+    <Value Id="AttachmentFile.SizeFile.MByte" String="MB"/>
+
+    <Value Id="UpdateManager.Title" Text="Application Update"/>
+    <!--"UpdateManager.Error.CannotDownload": "Workspace" should not be translated-->
+    <Value Id="UpdateManager.Error.CannotDownload" Text="The new version of Workspace cannot be downloaded at this time. Please contact your system administrator. Error: {0}"/>
+    <!--"UpdateManager.Error.ClickOnceDeploymentCorrupt": "Workspace" should not be translated-->
+    <Value Id="UpdateManager.Error.ClickOnceDeploymentCorrupt" Text="Cannot check for a new version of Workspace. The ClickOnce deployment is corrupted (a certificate update can be the root cause of the issue). Please redeploy the application and try again, or contact your system administrator. Error: {0}"/>
+    <!--"UpdateManager.Error.CannotBeUpdated": "Workspace" should not be translated-->
+    <Value Id="UpdateManager.Error.CannotBeUpdated" Text="Workspace cannot be updated. It is might not be a ClickOnce application. Please contact your system administrator. Error: {0}" />
+    <!--"UpdateManager.UpdateAvailable": "Workspace" should not be translated-->
+    <Value Id="UpdateManager.UpdateAvailable" Text="A new version of Workspace is available (version {0}). Would you like to update it now?" />
+    <!--"UpdateManager.MandatoryUpdate": "Workspace" should not be translated-->
+    <Value Id="UpdateManager.MandatoryUpdate" Text="Workspace has detected a mandatory update from your current version to version {0}. Workspace will now install the update and restart."/>
+    <Value Id="UpdateManager.ApplicationUpdatedAndRestart" Text="The application has been updated. Would you want to restart it now?" />
+    <!--"UpdateManager.ApplicationUpdated": "Workspace" should not be translated-->
+    <Value Id="UpdateManager.ApplicationUpdated" Text="Workspace has been updated and should be restarted" />
+    <!--"UpdateManager.Error.CannotInstall": "Workspace" should not be translated-->
+    <Value Id="UpdateManager.Error.CannotInstall" Text="Cannot install the latest version of Workspace. Please contact your system administrator. Error: {0}" />
+    <Value Id="UpdateManager.NoUpdateAvailable" Text="No update available."/>
+
+    <Value Id="Windows.Update.ProgressMessage" Text="Update in progress"/>
+    <Value Id="Windows.Update.DownloadStatus" Text="{0:D}K out of {1:D}K downloaded - {2:D}% complete"/>
+
+    <Value Id="Theme.Default.DisplayName" String="Default"/>
+    <Value Id="Theme.Royale.DisplayName"  String="Royale"/>
+    <Value Id="Theme.Fancy.DisplayName"  String="Fancy"/>
+    <Value Id="Theme.Blue.DisplayName"  String="Blue"/>
+    <Value Id="Theme.HighContrast.DisplayName" String="High Contrast"/>
+    <Value Id="Theme.ChangeTheme.Warning.Message" Text="The new theme will be applied when you restart your application."/>
+
+    <Value Id="Party.Seperator" String=", "/>
+
+    <Value Id="InteractionType.Internal" String="Internal"/>
+    <Value Id="InteractionType.External" String="External"/>
+    <Value Id="InteractionType.Unknown"  String="Unknown"/>
+    <Value Id="InteractionType.Consult"  String="Consult"/>
+    <Value Id="InteractionType.Coaching" String="Coaching"/>
+    <Value Id="InteractionType.Monitoring" String="Monitoring"/>
+
+    <!---Confirme LogOn Information Window -->
+    <Value Id="Windows.ConfirmeLogOnInformation" Title="Log On Information"/>
+    <!--Windows.ErrorAttachmentViewer.FailToSaveThisFileTimeout: Error message presented when an error occurred during e-mail attachement saving-->
+    <!--Windows.ErrorAttachmentViewer.FailToSaveThisFileTimeout: 0: Name of the file-->
+    <!--Windows.ErrorAttachmentViewer.FailToSaveThisFileTimeout: 1: timeout duration-->
+    <Value Id="Windows.ErrorAttachmentViewer.FailToSaveThisFileTimeout" String="Failed to save the file '{0}' within the specified timeout of {1} s."/>
+    <!--Windows.ErrorAttachmentViewer.FailToOpenThisFileTimeout: Error message presented when an error occurred during e-mail attachement opening-->
+    <!--Windows.ErrorAttachmentViewer.FailToOpenThisFileTimeout: 0: Name of the file-->
+    <!--Windows.ErrorAttachmentViewer.FailToOpenThisFileTimeout: 1: timeout duration-->
+    <Value Id="Windows.ErrorAttachmentViewer.FailToOpenThisFileTimeout" String="Failed to open the file '{0}' within the specified timeout of {1} s."/>
+    <!--Windows.ErrorAttachmentViewer.FailToPrintThisFileTimeout: Error message presented when an error occurred during e-mail attachement printing-->
+    <!--Windows.ErrorAttachmentViewer.FailToPrintThisFileTimeout: 0: Name of the file-->
+    <!--Windows.ErrorAttachmentViewer.FailToPrintThisFileTimeout: 1: timeout duration-->
+    <Value Id="Windows.ErrorAttachmentViewer.FailToPrintThisFileTimeout" String="Failed to print the file '{0}' within the specified timeout of {1} s."/>
+    <!--Windows.ErrorAttachmentViewer.FailToSaveThisFile: Error message presented when an error occurred during e-mail attachement saving-->
+    <!--Windows.ErrorAttachmentViewer.FailToSaveThisFile: 0: Name of the file-->
+    <Value Id="Windows.ErrorAttachmentViewer.FailToSaveThisFile" String="Failed to save the file '{0}'."/>
+    <!--Windows.ErrorAttachmentViewer.FailToOpenThisFile: Error message presented when an error occurred during e-mail attachement opening-->
+    <!--Windows.ErrorAttachmentViewer.FailToOpenThisFile: 0: Name of the file-->
+    <Value Id="Windows.ErrorAttachmentViewer.FailToOpenThisFile" String="Failed to open the file '{0}'."/>
+    <!--Windows.ErrorAttachmentViewer.FailToPrintThisFile: Error message presented when an error occurred during e-mail attachement printing-->
+    <!--Windows.ErrorAttachmentViewer.FailToPrintThisFile: 0: Name of the file-->
+    <Value Id="Windows.ErrorAttachmentViewer.FailToPrintThisFile" String="Failed to print the file '{0}'."/>
+    <Value Id="Windows.ErrorAttachmentViewer.FailDoNotHavePermissionToPrintThisFile" String="You do not have permission to print the file '{0}'."/>
+    <!--"Windows.ErrorAttachmentViewer.FailThisFileNotFound": "Workspace" should not be translated here-->
+    <Value Id="Windows.ErrorAttachmentViewer.FailThisFileNotFound" String="Workspace did not find the file '{0}'."/>
+    <!--"Windows.ErrorAttachmentViewer.FailToDeleteThisFile": "Workspace" should not be translated here-->
+    <Value Id="Windows.ErrorAttachmentViewer.FailToDeleteThisFile" String="Workspace did not delete the file '{0}'."/>
+    <!--"Windows.ErrorAttachmentViewer.TotalAttachmentsSizeError": Error message printed when agent is editing an e-mail where attachement size is greater than granted value-->
+    <!--"Windows.ErrorAttachmentViewer.TotalAttachmentsSizeError": 0: Maximum size in Megabytes-->
+    <Value Id="Windows.ErrorAttachmentViewer.TotalAttachmentsSizeError" String="Total size of attachments exceeds the granted quota. You are permitted to attach up to {0} MB to an e-mail interaction."/>
+    <!-- "Windows.ErrorAttachmentViewer.TotalNumberOfFilesError":{0}: maximum number of files that can be attached-->
+    <Value Id="Windows.ErrorAttachmentViewer.TotalNumberOfFilesError" String="Total number of attachments exceeds the granted quota. You are permitted to attach up to {0} files to an interaction."/>
+    <!-- "Windows.ErrorAttachmentViewer.AttachmentFileSizeError":{0} Maximum size of an individual file-->
+    <Value Id="Windows.ErrorAttachmentViewer.AttachmentFileSizeError" String="Size of file exceeds the granted quota. You are permitted to attach files of individual size up to {0} Kb to an interaction."/>
+    <!--"Windows.ErrorAttachmentViewer.RestrictAttachmentFileError": Error message is displayed to the agent if the file type is restricted-->
+    <!--"Windows.ErrorAttachmentViewer.RestrictAttachmentFileError": 0: name of file in error-->
+    <!--"Windows.ErrorAttachmentViewer.RestrictAttachmentFileError": 1: List of file types that agents cannot attach to an outbound e-mail interaction-->
+    <Value Id="Windows.ErrorAttachmentViewer.RestrictAttachmentFileError" String="File {0} was not added to attachments: Forbidden file type: {1}."/>
+    <!--"Windows.ErrorAttachmentViewer.RestrictAttachmentFilesError": Error message is displayed to the agent if the file type is restricted-->
+    <!--"Windows.ErrorAttachmentViewer.RestrictAttachmentFilesError": 0: names of files in error-->
+    <!--"Windows.ErrorAttachmentViewer.RestrictAttachmentFilesError": 1: List of file types that agents cannot attach to an outbound e-mail interaction-->
+    <Value Id="Windows.ErrorAttachmentViewer.RestrictAttachmentFilesError" String="Files {0} have not been attached: Forbidden file type: {1}."/>
+    <Value Id="Windows.ErrorAttachmentViewer.FileSourceNotMatchReference" String=" File download failed: File name does not match."/>
+    <Value Id="Windows.ErrorAttachmentViewer.USCRequestFailed" String="File download failed."/>
+    <Value Id="Windows.ErrorAttachmentViewer.ImageFileIsCorrupted" String="Cannot display image: Image file is corrupted or not recognized as an image."/>
+    <!-- Disaster Recovery alerts -->
+
+    <!--<Value Id="MessageBox.LoginSamePlace" 0:place name -->
+    <Value Id="MessageBox.LoginSamePlace" String="You are already logged in on the place {0}. Do you really want to log in again on this place ?"/>
+    <Value Id="MessageBox.StatServer.Not.Available" String="Cannot get Place availability from Stat Server. Do you want to wait until Stat Server responds?"/>
+    <!--"MessageBox.LoginClusterSameDN": Error message printed to the agent when he is trying to log on a DN where he is already logged in elsewhere -->
+    <!--"MessageBox.LoginClusterSameDN": 0: Name of the other DN-->
+    <Value Id="MessageBox.LoginClusterSameDN" String="You are already logged in on the DN {0}. Do you really want to log in again on this DN ?"/>
+    <Value Id="MessageBox.LogOutExitOnErrorQuestion" String="It was not possible to log off all of your channels. Do you really want to exit the application?"/>
+    <Value Id="MessageBox.LogOutExitOnError" String="It was not possible to log off all of your channels."/>
+
+    <!--"Windows.WorkspaceToolBar.SplitToggleButtonAlertMessage": Toggle button of the main toolbar used to show/hide the unsollicited message area -->
+    <!--"Windows.WorkspaceToolBar.SplitToggleButtonAlertMessage": 0: summary of message context like number of unread, number of read... (Accessibility/Screen Reader only)-->
+    <Value Id="Windows.WorkspaceToolBar.SplitToggleButtonAlertMessage" Content="_Messages" Accessibility="Messages({0})"/>
+    <Value Id="Windows.WorkspaceToolBar.MenuItemAlertMessage"  Header="My _Messages" Name="My Messages"/>
+    <Value Id="Windows.GenericDataView.TooptipIconEditableCaseData" Text="Editable casedata"/>
+
+    <!--ER 276493267-->
+    <Value Id="Windows.CaseDataView.RescheduledCampaignCallTo" Text="Callback to {0}"/>
+    <Value Id="Windows.CaseDataView.RescheduledPersonalCallTo" Text="Personal Callback to {0}"/>
+    <Value Id="Windows.CaseDataView.OutboundCampaignCallTo" Text="Outbound campaign call to {0}"/>
+    <Value Id="Windows.AttachmentViewer.MessageBoxConfirmPrintAttachmentFile" String="Are you sure that you want to print the file {0}?"/>
+
+    <!-- Level Message Error-->
+    <Value Id="ErrorCode.Level0" Text="Error"/>
+    <Value Id="ErrorCode.Level1" Text="Warning"/>
+    <Value Id="ErrorCode.Level2" Text="Information"/>
+    <Value Id="ErrorCode.Level3" Text="Message"/>
+
+    <!--<Value Id="ErrorCode.Format" 0:ErrorCode"/>-->
+    <Value Id="ErrorCode.Format" Text="({0})"/>
+
+  <!--"Windows.CapsLock": label presented in any dialog where a password must be typed (login, etc)-->
+	<Value Id="Windows.CapsLock" Text="Caps Lock is on"/>
+	
+    <!-- Change Password -->
+  <!--"Windows.AuthenticationChangePassword": Title of the change password window; "Workspace" should not be translated here-->
+	<Value Id="Windows.AuthenticationChangePassword" Title="Workspace - Change Password" />
+  <!--"Windows.AuthenticationChangePasswordRequired": warning message informing user that just authenticated that he needs to change his password-->
+    <Value Id="Windows.AuthenticationChangePasswordRequired"  Text="Your password has expired. Please enter a new password."/>
+  <!--"Windows.AuthenticationChangePasswordManually": Information message at the top of the regular sollicited change password dialog-->
+	<Value Id="Windows.AuthenticationChangePasswordManually"  Text="Please enter a new password."/>
+	
+	<!--"Windows.AuthenticationChangePassword.OldPassword": in change password dialog, label in front of old password text box-->
+  <Value Id="Windows.AuthenticationChangePassword.OldPassword" Content="O_ld Password"/>
+  <!--"Windows.AuthenticationChangePassword.NewPassword": in change password dialog, label in front of new password text box-->
+    <Value Id="Windows.AuthenticationChangePassword.NewPassword" Content="New _Password"/>
+  <!--"Windows.AuthenticationChangePassword.ConfirmPassword": in change password dialog, label in front of confirm new password text box-->
+  <Value Id="Windows.AuthenticationChangePassword.ConfirmPassword" Content="Co_nfirm Password"/>
+
+  <!--"Windows.AuthenticationChangePassword.Error.OldPasswordIncorrect": error message in change password dialog-->
+	<Value Id="Windows.AuthenticationChangePassword.Error.OldPasswordIncorrect" Text="The old password is incorrect."/>
+  <!--"Windows.AuthenticationChangePassword.Error.PasswordNotMatch": error message in change password dialog-->
+  <Value Id="Windows.AuthenticationChangePassword.Error.PasswordNotMatch" Text="The confirmation password that you entered does not match the password that you entered. Please ensure that the password and confirmation match exactly."/>
+  <!--"Windows.AuthenticationChangePassword.Error.Successfully": error message in change password dialog-->
+  <Value Id="Windows.AuthenticationChangePassword.Successfully" Text="Password has been changed successfully"/>
+ 
+	<!-- Potential Change Password Issue , Error comes from Configuration Server-->
+  <!--"New password is rejected: Password length does not satisfied security configuration":  error message in change password dialog-->
+    <Value Id="New password is rejected: Password length does not satisfied security configuration"          Text="The password does not meet the minimum number of characters that are required by your administrator."/>
+  <!--"New password is rejected: At least one upper and one lower case ASCII character is required":  error message in change password dialog-->
+  <Value Id="New password is rejected: At least one upper and one lower case ASCII character is required"		 Text="At least one upper- and one lower-case alphabetic character is required."/>
+  <!--"New password is rejected: At least one ASCII alphabetic character is required":  error message in change password dialog-->
+  <Value Id="New password is rejected: At least one ASCII alphabetic character is required"     Text="At least one alphabetic character is required."/>
+  <!--"New password is rejected: At least one numeric character is required":  error message in change password dialog-->
+  <Value Id="New password is rejected: At least one numeric character is required"             Text="At least one numeric character is required."/>
+  <!--"New password is rejected: At least one punctuation character is required":  error message in change password dialog-->
+  <Value Id="New password is rejected: At least one punctuation character is required"         Text="At least one punctuation character is required."/>
+  <!--"New password is rejected: This password has been used not long ago":  error message in change password dialog-->
+  <Value Id="New password is rejected: This password has been used not long ago"				Text="This password was used recently, please enter a different password."/>
+  <!--"New password is rejected: Empty password is prohibited":  error message in change password dialog-->
+  <Value Id="New password is rejected: Empty password is prohibited"							Text="Empty password is prohibited."/>
+
+  <!--"Password is inconsistent: Password length does not satisfied security configuration":  error message in change password dialog-->
+  <Value Id="Password is inconsistent: Password length does not satisfied security configuration"          Text="The password does not meet the minimum number of characters that are required by your administrator."/>
+  <!--"Password is inconsistent: At least one upper and one lower case ASCII character is required":  error message in change password dialog-->
+  <Value Id="Password is inconsistent: At least one upper and one lower case ASCII character is required"		 Text="At least one upper- and one lower-case alphabetic character is required."/>
+  <!--"Password is inconsistent: At least one ASCII alphabetic character is required":  error message in change password dialog-->
+  <Value Id="Password is inconsistent: At least one ASCII alphabetic character is required"     Text="At least one alphabetic character is required."/>
+  <!--"Password is inconsistent: At least one numeric character is required":  error message in change password dialog-->
+  <Value Id="Password is inconsistent: At least one numeric character is required"             Text="At least one numeric character is required."/>
+  <!--"Password is inconsistent: At least one punctuation character is required":  error message in change password dialog-->
+  <Value Id="Password is inconsistent: At least one punctuation character is required"         Text="At least one punctuation character is required."/>
+  <!--"Password is inconsistent: This password has been used not long ago":  error message in change password dialog-->
+  <Value Id="Password is inconsistent: This password has been used not long ago"				Text="This password was used recently, please enter a different password."/>
+  <!--"Password is inconsistent: Empty password is prohibited":  error message in change password dialog-->
+  <Value Id="Password is inconsistent: Empty password is prohibited"							Text="Empty password is prohibited."/>
+	
+	<!-- Printing -->
+  <!--"Windows.PrintPreview.Toolbar.Name": Name of the print toolbar (accessibility/screen reader only)-->
+    <Value Id="Windows.PrintPreview.Toolbar.Name" Tag="Print Preview"/>
+    <Value Id="Windows.PrintPreview.LabelMarginsMetric" Text="Margins (mm):"/>
+    <Value Id="Windows.PrintPreview.LabelMarginsImperial" Text="Margins (inch):"/>
+    <Value Id="Windows.PrintPreview.HyperlinkPrintUsingSystemDialog" Text="Print using system dialog..."/>
+    <Value Id="Windows.PrintPreview.TextBoxTotalSheetOfPaper" Text1="Total: 1 page" Text2="Total: {0} pages"/>
+    <Value Id="Windows.PrintPreview.Title" Title="Print Preview"/>
+    <Value Id="Windows.PrintPreview.LabelPrint" Name="Print" Text="Print"/>
+    <Value Id="Windows.PrintPreview.ButtonPrint" ToolTip="Print" Name="Print" Content="_Print"/>
+    <Value Id="Windows.PrintPreview.ButtonCancel" ToolTip="Cancel" Name="Cancel" Content="_Cancel"/>
+    <Value Id="Windows.PrintPreview.LabelDestination" Content="_Destination:"/>
+    <Value Id="Windows.PrintPreview.LabelPrinterLocation" Content="_Location:"/>
+    <Value Id="Windows.PrintPreview.LabelPrinterComment" Content="Co_mment:"/>
+    <Value Id="Windows.PrintPreview.LabelPages" Content="P_ages:"/>
+    <Value Id="Windows.PrintPreview.RadioButtonPagesAll" ToolTip="All Pages" Name="All Pages" Content="_All"/>
+    <Value Id="Windows.PrintPreview.RadioButtonPagesRange" ToolTip="Pages Ranges" Name="Pages Ranges"/>
+    <Value Id="Windows.PrintPreview.TextBlockPagesRange" Text="e.g., 2-6, 9, 12-14"/>
+    <Value Id="Windows.PrintPreview.TextBoxPagesRange" Name="Pages Ranges" ToolTip="Specify a page ranges, e.g., 2-6, 9, 12-14"/>
+    <Value Id="Windows.PrintPreview.LabelCopies" Content="_Copies:"/>
+    <Value Id="Windows.PrintPreview.TextBoxCopies" ToolTip="Specify the number of copies" Name="Specify the number of copies"/>
+    <Value Id="Windows.PrintPreview.LabelLayout" Content="_Layout:"/>
+    <Value Id="Windows.PrintPreview.RadioButtonLayoutPortrait" ToolTip="Portrait" Name="Portrait" Content="P_ortrait"/>
+    <Value Id="Windows.PrintPreview.RadioButtonLayoutLansdcape" ToolTip="Lansdcape" Name="Lansdcape" Content="_Lansdcape"/>
+    <Value Id="Windows.PrintPreview.ButtonAllMarginsTogether" ToolTip="Uniform Margins" Name="Uniform Margins" Content="_Uniform Margins"/>
+    <Value Id="Windows.PrintPreview.LabelMarginTop" Content="_Top"/>
+    <Value Id="Windows.PrintPreview.TextBoxMarginTop" ToolTip="Top Margin"/>
+    <Value Id="Windows.PrintPreview.LabelMarginBottom" Content="_Bottom"/>
+    <Value Id="Windows.PrintPreview.TextBoxMarginBottom" ToolTip="Bottom Margin"/>
+    <Value Id="Windows.PrintPreview.LabelMarginLeft" Content="_Left"/>
+    <Value Id="Windows.PrintPreview.TextBoxMarginLeft" ToolTip="Left Margin"/>
+    <Value Id="Windows.PrintPreview.LabelMarginRight" Content="_Right"/>
+    <Value Id="Windows.PrintPreview.TextBoxMarginRight" ToolTip="Right Margin"/>
+    <Value Id="Windows.PrintPreview.LabelOptions" Content="_Options:"/>
+    <Value Id="Windows.PrintPreview.CheckBoxPages" ToolTip="Print Page Numbers" Name="Print Page Numbers" Content="Print Page _Numbers"/>
+    <Value Id="Windows.PrintPreview.ZoomInButton" ToolTip="Increase the size of the content (Ctrl +)" Name="Increase the size of the content (Ctrl +)"/>
+    <Value Id="Windows.PrintPreview.ZoomOutButton" ToolTip="Decrease the size of the content (Ctrl -)" Name="Decrease the size of the content (Ctrl -)"/>
+    <Value Id="Windows.PrintPreview.ActualSizeButton" ToolTip="100% (Ctrl+1)" Name="100% (Ctrl+1)"/>
+    <Value Id="Windows.PrintPreview.PageWidthButton" ToolTip="Page Width (Ctrl+2)" Name="Page Width (Ctrl+2)"/>
+    <Value Id="Windows.PrintPreview.WholePageButton" ToolTip="Whole Page (Ctrl+3)" Name="Whole Page (Ctrl+3)"/>
+    <Value Id="Windows.PrintPreview.TwoPagesButton" ToolTip="Two Pages (Ctrl+4)" Name="Two Pages (Ctrl+4)"/>
+
+    <!--"Single Sign Off is failed, this message is prompted -->
+    <Value Id="Windows.login.Kerberos.Retry" Text="Cannot start application due to authentication error."/>
+    <!--"Windows.login.CS.Retry": Single Sign Off, it is not possible to connect to Configuration Server, this message is prompted; "Workspace" should not be translated here-->
+    <Value Id="Windows.login.CS.Retry" Text="Cannot connect to Configuration Server. Please contact your Administrator and then try again to start the Workspace." />
+
+    <!--"Inactivity Tiemout [SSO], the Single Sign Off is failed, this error message is diplayed -->
+    <Value Id="Windows.Authentication.Kerberos.Error" Text="Cannot resume application session due to authentication error. Please lock this computer, then unlock it using your most recent password and try again."/>
+    <!--"Inactivity Tiemout [SSO], User Information -->
+  
+    <Value Id="Windows.Authentication.Kerberos.Information" Text="{0} is logged in"/>
+
+    <Value Id="Windows.TimeFormat.HourOne" String="hour"/>
+    <Value Id="Windows.TimeFormat.HourMany" String="hours"/>
+    <Value Id="Windows.TimeFormat.MinuteOne" String="minute"/>
+    <Value Id="Windows.TimeFormat.MinuteMany" String="minutes"/>
+    <Value Id="Windows.TimeFormat.SecondOne" String="second"/>
+    <Value Id="Windows.TimeFormat.SecondMany" String="seconds"/>
+    <Value Id="Windows.TimeFormat.HourMinuteSecond" String="{0} {1}, {2} {3} and {4} {5}"/>
+    <Value Id="Windows.TimeFormat.MinuteSecond" String="{0} {1} and {2} {3}"/>
+    <Value Id="Windows.TimeFormat.Second" String="{0} {1}"/>
+  <!--KGG AttachmentViewer-->
+    <Value Id="Windows.AttachmentViewer.ClientText" Text="Uploaded from: Customer."/>
+    <Value Id="Windows.AttachmentViewer.FSText" Text="Uploaded from: Agent File System."/>
+    <Value Id="Windows.AttachmentViewer.SRLText" Text="Uploaded from: Standard Responses Library."/>
+
+    <Value Id="Windows.EmoticonsViewer.BusinessAttributeNotDefinedCorrectly" Text="Cannot load Emojis (wrong settings). Please contact your Administrator."/>
+    <Value Id="Windows.EmoticonsViewer.BusinessAttributeNotDefined" Text="Cannot load Emojis (not defined). Please contact your Administrator."/>
+    <Value Id="Windows.EmoticonsView.ChooseEmoticon" ToolTip="Choose an Emoji" Name="Choose an Emoji"/>
+</Dictionary> 

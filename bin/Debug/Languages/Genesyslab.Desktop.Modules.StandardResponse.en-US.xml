@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+
+  <Value Id="StandardResponse.SRLSideButtonView.SideButtonResponses" Content="_RESPONSES" />
+
+  <Value Id="StandardResponse.ResponsesView.ComboBoxSearchTypeAllKeywords" Content="All Keywords Search" />
+  <Value Id="StandardResponse.ResponsesView.ComboBoxSearchTypeAnyKeyword" Content="Any Keyword Search" />
+  <Value Id="StandardResponse.ResponsesView.ComboBoxSearchTypeExactText" Content="Exact Text Search" />
+
+  <Value Id="StandardResponse.ResponsesView.SearchTextBoxSearchedString"
+         LabelText="Search"
+         ToolTip="Type text and press the Enter key to search for the text"
+         ToolTipClearButton="Clear the selection and display all selected view content"
+         ToolTipSearchButton="Start search" />
+
+  <Value Id="StandardResponse.ResponsesView.TooltipToggleShowButtonAdvancedSearch" ToolTip="Show advance search options" Name="Show/Hide advance search options" />
+  <Value Id="StandardResponse.ResponsesView.TooltipToggleHideButtonAdvancedSearch" ToolTip="Hide advance search options" />
+
+  <!--<Value Id="StandardResponse.ResponsesView.LabelSearchIn" Content="Search In:" />-->
+  <!--<Value Id="StandardResponse.ResponsesView.RadioButtonAllLibrary" Content="All Library" />-->
+  <!--<Value Id="StandardResponse.ResponsesView.RadioButtonFavorites" Content="Favorites" />-->
+  <!--<Value Id="StandardResponse.ResponsesView.RadioButtonSelectedCategory" Content="Selected Category" />-->
+
+  <Value Id="StandardResponse.ResponsesView.LabelSearchForTextIn" Content="Search For Text In:" />
+  <Value Id="StandardResponse.ResponsesView.CheckBoxResponsesName" Content="Responses Names" />
+  <Value Id="StandardResponse.ResponsesView.CheckBoxResponsesBody" Content="Responses Body Text" />
+  <!--<Value Id="StandardResponse.ResponsesView.CheckBoxCategoriesName" Content="Categories Names" />-->
+
+  <Value Id="StandardResponse.ResponsesView.LabelView" Content="View:" />
+  <Value Id="StandardResponse.ResponsesView.ComboViewAllResponses" Content="All Responses" />
+  <Value Id="StandardResponse.ResponsesView.ComboViewFavorites" Content="Favorite Responses" />
+  <Value Id="StandardResponse.ResponsesView.ComboViewSuggestedResponses" Content="Suggested Responses" />
+  <!--StandardResponse.ResponsesView.ComboViewShortcut: combo box item label to display responses that can be insterted by typing a word (shortcut) in the text editor-->
+  <Value Id="StandardResponse.ResponsesView.ComboViewShortcut" Content="Responses with predefined Shortcut" />
+
+  <Value Id="StandardResponse.ResponsesView.TooltipButtonInsertResponse" Header="Insert Standard Response Text" ToolTip="Insert Standard Response Text" Name="Insert Standard Response Text"/>
+  <Value Id="StandardResponse.ResponsesView.TooltipButtonAddToFavorites" ToolTip="Add Standard Response into Favorite Responses" Name="Add Standard Response into Favorite Responses" />
+  <Value Id="StandardResponse.ResponsesView.TooltipButtonRemoveFromFavorites" ToolTip="Remove Standard Response from Favorite Responses" Name="Remove Standard Response from Favorite Responses"/>
+  <Value Id="StandardResponse.ResponsesView.TooltipButtonViewModeTree" ToolTip="Show Responses in Category View" />
+  <Value Id="StandardResponse.ResponsesView.TooltipButtonViewModeList" ToolTip="Show Responses in List View" Name="Show Responses in List View"/>
+  <Value Id="StandardResponse.ResponsesView.TooltipButtonShowDetail" ToolTip="Show Details Panel" Name="Show/Hide detail"/>
+  <Value Id="StandardResponse.ResponsesView.TooltipButtonHideDetail" ToolTip="Hide Details Panel" />
+  
+  <Value Id="StandardResponse.ResponsesView.ContextMenuInsertResponse" Header="Insert Standard Response Text"/>
+
+  <Value Id="StandardResponse.ResponsesView.ColumnHeaderListViewResponse" Content="Response"/>
+  <Value Id="StandardResponse.ResponsesView.ColumnHeaderListViewParentCategory" Content="Parent Category"/>
+  <Value Id="StandardResponse.ResponsesView.ColumnHeaderListViewRelevancy" Content="Relevancy"/>
+  <!-- StandardResponse.ResponsesView.ColumnHeaderListViewShortcut: label of a table column. Shortcut here represents a word that can be typed in text editor for quick insert of an associated response-->
+  <Value Id="StandardResponse.ResponsesView.ColumnHeaderListViewShortcut" Content="Shortcut"/>
+  <Value Id="StandardResponse.ResponsesView.WaterMarkListViewNoItem" Text="No items"/>
+  <Value Id="StandardResponse.ResponsesView.WaterMarkListViewStillPreloading" Text="Currently loading standard responses. Please wait..."/>
+
+  <Value Id="StandardResponse.ResponsesView.WaterMarkTextBoxDetailNoData" Text="Select response to view details"/>
+
+  <Value Id="StandardResponse.ResponsesView.WaterMarkTextBoxDetailNotAvailable" Text="The '{0}' standard response is not available."/>
+  <Value Id="StandardResponse.ResponsesView.WaterMarkTextBoxDetailNotApproved" Text="This standard response is not approved."/>
+  <Value Id="StandardResponse.ResponsesView.WaterMarkTextBoxDetailNotValidYet" Text="This standard response is not valid yet."/>
+  <Value Id="StandardResponse.ResponsesView.WaterMarkTextBoxDetailExpired" Text="This standard response has expired."/>
+  <Value Id="StandardResponse.ResponsesView.WaterMarkTextBoxDetailNotForAgents" Text="This standard response is not intended for manual use."/>
+
+
+  <Value Id="StandardResponse.ResponsesView.AttachmentSeparator" Text=";"/>
+  <Value Id="StandardResponse.ResponsesView.ContextMenuAttachmentOpen" Header="Open"/>
+  <Value Id="StandardResponse.ResponsesView.ContextMenuAttachmentSaveAs" Header="Save as..."/>
+
+  <Value Id="StandardResponse.ResponsesView.TextBoxDetailTitle" Name="Response: {0}"/>
+  <Value Id="StandardResponse.ResponsesView.TextBoxDetailSubject" Text="Subject:" Name="Subject: {0}"/>
+  <Value Id="StandardResponse.ResponsesView.TextBoxDetailDescription" Text="Description:" Name="Description: {0}" />
+  <!-- Value Id="StandardResponse.ResponsesView.TextBoxDetailShortcut" Shortcut (word) configured to insert the standard response in an editor -->
+  <!-- Value Id="StandardResponse.ResponsesView.TextBoxDetailShortcut" 0: the corresponding Shortcut value -->
+  <Value Id="StandardResponse.ResponsesView.TextBoxDetailShortcut" Text="Shortcut:" Name="Shortcut: {0}" />
+  <!-- Value Id="StandardResponse.ResponsesView.ShortcutSeperator" Separator used to display shortcuts defined for a standard response (if multiple shortcuts for same response) -->
+  <Value Id="StandardResponse.ResponsesView.ShortcutSeperator" String=", "/>
+
+  <Value Id="StandardResponse.ResponsesView.TextBoxDetailContent" Name="Standard Response content:" />
+
+  <Value Id="StandardResponse.ResponsesView.FailContactRequestDescription"  Text="{0}"/>
+  <Value Id="StandardResponse.UCSNoSrlIndex" Text="Search in Standard Responses Library is not available: appropriate indexes are disabled in Universal Contact Server {0}. Please contact your administrator."/>
+  <Value Id="StandardResponse.UCSNoActiveConnection"  String="No active connection to Universal Contact Server. Please contact your Administrator."/>
+  <Value Id="StandardResponse.UCSOutOfService" Text="The Universal Contact Server {0} is out of service."/>
+  <Value Id="StandardResponse.UCSBackInService" Text="The Universal Contact Server {0} is back in service."/>
+  <Value Id="StandardResponse.UCSConnectionError" Text="Connection error with the Universal Contact Server {0}."/>
+  <Value Id="StandardResponse.UCSSrlIndexAvailable" Text="Search in Standard Responses Library is now available."/>
+
+  <Value Id="StandardResponse.ResponsesView.TooltipToggleExpandCollapse" Text="Expand or Collapse Categories." Tooltip="Expand or Collapse Categories"/>
+  <Value Id="StandardResponse.ResponsesView.FolderClosed" Name="Closed Folder" Tooltip="Closed Folder"/>
+  <Value Id="StandardResponse.ResponsesView.FolderOpened" Name="Opened Folder" Tooltip="Opened Folder"/>
+  <Value Id="StandardResponse.ResponsesView.Document" Name="Document" Tooltip="Document"/>
+  <Value Id="StandardResponse.ResponsesView.StandardResponseTitle" Name="Standard Response title"/>
+
+  <!-- Value Id="StandardResponse.EmailResponseSignatureError.LocationMissing" 0: option name -->
+  <Value Id="StandardResponse.EmailResponseSignatureError.LocationMissing" Text="The response location is missing in the '{0}' Option"/>
+  <!-- Value Id="StandardResponse.EmailResponseSignatureError.ResponseNotFound" 0: response full path name -->
+  <!-- Value Id="StandardResponse.EmailResponseSignatureError.ResponseNotFound" 1: option name -->
+  <Value Id="StandardResponse.EmailResponseSignatureError.ResponseNotFound" Text="The response '{0}', that is defined in option '{1}', is not found in Standard Responses Library"/>
+  <Value Id="StandardResponse.EmailResponseSignatureError.ResponseNotAvailableForAgent" Text="The response '{0}', that is defined in option '{1}', is not available for Agent ({2})"/>
+
+</Dictionary>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+  
+  <!-- Broadcast Message Message Type DisplayName -->
+  <Value Id="Broadcast.MessageType.System" String="System"/>
+  <Value Id="Broadcast.MessageType.Error" String="Error"/>
+  <Value Id="Broadcast.MessageType.Information" String="Information"/>
+  <Value Id="Broadcast.MessageType.Internal Note" String="Internal Note"/>
+  
+  </Dictionary>
+

@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+
+    <Value Id="Outbound.Campaign.MyCampaignsView.Header" Header="My C_ampaigns" Name="My Campaigns" />
+    <!-- "Outbound.Campaign.MyCampaignsView.ButtonGetRecord": Button label and tooltip used to ask for a record in an outbound campaign />-->
+    <!-- "Outbound.Campaign.MyCampaignsView.ButtonGetRecord" 0: Selected outbond campaign name-->
+    <Value Id="Outbound.Campaign.MyCampaignsView.ButtonGetRecord" Content="Get Record" Text="Get Record" ToolTip="Get Record" Name="Get Record on {0}"/>
+    <!--"Outbound.Campaign.MyCampaignsView.ColumnHeaderStatus": Header of the column used to present the list of campaigns - campaign status -->
+    <Value Id="Outbound.Campaign.MyCampaignsView.ColumnHeaderStatus" Content="Status" Name="Status"/>
+    <Value Id="Outbound.Campaign.MyCampaignsView.ColumnHeaderAutomationPropertyStatus" Content="Status" Text="Status"/>
+    <Value Id="Outbound.Campaign.MyCampaignsView.StatusActive" ToolTip="Active" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.StatusRunning" ToolTip="Running" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.StatusLogoutRequested" ToolTip="Logout in {0} seconds" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.StatusLogout" ToolTip="Logout" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.ColumnHeaderName" Content="Name" Text="Name"/>
+    <Value Id="Outbound.Campaign.MyCampaignsView.ColumnHeaderDeliveryMode" Content="Delivery Mode" Text="Delivery Mode"/>
+    <Value Id="Outbound.Campaign.MyCampaignsView.DeliveryModeManual" Text="Manual" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DeliveryModeAutomatic" Text="Automatic" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.ColumnHeaderDialingMode" Content="Dialing Mode" Text="Dialing Mode"/>
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModePreview" Text="Preview" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModePredictive" Text="Predictive" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModeProgressive" Text="Progressive" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModeEngagedPredictive" Text="Engaged Predictive" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModeEngagedProgressive" Text="Engaged Progressive" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModePower" Text="Power" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModePushPreview" Text="Push Preview" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModeEngagedPower" Text="Engaged Power" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModeProgressiveGVP" Text="Progressive GVP" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModePredictiveGVP" Text="Predictive GVP" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.DialingModePowerGVP" Text="Power GVP" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.ColumnHeaderDate" Content="Date" Text="Date"/>
+    <Value Id="Outbound.Campaign.MyCampaignsView.ColumnHeaderDescription" Content="Description" Text="Description"/>
+
+    <Value Id="Outbound.Campaign.Loaded" Text="Campaign {0} loaded" />
+    <Value Id="Outbound.Campaign.Started" Text="Campaign {0} started {1}" />
+    <Value Id="Outbound.Campaign.Stopped" Text="Campaign {0} stopped" />
+    <Value Id="Outbound.Campaign.Unloaded" Text="Campaign {0} unloaded" />
+    <!--<Value Id="Outbound.Campaign.UnloadedDelayed" 0: campaign name>-->
+    <!--<Value Id="Outbound.Campaign.UnloadedDelayed" 1: delay time/ />-->
+    <Value Id="Outbound.Campaign.UnloadedDelayed" Text="Unload {0} campaign is delayed by {1} minutes." ToolTip="Unload delayed by {0} minutes"/>
+    <!--<Value Id="Outbound.Campaign.LoadedBeforeUnloadDelay" 0: campaign name>-->
+    <Value Id="Outbound.Campaign.LoadedBeforeUnloadDelay" Text="Campaign {0} loaded before its unload delay elapsed."/>
+    <!--<Value Id="Outbound.Campaign.LogOutTime" 0:Time />-->
+    <Value Id="Outbound.Campaign.LogOutTime" Text="Awaiting Log Off authorization ({0})" NoTimeText="Awaiting Log Off authorization"/>
+    <Value Id="Outbound.Campaign.LogOutAuthorized" Text="Log Off authorized"/>
+    <Value Id="Outbound.Campaign.ToolTip.LogOutTime" Text="Awaiting Log Off authorization "/>
+    <Value Id="Outbound.Campaign.ToolTip.LogOutAuthorized" Text="Log Off authorized"/>
+    <!--<Value Id="Outbound.Campaign.RefineMedia.Reason" 0: channel name"/>-->
+    <Value Id="Outbound.Campaign.RefineMedia.Reason" Text="Cannot refine place because some campaigns are in progress. You must first log off the {0} channel."/>
+
+    <Value Id="Outbound.Campaign.MyCampaignsView.Error" Text="{0}" />
+    <Value Id="Outbound.Campaign.MyCampaignsView.NoRecordAvailable" Text="No record available in the campaign {0}." />
+
+    <Value Id="Outbound.Campaign.BroadcastMessage.CampaignSender" Text="Outbound Campaign"/>
+    <Value Id="Outbound.Campaign.BroadcastMessage.Campaign" String="Outbound Campaign"/>
+
+    <Value Id="Outbound.Campaign.BroadcastMessageCampaign.Loaded" Text="Campaign Loaded" />
+    <Value Id="Outbound.Campaign.BroadcastMessageCampaign.Started" Text="Campaign Started" />
+    <Value Id="Outbound.Campaign.BroadcastMessageCampaign.Stopped" Text="Campaign Stopped" />
+    <Value Id="Outbound.Campaign.BroadcastMessageCampaign.Unloaded" Text="Campaign Unloaded" />
+    <Value Id="Outbound.Campaign.BroadcastMessageCampaign.Name" Content="Name:" />
+    <Value Id="Outbound.Campaign.BroadcastMessageCampaign.DeliveryMode" Content="Delivery Mode:" />
+    <Value Id="Outbound.Campaign.BroadcastMessageCampaign.DialingMode" Content="Dialing Mode:" />
+    <Value Id="Outbound.Campaign.BroadcastMessageCampaign.Description" Content="Description:" />
+    <Value Id="Outbound.Campaign.BroadcastMessageCampaign.ButtonOk" Content="_OK"/>
+
+
+    <Value Id="Outbound.OutboundRecord.NoCampaignCallData" Text="No Campaign Call Data"/>
+    <Value Id="Outbound.OutboundRecord.CampaignCallData" Text="Campaign Call Data"/>
+    <Value Id="Outbound.OutboundPreview.CallInformation" Text="Record Information" String="Record Information"/>
+    <!--"Outbound.OutboundRecord.ExpanderToolTip.Show": tooltip on the control used to collapse/expand the record information area: show -->
+    <Value Id="Outbound.OutboundRecord.ExpanderToolTip.Show" ToolTip="Show the Record Information"/>
+    <!--"Outbound.OutboundRecord.ExpanderToolTip.Hide": tooltip on the control used to collapse/expand the record information area: hide -->
+    <Value Id="Outbound.OutboundRecord.ExpanderToolTip.Hide" ToolTip="Hide the Record Information"/>
+    <Value Id="Outbound.Common.Text.MoreOptions" Text="More"/>
+    <Value Id="Outbound.Common.Text.LessOptions" Text="Less"/>
+    <Value Id="Outbound.Common.Text.NoItems" Text="No items"/>
+    <Value Id="Outbound.OutboundPreview.WaitingASMCall" Text="Establishing the call..." Name="Establishing the call..."/>
+    <Value Id="Outbound.OutboundRecord.LoadingInProgress" Text="Loading in progress..." Name="Loading in progress..."/>
+
+    <!-- Field Type   -->
+    <Value Id="Outbound.OutboundRecord.ScheduledFor" String="Scheduled for"/>
+    <Value Id="Outbound.OutboundRecord.CallFrom" String="Call From"/>
+    <Value Id="Outbound.OutboundRecord.CallTill" String="Call Till"/>
+    <Value Id="Outbound.OutboundRecord.PhoneType" String="Phone Type"/>
+    <Value Id="Outbound.OutboundRecord.Attempt" String="Attempt"/>
+    <Value Id="Outbound.OutboundRecord.LastAttempt" String="Last Attempt"/>
+    <Value Id="Outbound.FieldType.AgentId" String="Agent Id"/>
+    <Value Id="Outbound.FieldType.ANI" String="ANI"/>
+    <Value Id="Outbound.FieldType.AppDBID" String="Application DBID"/>
+    <Value Id="Outbound.FieldType.CallTime" String="Call Time"/>
+    <Value Id="Outbound.FieldType.CampaignID" String="Campaign Id"/>
+    <Value Id="Outbound.FieldType.ChainId" String="Chain Id"/>
+    <Value Id="Outbound.FieldType.CountryCode" String="Country Code"/>
+    <Value Id="Outbound.FieldType.DialResult" String="Dial Result"/>
+    <Value Id="Outbound.FieldType.EmailSubject" String="E-mail Subject"/>
+    <Value Id="Outbound.FieldType.EmailTemplateID" String="E-mail Template ID"/>
+    <Value Id="Outbound.FieldType.From" String="Call From"/>
+    <Value Id="Outbound.FieldType.GroupDBID" String="Group DBID"/>
+    <Value Id="Outbound.FieldType.InfoDigits" String="Info Digits"/>
+    <Value Id="Outbound.FieldType.LATA" String="LATA"/>
+    <Value Id="Outbound.FieldType.MaxFieldType" String="Max Field Type"/>
+    <Value Id="Outbound.FieldType.MediaReference" String="Media Reference"/>
+    <Value Id="Outbound.FieldType.NPA" String="NPA"/>
+    <Value Id="Outbound.FieldType.NPANXX" String="NPA NXX"/>
+    <Value Id="Outbound.FieldType.NumberInChain" String="Number In Chain"/>
+    <Value Id="Outbound.FieldType.NumberOfAttempts" String="Number Of Attempts"/>
+    <Value Id="Outbound.FieldType.Phone" String="Phone"/>
+    <Value Id="Outbound.FieldType.PhoneType" String="Phone Type"/>
+    <Value Id="Outbound.FieldType.RecordId" String="Record Id"/>
+    <Value Id="Outbound.FieldType.RecordStatus" String="Record Status"/>
+    <Value Id="Outbound.FieldType.RecordType" String="Record Type"/>
+    <Value Id="Outbound.FieldType.ScheduledTime" String="Scheduled Time"/>
+    <Value Id="Outbound.FieldType.StateCode" String="State Code"/>
+    <Value Id="Outbound.FieldType.SwitchID" String="Switch Id"/>
+    <Value Id="Outbound.FieldType.TimeZone" String="TimeZone"/>
+    <Value Id="Outbound.FieldType.Treatments" String="Treatments"/>
+    <Value Id="Outbound.FieldType.Until" String="Call Until"/>
+
+    <!-- Phone Type-->
+    <Value Id="Outbound.PhoneType.BusinessWithExtension" String="Business With Extension"/>
+    <Value Id="Outbound.PhoneType.DirectBusinessPhone" String="Direct Business Phone"/>
+    <Value Id="Outbound.PhoneType.EmailAddress" String="E-mail Address"/>
+    <Value Id="Outbound.PhoneType.HomePhone" String="Home Phone"/>
+    <Value Id="Outbound.PhoneType.Mobile" String="Mobile"/>
+    <Value Id="Outbound.PhoneType.Modem" String="Modem"/>
+    <Value Id="Outbound.PhoneType.NoType" String="(None)"/>
+    <Value Id="Outbound.PhoneType.Pager" String="Pager"/>
+    <Value Id="Outbound.PhoneType.PinPager" String="Pin Pager"/>
+    <Value Id="Outbound.PhoneType.VacationPhone" String="Vacation Phone"/>
+    <Value Id="Outbound.PhoneType.VoiceMail" String="Voice Mail"/>
+    <Value Id="Outbound.PhoneType.InstantMessaging" String="Instant Messaging"/>
+
+    <!-- Record Type -->
+    <Value Id="Outbound.RecordType.CampaignCallback" String="Campaign Callback"/>
+    <Value Id="Outbound.RecordType.CampaignRescheduled" String="Campaign Rescheduled"/>
+    <Value Id="Outbound.RecordType.General" String="General"/>
+    <Value Id="Outbound.RecordType.NoCall" String="No Call"/>
+    <Value Id="Outbound.RecordType.Mobile" String="Mobile"/>
+    <Value Id="Outbound.RecordType.NoRecordType" String="No Record Type"/>
+    <Value Id="Outbound.RecordType.PersonalCallback" String="Personal Callback"/>
+    <Value Id="Outbound.RecordType.Rescheduled" String="Rescheduled"/>
+    <Value Id="Outbound.RecordType.Unknown" String="Unknown"/>
+    <Value Id="Outbound.RecordType.NotSpecified" String="Not Specified"/>
+
+    <!-- Record Status -->
+    <Value Id="Outbound.RecordStatus.AgentError" String="Agent Error"/>
+    <Value Id="Outbound.RecordStatus.Cancelled" String="Cancelled"/>
+    <Value Id="Outbound.RecordStatus.ChainUpdated" String="Chain Updated"/>
+    <Value Id="Outbound.RecordStatus.MissedCallback" String="Missed Callback"/>
+    <Value Id="Outbound.RecordStatus.NoRecordStatus" String="No Record Status"/>
+    <Value Id="Outbound.RecordStatus.Ready" String="Ready"/>
+    <Value Id="Outbound.RecordStatus.Retrieved" String="Retrieved"/>
+    <Value Id="Outbound.RecordStatus.Stale" String="Stale"/>
+    <Value Id="Outbound.RecordStatus.Updated" String="Updated"/>
+    <Value Id="Outbound.RecordStatus.NotSpecified" String="Not Specified"/>
+
+    <!-- Call Result -->
+    <Value Id="Outbound.CallResult.Ok" String="Ok"/>
+    <Value Id="Outbound.CallResult.GeneralError" String="General Error"/>
+    <Value Id="Outbound.CallResult.SystemError" String="System Error"/>
+    <Value Id="Outbound.CallResult.Busy" String="Busy"/>
+    <Value Id="Outbound.CallResult.NoAnswer" String="No Answer"/>
+    <Value Id="Outbound.CallResult.SitDetected" String="Sit Detected"/>
+    <Value Id="Outbound.CallResult.AnsweringMachine" String="Answering Machine"/>
+    <Value Id="Outbound.CallResult.AllTrunksBusy" String="All Trunks Busy"/>
+    <Value Id="Outbound.CallResult.SitInvalidNum" String="Sit Invalid Num"/>
+    <Value Id="Outbound.CallResult.SitVacant" String="Sit Vacant"/>
+    <Value Id="Outbound.CallResult.SitOperintercept" String="Sit Operintercept"/>
+    <Value Id="Outbound.CallResult.SitUnknown" String="Sit Unknown"/>
+    <Value Id="Outbound.CallResult.SitNoCircuit" String="Sit No Circuit"/>
+    <Value Id="Outbound.CallResult.SitReorder" String="Sit Reorder"/>
+    <Value Id="Outbound.CallResult.FaxDetected" String="Fax Detected"/>
+    <Value Id="Outbound.CallResult.Abandoned" String="Abandoned"/>
+    <Value Id="Outbound.CallResult.Dropped" String="Dropped"/>
+    <Value Id="Outbound.CallResult.DroppedNoAnswer" String="Dropped No Answer"/>
+    <Value Id="Outbound.CallResult.Unknown" String="Unknown"/>
+    <Value Id="Outbound.CallResult.Silence" String="Silence"/>
+    <Value Id="Outbound.CallResult.Answered" String="Answered"/>
+    <Value Id="Outbound.CallResult.NuTone" String="Nu Tone"/>
+    <Value Id="Outbound.CallResult.NoDialTone" String="No Dial Tone"/>
+    <Value Id="Outbound.CallResult.NoProgress" String="No Progress"/>
+    <Value Id="Outbound.CallResult.NoRingback" String="No Ringback"/>
+    <Value Id="Outbound.CallResult.NoEstablished" String="No Established"/>
+    <Value Id="Outbound.CallResult.PagerDetected" String="Pager Detected"/>
+    <Value Id="Outbound.CallResult.WrongParty" String="Wrong Party"/>
+    <Value Id="Outbound.CallResult.DialError" String="Dial Error"/>
+    <Value Id="Outbound.CallResult.CallDropError" String="Call Drop Error"/>
+    <Value Id="Outbound.CallResult.SwitchError" String="Switch Error"/>
+    <Value Id="Outbound.CallResult.NoFreePortError" String="No Free Port Error"/>
+    <Value Id="Outbound.CallResult.TransferError" String="Transfer Error"/>
+    <Value Id="Outbound.CallResult.Stale" String="Stale"/>
+    <Value Id="Outbound.CallResult.AgentCallbackError" String="Agent Callback Error"/>
+    <Value Id="Outbound.CallResult.GroupCallbackError" String="Group Callback Error"/>
+    <Value Id="Outbound.CallResult.DoNotCall" String="Do Not Call"/>
+    <Value Id="Outbound.CallResult.CancelRecord" String="Cancel Record"/>
+    <Value Id="Outbound.CallResult.WrongNumber" String="Wrong Number"/>
+    <Value Id="Outbound.CallResult.NotSpecified" String="Not Specified"/>
+    <Value Id="Outbound.CallResult.NoValue" String="[no call result]"/>
+
+    <!-- Outbound Disposition View -->
+    <Value Id="Outbound.DispositionView.Header" String="Outbound"/>
+    <Value Id="Outbound.DispositionView.CallResult" Content="Call Result" Name="Call Result"/>
+    <Value Id="Outbound.DispositionView.DoNotCall" Content="Do Not Call"/>
+
+    <!--"Outbound.PreviewOutbound.ToolbarName": name of the toolbar containing outbound specific controls (accessibility / screen reader only)-->
+    <Value Id="Outbound.PreviewOutbound.ToolbarName" Tag="Outbound Campaign Call" />
+    <!--"Outbound.InteractionPullPreview.Type": Type of the outbound interaction: 'pull preview' -->
+    <Value Id="Outbound.InteractionPullPreview.Type" Text="Pull Preview"/>
+    <!--<Value Id="Outbound.PreviewOutbound.SelectPhoneNumberToDial" : tooltip of phone numbers combo box in preview interaction toolbar/>-->
+    <Value Id="Outbound.PreviewOutbound.SelectPhoneNumberToDial" ToolTip="Select Phone Number to dial"/>
+    <!--<Value Id="Outbound.PreviewOutbound.OtherPhoneNumber" : item available in phone numbers combo box of a preview interaction to call an other phone number not in the list/>-->
+    <Value Id="Outbound.PreviewOutbound.OtherPhoneNumber" Content="Other Phone Number..."/>
+    <!-- "Outbound.PreviewOutbound.Call":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Outbound.PreviewOutbound.Call" Content="Call" ToolTip="Call this contact {0}" Name="Call this contact {0}"/>
+    <Value Id="Outbound.PreviewOutbound.Decline" Content="Decline" ToolTip="Decline the call"/>
+    <!-- "Outbound.PreviewOutbound.Reject":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Outbound.PreviewOutbound.Reject" Header ="Call this contact later" Content="Decline" ToolTip="Call this contact later {0}" Name="Call this contact later {0}"/>
+    <!-- "Outbound.PreviewOutbound.Cancel":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Outbound.PreviewOutbound.Cancel" Header="Do not call this contact for this campaign" Content="Do not call this contact for this campaign" ToolTip="Do not call this contact for this campaign {0}" Name="Do not call this contact for this campaign {0}"/>
+    <Value Id="Outbound.PreviewOutbound.Close" Content="Close"/>
+    <!-- "Outbound.PreviewOutbound.Done":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Outbound.PreviewOutbound.Done" Content="Done" ToolTip="Mark Done {0}" Name="Mark Done {0}" Header="Done"/>
+    <Value Id="Outbound.PreviewOutbound.NextRecord" Content="Next Record" ToolTip="Get next record"/>
+    <Value Id="Outbound.PreviewOutbound.TreatmentBeforeClose" Text="Call or decline before closing this window"/>
+    <!--"Outbound.PreviewOutbound.SelectMarkDoneAction": Tooltip presented on top of the markdone split button that allows to select between 'simple mark done' and 'mark done and get next record automatically'-->
+    <Value Id="Outbound.PreviewOutbound.SelectMarkDoneAction" ToolTip="Select the Mark Done action" />
+    <!--"Outbound.PreviewOutbound.MarkDoneAndGetNextRecord": menu item of the mark done split button - mark current record done and automatically select the next one -->
+    <!--"Outbound.PreviewOutbound.MarkDoneAndGetNextRecord" 0: keyboard shortcut that can be used to execute the action without mouse. Parameter should stay at the end of the string without extra characters surrounding it-->
+    <Value Id="Outbound.PreviewOutbound.MarkDoneAndGetNextRecord" Content="Done" ToolTip="Mark as Done and get the next available outbound record {0}" Name="Mark as Done and get the next available outbound record {0}" Header="Done" />
+    <!-- "Outbound.PreviewOutbound.MarkDoneAndStop":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Outbound.PreviewOutbound.MarkDoneAndStop" ToolTip="Mark as Done and stop receiving preview record {0}" Name="Mark as Done and stop receiving preview record {0}" Header="Done And Stop" />
+    <Value Id="Outbound.OutboundRecord.Name" Name="Name: {0}"/>
+    <Value Id="Outbound.OutboundRecord.Value" Name="Value: {0}"/>
+
+  <!-- New Number Dialog -->
+
+    <!--<Value Id="Outbound.NewNumberDialog.NewNumberTitle" : Title of the New Number Dialog />-->
+    <Value Id="Outbound.NewNumberDialog.NewNumberTitle" Content="New Phone Number"/>
+    <!--<Value Id="Outbound.NewNumberDialog.CallButton" : Label of the Call button in new number dialog />-->
+    <!--<Value Id="Outbound.NewNumberDialog.CallButton" : - 0: phone number to call />-->
+    <Value Id="Outbound.NewNumberDialog.CallButton" Content="Call" ToolTip="Call the new phone number {0}" Name="Call the new phone number {0}"/>
+    <!--<Value Id="Outbound.NewNumberDialog.CancelButton : Label of the Cancel button in new number dialog-->
+    <Value Id="Outbound.NewNumberDialog.CancelButton" Content="Cancel" Name="Cancel"/>
+    <!--<Value Id="Outbound.NewNumberDialog.EnterNewPhoneNumber : Watermark displayed in the Text Box where to enter new phone number when it is empty in new number dialog-->
+    <Value Id="Outbound.NewNumberDialog.EnterNewPhoneNumber" Text="Enter Phone Number" ToolTip="Enter Phone Number" Name="Enter Phone Number"/>
+    <!--<Value Id="Outbound.NewNumberDialog.Type : Label of combo box where to select the new phone number type in new number dialog -->
+    <Value Id="Outbound.NewNumberDialog.Type" Name="New Phone Number Type" ToolTip="New Phone Number Type"/>
+    <!--<Value Id="Outbound.NewNumberDialog.Number : Description of the text box where the new phone number is entered in new number dialog-->
+    <Value Id="Outbound.NewNumberDialog.Number" Name="New Phone Number Value" ToolTip="New Phone Number Value"/>
+    <!--<Value Id="Outbound.NewNumberDialog.From : Label of Time Picker to select the time From which the contact can be called in new number dialog--><!--
+    --><!--<Value Id="Outbound.NewNumberDialog.From" : - 0: selected time in the corresponding time picker />--><!--
+    <Value Id="Outbound.NewNumberDialog.From" Name="From Time {0}:" Content="From:"/>
+    --><!--<Value Id="Outbound.NewNumberDialog.Until : Label of Time Picker to select the time until which the contact can be called in new number dialog--><!--
+    --><!--<Value Id="Outbound.NewNumberDialog.Until" : - 0: selected time in the corresponding time picker />--><!--
+    <Value Id="Outbound.NewNumberDialog.Until" Name="Till Time {0}:" Content="Till:"/>-->
+    <!--<Value Id="Outbound.NewNumberDialog.Warning.NewPhoneNumberIsEmpty" : Warning Message text displayed when Call button is clicked and phone number value is missing in new number dialog/>-->
+    <Value Id="Outbound.NewNumberDialog.Warning.NewPhoneNumberIsEmpty" Text="Enter a new phone number." />
+    <!--<Value Id="Outbound.NewNumberDialog.Warning.NotValidPhoneNumber : Warning Message text displayed when Call button is clicked and phone number value is not valid in new number dialog -->
+    <Value Id="Outbound.NewNumberDialog.Warning.NotValidPhoneNumber" Text="Enter a valid phone number."/>
+    <!--<Value Id="Outbound.NewNumberDialog.Error.CreateRecordFails" : Error Message text displayed when Call button is clicked and add record fails in new number dialog/>-->
+    <Value Id="Outbound.NewNumberDialog.Error.CreateRecordFails" Text="Call failed when trying to create the new phone number." />
+    <!--<Value Id="Outbound.NewNumberDialog.Error.AddRecordFails" : Error Message text displayed when Call button is clicked and add record fails in new number dialog/>-->
+    <!--<Value Id="Outbound.NewNumberDialog.Error.AddRecordFails" : - 0: detail of the error message providied by OutboundService />-->
+    <Value Id="Outbound.NewNumberDialog.Error.AddRecordFails" Text="Call failed when trying to add the new phone number: {0}." />
+    <!--<Value Id="Outbound.NewNumberDialog.Error.GetChainedRecordsFails" : Error Message text displayed when Call button is clicked and add record fails in new number dialog/>-->
+    <!--<Value Id="Outbound.NewNumberDialog.Error.GetChainedRecordsFails" : - 0: detail of the error message providied by OutboundService />-->
+    <Value Id="Outbound.NewNumberDialog.Error.GetChainedRecordsFails" Text="Call failed when trying to get the phone numbers: {0}." />
+    <!--<Value Id="Outbound.NewNumberDialog.Error.NewRecordNotFoundInChain" : Error Message text displayed when Call button is clicked and add record fails in new number dialog/>-->
+    <Value Id="Outbound.NewNumberDialog.Error.NewRecordNotFoundInChain" Text="Call failed when trying to find the new phone number." />
+    <!--<Value Id="Outbound.NewNumberDialog.Error.UpdateRecordFail" : Error Message text displayed when Call button is clicked and add record fails in new number dialog/>-->
+    <!--<Value Id="Outbound.NewNumberDialog.Error.UpdateRecordFail" : - 0: detail of the error message providied by OutboundService />-->
+    <Value Id ="Outbound.NewNumberDialog..Error.UpdateRecordFail" Text="Call failed when trying to update the outbound record of new phone number: {0}." />
+
+  <!-- Reschedule -->
+    <Value Id="Outbound.RescheduleToolbarView.RescheduleTheCall" ToolTip="Reschedule a callback" Name="Reschedule a callback"/>
+    <Value Id="Outbound.RescheduleToolbarView.CallRescheduled" ToolTip="Callback rescheduled on {0} at {1} (Contact Time)"/>
+    <Value Id="Outbound.RescheduleControl.ButtonClose" Name="Close" ToolTip="Close"/>
+    <Value Id="Outbound.RescheduleControl.CallbackOn" Content="Reschedule Callback"/>
+    <Value Id="Outbound.RescheduleControl.ScheduleAt" Content="At:"/>
+    <Value Id="Outbound.RescheduleControl.ScheduleOnDate" Name="Callback Rescheduled Date:"/>
+    <Value Id="Outbound.RescheduleControl.ScheduleAtTime" Name="Callback Rescheduled Time {0}:"/>
+    <!--<Value Id="Outbound.RescheduleControl.ScheduleLocalDateTime" : Tootip displayed on mouse over Date and Time for reschedule (The Date/Time is converted to agent Local time) />-->
+    <!--<Value Id="Outbound.RescheduleControl.ScheduleLocalDateTime" - 0: selected date />-->
+    <!--<Value Id="Outbound.RescheduleControl.ScheduleLocalDateTime" - 1: selected time />-->
+    <Value Id="Outbound.RescheduleControl.ScheduleLocalDateTime" Name="Local Time: {0} on {1}"/>
+    <Value Id="Outbound.RescheduleControl.RemoveCallback" ToolTip="Remove Callback"/>
+    <Value Id="Outbound.RescheduleControl.PersonalCallback" Content="Personal Callback"/>
+    <Value Id="Outbound.RescheduleControl.Phone" Content="To:"/>
+    <Value Id="Outbound.RescheduleControl.EnterNewPhoneNumber" Text="Enter Phone Number" ToolTip="Enter Phone Number" Name="Enter Phone Number"/>
+    <Value Id="Outbound.RescheduleControl.AddNewNumber" Content="New Phone Number..."/>
+    <Value Id="Outbound.RescheduleControl.Type" Name="New Phone Number Type" ToolTip="New Phone Number Type"/>
+    <Value Id="Outbound.RescheduleControl.Number" Name="New Phone Number Value" ToolTip="New Phone Number Value"/>
+    <Value Id="Outbound.RescheduleControl.From" Name="From Time {0}:" Content="From:"/>
+    <Value Id="Outbound.RescheduleControl.Until" Name="Till Time {0}:" Content="Till:"/>
+    <!--<Value Id="Outbound.RescheduleControl.Error.DateIsNotValid : Warning message displayed when scheduled date has not a valid format -->
+    <Value Id="Outbound.RescheduleControl.Error.DateIsNotValid" Text="Callback scheduling failed, enter a valid date." />
+    <!--<Value Id="Outbound.RescheduleControl.Error.SelectedDateIsInThePast : Warning message displayed when scheduled date time is in the past -->
+    <Value Id="Outbound.RescheduleControl.Error.SelectedDateIsInThePast" Text="You cannot schedule a callback in the past." />
+    <Value Id="Outbound.RescheduleControl.Error.NewPhoneNumberIsEmpty" Text="Callback scheduling failed, enter the new phone number." />
+    <Value Id="Outbound.RescheduleControl.Error.CreateRecordFails" Text="Callback scheduling failed when trying to create the new phone number." />
+    <Value Id="Outbound.RescheduleControl.Error.AddRecordFails" Text="Callback scheduling failed when trying to add the new phone number: {0}." />
+    <Value Id="Outbound.RescheduleControl.Error.GetChainedRecordsFails" Text="Callback scheduling failed when trying to get the phone numbers: {0}." />
+    <Value Id="Outbound.RescheduleControl.Error.NewRecordNotFoundInChain" Text="Callback scheduling failed when trying to find the new phone number." />
+    <Value Id="Outbound.RescheduleControl.Error" Text="Callback scheduling failed: {0}." />
+
+    <!-- Error messages for OCS actions -->
+    <Value Id ="Outbound.OutboundRecord.RecordProcessedFail" Text="Cannot mark the outbound record as processed: {0}." />
+    <Value Id ="Outbound.OutboundRecord.RejectFail" Text="Cannot reject the outbound record: {0}." />
+    <Value Id ="Outbound.OutboundRecord.CancelFail" Text="Cannot cancel the outbound record: {0}." />
+    <Value Id ="Outbound.OutboundRecord.DoNotCallFail" Text="Cannot mark the outbound record as do not call: {0.}" />
+    <Value Id ="Outbound.OutboundRecord.UpdateRecordFail" Text="Cannot update the outbound record: {0}." />
+    <Value Id ="Outbound.OutboundRecord.GetChainedRecordsFail" Text="Cannot get the chained records: {0}." />
+    <Value Id ="Outbound.OutboundRecord.AgentNotFound" Text="Agent does not own the record anymore." />
+    <Value Id ="Outbound.OutboundRecord.InvalidRequest" Text="Request received has the wrong request type." />
+    <Value Id ="Outbound.OutboundRecord.AttributeNotFound" Text="Mandatory attribute cannot be found." />
+    <Value Id ="Outbound.OutboundRecord.InvalidAttributeValue" Text="Attribute has the wrong value." />
+    <Value Id ="Outbound.OutboundRecord.CampaignGroupNotFound" Text="Specified campaign group was not found." />
+    <Value Id ="Outbound.OutboundRecord.NoActiveCampaigns" Text="Cannot execute request because no campaign was loaded." />
+    <Value Id ="Outbound.OutboundRecord.NoRunningPreviewCampaigns" Text="Cannot execute request because no preview campaign was started." />
+    <Value Id ="Outbound.OutboundRecord.NoRecordsAvailable" Text="No records available." />
+    <Value Id ="Outbound.OutboundRecord.RecordNotFound" Text="Record does not exist or has already been processed." />
+    <Value Id ="Outbound.OutboundRecord.InvalidTime" Text="Invalid time." />
+    <Value Id ="Outbound.OutboundRecord.InvalidTimeFormat" Text="Cannot convert the string to a time." />
+    <Value Id ="Outbound.OutboundRecord.NoCallFoundForTheRecordHandle" Text="Record has already been processed." />
+    <Value Id ="Outbound.OutboundRecord.DBError" Text="Database error." />
+    <Value Id ="Outbound.OutboundRecord.ChainedRecordsNotFound" Text="Received request refers to an absent chain of records." />
+    <Value Id ="Outbound.OutboundRecord.RecordAlreadyExists" Text="Attempted to add a record that already exists." />
+    <Value Id ="Outbound.OutboundRecord.AddRecordError" Text="Cannot add the record." />
+    <Value Id ="Outbound.OutboundRecord.ScheduledRecordNotFound" Text="Rescheduled record not found." />
+    <Value Id ="Outbound.OutboundRecord.PreviewModeAlreadyStarted" Text="Preview mode has already been started." />
+    <Value Id ="Outbound.OutboundRecord.PreviewModeNotStarted" Text="Preview mode has not been started." />
+
+    <!-- Toaster -->
+    <Value Id="Outbound.ToasterPullPreview.Accept" Content="Accept" ToolTip="Accept the callback"/>
+    <Value Id="Outbound.ToasterPullPreview.Reject" Content="Reject" ToolTip="Reject the callback"/>
+
+    <!--"Outbound.State.ReadyToCall": State of outbound preview interaction presented in front of the identifier of the party that will be called (next statuses will be 'dialing', 'connected'...-->
+    <Value Id="Outbound.State.ReadyToCall" Text="Ready To Call"/>
+    <!--"Outbound.State.CallingIn": State of outbound preview interaction presented in front of the identifier of the party that will be called, when dial is automatically done with option outbound.timed-preview-auto-dial grather than 0 (next statuses will be 'dialing', 'connected'...)-->
+    <!--"Outbound.State.CallingIn" 0 : is the time mm:ss remaining before automatic dial -->
+    <Value Id="Outbound.State.CallingIn" Text="Calling In {0}"/>
+</Dictionary>

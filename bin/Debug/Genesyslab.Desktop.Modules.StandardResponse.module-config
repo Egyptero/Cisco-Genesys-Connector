@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+
+	<configSections>
+		<section name="modules" type="Microsoft.Practices.Composite.Modularity.ModulesConfigurationSection, Microsoft.Practices.Composite" />
+		<section name="tasks" type="Genesyslab.Desktop.Infrastructure.Config.TasksSection, Genesyslab.Desktop.Infrastructure" />
+	</configSections>
+
+	<tasks>
+		<!-- If the task 'InteractionWorkspace.ExtensionSample.canUse' is granted,
+				the bootstrap downloads the files in the group 'clickOnceGroupsToDownload' if any,
+				and then, the module in the 'modulesToLoad' list are loaded.
+				'clickOnceGroupsToDownload' and 'modulesToLoad' are a coma separated lists -->
+		<!--<task name="InteractionWorkspace.ExtensionSample.canUse" clickOnceGroupsToDownload="ExtensionSample" modulesToLoad="ExtensionSampleModule" />-->
+    <task name="InteractionWorkspace.SRL.canUse" clickOnceGroupsToDownload="SRL" modulesToLoad="StandardResponseModule" />
+  </tasks>
+
+	<modules>
+		<!-- Uncomment the following to load the module if the corresponding task is granted -->
+		<module assemblyFile="Genesyslab.Desktop.Modules.StandardResponse.dll"
+				moduleType="Genesyslab.Desktop.Modules.StandardResponse.StandardResponseModule"
+				moduleName="StandardResponseModule"
+				startupLoaded="false"/>
+
+		<!-- Load the module-->
+		<!--<module assemblyFile="Genesyslab.Desktop.Modules.ExtensionSample.dll"
+				moduleType="Genesyslab.Desktop.Modules.ExtensionSample.ExtensionSampleModule"
+				moduleName="ExtensionSampleModule">
+			<dependencies>
+        <dependency moduleName="VoiceModule" />
+        --><!--<dependency moduleName="WindowsModule" />--><!--
+      </dependencies>
+		</module>-->
+	</modules>
+
+</configuration>

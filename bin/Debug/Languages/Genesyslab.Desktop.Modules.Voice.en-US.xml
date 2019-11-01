@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+
+    <!--"Windows.ToasterWindow.ButtonAcceptVoiceTimerTooltip": Accept button tooltip of a voice interaction toaster when the corresponding <media-type>.auto-answer is true and <media-type>.auto-answer.timer is greater than zero -->
+    <!--"Windows.ToasterWindow.ButtonAcceptVoiceTimerTooltip": {0} time before auto-accept is triggered -->
+    <Value Id="Windows.ToasterWindow.ButtonAcceptVoiceTimerTooltip" Text="Accept the incoming call (or wait for automatic accept in {0})"/>
+    <Value Id="Windows.ToasterWindow.ButtonAcceptVoiceTooltip" Text="Accept the incoming call"/>
+    <Value Id="Windows.ToasterWindow.ButtonRejectVoice" Content="_Reject" ToolTip="Reject the incoming call"/>
+    <!--"Windows.ToasterWindow.ButtonAcceptIMTimerTooltip": Accept button tooltip of an instant message interaction toaster when the corresponding <media-type>.auto-answer is true and <media-type>.auto-answer.timer is greater than zero -->
+    <!--"Windows.ToasterWindow.ButtonAcceptIMTimerTooltip": {0} time before auto-accept is triggered -->
+    <Value Id="Windows.ToasterWindow.ButtonAcceptIMTimerTooltip" Text="Accept the instant message (or wait for automatic accept in {0})"/>
+    <Value Id="Windows.ToasterWindow.ButtonAcceptIMTooltip" Text="Accept the instant message"/>
+    <Value Id="Windows.ToasterWindow.ButtonRejectIM" Content="_Reject" ToolTip="Reject the instant message"/>
+    <!--"Windows.ToasterWindow.ButtonAcceptPreviewTimerTooltip": Accept button tooltip of a preview interaction toaster when the corresponding <media-type>.auto-answer is true and <media-type>.auto-answer.timer is greater than zero -->
+    <!--"Windows.ToasterWindow.ButtonAcceptPreviewTimerTooltip": {0} time before auto-accept is triggered -->
+    <Value Id="Windows.ToasterWindow.ButtonAcceptPreviewTimerTooltip" Text="Accept the preview interaction (or wait for automatic accept in {0})"/>
+    <Value Id="Windows.ToasterWindow.ButtonAcceptPreviewTooltip" Text="Accept the preview interaction"/>
+    <Value Id="Windows.ToasterWindow.ButtonRejectPreview" Content="_Decline" ToolTip="Decline the preview interaction"/>
+
+    <!--
+    <Value Id="Windows.VoiceView.AccessTextAddVideo" Text="Add _Video"/>
+    <Value Id="Windows.VoiceView.AccessTextAlternate" Text="A_lternate"/>
+    <Value Id="Windows.VoiceView.AccessTextAnswer" Text="_Answer"/>
+    <Value Id="Windows.VoiceView.AccessTextCompleteConference" Text="Complete _Conference"/>
+    <Value Id="Windows.VoiceView.AccessTextCompleteTransfer" Text="Complete _Transfer"/>
+    <Value Id="Windows.VoiceView.AccessTextConference" Text="_Conference"/>
+    <Value Id="Windows.VoiceView.AccessTextDTMF" Text="_Keypad"/>
+    <Value Id="Windows.VoiceView.AccessTextHoldCall" Text="_Hold Call"/>
+    <Value Id="Windows.VoiceView.AccessTextInitTransfer" Text="_Two Step Transfer"/>
+    <Value Id="Windows.VoiceView.AccessTextMarkDone" Text="_Mark Done"/>
+    <Value Id="Windows.VoiceView.AccessTextClose" Text="_Close"/>
+    <Value Id="Windows.VoiceView.AccessTextReconnect" Text="_End"/>
+    <Value Id="Windows.VoiceView.AccessTextRelease" Name="End" Text="_End"/>
+    <Value Id="Windows.VoiceView.AccessTextRemoveVideo" Text="Remove Vi_deo"/>
+    <Value Id="Windows.VoiceView.AccessTextRetrieveCall" Text="Retrie_ve Call"/>
+    <Value Id="Windows.VoiceView.AccessTextSingleStepTransfer" Text="One _Step Transfer"/>
+    <Value Id="Windows.VoiceView.AccessTextTransfer" Text="_Transfer"/>
+    <Value Id="Windows.VoiceView.ButtonAddVideo" ToolTip="Add video"/>
+    <Value Id="Windows.VoiceView.ButtonAlternate" Name="Alternate" ToolTip="Alternate"/>
+    <Value Id="Windows.VoiceView.ButtonCompleteConference" ToolTip="Complete conference"/>
+    <Value Id="Windows.VoiceView.ButtonCompleteTransfer" ToolTip="Complete transfer"/>
+    <Value Id="Windows.VoiceView.ButtonConference" ToolTip="Conference"/>
+    <Value Id="Windows.VoiceView.ButtonConsultCall" ToolTip="Transfer or conference"/>
+    <Value Id="Windows.VoiceView.ButtonDialConsultCall" Name="" ToolTip="Dial phone number" Content="_Dial"/>
+    <Value Id="Windows.VoiceView.ButtonInitTransfer" ToolTip="Initialize a transfer"/>
+    <Value Id="Windows.VoiceView.ButtonMarkDoneTooltip" Text="Mark interaction as Done"/>
+    <Value Id="Windows.VoiceView.ButtonConsultation" ToolTip="Start Consultation"/>
+    <Value Id="Windows.VoiceView.ButtonMuteOn" Name="" ToolTip="Mute on"/>
+    <Value Id="Windows.VoiceView.buttonMuteOff" Name="" ToolTip="Mute off"/>
+    <Value Id="Windows.VoiceView.ButtonRemoveVideo" ToolTip="Remove the video"/>
+    <Value Id="Windows.VoiceView.ButtonRetrieveCall" Name="" ToolTip="Resume  call"/>
+    <Value Id="Windows.VoiceView.ButtonTransfer" ToolTip="Transfer a call"/>
+    <Value Id="Windows.VoiceView.MenuItemInitTransfer" Header="_Two Step Transfer"/>
+    <Value Id="Windows.VoiceView.MenuItemSingleStepTransfer" Header="_One Step Transfer"/>
+    <Value Id="Windows.VoiceView.TextBlockConsultCall.InitConference" Header="Initiate conference to"/>
+    <Value Id="Windows.VoiceView.TextBlockConsultCall.InitTransfer" Header="Initiate transfer to"/>
+    <Value Id="Windows.VoiceView.TextBlockConsultCall.SingleStepConference" Header="One step Conference to"/>
+    <Value Id="Windows.VoiceView.TextBlockConsultCall.SingleStepTransfer" Header="One step transfer to"/>
+    <Value Id="Windows.VoiceView.TextBlockInteractionParty" Text="Party: {0}"/>
+    <Value Id="Windows.VoiceView.TextBlockInteractionStatus" Text="Status: {0}"/>
+    <Value Id="Windows.VoiceView.LabelPartyName" Content="_Party:"/>
+    <Value Id="Windows.VoiceView.LabelPartyStatus" Content="_Status:"/>
+    
+    -->
+
+
+    <Value Id="Windows.VoiceView.ToolBarName" Tag="Voice"/>
+    <!-- "Windows.VoiceView.ButtonAnswer":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonAnswer" Name="Answer incoming call {0}" ToolTip="Answer incoming call {0}"/>
+    <!-- "Windows.VoiceView.ButtonRelease":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonRelease" Name="End the call {0}" ToolTip="End the call {0}"/>
+    <!-- "Windows.VoiceView.ButtonReconnect":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonReconnect" Name="End  the call {0}" ToolTip="End the call {0}"/>
+    <!-- "Windows.VoiceView.ButtonHoldCall":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonHoldCall" Name="Hold the call {0}" ToolTip="Hold the call {0}"/>
+    <!-- "Windows.VoiceView.ButtonResume":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonResume" Name="Resume the call {0}" ToolTip="Resume the call {0}"/>
+    <!-- "Windows.VoiceView.ButtonSingleStepTransfer":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonSingleStepTransfer" Name="Instant call Transfer {0}" ToolTip="Instant call transfer {0}"/>
+    <!-- "Windows.VoiceView.ButtonSingleStepConference":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonSingleStepConference" Name="Instant call Conference {0}" ToolTip="Instant call conference {0}"/>
+    <Value Id="Windows.VoiceView.ButtonDTMF" Name="DTMF" ToolTip="Keypad"/>
+    <Value Id="Windows.VoiceView.ButtonDTMFClose" Name="Stop DTMF" ToolTip="Stop DTMF"/>
+    <Value Id="Windows.VoiceView.TextBoxDTMF" Name="Enter DTMF digits" ToolTip="Enter DTMF digits"/>
+    <!-- "Windows.VoiceView.ButtonStartRecordingCall":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonStartRecordingCall" Name="Record the Call {0}" ToolTip="Record the call {0}"/>
+    <!-- "Windows.VoiceView.ButtonStopRecordingCall":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonStopRecordingCall" Name="Stop recording the Call {0}" ToolTip="Stop recording the Call {0}"/>
+    <!--"Windows.VoiceView.ButtonReportBadQualityOfMediaCommand": toolbar button tooltip of the button used to report bad VoIP quality to back end (this is a toggle button, OK or Not OK) -->
+    <Value Id="Windows.VoiceView.ButtonReportBadQualityOfMediaCommand" Name="Report bad voice quality" ToolTip="Report bad voice quality"/>
+    <!-- "Windows.VoiceView.ButtonPauseRecordingCall":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonPauseRecordingCall" Name="Pause recording the Call {0}" ToolTip="Pause recording the Call {0}"/>
+    <!-- "Windows.VoiceView.ButtonResumeRecordingCall":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.VoiceView.ButtonResumeRecordingCall" Name="Resume recording the Call {0}" ToolTip="Resume recording the Call {0}"/>
+
+    <Value Id="Windows.VoiceView.MenuItemOneStepTransferDialer" Text="Instant Call _Transfer" Tooltip="Instant Call Transfer"/>
+    <Value Id="Windows.VoiceView.MenuItemOneStepConferenceDialer" Text="Instant Call _Conference" Tooltip="Instant Call Conference"/>
+    <Value Id="Windows.VoiceView.MenuItemMainDialerMakeCall" Text="_Call" Tooltip="Establish a new phone call" TooltipArg1="Establish a new phone call from {0}" TooltipArg2="Establish a new phone call {0} from {1}"  TextArg1="_Call from {0} " TextArg2="_Call {0} from {1}"  />
+    <Value Id="Windows.VoiceView.MenuItemConsultationDialerConsultCall" Text="Start Voice Consultation" Tooltip="Initialize a voice consultation" TooltipArg1="Initialize a voice consultation from {0}" TooltipArg2="Initialize a voice consultation {0} from {1}"  TextArg1="Start Voice Consultation from {0} " TextArg2="Start Voice Consultation {0} from {1}"  />
+  
+  
+    <Value Id="Windows.VoiceView.MenuItemConsultationDialerInitTransfer" Text="Start Voice Consultation (_Transfer)" Tooltip="Initialize a voice consultation (for transfer)" />
+    <Value Id="Windows.VoiceView.MenuItemConsultationDialerInitConference" Text="Start Voice Consultation (_Conference)" Tooltip="Initialize a voice consultation (for conference)"/>
+
+    <Value Id="Windows.VoiceView.MenuItemPartyMakeCall" Text="_Call" Tooltip="Establish a new phone call" />
+    <Value Id="Windows.VoiceView.MenuItemPartyInitTransfer" Text="Call (_Transfer)" Tooltip="Initialize a voice call (for transfer)"/>
+    <Value Id="Windows.VoiceView.MenuItemPartyInitConference" Text="Call (_Conference)" Tooltip="Initialize a voice call (for conference)" />
+    <Value Id="Windows.VoiceView.MenuItemPartyMakeCallCoach" Text="_Coach via voice" Tooltip="Start a coaching session with the selected party through the voice channel" />
+
+    <Value Id="Windows.VoiceView.MenuItemPartyDeleteFromConference" Text="_Delete From Conference" Tooltip="Delete the party in the conference" ImageUrl="" />
+    <Value Id="Windows.VoiceView.MenuItemPartyListenDisconnect" Text="_Suspend From Conference" Tooltip="Suspend the party from the conference" ImageUrl="" />
+    <Value Id="Windows.VoiceView.MenuItemPartyListenReconnect" Text="_Reinstate To Conference" Tooltip="Reinstate the party to the conference" ImageUrl="" />
+
+    <Value Id="Windows.VoiceView.TooltipHoldDuration" Tooltip="Hold Duration" ImageUrl="" />
+    <Value Id="Windows.VoiceView.TooltipPostCallDuration" Tooltip="Post Call Duration" ImageUrl="" />
+    <Value Id="Windows.VoiceView.TooltipTotalDuration" Tooltip="Total Duration" ImageUrl="" />
+    <Value Id="Windows.VoiceView.TooltipCallDuration" Tooltip="Call Duration" ImageUrl="" />
+    <Value Id="Windows.VoiceView.TooltipChannel" Tooltip="Channel" />
+
+
+  <Value Id="Windows.VoiceView.PromptForEnd" String="Are you sure that you want to end this call?"/>
+    <Value Id="Windows.VoiceView.PromptForSuspended" String="A party is suspended, are you sure that you want to end this call?"/>
+
+    <Value Id="Windows.IMView.MenuItemPartyMakeIM" Text="Send _Instant Message" Tooltip="Initiate an Instant Messaging invitation" />
+    <Value Id="Windows.IMView.MenuItemConsultationDialerConsultationIM" Text="Start _Instant Message Consultation" Tooltip="Initialize an Instant Messaging consultation in the current context" />
+    <Value Id="Windows.IMView.MenuItemPartyCoachingIM" Text="Coach via _Instant Messaging " Tooltip="Start a coaching session with the selected party by using instant messaging channel" />
+
+    <!--"Windows.IMView.ToolbarName": Accessibility/Screen reader only, name of the Instant Messaging toolbar-->
+    <Value Id="Windows.IMView.ToolbarName" Tag="Instant Messaging"/>
+    <!-- "Windows.VoiceView.ButtonRelease":{0}: the keyboard shortcut that can be used to trigger the same operation as click on this button. Ex: CTRL+T. Runtime value can be empty. Parameter should stay at the end of the string without extra characters surrounding it -->
+    <Value Id="Windows.IMView.ButtonRelease" Text="End" ToolTip="End the IM {0}" Name="End the IM {0}"/>
+    <!--<Value Id="Windows.IMView.ButtonClose" ToolTip="Close"/>-->
+    <Value Id="Windows.IMView.ShareInformation" Text="This is a consultation Instant Messaging"/>
+    <!--Value Id="Windows.IMView.ShareInformationCustomer" 0: customer Id "-->
+    <Value Id="Windows.IMView.ShareInformationCustomer" Text="This is a consultation Instant Messaging about {0}."/>
+    <!--Value Id="Windows.IMView.Reject" 0: agent userName "-->
+    <Value Id="Windows.IMView.Reject" Text="{0} rejected your Instant Messaging invitation."/>
+    <!--Value Id="Windows.IMView.Initiate" 0: party name "-->
+    <Value Id="Windows.IMView.Initiate" Text="{0} initiated an Instant Messaging invitation."/>
+    <!--Value Id="Windows.IMView.Accept" 0: party name "-->
+    <Value Id="Windows.IMView.Accept" Text="{0} accepted the Instant Messaging invitation."/>
+    <!--Value Id="Windows.IMView.Expire" 0: party name "-->
+    <Value Id="Windows.IMView.Expire" Text="The Instant Messaging invitation to {0} has expired."/>
+    <Value Id="Windows.IMView.LabelPartyName" Content="_Party:"/>
+    <Value Id="Windows.IMView.LabelPartyStatus" Content="_Status:"/>
+    <Value Id="Windows.IMView.WelcomeInvitation" Text="Welcome to Instant Messaging. Send a message to start the session"/>
+    <Value Id="Windows.IMView.TextBoxMessage" Name="Message to send"/>
+    <Value Id="Windows.IMView.ButtonSend" Content="S_end" ToolTip="Send message" Name="Send Message"/>
+    <Value Id="Windows.IMView.PromptForEnd" String="Are you sure that you want to end this Instant Messaging?"/>
+
+    <!--<Value Id="RequestAction.ClickTo.Dial" 0: phone number" -->
+    <Value Id="RequestAction.ClickTo.Dial" ToolTip="Click to call {0}."  Error="Cannot call {0}."/>
+
+    <!--  VoiceRecording SIP-->
+    <Value Id="ActiveRecording.ToolbarRecordingView.MenuStart" Text="Start Voice Recording" Header="Start"/>
+    <Value Id="ActiveRecording.ToolbarRecordingView.MenuStop" Text="Stop Voice Recording" Header="Stop"/>
+    <Value Id="ActiveRecording.ToolbarRecordingView.MenuPause" Text="Pause Voice Recording" Header="Pause"/>
+    <Value Id="ActiveRecording.ToolbarRecordingView.MenuResume" Text="Resume Voice Recording" Header="Resume"/>
+    <Value Id="ActiveRecording.ToolbarRecordingView.ScrMenuStart" Text="Start Screen Recording" Header="Start"/>
+    <Value Id="ActiveRecording.ToolbarRecordingView.ScrMenuStop" Text="Stop Screen Recording" Header="Stop"/>
+    <Value Id="ActiveRecording.ToolbarRecordingView.ScrMenuPause" Text="Pause Screen Recording" Header="Pause"/>
+    <Value Id="ActiveRecording.ToolbarRecordingView.ScrMenuResume" Text="Resume Screen Recording" Header="Resume"/>
+
+    <!--"Windows.ToolbarRecordingView.SelectVoiceRecordingAction": tooltip presented when hovering the active voice recording toolbar split button-->
+    <Value Id="Windows.ToolbarRecordingView.SelectVoiceRecordingAction" ToolTip="Select voice recording action"/>
+    <Value Id="Windows.ToolbarRecordingView.MenuStart" ToolTip="Start Voice Recording" Header="Start" Text="Start Voice Recording"/>
+    <Value Id="Windows.ToolbarRecordingView.MenuStop" ToolTip="Stop Voice Recording" Header="Stop" Text="Stop Voice Recording"/>
+    <Value Id="Windows.ToolbarRecordingView.MenuPause" ToolTip="Pause Voice Recording" Header="Pause" Text="Pause Voice Recording"/>
+    <Value Id="Windows.ToolbarRecordingView.MenuResume" ToolTip="Resume Voice Recording" Header="Resume" Text="Resume Voice Recording"/>
+    <!--"Windows.ToolbarRecordingView.SelectScrRecordingAction": tooltip presented when hovering the active screen recording toolbar split button-->
+    <Value Id="Windows.ToolbarRecordingView.SelectScrRecordingAction" ToolTip="Select the screen recording action" />
+    <Value Id="Windows.ToolbarRecordingView.ScrMenuStart" ToolTip="Start Screen Recording" Header="Start" Text="Start Screen Recording" />
+    <Value Id="Windows.ToolbarRecordingView.ScrMenuStop" ToolTip="Stop Screen Recording" Header="Stop" Text="Stop Screen Recording"/>
+    <Value Id="Windows.ToolbarRecordingView.ScrMenuPause" ToolTip="Pause Screen Recording" Header="Pause" Text="Pause Screen Recording"/>
+    <Value Id="Windows.ToolbarRecordingView.ScrMenuResume" ToolTip="Resume Screen Recording" Header="Resume" Text="Resume Screen Recording"/>
+
+
+    <!--<Value Id="Channel.DnErrorEvent"  1:Error Code 3: Media Name 4:Error Description 5:Level  />-->
+    <Value Id="Channel.DnErrorEvent" Text="{4} - Media {5} {1} - {3}"/>
+
+    <!--TServer Error-->
+    <Value Id="TServer.Error" Text="{1} - {2}{0}"/>
+    <Value Id="TServer.Error40" Text="There are no more licenses." />
+    <Value Id="TServer.Error41" Text="The DN client is trying to apply an action to the DN that has not yet been registered by that client." />
+    <Value Id="TServer.Error42" Text="Supervision request failed. The selected agent is already supervised by another person." />
+    <Value Id="TServer.Error43" Text="Object is already in the requested state." />
+    <Value Id="TServer.Error50" Text="Unspecified error in the client's request." />
+    <!--"TServer.Error51": "Workspace" should not be translated here-->
+    <Value Id="TServer.Error51" Text="Workspace is requesting a function that is not supported by this T-Server." />
+    <Value Id="TServer.Error52" Text="Internal error (contact Genesys Technical Support)." />
+    <Value Id="TServer.Error53" Text="Invalid attribute value in request." />
+    <!--"TServer.Error54": "Workspace" should not be translated here-->
+    <Value Id="TServer.Error54" Text="Workspace is requesting a function that requires a switch connection, but the link is not in a connected state." />
+    <Value Id="TServer.Error55" Text="Invalid authorization request: RequestRegisterClient has an incorrect protocol version (the client was built with a T-Library that is incompatible with T-Server)." />
+    <!--"TServer.Error56": "Workspace" should not be translated here-->
+    <Value Id="TServer.Error56" Text="Workspace is requesting a function and specifying an invalid connectionID." />
+    <Value Id="TServer.Error57" Text="Timeout expired." />
+    <Value Id="TServer.Error58" Text="Out of Service." />
+    <Value Id="TServer.Error59" Text="DN is not configured in the Configuration Database." />
+    <Value Id="TServer.Error61" Text="Invalid Calling DN." />
+    <Value Id="TServer.Error71" Text="Invalid Called DN." />
+    <Value Id="TServer.Error88" Text="Origination DN not specified." />
+    <Value Id="TServer.Error96" Text="Cannot complete conference." />
+    <Value Id="TServer.Error97" Text="Cannot initiate transfer." />
+    <Value Id="TServer.Error98" Text="Cannot complete transfer." />
+    <Value Id="TServer.Error99" Text="Cannot retrieve original signal." />
+    <Value Id="TServer.Error100" Text="The switch reports an unknown cause." />
+    <Value Id="TServer.Error105" Text="Information element missing." />
+    <Value Id="TServer.Error109" Text="Link down or bad link specified." />
+    <Value Id="TServer.Error111" Text="Too many outstanding requests." />
+    <Value Id="TServer.Error118" Text="Requested service is unavailable." />
+    <Value Id="TServer.Error119" Text="Invalid password." />
+    <Value Id="TServer.Error123" Text="DN for association does not exist." />
+    <Value Id="TServer.Error128" Text="Invalid DN type for DN registration." />
+    <Value Id="TServer.Error132" Text="Invalid link ID." />
+    <Value Id="TServer.Error133" Text="Link already established." />
+    <Value Id="TServer.Error147" Text="No link is responding." />
+    <Value Id="TServer.Error148" Text="Facility already enabled." />
+    <Value Id="TServer.Error149" Text="Facility already disabled." />
+    <Value Id="TServer.Error164" Text="Invalid system command." />
+    <Value Id="TServer.Error166" Text="Resource unavailable." />
+    <Value Id="TServer.Error168" Text="Invalid origination address." />
+    <Value Id="TServer.Error169" Text="Invalid destination request." />
+    <Value Id="TServer.Error171" Text="Switch cannot retrieve call." />
+    <Value Id="TServer.Error172" Text="Switch cannot complete transfer." />
+    <Value Id="TServer.Error173" Text="Switch cannot complete conference." />
+    <Value Id="TServer.Error174" Text="Cannot complete answer call." />
+    <Value Id="TServer.Error175" Text="Switch cannot release call." />
+    <Value Id="TServer.Error177" Text="Target DN invalid." />
+    <Value Id="TServer.Error179" Text="Feature could not be invoked." />
+    <Value Id="TServer.Error185" Text="Set is in invalid state for invocation." />
+    <Value Id="TServer.Error186" Text="Set is in target state." />
+    <Value Id="TServer.Error191" Text="Agent ID IE is missing or invalid." />
+    <Value Id="TServer.Error192" Text="Agent ID is invalid." />
+    <Value Id="TServer.Error202" Text="Another application has acquired the resource." />
+    <Value Id="TServer.Error220" Text="No internal resource available." />
+    <Value Id="TServer.Error221" Text="Service not available on device." />
+    <Value Id="TServer.Error223" Text="Invalid parameter passed to function." />
+    <Value Id="TServer.Error231" Text="The call destination is busy."/>
+    <!--ER#295612721  DN is busy -->
+    <Value Id="TServer.Error236" Text="Timeout while performing operation." />
+    <Value Id="TServer.Error237" Text="Call has disconnected." />
+    <!--ER#264965512 -->
+    <Value Id="TServer.Error256" Text="API restricted from monitor." />
+    <Value Id="TServer.Error258" Text="Operation is not currently supported." />
+    <Value Id="TServer.Error259" Text="Invalid password." />
+    <Value Id="TServer.Error263" Text="Must be logged on to use this command." />
+    <Value Id="TServer.Error302" Text="Invalid DTMF string." />
+    <Value Id="TServer.Error323" Text="No answer at D.N" />
+    <Value Id="TServer.Error380" Text="Interdigit timeout occurred." />
+    <Value Id="TServer.Error402" Text="Invalid route address." />
+    <Value Id="TServer.Error452" Text="No trunk for outbound calls." />
+    <Value Id="TServer.Error477" Text="Invalid call ID." />
+    <Value Id="TServer.Error496" Text="Invalid call state." />
+    <Value Id="TServer.Error503" Text="Network failed to deliver outbound call." />
+    <Value Id="TServer.Error504" Text="Network rejected outbound call." />
+    <Value Id="TServer.Error506" Text="Invalid state." />
+    <Value Id="TServer.Error527" Text="Agent ID already in use." />
+    <Value Id="TServer.Error545" Text="Invalid value within a message element." />
+    <Value Id="TServer.Error600" Text="Invalid origination or destination address." />
+    <Value Id="TServer.Error601" Text="Capability sequence has been violated or an underlying protocol error has been detected." />
+    <Value Id="TServer.Error602" Text="Resources to fulfill request are not available." />
+    <Value Id="TServer.Error603" Text="Capability is implemented, but is not subscribed to by the requester." />
+    <Value Id="TServer.Error604" Text="Noncompatible options are selected." />
+    <Value Id="TServer.Error605" Text="One of the required parameters is missing." />
+    <Value Id="TServer.Error606" Text="A value specified in parameter is not allowed or defined." />
+    <Value Id="TServer.Error607" Text="Another adjunct is monitoring domain or call." />
+    <Value Id="TServer.Error608" Text="A call is no longer in an active state." />
+    <Value Id="TServer.Error609" Text="Message is not compatible with a call state." />
+    <Value Id="TServer.Error610" Text="Invalid call identifier is used or a call does not exist." />
+    <Value Id="TServer.Error611" Text="Incompatible options are used to establish the call." />
+    <Value Id="TServer.Error612" Text="Timer has expired." />
+    <Value Id="TServer.Error613" Text="Agent is not logged in to a split." />
+    <Value Id="TServer.Error614" Text="Agent is not a member of the specified split or the split number has been specified incorrectly." />
+    <Value Id="TServer.Error615" Text="User is busy." />
+    <Value Id="TServer.Error616" Text="Origination address does not respond to service." />
+    <Value Id="TServer.Error617" Text="Permission checks for service have failed." />
+    <Value Id="TServer.Error618" Text="Association terminated because the service is not active." />
+    <Value Id="TServer.Error619" Text="Administration has removed the domain." />
+    <Value Id="TServer.Error620" Text="Agent is not in a compatible state." />
+    <Value Id="TServer.Error621" Text="Agent logged in to the maximum number of splits." />
+    <Value Id="TServer.Error622" Text="Invalid login password." />
+    <Value Id="TServer.Error623" Text="Request to put agent in same state the agent is already in." />
+    <Value Id="TServer.Error624" Text="Hunt/split group is not being administered properly." />
+    <Value Id="TServer.Error625" Text="Normal termination; call routed successfully." />
+    <Value Id="TServer.Error626" Text="Association terminated because of network congestion." />
+    <Value Id="TServer.Error627" Text="Unknown information element detected." />
+    <Value Id="TServer.Error628" Text="Queue is full." />
+    <Value Id="TServer.Error629" Text="Reorder/denial." />
+    <Value Id="TServer.Error630" Text="A request cannot be processed because testing is in progress." />
+    <Value Id="TServer.Error631" Text="The switch has rejected a request from the adjunct." />
+    <Value Id="TServer.Error632" Text="Unassigned number." />
+    <Value Id="TServer.Error633" Text="A call has been rejected." />
+    <Value Id="TServer.Error634" Text="Number has been changed." />
+    <Value Id="TServer.Error635" Text="Normal, unspecified." />
+    <Value Id="TServer.Error636" Text="No circuit or channel is available." />
+    <Value Id="TServer.Error637" Text="Temporary failure." />
+    <Value Id="TServer.Error638" Text="Bearer capability is not currently available." />
+    <Value Id="TServer.Error639" Text="Incompatible destination." />
+    <Value Id="TServer.Error640" Text="Invalid message, unspecified (backward compatibility)." />
+    <Value Id="TServer.Error641" Text="Message is does not exist or is not implemented." />
+    <Value Id="TServer.Error642" Text="Unspecified." />
+    <Value Id="TServer.Error643" Text="No answer." />
+    <Value Id="TServer.Error644" Text="Trunks are not available." />
+    <Value Id="TServer.Error645" Text="Classifiers are not available." />
+    <Value Id="TServer.Error646" Text="A call has been redirected." />
+    <Value Id="TServer.Error647" Text="Network is out of order." />
+    <Value Id="TServer.Error648" Text="Undefined value returned from the switch." />
+    <Value Id="TServer.Error649" Text="Outgoing call has been barred." />
+    <Value Id="TServer.Error650" Text="A call remains in queue." />
+    <Value Id="TServer.Error651" Text="Bearer service not implemented." />
+    <Value Id="TServer.Error652" Text="Assumed answer is based on the internal timer." />
+    <Value Id="TServer.Error653" Text="Voice signal is detected by the switch." />
+    <Value Id="TServer.Error654" Text="Channel/tone does not exist (no tone is connected to the special call)." />
+    <Value Id="TServer.Error655" Text="Answering machine detected." />
+    <Value Id="TServer.Error656" Text="Facility rejected." />
+    <Value Id="TServer.Error700" Text="Invalid login request." />
+    <Value Id="TServer.Error701" Text="Invalid logout request." />
+    <Value Id="TServer.Error704" Text="Invalid make call request." />
+    <Value Id="TServer.Error705" Text="Route request is invalid." />
+    <Value Id="TServer.Error706" Text="Invalid mute transfer request." />
+    <Value Id="TServer.Error708" Text="Invalid initiate transfer request." />
+    <Value Id="TServer.Error710" Text="Invalid complete transfer request." />
+    <Value Id="TServer.Error711" Text="Invalid retrieve request." />
+    <Value Id="TServer.Error712" Text="Cannot find route point in call." />
+    <Value Id="TServer.Error714" Text="Invalid Call_ID." />
+    <Value Id="TServer.Error717" Text="Agent not logged in." />
+    <Value Id="TServer.Error742" Text="Invalid DN." />
+    <Value Id="TServer.Error749" Text="Agent already logged in." />
+    <Value Id="TServer.Error804" Text="Invalid Call_ID." />
+    <Value Id="TServer.Error851" Text="No connection to the switch. Wait until the connection restores or reboots the link to the switch." />
+    <Value Id="TServer.Error1140" Text="CSTA Generic operation error." />
+    <Value Id="TServer.Error1141" Text="Request incompatible with object." />
+    <!--ER 264965498-->
+    <Value Id="TServer.Error1158" Text="Security violation."/>
+    <Value Id="TServer.Error1160" Text="Generic." />
+    <Value Id="TServer.Error1161" Text="Invalid object state." />
+    <Value Id="TServer.Error1162" Text="Invalid connection ID." />
+    <Value Id="TServer.Error1163" Text="No active call." />
+    <Value Id="TServer.Error1164" Text="No held call." />
+    <Value Id="TServer.Error1165" Text="No call to clear." />
+    <Value Id="TServer.Error1166" Text="No connection to clear." />
+    <Value Id="TServer.Error1167" Text="No call to answer." />
+    <Value Id="TServer.Error1168" Text="No call to complete." />
+    <Value Id="TServer.Error1700" Text="Agent attempt failed because this agent is already reserved by some other server." />
+
+  
+  
+    <!--<Value Id="State.InteractionVoice.ListenDisconnected" Text=" (Listening Disabled)" />-->
+    <Value Id="State.InteractionVoice.Suspended" Text="Suspended" />
+    <Value Id="State.Interaction.Coached" Text="Coached"/>
+    <Value Id="State.Interaction.Coaching" Text="Coaching"/>
+
+    <!--"CloseApplication.MessageBox.ActiveMediaVoice" Message is presented when voice channel on Aspect switch is still ready at the time the agent tries to exit the application -->
+    <Value Id="CloseApplication.MessageBox.ReadyMediaVoice" String="Please set your voice channel 'Not Ready' before exiting the application."/>
+    
+    <!-- "Voice.AgentReservation.AgentReservedError": Warning message presented to the agent when Not Ready, Logoff,... operation fails due to the fact that agent has been 'reserved' by the routing system -->
+    <!-- "Voice.AgentReservation.AgentReservedError":{0} Remaining time before end of reservation -->
+    <Value Id="Voice.AgentReservation.AgentReservedError" Text="You have been reserved for a call. Please try this action again after the reservation expires in {0}." />
+</Dictionary>

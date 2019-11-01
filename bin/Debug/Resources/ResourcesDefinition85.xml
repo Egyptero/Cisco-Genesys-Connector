@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary>
+
+  <!--
+	This file allows to change branding images and text.
+	For instance, you can replace the embedded splashscreen resource:
+		"pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Splash.png"
+	with a local image with a path relative to the application:
+		"MySplash.png"
+	or
+		"MyImagesFolder/MySplash.png"
+	-->
+
+  <Value Id="Application.SplashScreen" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Splash.png"/>
+
+  <Value Id="Common.Images.CompanyLogo" ResourceKey="Common.CompanyLogo9.0"  />
+  <Value Id="Common.Images.ShortCompanyLogo" ResourceKey="Common.CompanyLogoWithOutText9.0"  Width=""/>
+
+  <Value Id="Common.Images.Hamburger" ResourceKey="Common.Hamburger" />
+
+  <!-- Emoticons -->
+  <Value Id="Common.Images.Emoticons.Angry"  ResourceKey="Common.Emoticons.Angry"/>
+  <Value Id="Common.Images.Emoticons.Cheeky"  ResourceKey="Common.Emoticons.Cheeky"/>
+  <Value Id="Common.Images.Emoticons.Cool"  ResourceKey="Common.Emoticons.Cool"/>
+  <Value Id="Common.Images.Emoticons.Cry"  ResourceKey="Common.Emoticons.Cry"/>
+  <Value Id="Common.Images.Emoticons.Laugh"  ResourceKey="Common.Emoticons.Laugh"/>
+  <Value Id="Common.Images.Emoticons.Sad"  ResourceKey="Common.Emoticons.Sad"/>
+  <Value Id="Common.Images.Emoticons.Smile"  ResourceKey="Common.Emoticons.Smile"/>
+  <Value Id="Common.Images.Emoticons.Surprised"  ResourceKey="Common.Emoticons.Surprised"/>
+  <Value Id="Common.Images.Emoticons.Wink"  ResourceKey="Common.Emoticons.Wink"/>
+  <!---->
+
+
+  <!-- Common Begin -->
+  <!--Dark Common-->
+  
+  <Value Id="Common.Images.BrokenFile"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/file-broken-icon.png"/>
+
+  <Value Id="Common.Images.Interaction.Select.Case"  ResourceKey="Interaction.Select.Case"  />
+  <Value Id="Common.Images.Interaction.Bundle.MarkDone" ResourceKey="Interaction.Bundle.MarkDone" />
+  <Value Id="Common.Images.Interaction.Bundle.Consultation" ResourceKey="Interaction.Bundle.Consultation"/>
+  <Value Id="Common.Images.Interaction.Bundle.Reschedule" ResourceKey="ic_calendar_day"/>
+  <Value Id="Common.Images.Interaction.Bundle.RescheduleSet" ResourceKey="ic_calendar_month_highlight"/>
+
+  <Value Id="Common.Images.TreeViewItem.Container" ResourceKey="Common.Folder" />
+  <Value Id="Common.Images.TreeViewItem.ContainerOpen" ResourceKey="Common.Folder.Open" />
+  <Value Id="Common.Images.Delete" ResourceKey="Common.Close.Cross"/>
+  <Value Id="Common.Images.Document" ResourceKey="Common.Document"/>
+
+  <!--Skipped-->
+  <Value Id="Common.Images.Interaction.Contact.Inbound"  ResourceKey="Common.Images.Inbound"/>
+  <Value Id="Common.Images.Interaction.Contact.Outbound"  ResourceKey="Common.Images.Outbound" />
+  <Value Id="Common.Images.Mike" ResourceKey="Common.Mike" />
+  <Value Id="Common.Images.Mike.Mute"  ResourceKey="Common.Mike.Mute" />
+  <Value Id="Common.Images.Sound" ResourceKey="Common.Sound" />
+  <Value Id="Common.Images.Sound.Mute" ResourceKey="Common.Sound.Mute" />
+  <Value Id="Common.Images.Video.Start"  ResourceKey="Common.Video.Start" />
+  <Value Id="Common.Images.Video.Stop"  ResourceKey="Common.Video.Stop" />
+  <Value Id="Common.Images.Video.SwitchViews"  ResourceKey="Common.Video.SwitchViews" />
+  <Value Id="Common.Images.Main.DudeMenu" ResourceKey="Common.Agent" />
+  <Value Id="Common.Images.Agent" ResourceKey="Common.Agent" />
+  <Value Id="Common.Images.Contact" ResourceKey="Common.Contact.Card" />
+  <Value Id="Common.Images.Gadget.DudeMenu" ResourceKey="Common.Agent" />
+  <Value Id="Common.Images.Help" ResourceKey="Common.Help" />
+  <Value Id="Common.Images.PictoValueChanged" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/PictoValueChanged.png" />
+  <Value Id="Common.Images.MessageBox.Error" ResourceKey="Alert.Error" />
+  <Value Id="Common.Images.MessageBox.Info" ResourceKey="Alert.Info" />
+  <Value Id="Common.Images.MessageBox.Question" ResourceKey="Alert.Question"/> />
+  <Value Id="Common.Images.MessageBox.Warning" ResourceKey="Alert.Warning"/>
+  <Value Id="Common.Images.Error.Error" ResourceKey="Alert.Error" />
+  <Value Id="Common.Images.Error.Warning" ResourceKey="Alert.Warning"/>
+  <Value Id="Common.Images.Error.Message" ResourceKey="Common.Document"/>
+  <Value Id="Common.Images.Error.Info"  ResourceKey="Alert.Info" />
+  <Value Id="Common.Images.Page.First" ResourceKey="Common.Page.First"/>
+  <Value Id="Common.Images.Page.Previous" ResourceKey="Common.Page.Previous"/>
+  <Value Id="Common.Images.Page.Next" ResourceKey="Common.Page.Next"/>
+  <Value Id="Common.Images.Page.Last" ResourceKey="Common.Page.Last"/>
+  <Value Id="Common.Images.Print.Zoom.Out" ResourceKey="Common.Zoom.Out"/>
+  <Value Id="Common.Images.Print.Zoom.In" ResourceKey="Common.Zoom.In"/>
+  <Value Id="Common.Images.Print.Expand.Page" ResourceKey="Common.Window.Expand"/>
+  <Value Id="Common.Images.Print.Page.Double" ResourceKey="Common.Page.Multi"/>
+  <Value Id="Common.Images.Print.Page.Single" ResourceKey="Common.Page.Single"/>
+  <Value Id="Common.Images.Print.Expand.Width" ResourceKey="Common.Page.Extend.With"/>
+  <Value Id="Common.Images.Search" ResourceKey="Common.Search" />
+  <Value Id="Common.Images.Url" ResourceKey="Common.Images.Link" />
+  <!-- Common End -->
+
+  <!-- Windows.CaseDataView Begin -->
+  <Value Id="Windows.CaseDataView.AddCaseData"  ResourceKey="Common.Images.Add"/>
+  <Value Id="Windows.CaseDataView.RemoveCaseData"  ResourceKey="Common.Close.Cross" />
+  <Value Id="Windows.CaseDataView.EditableCaseData"  ResourceKey="Common.Images.Pencil" />
+  <!-- Windows.CaseDataView End -->
+
+  <!-- MainToolbar Begin -->
+  <Value Id="Windows.ToolbarView.SplitButtonOpenHelp" ResourceKey="Common.Help" />
+  <!-- MainTollbar End-->
+
+  <!-- Agent State Begin -->
+  <Value Id="Common.Images.Main.Agent.State.Unknown"  ResourceKey="Main.Agent.State.Unknown" />
+  <Value Id="Common.Images.Main.Agent.State.LoggedOff" ResourceKey="Main.Agent.State.LoggedOff"/>
+  <Value Id="Common.Images.Main.Agent.State.LoggedOff.White" ResourceKey="Main.Agent.State.LoggedOff.White"/>
+  <Value Id="Common.Images.Main.Agent.State.OutOfService" ResourceKey="Main.Agent.State.OutOfService" />
+  <Value Id="Common.Images.Main.Agent.State.Ready" ResourceKey="Main.Agent.State.Ready"/>
+  <Value Id="Common.Images.Main.Agent.State.PartiallyReady" ResourceKey="Main.Agent.State.PartiallyReady"/>
+  <Value Id="Common.Images.Main.Agent.State.NotReady" ResourceKey="Main.Agent.State.NotReady"/>
+  <Value Id="Common.Images.Main.Agent.State.DoNotDisturb" ResourceKey="Main.Agent.State.DoNotDisturb"/>
+  <Value Id="Common.Images.Main.Agent.State.AfterCallWork"  ResourceKey="Main.Agent.State.AfterCallWork"/>
+  <Value Id="Common.Images.Main.Agent.State.AfterCallWork.Disabled"  ResourceKey="Main.Agent.State.AfterCallWork.Disabled"/>
+  <Value Id="Common.Images.Main.Agent.State.Ready.Disabled"  ResourceKey="Main.Agent.State.Ready.Disabled"/>
+  <Value Id="Common.Images.Main.Agent.State.NotReady.Disabled"  ResourceKey="Main.Agent.State.NotReady.Disabled"/>
+  <Value Id="Common.Images.Main.Agent.State.DoNotDisturb.Disabled" ResourceKey="Main.Agent.State.DoNotDisturb.Disabled"/>
+
+  <Value Id="Common.Images.Gadget.Agent.State.Unknown"  ResourceKey="Main.Agent.State.Unknown"/>
+  <Value Id="Common.Images.Gadget.Agent.State.LoggedOff" ResourceKey="Main.Agent.State.LoggedOff"/>
+  <Value Id="Common.Images.Gadget.Agent.State.OutOfService" ResourceKey="Main.Agent.State.OutOfService"/>
+  <Value Id="Common.Images.Gadget.Agent.State.Ready" ResourceKey="Main.Agent.State.Ready"/>
+  <Value Id="Common.Images.Gadget.Agent.State.PartiallyReady" ResourceKey="Main.Agent.State.PartiallyReady"/>
+  <Value Id="Common.Images.Gadget.Agent.State.NotReady" ResourceKey="Main.Agent.State.NotReady"/>
+  <Value Id="Common.Images.Gadget.Agent.State.DoNotDisturb" ResourceKey="Main.Agent.State.DoNotDisturb"/>
+  <Value Id="Common.Images.Gadget.Agent.State.AfterCallWork" ResourceKey="Main.Agent.State.AfterCallWork"/>
+
+  <Value Id="Common.Images.SystemTray.Agent.State.Unknown"  Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayOutOfService.ico"/>
+  <Value Id="Common.Images.SystemTray.Agent.State.LoggedOff" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayLogOut.ico"/>
+  <Value Id="Common.Images.SystemTray.Agent.State.OutOfService" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayOutOfService.ico"/>
+  <Value Id="Common.Images.SystemTray.Agent.State.Ready" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayReady.ico"/>
+  <Value Id="Common.Images.SystemTray.Agent.State.PartiallyReady" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayPartiallyReady.ico"/>
+  <Value Id="Common.Images.SystemTray.Agent.State.NotReady" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayNotReady.ico"/>
+  <Value Id="Common.Images.SystemTray.Agent.State.NotReadyWithReason" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayNotReady.ico"/>
+  <Value Id="Common.Images.SystemTray.Agent.State.DoNotDisturb" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayDoNotDisturb.ico"/>
+  <Value Id="Common.Images.SystemTray.Agent.State.AfterCallWork" Ico="/Genesyslab.Desktop.WPFCommon;component/Images/AgentStateSysTray/systemTrayAfterCallWork.ico"/>
+
+  <!-- Agent State End -->
+
+  <!-- Voice Begin -->
+  <Value Id="Common.Images.Media.Voice" ResourceKey="Media.Voice"  Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/Voice/voiceMedia.ico"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/Voice/voiceMedia.png" />
+  <Value Id="Common.Images.Media.VoiceIM" ResourceKey="Media.VoiceIM" />
+  <Value Id="Common.Images.Media.Voice.Recording"  ResourceKey="Media.Voice.Record"/>
+  <Value Id="Common.Images.Media.Voice.Voicemail"  ResourceKey="Media.Voice.Voicemail"/>
+  <Value Id="Common.Images.Media.Voice.TransferVoicemail"  ResourceKey="Media.Voice.TransferVoicemail"/>
+  <Value Id="Common.Images.Media.Voice.SilentMonitoring" ResourceKey="Common.Inspect.Voice.State"/>
+  <Value Id="Common.Images.Media.Voice.SilentMonitoring.Recording" ResourceKey="Common.Inspect.Voice.State.Red"/>
+  <Value Id="Common.Images.Media.Voice.Conference" ResourceKey="Media.Voice.Conference"/>
+  <Value Id="Common.Images.Media.Voice.Conference.Suspended" ResourceKey="Media.Voice.Conference.Suspended"/>
+  <Value Id="Common.Images.Media.Voice.Hold" ResourceKey="Media.Voice.Hold"/>
+  <Value Id="Common.Images.Media.Voice.Ended" ResourceKey="Media.Voice.Ended"/>
+
+  <Value Id="Common.Images.Interaction.Voice.Conference" ResourceKey="Interaction.Voice.Conference" />
+  <Value Id="Common.Images.Interaction.Voice.Transfer" ResourceKey="Interaction.Voice.Transfer" />
+  <Value Id="Common.Images.Interaction.Voice.Hold" ResourceKey="Interaction.Voice.Hold" />
+  <!--<Value Id="Common.Images.Interaction.Voice.Hold" ResourceKey="Voice.Hold" />-->
+  <Value Id="Common.Images.Interaction.Voice.Reconnect" ResourceKey="Interaction.Voice.Release" />
+  <Value Id="Common.Images.Interaction.Voice.Release" ResourceKey="Interaction.Voice.Release"/>
+  <Value Id="Common.Images.Interaction.Voice.DTMF" ResourceKey="Common.Images.DialPad" />
+  <Value Id="Common.Images.Interaction.Voice.DTMF.ClosePopup" ResourceKey="Common.Close.Cross" />
+  <Value Id="Common.Images.Interaction.Voice.Retrieve" ResourceKey="Interaction.voice.Retrieve"/>
+  <Value Id="Common.Images.Interaction.Voice.Start.RecordingCall" ResourceKey="Interaction.Voice.Start.RecordingCall"/>
+  <Value Id="Common.Images.Interaction.Voice.Stop.RecordingCall" ResourceKey="Interaction.Voice.Stop.RecordingCall"/>
+  <Value Id="Common.Images.Interaction.Voice.ReportBadQualityOfMedia" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/reportBadQualityOfMedia.png"/>
+  <Value Id="Common.Images.Interaction.Voice.Preview"  ResourceKey="Alert.Info"/>
+  <Value Id="Windows.VoiceView.MenuItemMainDialerMakeCall" ResourceKey="Common.Images.Phone"/>
+  <Value Id="Windows.VoiceView.MenuItemPartyMakeCall"  ResourceKey="Common.Images.Phone"/>
+  <Value Id="Windows.VoiceView.MenuItemPartyMakeCallCoach"  ResourceKey="Common.Images.Phone" />
+  <Value Id="Windows.VoiceView.MenuItemOneStepConferenceDialer" ResourceKey="Interaction.Voice.Conference" />
+  <Value Id="Windows.VoiceView.MenuItemConsultationDialerConsultCall" ResourceKey="Common.Images.Phone" />
+  <Value Id="Windows.VoiceView.MenuItemConsultationDialerInitConference" ResourceKey="Interaction.Voice.Conference" />
+  <Value Id="Windows.VoiceView.MenuItemPartyInitConference" ResourceKey="Interaction.Voice.Conference" />
+  <Value Id="Windows.VoiceView.MenuItemOneStepTransferDialer" ResourceKey="Interaction.Voice.Transfer" />
+  <Value Id="Windows.VoiceView.MenuItemOneStepTransferToVoiceMailDialer" ResourceKey="Media.Voice.TransferVoicemail" />
+  <Value Id="Windows.VoiceView.MenuItemConsultationDialerInitTransfer" ResourceKey="Interaction.Voice.Transfer" />
+  <Value Id="Windows.VoiceView.MenuItemPartyInitTransfer" ResourceKey="Interaction.Voice.Transfer" />
+  <Value Id="Windows.VoiceView.MenuItemMainDialerMakeVoiceMailCall" ResourceKey="Media.Voice.Voicemail" />
+  <!-- Voice End -->
+
+  <!-- IM Begin -->
+  <Value Id="Common.Images.Media.IM"  ResourceKey="Media.IM" Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/IM/IM.ico" />
+  <Value Id="Common.Images.Interaction.IM.Preview" ResourceKey="Alert.Info" />
+  <Value Id="Windows.IMView.MenuItemPartyMakeIM"  ResourceKey="Common.Images.IM" />
+  <Value Id="Windows.IMView.MenuItemConsultationDialerConsultationIM"  ResourceKey="Common.Images.IM" />
+  <Value Id="Windows.IMView.MenuItemPartyCoachingIM" ResourceKey="Common.Images.IM" />
+  <Value Id="Common.Images.Interaction.IM.End" ResourceKey="Interaction.IM.End" />
+  <Value Id="Common.Images.Interaction.IM.Transfer" ResourceKey="Interaction.IM.Transfer" />
+  <Value Id="Common.Images.Interaction.IM.Conference" ResourceKey="Interaction.IM.Conference" />
+  <Value Id="Windows.IMView.MenuItemOneStepTransferDialer"  ResourceKey="Interaction.IM.Transfer"/>
+  <Value Id="Windows.IMView.MenuItemOneStepConferenceDialer"  ResourceKey="Interaction.IM.Conference"/>
+  <!-- IM End -->
+
+  <!-- Campaign Begin -->
+  <!--<Value Id="Common.Images.Campaign.Event" Source="ic_campaign" />-->
+  <Value Id="Common.Images.Campaign.Event.Added" ResourceKey="ic_campaign" />
+  <Value Id="Common.Images.Campaign.Event.Removed" ResourceKey="ic_campaign_disable" />
+  <Value Id="Common.Images.Campaign.GetRecord" ResourceKey="ic_contact_id_fetch" />
+  <Value Id="Common.Images.Campaign.StateActive" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/CampaignActive.png" />
+  <Value Id="Common.Images.Campaign.StateRunning" Source="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/CampaignRunning.png" />
+  <!-- Campaign End -->
+
+  <!-- Outbound Preview Begin -->
+  <Value Id="Common.Images.Interaction.OutboundPreview.Call" ResourceKey="Common.Images.Phone"/>
+  <Value Id="Common.Images.Interaction.OutboundPreview.Decline" ResourceKey="ic_phone_decline"/>
+  <!-- Outbound Preview End -->
+
+  <!-- Pull Preview Begin -->
+  <Value Id="Common.Images.Interaction.PullPreview.MarkDone" ResourceKey="Interaction.Bundle.MarkDone" />
+  <Value Id="Common.Images.Interaction.PullPreview.MarkDoneAndGetNextRecord" ResourceKey="Interaction.Bundle.MarkDone" />
+  <Value Id="Common.Images.Interaction.PullPreview.MarkDoneAndStop" ResourceKey="ic_iw_done_and_stop" />
+  <!-- Pull Preview End -->
+
+  <!-- Reschedule Begin -->
+  <Value Id="Reschedule.Images.TimePicker.ArrowUp" ResourceKey="ic_arrow_increase"/>
+  <Value Id="Reschedule.Images.TimePicker.ArrowDown" ResourceKey="ic_arrow_decrease"/>
+  <!-- Reschedule End -->
+
+  <!-- SMS Begin -->
+  <Value Id="Common.Images.Media.SMS" ResourceKey="Media.SMS"  Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/SMS/SMS.ico"/>
+  <Value Id="Channel.OpenMedia.Bundle.sms" ResourceKey="Media.SMS"/>
+
+  <Value Id="Common.Images.Interaction.SMS.Transfer" ResourceKey="Interaction.SMS.Transfer" />
+  <Value Id="Common.Images.Interaction.SMS.Delete" ResourceKey="Interaction.SMS.Delete" />
+
+  <Value Id="Windows.SmsView.MenuItemMainDialerNewOutboundSms"   ResourceKey="Common.Images.SMS"/>
+  <Value Id="Windows.SmsView.MenuItemPartyNewOutboundSms"   ResourceKey="Common.Images.SMS"/>
+  <Value Id="Windows.SmsView.MenuItemOneStepTransferDialer"  ResourceKey="Interaction.SMS.Transfer" />
+
+  <Value Id="Windows.SmsView.WarningTextLimitLabel"  ResourceKey="Alert.Warning"/>
+  <Value Id="Windows.SmsView.WarningMsgsLimitLabel"  ResourceKey="Alert.Error"/>
+  <!-- SMS End -->
+
+  <!-- Chat Begin -->
+  <Value Id="Common.Images.Media.Chat" ResourceKey="Media.Chat"  Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/Chat/chat.ico"  Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/Chat.png"/>
+  <Value Id="Common.Images.Media.Chat.SilentMonitoring" ResourceKey="Common.Inspect.Chat.State"/>
+  <Value Id="Common.Images.Interaction.Chat.Responce" ResourceKey="Media.Chat" />
+  <Value Id="Common.Images.Interaction.Chat.Conference"  ResourceKey="Interaction.Chat.Conference"/>
+  <Value Id="Common.Images.Interaction.Chat.Transfer" ResourceKey="Interaction.Chat.Transfer"  />
+  <Value Id="Common.Images.Interaction.Chat.End" ResourceKey="Interaction.Chat.End" />
+  <Value Id="Windows.ChatView.MenuItemOneStepTransferDialer"   ResourceKey="Interaction.Chat.Transfer" />
+  <Value Id="Windows.ChatView.MenuItemOneStepConferenceDialer" ResourceKey="Interaction.Chat.Conference"/>
+  <Value Id="Windows.ChatView.MenuItemInitiateConsultationDialer" ResourceKey="Common.Images.Chat"/>
+  <Value Id="Windows.ChatView.CheckUrl.Image" ResourceKey="Common.Images.Link" />
+  <Value Id="Windows.ChatView.AddUrl.Image" ResourceKey="Common.Images.AddLink" />
+  <Value Id="Common.Images.Interaction.Chat.Attachments" ResourceKey="Common.Attach"/>
+  <!-- Chat End -->
+
+  <!-- Email Begin -->
+  <Value Id="Common.Images.Media.Email" ResourceKey="Media.Email" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/85/Email/Email.png" Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/Email/Email.ico" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/Email/Email.png"/>
+  <Value Id="Common.Images.Media.Email.SilentMonitoring" ResourceKey="ic_iw_monitor_email"/>
+  <Value Id="Windows.EmailView.MenuItemMainDialerNewOutboundEmail" ResourceKey="Common.Images.Email"/>
+  <Value Id="Windows.EmailView.Remove.Image" ResourceKey="Common.Close.Cross"/>
+
+  <Value Id="Common.Images.Interaction.Email.Reply" ResourceKey="Interaction.Email.Reply" />
+  <Value Id="Common.Images.Interaction.Email.ReplyAll" ResourceKey="Interaction.Email.ReplyAll" />
+  <Value Id="Common.Images.Interaction.Email.SaveInInProgressWorkbin" ResourceKey="Interaction.Email.Move.Workbin" />
+  <Value Id="Common.Images.Interaction.Email.MoveToWorkbin" ResourceKey="Interaction.Email.Move.Workbin" />
+  <Value Id="Common.Images.Interaction.Email.Transfer" ResourceKey="Interaction.Email.Transfer" />
+  <Value Id="Common.Images.Interaction.Email.Forward" ResourceKey="Interaction.Email.Forward" />
+  <Value Id="Common.Images.Interaction.Email.Print" ResourceKey="Common.Printer" />
+  <Value Id="Common.Images.Interaction.Email.Send" ResourceKey="Interaction.Email.Send" />
+  <Value Id="Common.Images.Interaction.Email.Save" ResourceKey="Common.Floppy" />
+  <Value Id="Common.Images.Interaction.Email.PutBackToOriginalSource" ResourceKey="Interaction.Email.Move.Workbin"/>
+  <Value Id="Common.Images.Interaction.Email.Delete" ResourceKey="Interaction.Email.Delete"/>
+  <Value Id="Common.Images.Interaction.Email.Attachments" ResourceKey="Common.Attach"/>
+
+  <Value Id="Windows.EmailView.MenuItemOneStepTransferDialer" ResourceKey="Interaction.Email.Transfer"/>
+  <Value Id="Windows.EmailView.MenuItemEmailForwardDialer" ResourceKey="Interaction.Email.Forward"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinReplyAll" ResourceKey="Interaction.Email.ReplyAll"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinReply"  ResourceKey="Interaction.Email.Reply"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionPull" ResourceKey="Common.Folder.Open.Out"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinMarkDone" ResourceKey="Interaction.Bundle.MarkDone"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinDelete" ResourceKey="Interaction.Email.Delete"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinResend" ResourceKey="Interaction.Email.Resend"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromWorkbinOpen" ResourceKey="Common.Folder.Open.Out"/>
+  <Value Id="Windows.EmailView.MenuItemInteractionActionPrint" ResourceKey="Common.Printer" />
+  <Value Id="Windows.EmailView.MenuItemInteractionActionFromHistoryInLineForward" ResourceKey="Interaction.Email.Forward"/>
+  <Value Id="Windows.EmailView.SelectEmailAddress" ResourceKey="Common.Images.Email"/>
+  <!-- IW-10224 -->
+  <Value Id="Windows.EmailView.SelectSearchedAgent" ResourceKey="Common.Search"/>
+  <Value Id="Windows.EmailView.SelectSearchedContact" ResourceKey="Common.Search"/>
+  <!-- Email End -->
+
+
+  <!-- WorkItem Begin -->
+  <Value Id="Channel.OpenMedia.WorkItem.Image.Default" ResourceKey="Media.Workitem"/>
+  <!-- Channel.OpenMedia.WorkItem.Image.<MediaType> ImageUrl="" />-->
+  <Value Id="InteractionWorkItem.Image.Default" Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/Workitem/Workitem.ico" ResourceKey="Media.Workitem"/>
+  <!--Value Id="InteractionWorkItem.Image.<MediaType>" Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/workitem.ico" ImageUrl="/Genesyslab.Desktop.WPFCommon;component/Images/Media/workitem.png"/>-->
+  <Value Id="Windows.ToolbarWorkitemView.ButtonTransfer" ResourceKey="Common.Doc.Forward"/>
+  <!--Value Id="Windows.ToolbarWorkitemView.ButtonTransfer.<MediaType>"-->
+  <Value Id="Windows.ToolbarWorkitemView.ButtonPutBackToOriginalSource"  ResourceKey="Common.Folder.Open.In"/>
+  <!--Value Id="Windows.ToolbarWorkitemView.ButtonPutBackToOriginalSource.<MediaType>"-->
+  <Value Id="Windows.ToolbarWorkitemView.ButtonMoveToWorkbin" ResourceKey="Common.Folder.Open.In"/>
+  <!--Value Id="Windows.ToolbarWorkitemView.ButtonMoveToWorkbin.<MediaType>"-->
+  <Value Id="Windows.ToolbarWorkitemView.MenuItemOneStepTransferDialer" ResourceKey="Common.Doc.Forward" />
+  <!--Value Id="Windows.ToolbarWorkitemView.MenuItemOneStepTransferDialer.<MediaType>"-->
+
+  <Value Id="Windows.WorkbinWorkItemView.MenuItemInteractionActionFromWorkbinOpen"  ResourceKey="Common.Folder.Open.Out"/>
+  <Value Id="Windows.WorkitemView.MenuItemInteractionActionPull" ResourceKey="Common.Folder.Open.Out"/>
+  <Value Id="Workbins.Workitem.MenuItemInteractionActionFromWorkbinMarkDone" ResourceKey="Interaction.Bundle.MarkDone"/>
+
+  <!-- WorkItem End -->
+
+  <!-- WebCallBack Begin -->
+  <Value Id="Common.Images.Media.WebCallBack" ResourceKey="Media.WebCallBack" Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/Callback/Callback.ico" />
+  <Value Id="Common.Images.Interaction.WebCallBack.Call" ResourceKey="Common.Images.Phone"/>
+  <!-- WebCallBack Begin -->
+
+  <!-- GMECallBack Begin -->
+  <Value Id="Common.Images.Media.GMECallBack" ResourceKey="Media.WebCallBack" Ico="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/85/Callback/Callback.ico" />
+  <Value Id="GMECallback.MenuItemMainDialerAddNewCallback" ResourceKey="ic_calendar_media_voice"/>
+  <Value Id="Common.Images.Interaction.Bundle.NewCallback" ResourceKey="ic_calendar_media_voice"/>
+  <!-- GMECallBack Begin -->
+
+  <!-- OutboundPreview Begin -->
+  <Value Id="Channel.OpenMedia.WorkItem.Image.outboundpreview" ResourceKey="ic_iw_active_circle_campaign" />
+  <Value Id="Common.Images.Interaction.Outbound.PullPreview.Image" ResourceKey="ic_iw_active_circle_campaign" Ico="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/OutboundPreview.ico" ImageUrl="/Genesyslab.Desktop.Modules.Outbound;component/Resources/OutboundPreview.png"/>
+  <Value Id="Common.Images.Interaction.Outbound.PushPreview.Image" ResourceKey="ic_iw_active_circle_campaign" Ico="pack://application:,,,/Genesyslab.Desktop.Modules.Outbound;component/Resources/OutboundPreview.ico" ImageUrl="/Genesyslab.Desktop.Modules.Outbound;component/Resources/OutboundPreview.png"/>
+  <!-- OutboundPreview Begin -->
+
+  <!--Team Lead Begin -->
+  <Value Id="TeamLead.Supervision.MenuItemParty.CoachingVoice" ResourceKey="Common.Images.Phone"/>
+  <Value Id="TeamLead.Supervision.MenuItemParty.CoachingChat"  ResourceKey="Common.Images.Chat"/>
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorNextInteractions"  ResourceKey="Common.Inspect" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemCoachNextInteractions"  ResourceKey="Common.Supervisor" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopMonitor"  ResourceKey="Common.Inspect.Cancel" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopCoach"  ResourceKey="Common.Supervisor.Cancel" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopMonitorVoice"  ResourceKey="Common.Inspect.Voice.Cancel" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopCoachVoice"  ResourceKey="Common.Supervisor.Voice.Cancel" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopMonitorChat" ResourceKey="Common.Inspect.Chat.Cancel" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemStopCoachChat"  ResourceKey="Common.Supervisor.Chat.Cancel" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitor"  ResourceKey="Common.Inspect" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemCoach" ResourceKey="Common.Supervisor" />
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorChat"  ResourceKey="Common.Images.Chat"/>
+  <Value Id="TeamLead.TeamLeadMenuAction.MenuItemMonitorVoice"  ResourceKey="Common.Images.Phone"/>
+  <Value Id="Common.Images.Supervisor.BargeIn" ResourceKey="Common.Images.In"/>
+  <Value Id="Common.Images.Supervisor.EndMonitoring" ResourceKey="Common.Inspect.Cancel"/>
+  <!--Team Lead Begin -->
+
+  <!-- TeamCommunication Begin -->
+  <Value Id="TeamCommunication.Images.Search" Source="pack://application:,,,/Genesyslab.Desktop.Modules.TeamCommunicator;component/Resources/search.png" />
+  <Value Id="TeamCommunication.Images.MainReduce"  ResourceKey="TC" />
+  <Value Id="TeamCommunication.Images.SearchIn.AllContacts" ResourceKey="Common.Person" />
+  <Value Id="TeamCommunication.Images.SearchIn.Favorites" ResourceKey="Common.Favorite" />
+  <Value Id="TeamCommunication.Images.SearchIn.Recents" ResourceKey="Common.Recent" />
+  <Value Id="TeamCommunication.Images.ShowGroups" ResourceKey="Common.Workforce" />
+  <Value Id="TeamCommunication.Images.ObjectTC.Contact" ResourceKey="Common.Contact.Card" />
+  <Value Id="TeamCommunication.Images.ObjectTC.Agent"  ResourceKey="Common.Agent" />
+  <Value Id="TeamCommunication.Images.ObjectTC.Skill" ResourceKey="Common.Skill" />
+  <Value Id="TeamCommunication.Images.ObjectTC.AgentGroup" ResourceKey="Common.AgentGroup" />
+  <Value Id="TeamCommunication.Images.ObjectTC.InteractionQueue" ResourceKey="Common.Queue" />
+  <Value Id="TeamCommunication.Images.ObjectTC.ACDQueue" ResourceKey="Common.Queue" />
+  <Value Id="TeamCommunication.Images.ObjectTC.RoutingPoint" ResourceKey="Common.RoutingPoint" />
+  <Value Id="TeamCommunication.Images.ObjectTC.Other" ResourceKey="Common.Person" />
+  <Value Id="TeamCommunicator.ContactTCView.CorporateFavorites"  ResourceKey="Common.Favorite.Corporate" />
+  <Value Id="TeamCommunicator.ContactTCView.PersonalFavorites"   ResourceKey="Common.Favorite" />
+  <Value Id="TeamCommunicator.Images.Media.voice" ResourceKey="Media.Voice" />
+  <Value Id="TeamCommunicator.Images.Media.im"  ResourceKey="Media.IM" />
+  <Value Id="TeamCommunicator.Images.Media.chat"  ResourceKey="Media.Chat" />
+  <Value Id="TeamCommunicator.Images.Media.sms"   ResourceKey="Media.SMS" />
+  <Value Id="TeamCommunicator.Images.Media.email"  ResourceKey="Media.Email" />
+  <Value Id="TeamCommunicator.Images.Media.webcallback"  ResourceKey="Media.WebCallBack" />
+  <Value Id="TeamCommunicator.Images.Media.workitem"   ResourceKey="Media.Workitem" />
+  <!--<Value Id="TeamCommunicator.Images.Media.<mediaType>"   Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/Media/workitem.png" />-->
+  <Value Id="TeamCommunicator.Images.AgentState.Unknown"   ResourceKey="Main.Agent.State.Unknown.White" />
+  <Value Id="TeamCommunicator.Images.AgentState.Ready"   ResourceKey="Main.Agent.State.Ready" />
+  <Value Id="TeamCommunicator.Images.AgentState.NotReady"  ResourceKey="Main.Agent.State.NotReady" />
+  <Value Id="TeamCommunicator.Images.AgentState.Busy"  ResourceKey="Main.Agent.State.DoNotDisturb" />
+  <Value Id="TeamCommunicator.Images.AgentState.PartiallyReady"   ResourceKey="Main.Agent.State.PartiallyReady" />
+  <Value Id="TeamCommunicator.Images.AgentState.LoggedOff"   ResourceKey="Main.Agent.State.LoggedOff.White" />
+  <Value Id="TeamCommunicator.Images.AgentState.AfterCallWork"   ResourceKey="Main.Agent.State.AfterCallWork" />
+  <Value Id="TeamCommunicator.Images.AgentState.OnCall"   ResourceKey="Media.Voice" />
+  <Value Id="TeamCommunicator.Images.ObjStat.Unknown"   ResourceKey="Main.Agent.State.Unknown" />
+  <Value Id="TeamCommunicator.Images.ObjStat.Empty"   ResourceKey="State.Empty" />
+  <Value Id="TeamCommunicator.Images.ObjStat.PartiallyFull"   ResourceKey="State.Warning" />
+  <Value Id="TeamCommunicator.Images.ObjStat.Full"   ResourceKey="State.Full" />
+  <Value Id="TeamCommunicator.Images.Favorite.Remove"  ResourceKey="Common.Favorite.Remove"/>
+  <Value Id="TeamCommunicator.Images.Favorite.Add"  ResourceKey="Common.Favorite.Add"/>
+  <Value Id="TeamCommunicator.Images.Favorite.Edit"  ResourceKey="Common.Favorite.Edit"/>
+  <Value Id="TeamCommunicator.Images.Missed.Call"  ResourceKey="Common.Images.Inbound.Outline" />
+  <!-- TeamCommunication End -->
+
+  <!-- Contact Begin -->
+  <Value Id="Contact.Images.Common.Horizontal" ResourceKey="Common.View.Horizontal"/>
+  <Value Id="Contact.Images.Common.Vertical" ResourceKey="Common.View.Vertical"/>
+  <Value Id="Contact.Images.Common.Delete" ResourceKey="Common.Close.Cross"/>
+  <Value Id="Contact.Images.Common.GridView" ResourceKey="Common.View.Grid" />
+  <Value Id="Contact.Images.Common.TreeView" ResourceKey="Common.View.Tree" />
+  <Value Id="Contact.Images.Common.ListView" ResourceKey="Common.View.List" />
+  <Value Id="Contact.Images.Common.OnceView" ResourceKey="Common.View.Detail" />
+  <Value Id="Contact.Images.Common.Merge" ResourceKey="Common.Merge"/>
+  <Value Id="Contact.Images.Common.Merge.Undo" ResourceKey="Common.Merge.Undo"/>
+  <Value Id="Contact.Images.Common.MarkDone" ResourceKey="Interaction.Bundle.MarkDone"/>
+
+  <Value Id="Contact.Images.Media.Voice"  ResourceKey="Common.Images.Phone" />
+  <Value Id="Contact.Images.Media.Email" ResourceKey="Common.Images.Email" />
+  <Value Id="Contact.Images.Media.Chat" ResourceKey="Common.Images.Chat" />
+  <Value Id="Contact.Images.Media.SMS"  ResourceKey="Common.Images.SMS" />
+  <Value Id="Contact.Images.Media.WebCallback"  ResourceKey="Common.Images.WebCallback" />
+  <Value Id="Contact.Images.Media.WorkItem"  ResourceKey="Common.Document.Black" />
+  <Value Id="Contacts.ContactHistoryView.InteractionWorkItem.Default" ResourceKey="Common.Document.Black"  />
+
+  <Value Id="Contacts.ContactInformationView.Save" ResourceKey="Common.Floppy"/>
+  <Value Id="Contacts.ContactInformationView.Reset" ResourceKey="Common.Reset"/>
+  <Value Id="Contacts.ContactInformationView.AssignContact" ResourceKey="Common.Contact.Switch" />
+
+  <Value Id="Contacts.ContactHistoryView.OnceView" ResourceKey="Common.View.Detail" />
+  <Value Id="Contacts.ContactHistoryView.HorizontalView" ResourceKey="Common.View.Horizontal" />
+  <Value Id="Contacts.ContactHistoryView.Calendar" ResourceKey="Common.Calendar" />
+
+  <Value Id="Contacts.ContactDirectoryView.ContextMenuArrow" ResourceKey="Common.Expand.Down" />
+  <Value Id="Contacts.ContactDirectoryView.Contact.Delete" ResourceKey="Common.Contact.Delete" />
+  <Value Id="Contacts.ContactDirectoryView.Contact.Add" ResourceKey="Common.Contact.Add" />
+
+  <Value Id="Contact.ContactNotificationView.CountValue" ResourceKey="Common.Recent"/>
+  <Value Id="Contact.InteractionInQueueView.CountValue"  ResourceKey="Common.Folder.Progress"/>
+  <Value Id="Common.Arrow.Left" ResourceKey="Arrow.Left" />
+  <!-- Contact End -->
+
+  <!-- SRL Begin -->
+  <Value Id="SRL.TreeViewItem.Container" ResourceKey="Common.Folder" />
+  <Value Id="SRL.TreeViewItem.ContainerOpen" ResourceKey="Common.Folder.Open" />
+  <Value Id="SRL.TreeViewItem.Element" ResourceKey="Common.Document.Detail" />
+  <Value Id="SRL.Mode.View.List"  ResourceKey="Common.View.List" />
+  <Value Id="SRL.Mode.View.Tree"  ResourceKey="Common.View.Tree" />
+  <Value Id="SRL.Mode.View.Once" ResourceKey="Common.View.Detail" />
+  <Value Id="SRL.Mode.View.Horizontal" ResourceKey="Common.View.Horizontal" />
+  <Value Id="SRL.Add.Favorite" ResourceKey="Common.Favorite.Add"/>
+  <Value Id="SRL.Remove.Favorite" ResourceKey="Common.Favorite.Remove"/>
+  <Value Id="SRL.Insert"  ResourceKey="Common.Document.Detail.Add"/>
+  <!-- SRL End -->
+
+  <!-- Active Recoding Begin -->
+  <Value Id="ActiveRecording.Images.SIP.Pause" ResourceKey="Interaction.Voice.Pause.RecordingCall" />
+  <Value Id="ActiveRecording.Images.SIP.Start" ResourceKey="Interaction.Voice.Start.RecordingCall" />
+  <Value Id="ActiveRecording.Images.SIP.Resume" ResourceKey="Interaction.Voice.Resume.RecordingCall" />
+  <Value Id="ActiveRecording.Images.SIP.Stop" ResourceKey="Interaction.Voice.Stop.RecordingCall" />
+  <Value Id="ActiveRecording.Images.Screen.Pause" ResourceKey="ActiveRecording.Screen.Pause" />
+  <Value Id="ActiveRecording.Images.Screen.Start" ResourceKey="ActiveRecording.Screen.Start" />
+  <Value Id="ActiveRecording.Images.Screen.Resume" ResourceKey="ActiveRecording.Screen.Resume" />
+  <Value Id="ActiveRecording.Images.Screen.Stop" ResourceKey="ActiveRecording.Screen.Stop" />
+  <Value Id="ActiveRecording.Images.Indicator.Recording.Voice" ResourceKey="ActiveRecording.Indicator.Voice"/>
+  <Value Id="ActiveRecording.Images.Indicator.Recording.Screen" ResourceKey="ActiveRecording.Indicator.Screen"/>
+  <!-- Active Recoding End -->
+
+  <!-- Workbins Begin -->
+  <Value Id="Workbins.Images.Media.Voice" ResourceKey="Common.Images.Phone" />
+  <Value Id="Workbins.Images.Media.Email" ResourceKey="Common.Images.Email" />
+  <Value Id="Workbins.Images.Media.Chat" ResourceKey="Common.Images.Chat" />
+  <Value Id="Workbins.Images.Media.SMS" ResourceKey="Common.Images.SMS"/>
+  <Value Id="Workbins.Images.Media.WebCallback" ResourceKey="Common.Images.WebCallback"/>
+  <Value Id="Workbins.Images.Media.WorkItem" ResourceKey="Common.Document.Black"/>
+  <Value Id="InteractionWorkItem.MediaType.Image.Default" ResourceKey="Common.Document.Black"/>
+  <!--<Value Id="InteractionWorkItem.MediaType.Image.<MediaType>" ResourceKey="Common.Document.Black" />-->
+  <Value Id="Workbins.WorkbinsContentView.Details.Hide.Image" ResourceKey="Common.View.Detail" />
+  <Value Id="Workbins.WorkbinsContentView.Details.Show.Image" ResourceKey="Common.View.Horizontal" />
+  <Value Id="Workbins.WorkbinsContentView.Refresh.Image" ResourceKey="Common.Refresh" />
+  <Value Id="Workbins.WorkbinsExplorerView.ContainerOpen.Image" ResourceKey="Common.Folder.Open"/>
+  <Value Id="Workbins.WorkbinsExplorerView.Container.Image" ResourceKey="Common.Folder" />
+  <!-- Workbins End -->
+
+  <!-- InteractionManagement Begin-->
+  <Value Id="Windows.InteractionManagement.MenuItemInteractionActionMoveToQueue"  ResourceKey="Common.Queue"/>
+  <Value Id="Windows.InteractionManagement.MenuItemInteractionActionMoveToWorkbin"  ResourceKey="Common.Folder.Open.In"/>
+  <Value Id="Windows.InteractionManagement.MenuItemInteractionActionEditCaseData" ResourceKey="Common.Images.Pencil"/>
+  <Value Id="InteractionManagement.Container.Image" ResourceKey="Common.Folder" />
+  <Value Id="InteractionManagement.ContainerOpen.Image" ResourceKey="Common.Folder.Open"/>
+  <Value Id="InteractionManagement.Document.Image" ResourceKey="Common.Document"/>
+  <Value Id="InteractionManagement.Queue.Image" ResourceKey="Common.Queue"/>
+  <!-- InteractionManagement End-->
+
+  <!-- Editor Begin-->
+  <Value Id="Editor.Table.InsertTable.Image" ResourceKey="Common.Table" />
+  <Value Id="Editor.FontBold.Image"  ResourceKey="Editor.Font.Bold"/>
+  <Value Id="Editor.FontItalic.Image" ResourceKey="Editor.Font.Italic" />
+  <Value Id="Editor.FontUnderline.Image"  ResourceKey="Editor.Font.Underline"  />
+  <Value Id="Editor.FormatNumbers.Image" ResourceKey="Editor.List.Numbers" />
+  <Value Id="Editor.FormatBullets.Image" ResourceKey="Editor.List.Bullets"/>
+  <Value Id="Editor.FormatIndent.Image" ResourceKey="Editor.Indent.Right"/>
+  <Value Id="Editor.FormatOutdent.Image" ResourceKey="Editor.Indent.Left"/>
+  <Value Id="Editor.AlignLeft.Image" ResourceKey="Editor.Justify.Left"/>
+  <Value Id="Editor.AlignCenter.Image" ResourceKey="Editor.Justify.Center"/>
+  <Value Id="Editor.AlignRight.Image" ResourceKey="Editor.Justify.Right"/>
+  <Value Id="Editor.AlignNone.Image" ResourceKey="Editor.Justify.Full"/>
+  <Value Id="Editor.SpellChecker.Image" ResourceKey="Editor.Spelling"/>
+  <Value Id="Editor.Image.Error" Source="pack://application:,,,/Genesyslab.Desktop.WPFCommon;component/Images/ErrorImage.png"/>
+  <Value Id="Editor.InsertImage.Image" ResourceKey="Common.Picture" />
+  <!-- Editor End-->
+
+  <!-- Attachment Begin -->
+  <Value Id="AttachmentViewer.Attachment.Image"  ResourceKey="Common.Attach" />
+  <Value Id="AttachmentViewer.MenuItemOpen.Image"  ResourceKey="Common.Folder.Open" />
+  <Value Id="AttachmentViewer.MenuItemSaveAs.Image"  ResourceKey="Common.Floppy" />
+  <Value Id="AttachmentViewer.MenuItemDelete.Image"  ResourceKey="Common.Close.Cross" />
+  <Value Id="AttachmentViewer.MenuItemPrint.Image"  ResourceKey="Common.Printer" />
+  <Value Id="AttachmentViewer.MenuItemSaveAll.Image"  ResourceKey="Common.Floppies" />
+  <Value Id="AttachmentViewer.File.Image"  ResourceKey="Common.Document" />
+  <Value Id="AttachmentViewer.MenuItemDeleteAll.Image"  ResourceKey="Common.Close.DoubleCross" />
+  <!-- Attachment End -->
+
+  <!-- Stats Begin -->
+  <Value Id="Common.Images.Stat.Error" ResourceKey="Alert.Error.Red" />
+  <Value Id="Common.Images.Stat.Warning" ResourceKey="Alert.Warning.Orange"/>
+  <!-- Stats End -->
+
+  <!-- Stats Begin -->
+  <Value Id="Common.Images.Gadget.Stat.Error" ResourceKey="Alert.Error" />
+  <Value Id="Common.Images.Gadget.Stat.Rewind" ResourceKey="Common.Skip.Left" />
+  <Value Id="Common.Images.Gadget.Stat.Stop" ResourceKey="Common.Page.Stop" />
+  <Value Id="Common.Images.Gadget.Stat.Play" ResourceKey="Common.Page.Next" />
+  <Value Id="Common.Images.Gadget.Stat.Forward" ResourceKey="Common.Skip.Right" />
+  <Value Id="Common.Images.Gadget.Stat.Chart" ResourceKey="Common.Chart" />
+  <Value Id="Common.Images.Gadget.Stat.Tag.Remove" ResourceKey="Common.Tag.Remove" />
+  <Value Id="Common.Images.Gadget.Stat.Tag.Add" ResourceKey="Common.Tag.Add" />
+  <Value Id="Common.Images.Gadget.Stat.Table" ResourceKey="Common.Table" />
+  <!-- Stats End -->
+
+  <!-- Video Begin -->
+  <Value Id="Common.Images.Video.VideoCam" ResourceKey="ic_videocam_1"/>
+  <Value Id="Common.Images.Video.VideoCamDisable" ResourceKey="ic_videocam_1_disable"/>
+  <Value Id="Common.Images.Video.SwitchViews" ResourceKey="ic_iw_video_thumbnail_revert"/>
+  <Value Id="Common.Images.Video.ThumbnailHide" ResourceKey="ic_iw_video_thumbnail_hide"/>
+  <Value Id="Common.Images.Video.ThumbnailShow" ResourceKey="ic_iw_video_thumbnail_show"/>
+  <!-- Video End -->
+
+</Dictionary>

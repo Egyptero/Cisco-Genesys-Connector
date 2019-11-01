@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+  <!--"SIPEndpoint.Start.Fail": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.Start.Fail" Text="Cannot start Workspace SIP Endpoint." />
+  <!--"SIPEndpoint.Connect.Fail": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.Connect.Fail" Text="Cannot connect to Workspace SIP Endpoint." />
+  <!--"SIPEndpoint.Connect.Certificate.Fail": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.Connect.Certificate.Fail" Text="Cannot connect to Workspace SIP Endpoint. Workspace SIP Endpoint certificate validation failed" />
+  <Value Id="SIPEndpoint.Headset.Plugged" Text="HeadSet re-plugged."/>
+  <Value Id="SIPEndpoint.Headset.Unplugged" Text="HeadSet unplugged."/>
+  <!--"SIPEndpoint.Headset.Waiting": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.Headset.Waiting" Text="Waiting for the configured headset to be plugged. Workspace SIP Endpoint is inactive."/>
+  <!--"SIPEndpoint.Headset.EndWait": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.Headset.EndWait" Text="The configured headset has been detected. Workspace SIP Endpoint is now active."/>
+  <!--"SIPEndpoint.EndpointStatus.Active": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.EndpointStatus.Active" Text="Workspace SIP Endpoint is back in service"/>
+  <!--"SIPEndpoint.EndpointStatus.Inactive": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.EndpointStatus.Inactive" Text="Workspace SIP Endpoint is inactive. Please contact your administrator."/>
+  <!--"SIPEndpoint.EndpointApplication.Ended": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.EndpointApplication.Ended" Text="Workspace SIP Endpoint cannot be contacted. Please contact your administrator."/>
+  <!--"SIPEndpoint.EndpointApplication.Disconnected": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.EndpointApplication.Disconnected" Text="Workspace SIP Endpoint has been disconnected. Please restart Workspace SIP Endpoint."/>
+  <!--"SIPEndpoint.EndpointApplication.Restarted": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.EndpointApplication.Restarted" Text="Workspace SIP Endpoint has been restarted successfully."/>
+  <!--"SIPEndpoint.EndpointApplication.Reconnected": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.EndpointApplication.Reconnected" Text="Workspace SIP Endpoint has been reconnected successfully."/>
+  <!--"SIPEndpoint.EndpointStatus.Inactive": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.EndpointStatus.Inactive" Text="Workspace SIP Endpoint is inactive. Please contact your administrator."/>
+  <!--"SIPEndpoint.EndpointApplication.WaitingSIPRegister": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.EndpointApplication.WaitingSIPRegister" Text="Workspace SIP Endpoint is not available. The registration is still in progress."/>
+  <!--"SIPEndpoint.EndpointApplication.WaitingSIPRegisterEnded": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.EndpointApplication.WaitingSIPRegisterEnded" Text="Workspace SIP Endpoint has successfully registered."/>
+  <Value Id="SIPEndpoint.MuteSpeaker" ToolTip="Mute speaker" />
+  <Value Id="SIPEndpoint.UnmuteSpeaker" ToolTip="Unmute speaker" />
+  <Value Id="SIPEndpoint.VolumeSpeaker" ToolTip="Volume for speaker" />
+  <Value Id="SIPEndpoint.MuteMicrophone" ToolTip="Mute microphone" />
+  <Value Id="SIPEndpoint.UnmuteMicrophone" ToolTip="Unmute microphone" />
+  <Value Id="SIPEndpoint.VolumeMicrophone" ToolTip="Volume for microphone" />
+  <Value Id="SIPEndpoint.VolumeProperties" ToolTip="Volume properties" />
+  <Value Id="SIPEndpoint.StartVideo" ToolTip="Start video" />
+  <Value Id="SIPEndpoint.StopVideo" ToolTip="Stop video" />
+  <!--"SIPEndpoint.Accessibility.SoundControl": Accessibility message (screen reader only) presented in the context of voice volume controls-->
+  <Value Id="SIPEndpoint.Accessibility.SoundControl" Name="Use Hotkeys to control the microphone and speaker sound settings. Use the Escape (Esc) key to return to the interaction voice toolbar control."/>
+  <!--"SIPEndpoint.MessageBox.PreventLogOffWithActiveCalls": Alert message presented to the end user when he attempts to log off the voice channel while there are some active voice calls -->
+  <Value Id="SIPEndpoint.MessageBox.PreventLogOffWithActiveCalls" String="There are active voice interactions. Please close all active voice interactions before logging off the voice channel."/>
+  <Value Id="SIPEndpoint.MessageBox.PreventLogOffWithSEPActiveCalls" String="There might be remaining active voice interactions. Please close all voice interactions before logging off the voice channel."/>
+  <Value Id="SIPEndpoint.MessageBox.CloseSIPInteractionsWithActiveCall" String="This operation will clear any active call. Are you sure you want to continue?"/>
+  <Value Id="SIPEndpoint.MessageBox.ClearSIPFormerActiveCalls" String="This operation will clear any former active call. Are you sure want to continue?"/>
+  <!-- Dictionary exported to InteractionWorkspace SIPEndpoint application for Video window and controls -->
+  <!--"SIPEndpoint.ToolbarTitle": "Workspace" should not be translated-->
+  <Value Id="SIPEndpoint.ToolbarTitle" Text="Workspace" />
+  <Value Id="SIPEndpoint.SwitchViews" ToolTip="Switch Views" />
+  <Value Id="SIPEndpoint.ShowThumbnailVideo" ToolTip="Show Thumbnail Video" />
+  <Value Id="SIPEndpoint.HideThumbnailVideo" ToolTip="Hide Thumbnail Video" />
+  <Value Id="SIPEndpoint.MuteCamera" ToolTip="Stop Camera" />
+  <Value Id="SIPEndpoint.UnmuteCamera" ToolTip="Start Camera" />
+  <Value Id="SIPEndpoint.CameraStopped" ToolTip="Camera Stopped" />
+  <Value Id="SIPEndpoint.OnHold" Text="On Hold" />
+  <Value Id="SIPEndpoint.MenuItemExit" Header="Exit..." />
+  <!--"SIPEndpoint.SystrayIconTooltip": "Workspace SIP Endpoint" should not be translated-->
+  <Value Id="SIPEndpoint.SystrayIconTooltip" Tooltip="Workspace SIP Endpoint" />
+</Dictionary>

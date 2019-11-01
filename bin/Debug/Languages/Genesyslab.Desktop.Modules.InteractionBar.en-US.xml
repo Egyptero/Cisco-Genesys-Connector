@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+
+    <Value Id="InteractionBar.InteractionBarCaseView.ButtonShowInteraction" ToolTip="Show this interaction window (middle mouse button click)" Name="Show this interaction window (middle mouse button click)"/> <!-- ER 286954081-->
+    <Value Id="InteractionBar.InteractionBarCaseView.Show.Mode.Floating" ToolTip="Show this interaction in floating mode" />
+    <Value Id="InteractionBar.InteractionBarCaseView.Show.Mode.Pinned" ToolTip="Show this interaction in pinned mode" />
+    <Value Id="InteractionBar.InteractionBarCaseView.Show.Case" ToolTip="Access the hidden interaction views" />
+
+    <Value Id="InteractionBar.InteractionBarCaseView.ButtonShowInteractionControls" ToolTip="Show only the control bar"/>
+</Dictionary>

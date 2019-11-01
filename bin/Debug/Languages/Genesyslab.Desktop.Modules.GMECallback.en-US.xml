@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary EnglishName="English" CultureName="English" Culture="en-US">
+
+  <!-- Callback Preview Toast -->
+  <!--"GMECallback.ToasterGMECallbackPreview.Accept": Label and tooltip of Accept button in Callback Preview Toast -->
+  <Value Id="GMECallback.ToasterGMECallbackPreview.Accept" Content="Accept" ToolTip="Accept the callback"/>
+  <!--"GMECallback.ToasterGMECallbackPreview.Reject": Label and tooltip of Reject button in Callback Preview Toast -->
+  <Value Id="GMECallback.ToasterGMECallbackPreview.Reject" Content="Reject" ToolTip="Reject the callback"/>
+  <!--"GMECallback.ToasterGMECallbackPreview.Cancel": Label and tooltip of Cancel button in Callback Preview Toast -->
+  <Value Id="GMECallback.ToasterGMECallbackPreview.Cancel" Content="Cancel" ToolTip="Cancel the callback"/>
+
+  <!-- Callback Information in Callback Preview Toast -->
+  <Value Id="GMECallback.CallbackPreviewInformation.ValueForKey1" Text="Value 1" Name="Value 1"/>
+  <Value Id="GMECallback.CallbackPreviewInformation.ValueForKey2" Text="Value 2" Name="Value 2"/>
+  <Value Id="GMECallback.CallbackPreviewInformation.ValueForKey3" Text="Value 3" Name="Value 3"/>
+  <Value Id="GMECallback.CallbackPreviewInformation.ValueForKey4" Text="Value 4" Name="Value 4"/>
+  <Value Id="GMECallback.CallbackPreviewInformation.ValueForKey5" Text="Value 5" Name="Value 5"/>
+
+  <!-- Interaction Callback Information Area -->
+  <!--"GMECallback.CallbackInformation": Label of the Callback Infiormation Area -->
+  <Value Id="GMECallback.CallbackInformation" Text="Callback Information" String="Callback Information" Name="Callback Information"/>
+  <!--"GMECallback.CallbackInformation.ExpanderToolTip.Show": tooltip on the control used to collapse/expand the callback information area: show -->
+  <Value Id="GMECallback.CallbackInformation.ExpanderToolTip.Show" ToolTip="Show the Callback Information"/>
+  <!--"GMECallback.CallbackInformation.ExpanderToolTip.Hide": tooltip on the control used to collapse/expand the callback information area: hide-->
+  <Value Id="GMECallback.CallbackInformation.ExpanderToolTip.Hide" ToolTip="Hide the Callback Information"/>
+  <!--"GMECallback.CallbackInformation.DesiredTime": Label of the property Desired Time displayed in Callback Information Area -->
+  <Value Id="GMECallback.CallbackInformation.DesiredTime" Text="Desired Time" Name="Desired Time"/>
+  <!--"GMECallback.CallbackInformation.Type": Label of the property Type displayed in Callback Information Area -->
+  <Value Id="GMECallback.CallbackInformation.Type" Text="Type" Name="Type"/>
+  <!--"GMECallback.CallbackInformation.Type.Immediate": Possible value of the property Type displayed in Callback Information Area -->
+  <Value Id="GMECallback.CallbackInformation.Type.Immediate" Text="Immediate" Name="Immediate"/>
+  <!--"GMECallback.CallbackInformation.Type.Scheduled": Possible value of the property Type displayed in Callback Information Area -->
+  <Value Id="GMECallback.CallbackInformation.Type.Scheduled" Text="Scheduled" Name="Scheduled"/>
+  <!--"GMECallback.CallbackInformation.Number": Label of the property Number displayed in Callback Information Area -->
+  <Value Id="GMECallback.CallbackInformation.Number" Text="Phone Number" Name="Phone Number"/>
+  <!--"GMECallback.CallbackInformation.Instructions": Label of the property Instructions displayed in Callback Information Area -->
+  <Value Id="GMECallback.CallbackInformation.Instructions" Text="Instructions" Name="Instructions"/>
+
+  <!--//// GME Disposition Removed-->
+  <!-- GMECallbackDispositionView -->
+  <!--
+  <Value Id="GMECallback.DispositionView.CallResult" Content="Call Result" Name="Call Result"/>
+  <Value Id="GMECallback.DispositionView.Header" String="Callback"/>
+  -->
+
+
+  <!-- Interaction Callback toolbar -->
+  <!--<Value Id="GMECallback.RescheduleToolbarView.RescheduleTheCall" : Tooltip of reschule button in Interaction Callback toolbar when no reschedule configured yet/>-->
+  <Value Id="GMECallback.RescheduleToolbarView.RescheduleTheCall" ToolTip="Reschedule a callback" Name="Reschedule a callback"/>
+  <!--<Value Id="GMECallback.RescheduleToolbarView.CallRescheduled" : Tooltip of reschule button in Interaction Callback toolbar when a reschedule is configured />-->
+  <!--<Value Id="GMECallback.RescheduleToolbarView.CallRescheduled" : - 0: scheduled date />-->
+  <!--<Value Id="GMECallback.RescheduleToolbarView.CallRescheduled" : - 1: scheduled time />-->
+  <Value Id="GMECallback.RescheduleToolbarView.CallRescheduled" ToolTip="Callback rescheduled on {0} at {1} (Contact Time)"/>
+  <!--<Value Id="GMECallback.RescheduleToolbarView.SelectADateTimeToScheduleTheCall" : Tooltip of reschedule button in Interaction Callback toolbar when a reschedule is configured, but date and/or time is missing />-->
+  <Value Id="GMECallback.RescheduleToolbarView.SelectADateTimeToScheduleTheCall" ToolTip="Select a date and time to reschedule a callback" Name="Select a date and time to reschedule a callback"/>
+
+  <!--GMECallback.RescheduleToolbarView.NewCallback: Tooltip of new callback button in any kind of interaction toolbar -->
+  <!--GMECallback.RescheduleToolbarView.NewCallback: - 0: Schedule a Callback keyboard shortcut. Parameter should stay at the end of the string without extra characters surrounding it -->
+  <Value Id="GMECallback.RescheduleToolbarView.NewCallback" ToolTip="Schedule a new callback {0}" Name="Schedule a new callback {0}"/>
+
+  <!-- Reschedule Callback popup / Schedule a New Callback Dialog -->
+  <!--GMECallback.RescheduleControl.ButtonClose: Tooltip of the cross control to close the Reschedule Popup -->
+  <Value Id="GMECallback.RescheduleControl.ButtonClose" Name="Close" ToolTip="Close"/>
+  <!--GMECallback.RescheduleControl.CallbackOn: Label of the Reschedule checkbox to reschedule or not a callback -->
+  <Value Id="GMECallback.RescheduleControl.CallbackOn" Content="Reschedule Callback"/>
+  <!--<Value Id="GMECallback.RescheduleControl.ScheduleOnDate" : AutomationPropertyName of the Date and Time selected for reschedule />-->
+  <!--<Value Id="GMECallback.RescheduleControl.ScheduleOnDate" - 0: selected date />-->
+  <!--<Value Id="GMECallback.RescheduleControl.ScheduleOnDate" - 1: selected time slot/>-->
+  <Value Id="GMECallback.RescheduleControl.ScheduleOnDate" Name="Callback Rescheduled Date: {0} Time: {1}"/>
+  <!--<Value Id="GMECallback.RescheduleControl.On" : Label of the Date selected for reschedule />-->
+  <Value Id="GMECallback.RescheduleControl.On" Content="Date:"/>
+  <!--<Value Id="GMECallback.RescheduleControl.Time" : Label of the Time selected for reschedule />-->
+  <Value Id="GMECallback.RescheduleControl.Time" Content="Time:"/>
+  <!--<Value Id="GMECallback.RescheduleControl.ScheduleLocalDateTime" : Tootip displayed on mouse over Date and Time for reschedule (The Date/Time is converted to agent Local time) />-->
+  <!--<Value Id="GMECallback.RescheduleControl.ScheduleLocalDateTime" - 0: selected date />-->
+  <!--<Value Id="GMECallback.RescheduleControl.ScheduleLocalDateTime" - 1: selected time slot start time />-->
+  <!--<Value Id="GMECallback.RescheduleControl.ScheduleLocalDateTime" - 2: selected time slot end time />-->
+  <Value Id="GMECallback.RescheduleControl.ScheduleLocalDateTime" Name="Local Time: {0} on {1} - {2}"/>
+  <!--<Value Id="GMECallback.RescheduleControl.Availability" : Information about time slot availability displayed in tooltip of a Time Slot />-->
+  <!--<Value Id="GMECallback.RescheduleControl.Availability" - 0: availability value of the time slot />-->
+  <Value Id="GMECallback.RescheduleControl.Availability" ToolTip="Availability: {0}"/>
+  <!--<Value Id="GMECallback.RescheduleControl.NotAvailable" : Information about time slot availability displayed in tooltip of a Time Slot with availability = 0 />-->
+  <Value Id="GMECallback.RescheduleControl.NotAvailable" ToolTip="Not Available"/>
+  <!--<Value Id="GMECallback.RescheduleControl.CallbackType" : Label of the combo box providing available callback types />-->
+  <Value Id="GMECallback.RescheduleControl.CallbackType" Content="Callback Type:"/>
+  <!--<Value Id="GMECallback.RescheduleControl.CallbackType" : Label of the combo box providing available Time Zone />-->
+  <Value Id="GMECallback.RescheduleControl.CustomerTimeZone" Content="Contact Time Zone:" Name="Contact Time Zone:"/>
+  <!--<Value Id="GMECallback.RescheduleControl.InformationSelectADateToDisplaySlots" : Watermark displayed in Time Slot area when no date is selected -->
+  <Value Id="GMECallback.RescheduleControl.InformationSelectADateToDisplaySlots" Text="Select a day to view time slots" />
+  <!--<Value Id="GMECallback.RescheduleControl.WarningNoTimeSlotReturned" : Watermark displayed in Time Slot area when no time slot available for the selected date -->
+  <Value Id="GMECallback.RescheduleControl.WarningNoTimeSlotReturned" Text="No time slot available" />
+  <!--<Value Id="GMECallback.RescheduleControl.Phone" : Label of the combo box providing available contact phone numbers />-->
+  <Value Id="GMECallback.RescheduleControl.Phone" Content="Phone Number:"/>
+  <!--<Value Id="GMECallback.RescheduleControl.AddNewNumber" : Label of the item to select in the available Phone Number combo box to add a new phone number />-->
+  <Value Id="GMECallback.RescheduleControl.AddNewNumber" Content="New Phone Number..."/>
+  <!--<Value Id="GMECallback.RescheduleControl.EnterNewPhoneNumber" : Text displayed as watermark in the text box when a new phone number can be entered />-->
+  <Value Id="GMECallback.RescheduleControl.EnterNewPhoneNumber" Text="Enter Phone Number" ToolTip="Enter Phone Number"/>
+  <!--<Value Id="GMECallback.RescheduleControl.Number" : Tooltip of the new phone numver text box />-->
+  <Value Id="GMECallback.RescheduleControl.Number" Name="New Phone Number Value" ToolTip="New Phone Number Value"/>
+  <!--<Value Id="GMECallback.Reschedule.InstructionsWatermark : Watermark displayed in GME Callback Reschedule view Instructions Editor when there is no instructions entered-->
+  <Value Id="GMECallback.Reschedule.InstructionsWatermark" Text="Enter Callback Instructions"/>
+  <!--<Value Id="GMECallback.Reschedule.ErrorNoCallbackServiceName : Error message displayed when opening the reschedule dialog if no callback type found -->
+  <Value Id="GMECallback.RescheduleControl.ErrorNoCallbackServiceName" Text="Callback type is not configured properly." />
+  <!--<Value Id="GMECallback.Reschedule.WarningSelectedDateIsInThePast : Warning message displayed when a date in the past is selected -->
+  <Value Id="GMECallback.RescheduleControl.WarningSelectedDateIsInThePast" Text="You cannot schedule a callback in the past." />
+  <!--<Value Id="GMECallback.Reschedule.Error : Message displayed when an error occurs during reschedule process -->
+  <!--<Value Id="GMECallback.Reschedule.Error :- 0: detail of the error -->
+  <Value Id="GMECallback.RescheduleControl.Error" Text="Callback scheduling failed: {0}" />
+  <!--<Value Id="GMECallback.Reschedule.ErrorSelectATimeSlot : Detail of the error message displayed when reschedule fails because no time slot is selected -->
+  <Value Id="GMECallback.RescheduleControl.ErrorSelectATimeSlot" Text="Select a time slot."/>
+  <!--<Value Id="GMECallback.Reschedule.ErrorEnterPhoneNumber : Detail of the error message displayed when reschedule fails because "New phone number" is selected but no phone number is entered -->
+  <Value Id="GMECallback.RescheduleControl.ErrorEnterPhoneNumber" Text="Enter phone number." />
+  <!--<Value Id="GMECallback.Reschedule.WarningNotValidPhoneNumber : Detail of the error message displayed when reschedule fails because "New phone number" is selected but phone number entered is not a valid phone number -->
+  <Value Id="GMECallback.RescheduleControl.WarningNotValidPhoneNumber" Text="Enter a valid phone number."/>
+  <!--<Value Id="GMECallback.Reschedule.ErrorNoGMECallbackGMSUrl : Detail of the error message displayed when reschedule fails because option 'gmecallback.gms-url' value is not found-->
+  <Value Id="GMECallback.RescheduleControl.ErrorNoGMECallbackGMSUrl" Text="Option 'gmecallback.gms-url' is missing or empty." />
+  <!--<Value Id="GMECallback.Reschedule.ErrorWrongTimeSlotduration : Message displayed when reschedule fails because no time slot is selected -->
+  <Value Id="GMECallback.RescheduleControl.ErrorWrongTimeSlotduration" Text="Time slot duration is not configured properly." />
+  <!--<Value Id="GMECallback.Reschedule.ErrorRestException : Message displayed when new callback request to GMS fails -->
+  <Value Id="GMECallback.RescheduleControl.ErrorRestException" Text="Callback scheduling failed." />
+  <!--<Value Id="GMECallback.Reschedule.ErrorAvailabilityRequestException : Message displayed when get available time slots request to GMS fails -->
+  <!--<Value Id="GMECallback.Reschedule.ErrorAvailabilityRequestException :- 0: detail of the error -->
+  <Value Id="GMECallback.RescheduleControl.ErrorAvailabilityRequestException" Text="Request to get available time slots failed: {0}" />
+
+
+  <!-- New Callback from Team Communicator -->
+  <!--<Value Id="GMECallback.MenuItemMainDialerAddNewCallback : Label of the menu item displayed in team communicator to schedule a new callback, and tooltip displayed on the corresponding icon -->
+  <Value Id="GMECallback.MenuItemMainDialerAddNewCallback" Text="New Callback" Tooltip="Schedule a new callback"  />
+
+  <!-- New Callback Dialog -->
+  <!--<Value Id="GMECallback.AddNewCallbackContainerView.TitleNewCallback : Title of the new callback dialog -->
+  <Value Id="GMECallback.AddNewCallbackContainerView.TitleNewCallback" Title="New Callback to {0}"/>
+  <!--<Value Id="GMECallback.AddNewCallbackContainerView.ButtonOK : Label of the Ok button in new callback dialog-->
+  <Value Id="GMECallback.AddNewCallbackContainerView.ButtonOK" Content="OK" Name="OK"/>
+  <!--<Value Id="GMECallback.AddNewCallbackContainerView.ButtonCancel : Label of the Cancel button in new callback dialog-->
+  <Value Id="GMECallback.AddNewCallbackContainerView.ButtonCancel" Content="Cancel" Name="Cancel"/>
+
+  <!-- Message displayed in Toast -->
+  <!--<Value Id="GMECallback.ToastInformation.CallbackAddedSuccessfully" : Information message displayed in Toast when a Callback has been added successfully />-->
+  <!--<Value Id="GMECallback.ToastInformation.CallbackAddedSuccessfully" : - 0: phone number to callback />-->
+  <!--<Value Id="GMECallback.ToastInformation.CallbackAddedSuccessfully" : - 1: scheduled date />-->
+  <!--<Value Id="GMECallback.ToastInformation.CallbackAddedSuccessfully" : - 2: scheduled time />-->
+  <Value Id="GMECallback.ToastInformation.CallbackAddedSuccessfully" Text="Callback to {0} scheduled on {1} at {2} (Local Time)"/>
+  <!--<Value Id="GMECallback.ToastInformation.ImmediateCallbackAddedSuccessfully" : Information message displayed in Toast when an Immediate Callback has been added successfully />-->
+  <!--<Value Id="GMECallback.ToastInformation.ImmediateCallbackAddedSuccessfully" : - 0: phone number to callback />-->
+  <Value Id="GMECallback.ToastInformation.ImmediateCallbackAddedSuccessfully" Text="Immediate callback to {0} scheduled"/>
+
+
+</Dictionary>
